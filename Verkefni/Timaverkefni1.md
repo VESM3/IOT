@@ -65,5 +65,6 @@ Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þrá
 ### Námsmat
 Yfirferð á sér stað í tíma. Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
 
-1. Uppsetning og stillingar (70%)
-1. Getur unnið með RPi Zero W og kóðaritla (30%)
+1. Uppsetning og stillingar (80%)
+1. Getur unnið með RPi Zero W og kóðaritla (20%)
+
