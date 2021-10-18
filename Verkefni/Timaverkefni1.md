@@ -59,7 +59,8 @@ Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þrá
 ### 6. Kóðaritlar og python
    1. Notaðu [Thonny](https://thonny.org/) ritil á RPi OS. Búðu til python skrá og prentaðu út strenginn með nafninu þínu. 
    1. Notaðu [nano](https://www.nano-editor.org/) command-line ritil í terminal, búðu til skrá og prentaðu út nafnið þitt. 
-
+      <!-- hjálp: https://cuny.manifoldapp.org/read/how-to-code-in-python-3/section/007210fd-623d-4dfe-8fcd-c87ef8a75405 -->
+ 
 ---
 
 ### Námsmat
