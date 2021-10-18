@@ -4,7 +4,7 @@
 
 ---
 
-### 1. Uppsetning á [RPi OS (stýrikerfi)](https://github.com/VESM3/IOT/wiki/St%C3%BDrikerfi) á microSD kort. 
+### 1. Uppsetning á RPi OS stýrikerfi á microSD kort. 
    1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
    1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34), 
        - veldu 32-bita útgáfuna af RPi OS, uppsetningin getur tekið c.a. 10 mín.
