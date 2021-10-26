@@ -6,8 +6,8 @@
        - CTRL+ SHIFT + X  til að fara í stillingar  [myndband](https://www.youtube.com/watch?v=s93ss44C_yM)
           - Veldu to always use
           - hostname í nafnið þitt.local 
-          - Enable SSH og lykilorðið raspberrypi
-          - Configure wifi:  sleppa. 
+          - Enable SSH og búðu til lykilorð (default var raspberry) 
+          - Configure wifi: sleppa 
           - Wifi country: IS
           - Set local settings: Atlantic/Reykjavík
           - Keyboard layout: IS
