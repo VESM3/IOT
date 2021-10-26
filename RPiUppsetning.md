@@ -16,45 +16,43 @@
 
 ---
 
-### 2. Wifi stilling á SD kort
-- [Leiðbeiningar](https://github.com/VESM3/V21/blob/master/wifi.md)
+### 2. Að nota SSH til að vinna á RPi
+**Windows** Notaðu [PuTTY](https://www.putty.org/) 
+Fylgdu að [tengjast via SSH](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#connecting-via-ssh) 
 
----
-
-### 3. Að nota SSH til að vinna á RPi Zero  
-Notaðu `PowerShell` eða [PuTTY](https://www.putty.org/) ef þú ert með Windows stýrikerfið. Notaðu `Terminal` í Mac og Linux. 
-
-Fylgdu svo eftirfarandi [leiðbeiningum](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#connecting-via-ssh) 
-    
-1. Opnaðu PowerShell/Terminal (eða Putty) og skrifaðu til að tengjast RPi með [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
+**Mac/Linux**  notaðu `terminal` 
         ```Linux
            ssh pi@raspberrypi.local
            password: raspberry
         ```  
-1. Samþykktu allt, ekki breyta lykilorðinu (í bili).
-1. Notaðu [Linux skipanir](https://www.raspberrypi.com/documentation/computers/using_linux.html) til að skoða þig um til gamans.
+
+Sjá einnig [How to SSH into a Raspberry Pi [Beginner’s Tip]](https://itsfoss.com/ssh-into-raspberry/)
+
+<!-- 1. Notaðu [Linux skipanir](https://www.raspberrypi.com/documentation/computers/using_linux.html) til að skoða þig um til gamans. -->
 
 ---
 
-
-### 4. Að tengjast RPi með VNC (GUI). 
+### 3. Að tengjast RPi með VNC (GUI). 
 Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þráðlaust á fartölvu (the VNC viewer). [Leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc)
 
 ---
 
-### 5. Stillingar á RPi OS. 
+### 4. Stillingar á RPi OS. 
    1. Fylgdu [Using your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0) og gerðu viðeigandi stillingar; 
       - Country, Language, Timezone osfrv.
-      - Tengdu RPi við wifi og upppfærðu stýrikerfið (tekur um 15-30 mín)
-   1. Breyttu [`hostname`](https://www.tomshardware.com/how-to/raspberry-pi-change-hostname) í þitt nafn (ekk nota sérstafi/íslenska).
+      - Tengdu RPi við wifi og upppfærðu stýrikerfið 
+   1. Breyttu [`hostname`](https://www.tomshardware.com/how-to/raspberry-pi-change-hostname) í þitt nafn (ekk nota sérstafi/íslenska) ef þú ert ekki þegar búinn að því.
 
 **Ath** þú þarft að uppfæra VNC tenginguna þína í `nafn.local` og nota nýja lykilorðið með notendanafninu `pi` sem á að vera óbreytt.
 
 ---
 
-
-### 6. Kóðaritlar 
+### 5. Kóðaritlar 
    1. Notaðu [Thonny](https://thonny.org/) ritil á RPi OS. Búðu til python skrá og prentaðu út strenginn með nafninu þínu. 
    1. Notaðu [nano](https://www.nano-editor.org/) command-line ritil í terminal, búðu til skrá og prentaðu út nafnið þitt. 
-   <!-- hjálp: https://cuny.manifoldapp.org/read/how-to-code-in-python-3/section/007210fd-623d-4dfe-8fcd-c87ef8a75405 -->
- 
+   <!-- hjálp: https://cuny.manifoldapp.org/read/how-to-code-in-python-3/section/007210fd-623d-4dfe-8fcd-c87ef8a75405 --> 
+
+---
+
+#### Annað: Wifi stilling á SD kort til að tengjast heima og í skóla
+- [Leiðbeiningar](https://github.com/VESM3/V21/blob/master/wifi.md)
