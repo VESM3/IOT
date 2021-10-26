@@ -20,14 +20,11 @@
 **Windows** Notaðu [PuTTY](https://www.putty.org/) 
 Fylgdu að [tengjast via SSH](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#connecting-via-ssh) 
 
-**Mac/Linux**  notaðu `terminal` 
-
-        ```Linux
-        
-           ssh pi@raspberrypi.local
-           password: raspberry
-           
-        ```  
+**Mac/Linux**  notaðu `terminal`.
+```Linux
+ssh pi@raspberrypi.local
+password: raspberry
+```  
 
 Sjá einnig [How to SSH into a Raspberry Pi [Beginner’s Tip]](https://itsfoss.com/ssh-into-raspberry/)
 
