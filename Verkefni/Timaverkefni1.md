@@ -46,7 +46,7 @@ network={
   - Ef þú ert með **Windows** notaðu þá [PuTTY](https://www.putty.org/) og fylgdu [Connecting via SSH](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#connecting-via-ssh). Í staðinn fyrir `raspberrypi.local` notaðu `hostname`.local sem þú valdir
   - Ef **Mac/Linux**  notaðu `terminal`. Þú gætir þurft að nota `sudo`, sjá [How to SSH into a Raspberry Pi [Beginner’s Tip]](https://itsfoss.com/ssh-into-raspberry/)
       ```Linux
-      sudo ssh pi@nafn.local  # default: pi@raspberrypi.local 
+      sudo ssh pi@nafn.local  
       password: raspberry
       ```  
 1. skrifaðu `sudo raspi-config` og farðu næst í lið 4 til að fá VNC
