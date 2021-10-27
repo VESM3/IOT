@@ -56,6 +56,8 @@ network={
 ### 4. Að tengjast RPi með VNC (GUI). 
 Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þráðlaust á fartölvu (the VNC viewer). [Leiðbeiningar: Enabling and Connecting over VNC](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc)
 
+**Ath**. Ef það er blár skjár sjá [How to Fix Raspberry Pi's 'Cannot Currently Show the Desktop' Error](https://www.tomshardware.com/how-to/fix-cannot-currently-show-desktop-error-raspberry-pi)
+
 ---
 
 ### 5. Stillingar á RPi OS. 
@@ -77,7 +79,6 @@ Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þrá
 
 ### Hugsanleg vandamál
 - [Að nota USB hub](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#interoperability-with-usb-3-0-hubs)
-- VNC client: [How to Fix Raspberry Pi's 'Cannot Currently Show the Desktop' Error](https://www.tomshardware.com/how-to/fix-cannot-currently-show-desktop-error-raspberry-pi)
 
 ---
 
