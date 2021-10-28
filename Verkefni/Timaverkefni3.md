@@ -1,4 +1,4 @@
-## Tímaverkefni 3 (9%)
+## Tímaverkefni 3 (9%) - _DRÖG_
 
 - Einstaklingsverkefni
 - Samskiptastaðlar; SPI og I2C
@@ -17,13 +17,10 @@
 ### 3.2 RFID og RaspberryPi (20%)
 RaspberryPi Zero er með þrjá SPI controllers, sjá nánar [SPI Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#spi-overview) 
 
-1. Fylgdu tutorial (skrif- og lesaðgerðir) í [How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+1. Prófaðu skrif- og lesgagnaðgerðir með RFID sbr. [How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    - Ekki gleyma að stilla RaspberryPi þannig að hann virkar með SPI 
    - NSS er sama og SDA á RFID-RC522
    - notað er RPi.GPIO safnið
-   - notar [mfrc522](https://github.com/pimylifeup/MFRC522-python) safnið
-   <!-- - spidev, ython3-dev python3-pip  er þegar installað-->
-   <!-- - write and read data to your RFID cards by using the RC522.  -->
    
 ---
 
@@ -92,6 +89,8 @@ Búið til skráningarkerfi sem heldur um nemendamætingar í kennslustund. Noti
 ### Námsmat
 - Yfirferð á sér stað í tíma.
 - Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
+- Skilaðu á Innu öllum kóðalausnum.
+
 
 
    
