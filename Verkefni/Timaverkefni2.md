@@ -60,7 +60,7 @@ Kynntu þér PIR og notaðu hreyfisyknjara til að kveikja á LED.
 1. Sendu ljósmyndina á gmail netfang.
     - [How to Use the Raspberry Pi4 Camera and PIR Sensor to Send Emails](https://maker.pro/raspberry-pi/projects/how-to-use-the-raspberry-pi4-camera-and-pir-sensor-to-send-emails)
     - Búðu til Gmail reikning og leyfðu “Allow less secure apps” svo hægt er að taka við tölvpóst með python kóða.
-
+    - Slepptu að nota buzzer
 ---
 
 ### Námsmat
