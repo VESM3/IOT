@@ -10,7 +10,7 @@
        - veldu 32-bita útgáfuna af RPi OS, 
        - Á lyklaborði `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
           - Veldu `to always use`
-          - hostname í `nafnið þitt`.local (ekk nota sérstafi/íslenska)
+          - hostname í `nafnið þitt`.tskoli.is (ekk nota sérstafi/íslenska)
           - Enable SSH og búðu til nýtt lykilorð 
           - Configure wifi: sleppa 
           - Wifi country: sleppa
@@ -36,7 +36,7 @@ network={
 ```
 3. vistaðu skránna í  `/boot/ directory` á SD kortinu.
 
-**Ath** Til að fá wifi heima og í skólanum þá getur þú breytt wpa_supplicant.conf skránni eftirá, sjá [leiðbeiningar](https://github.com/VESM3/V21/blob/master/wifi.md)
+**Ath** Til að fá wifi heima og í skólanum þá getur þú breytt wpa_supplicant.conf skránni eftirá, sjá [leiðbeiningar](https://github.com/VESM3/IOT/blob/main/Efni/wifi.md)
 
 ---
 
@@ -46,8 +46,8 @@ network={
   - Ef þú ert með **Windows** notaðu þá [PuTTY](https://www.putty.org/) og fylgdu [Connecting via SSH](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#connecting-via-ssh). Í staðinn fyrir `raspberrypi.local` notaðu `hostname`.local sem þú valdir
   - Ef **Mac/Linux**  notaðu `terminal`. Þú gætir þurft að nota `sudo`, sjá [How to SSH into a Raspberry Pi [Beginner’s Tip]](https://itsfoss.com/ssh-into-raspberry/)
       ```Linux
-      ssh pi@nafn.local  
-      password: raspberry
+      ssh pi@nafn.tskoli.is  # heima: pi@nafn.local  
+      password: raspberry    # þitt lykilorð
       ```  
 1. skrifaðu `sudo raspi-config` og farðu næst í lið 4 til að fá VNC
 
