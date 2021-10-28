@@ -23,8 +23,8 @@ Við að ýta á takka þá kemur birta af LED.
 #### 4. Pi V2 Camera. (10%)
 1. Taktu mynd af þér með að nota terminal
    - **Varúð!** Slökktu fyrst á RPi þegar þú tengir myndavélina við Camera Serial Interface (CSI) á RPi. 
-   - [How to connect a Picamera to a Pi ZERO (myndband)](https://www.youtube.com/watch?v=zFAX4pH1BPA) 
-   - [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)
+   - Tengdu PiCamera við RPi skv. [How to connect a Picamera to a Pi ZERO (myndband)](https://www.youtube.com/watch?v=zFAX4pH1BPA) 
+   - Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)
    - [Picamera Documentation](https://www.raspberrypi.com/documentation/accessories/camera.html#hardware-specification)
 
 ---
