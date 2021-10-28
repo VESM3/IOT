@@ -29,7 +29,7 @@ Við að ýta á takka þá kemur birta af LED.
 
 ---
 
-#### 5. Að taka ljósmynd með python. (20%)
+#### 5. Að taka ljósmynd með python. (10%)
 1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn (eða hærri) af sjálfum þér með Pi V2 myndavélinni tengda við RPi og vistaðu á skjáborðinu. `camera.capture('/home/pi/Desktop/image.jpg')` 
    - [picamera library](https://picamera.readthedocs.io/en/release-1.13/)
 
@@ -55,7 +55,7 @@ Kynntu þér PIR og notaðu hreyfisyknjara til að kveikja á LED.
 
 ---
 
-#### 8. PIR og Pi V2 Camera. 
+#### 8. PIR og Pi V2 Camera. (10%)
 1. Taktu mynd þegar PIR hreyfiskynjari fer í gang 
 1. Sendu ljósmyndina á gmail netfang.
     - [How to Use the Raspberry Pi4 Camera and PIR Sensor to Send Emails](https://maker.pro/raspberry-pi/projects/how-to-use-the-raspberry-pi4-camera-and-pir-sensor-to-send-emails)
@@ -67,3 +67,5 @@ Kynntu þér PIR og notaðu hreyfisyknjara til að kveikja á LED.
 
 - Yfirferð á sér stað í tíma. 
 - Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
+- Skilaðu á Innu öllum kóðalausnum.
+
