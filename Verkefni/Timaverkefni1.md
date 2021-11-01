@@ -43,7 +43,7 @@ network={
 ### 3. Að tengjast RPi með SSH 
 1. Settu SD kortið í RaspberryPi og tengdu hann við rafmagn (usb power)
 1. SSH tenging
-  - Ef þú ert með **Windows** notaðu þá [PuTTY](https://www.putty.org/) og fylgdu [Connecting via SSH](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#connecting-via-ssh). Í staðinn fyrir `raspberrypi.local` notaðu `hostname`.tskoli.is` í skólanum og hostname`.local heima. hostname er nafnið sem þú bjóst til.
+  - Ef þú ert með **Windows** notaðu þá [PuTTY](https://www.putty.org/) og fylgdu [Connecting via SSH](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#connecting-via-ssh). Í staðinn fyrir `raspberrypi.local` notaðu `hostname`.tskoli.is` í skólanum og `hostname`.local heima. hostname er nafnið sem þú bjóst til.
   - Ef **Mac/Linux**  notaðu `terminal`. Þú gætir þurft að nota `sudo`, sjá [How to SSH into a Raspberry Pi [Beginner’s Tip]](https://itsfoss.com/ssh-into-raspberry/)
       ```Linux
       ssh pi@nafn.tskoli.is  # heima: pi@nafn.local  
