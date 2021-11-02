@@ -19,9 +19,19 @@ RaspberryPi Zero er með þrjá SPI controllers, sjá nánar [SPI Documentation]
 
 1. Prófaðu skrif- og lesgagnaðgerðir með RFID sbr. [How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    - Ekki gleyma að stilla RaspberryPi þannig að hann virkar með SPI 
-   - NSS er sama og SDA á RFID-RC522
    - notað er RPi.GPIO safnið
-   
+
+#### RC522 pinnar (með T-cobbler)
+RC522 | Pinni
+--- | ---
+SDA | CEO
+SCK | SCLK
+MOSI | MOSI 
+MISO | MISO 
+GND | GND
+RST | #25
+3.3v | 3.3v
+
 ---
 
 ### 3.3 RFID og LEDs (20%)
