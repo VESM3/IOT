@@ -45,7 +45,7 @@ RST | #25
 1. Kynntu þér I2C með að lesa þessa grein [I2C](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/). <br>
 1. Lestu [Interface OLED Graphic Display Module with Arduino](https://lastminuteengineers.com/oled-display-arduino-tutorial/) og settu upp verklega með Arduino.
    1. Birtu nafnið þitt á skjá.
-   1. Birtu mynd af þér. 
+   1. Birtu ljósmynd. 
 1. Birtu textann Hrekkjavaka! á OLED með Raspberry Pi Zero.
 
 ---
