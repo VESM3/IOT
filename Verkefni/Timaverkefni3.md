@@ -24,7 +24,7 @@ RaspberryPi Zero er með þrjá SPI controllers, sjá nánar [SPI Documentation]
 #### RC522 pinnar (með T-cobbler)
 RC522 | Pinni
 --- | ---
-SDA | CEO
+SDA | CE0
 SCK | SCLK
 MOSI | MOSI 
 MISO | MISO 
@@ -43,7 +43,7 @@ RST | #25
 
 ### 3.4 I2C og OLED (20%)
 1. Kynntu þér I2C með að lesa þessa grein [I2C](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/). <br>
-1. Lestu [Interface OLED Graphic Display Module with Arduino](https://lastminuteengineers.com/oled-display-arduino-tutorial/) og settu upp verklega.
+1. Lestu [Interface OLED Graphic Display Module with Arduino](https://lastminuteengineers.com/oled-display-arduino-tutorial/) og settu upp verklega með Arduino.
    1. Birtu nafnið þitt á skjá.
    1. Birtu mynd af þér. 
 1. Birtu textann Hrekkjavaka! á OLED með Raspberry Pi Zero.
@@ -54,7 +54,7 @@ RST | #25
 
 - tveir nemendur saman
 
-Búið til skráningarkerfi sem heldur um nemendamætingar í kennslustund. Notið Raspberry Zero, RFID/NFC og OLED, notaðu gagnageymslu að eigin vali (skrá, JSON, SQL), sýnidæmi [Build your own Raspberry Pi RFID Attendance System](https://pimylifeup.com/raspberry-pi-rfid-attendance-system/) og [Attendance System Using Raspberry Pi and NFC Tag Reader](https://www.instructables.com/id/Attendance-system-using-Raspberry-Pi-and-NFC-Tag-r/)
+Búið til skráningarkerfi sem heldur um nemendamætingar í kennslustund. Notið Raspberry Zero, RFID/NFC og OLED, notaðu gagnageymslu að eigin vali (dictioary, skrá, JSON, SQL), sýnidæmi [Build your own Raspberry Pi RFID Attendance System](https://pimylifeup.com/raspberry-pi-rfid-attendance-system/) og [Attendance System Using Raspberry Pi and NFC Tag Reader](https://www.instructables.com/id/Attendance-system-using-Raspberry-Pi-and-NFC-Tag-r/)
   
   
 <!-- 
