@@ -46,7 +46,7 @@ RST | #25
 1. Lestu [Interface OLED Graphic Display Module with Arduino](https://lastminuteengineers.com/oled-display-arduino-tutorial/) og settu upp verklega með Arduino.
    1. Birtu nafnið þitt á skjá.
    1. Birtu ljósmynd. 
-1. Birtu textann Hrekkjavaka! á OLED með Raspberry Pi Zero.
+1. Birtu textann Hrekkjavaka! á OLED með Raspberry Pi Zero. Sjá t.d. [OLed tutorial](https://www.electroniclinic.com/raspberry-pi-oled-display-i2c-ssd1306-display-module-interfacing-and-programming/)
 
 ---
 
