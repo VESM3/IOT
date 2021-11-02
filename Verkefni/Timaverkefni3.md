@@ -1,4 +1,4 @@
-## Tímaverkefni 3 (9%) - _DRÖG_
+## Tímaverkefni 3 (9%) 
 
 - Einstaklingsverkefni
 - Samskiptastaðlar; SPI og I2C
