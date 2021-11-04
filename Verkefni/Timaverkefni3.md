@@ -37,7 +37,7 @@ RST | #25
 ---
 
 ### 3.3 RFID og LEDs (20%)
-1. Settu upp á brauðbretti RFID og tvö LEDs sbr eftirfarandi sýnidæmi [RFID reader (Arduino)](https://tutorial45.com/arduino-rfid-project-beginners/) en notaðu RaspberryPi í staðinn fyrir Arduino. 
+1. Settu upp á brauðbretti RFID og tvö LEDs sbr eftirfarandi sýnidæmi [RFID reader (Arduino)](https://tutorial45.com/arduino-rfid-project-beginners/) en notaðu RaspberryPi í staðinn fyrir Arduino. Notaðu [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/) eða [RPi.GPIO](https://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/) safnið
 
 <!-- sjá [Enabling SPI on the Raspberry Pi](https://pimylifeup.com/raspberry-pi-spi/), ath ekki gera àpt update` -->
 
