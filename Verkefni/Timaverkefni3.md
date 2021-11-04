@@ -50,6 +50,13 @@ RST | #25
    1. Birtu ljósmynd. 
 1. Birtu textann Hrekkjavaka! á OLED með Raspberry Pi Zero. Sjá t.d. [RPi OLED](https://www.electroniclinic.com/raspberry-pi-oled-display-i2c-ssd1306-display-module-interfacing-and-programming/)
 
+OLED | Pinni
+--- | ---
+S | SDA
+S | SCL
+G | GND 
+V | Vcc 
+
 ---
 
 ### 3.5 Skráningarkerfi (kladdi) (20%)
