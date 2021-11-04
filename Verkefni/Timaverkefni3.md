@@ -10,6 +10,7 @@
 
 1. Kynntu þér hvernig SPI virkar með að horfa á [myndband](https://www.youtube.com/watch?v=ldRkXTBw9_o) og lesa [BASICS OF THE SPI COMMUNICATION PROTOCOL](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol). 
 1. Kynntu þér RFID og sett upp verklega með **Arduino** kóðadæmin í [Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/). 
+   - Passaðu að tengja RFID straum (VCC) í **3.3V** annars skemmir þú hann.
    - Notaðu Serial Monitor í staðinn fyrir 16×2 character LCDs.
 
 ---
@@ -20,6 +21,7 @@ RaspberryPi Zero er með þrjá SPI controllers, sjá nánar [SPI Documentation]
 1. Prófaðu skrif- og lesgagnaðgerðir með RFID sbr. [How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    - Ekki gleyma að stilla RaspberryPi þannig að hann virkar með SPI 
    - notað er RPi.GPIO safnið
+   - Passaðu að tengja RFID straum (VCC) í **3.3V** annars skemmir þú hann.
 
 #### RC522 pinnar (með T-cobbler)
 RC522 | Pinni
