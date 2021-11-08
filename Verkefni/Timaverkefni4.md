@@ -1,10 +1,6 @@
-drög_
-
-# Tímaverkefni 4 (9%)
+# Tímaverkefni 4 (9%) - drög
 
 - M2M samskipti
-- UART, local Wifi
-- SPI, nRF24L01+, bluetooth 
 - Einstaklingsverkefni
 
 ---
