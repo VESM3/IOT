@@ -1,4 +1,4 @@
-# Tímaverkefni 4 (9%) - drög
+# Tímaverkefni 4 (9%) 
 
 - M2M samskipti
 - Einstaklingsverkefni
