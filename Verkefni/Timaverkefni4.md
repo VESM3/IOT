@@ -66,7 +66,7 @@ Að stýra RPi + GPIO yfir netið frá tölvu.
 
 1. Framkvæmið [tilraun 5.1](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#led-button) með tvo RPi.
 1. Framkvæmið [tilraun 5.2](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#led-2-buttons) með tvo RPi og tölvu.
-1. **Bónus:** Framkvæmið [tilraun 5.4](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#multi-room-doorbell) nokkrir nemendur saman.
+1. Framkvæmið [tilraun 5.4](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#multi-room-doorbell) með tvo RPi og tölvu.
 
 ---
 
