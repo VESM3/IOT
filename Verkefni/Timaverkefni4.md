@@ -9,7 +9,7 @@ Machine to machine [(M2M)](https://en.wikipedia.org/wiki/Machine_to_machine) is 
 
 ---
 
-### 4.1 Serial samskipti (via USB): RPi og Arduino 
+### 4.1 Serial samskipti (via USB): RPi og Arduino (30%)
 Lestu [Raspberry Pi Arduino Serial Communication – Everything You Need To Know](https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/) og fylgdu eftir tilraununum í greininni: 
 1. Simple Serial communication from Arduino to Raspberry Pi
 1. bidirectional Serial communication between Raspberry Pi and Arduino
@@ -32,7 +32,7 @@ Til umhugsunar:
 
 ---
 
-### 4.2 Serial samskipti (via USB): Arduino til RPi 
+### 4.2 Serial samskipti (via USB): Arduino til RPi (20%)
 
 Fylgdu eftir verklega [How to Connect and Interface a Raspberry Pi With an Arduino](https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-pi-with-arduino) þ.e. láttu Arduino senda strenginn "Hello from Arduino" til Raspberry Pi. Raspberry Pi við móttöku prentar út strenginn og lætur LED blikka.
 
@@ -54,17 +54,23 @@ Við notum `decode()` til að umbreyta bytes frá Arduion yfir í annað gagnata
 
 ---
 
-### 4.3 Remote GPIO 
+### 4.3 Remote GPIO (20%)
+Að stýra RPi + GPIO yfir netið frá tölvu. 
 
-Að stýra RPi og GPIO yfir netið frá annarri tölvu eða frá öðrum RPi. 
+1. Lestu vel og gerðu viðeigandi stillingar skv. [Configuring Remote GPIO](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#configuring-remote-gpio) þannig að þú getur stýrt RPi frá tölvunni þinni, notaðu VSCode ritilinn.  
+2. Láttu LED blikka með eftifarandi kóða [4.4. Pin factories](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#pin-factories)
 
-1. Gerðu viðeigandi stillingar: [Configuring Remote GPIO](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#configuring-remote-gpio)
-1. Tveir nemendur saman, Notið RPi og framkvæmið tilraunir 5.1 og 5.2 í [Remote GPIO Recipes](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html)
-1. Tveir nemendur saman, notið tvo RPi og framkvæmið [tilraun 5.4](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#multi-room-doorbell)
+---
+
+### 4.4 Remote GPIO - tveir nemendur saman (30%)
+
+1. Framkvæmið [tilraun 5.1](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#led-button) með tvo RPi.
+1. Framkvæmið [tilraun 5.2](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#led-2-buttons) með tvo RPi og tölvu.
+1. **Bónus:** Framkvæmið [tilraun 5.4](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#multi-room-doorbell) nokkrir nemendur saman.
 
 ---
 
 ## Námsmat
 - Yfirferð á sér stað í tíma.
 - Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
-- Skilaðu á Innu vefslóð kóðalausnir og ljósmyndir af tilraunum.
+- Skilaðu á Innu vefslóð kóðalausnir af tilraunum.
