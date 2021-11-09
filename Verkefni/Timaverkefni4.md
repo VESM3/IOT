@@ -59,7 +59,7 @@ Við notum `decode()` til að umbreyta bytes frá Arduion yfir í annað gagnata
 Að stýra RPi og GPIO yfir netið frá annarri tölvu eða frá öðrum RPi. 
 
 1. Gerðu viðeigandi stillingar: [Configuring Remote GPIO](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#configuring-remote-gpio)
-1. Notaðu tölvuna þína og framkvæmdu tilraunirnar 5.1 og 5.2 í [Remote GPIO Recipes](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html)
+1. Tveir nemendur saman, Notið RPi og framkvæmið tilraunir 5.1 og 5.2 í [Remote GPIO Recipes](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html)
 1. Tveir nemendur saman, notið tvo RPi og framkvæmið [tilraun 5.4](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#multi-room-doorbell)
 
 ---
