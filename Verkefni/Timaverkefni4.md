@@ -57,8 +57,8 @@ Við notum `decode()` til að umbreyta bytes frá Arduion yfir í annað gagnata
 ### 4.3 Remote GPIO (20%)
 Að stýra RPi + GPIO yfir netið frá tölvu. 
 
-1. Lestu vel og gerðu viðeigandi stillingar skv. [Configuring Remote GPIO](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#configuring-remote-gpio) þannig að þú getur stýrt RPi frá tölvunni þinni, notaðu VSCode ritilinn.  
-2. Láttu LED blikka með eftifarandi kóða [4.4. Pin factories](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#pin-factories)
+1. Lestu vel yfir og gerðu viðeigandi stillingar skv. [Configuring Remote GPIO](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#configuring-remote-gpio) þannig að þú getur stýrt RPi frá tölvunni þinni, notaðu VSCode.  
+1. Láttu LED blikka með eftifarandi kóða [4.4. Pin factories](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#pin-factories)
 
 ---
 
