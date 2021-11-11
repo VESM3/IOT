@@ -60,8 +60,14 @@ This imports the Seeed WiFi libraries. The @ <number> syntax refers to a specifi
 1. Tengdu Arduino við þráðlausa netið skv. [leiðbeiningum](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md#connect-to-wifi)
 1. Tengdu IoT hlut við MQTT broker [leiðbeiningar](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md#connect-to-mqtt)
 1. Fylgdu leiðbeiningum [Connect your device to the Internet](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#connect-your-device-to-the-internet) og fáðu náttljósið til að virka með Arduino.
-1. Prófaðu núna að nota RPí staðinn fyrir tölvuna.
+1. Prófaðu núna að nota RPi staðinn fyrir tölvuna.
  
 ---
  
-**MEIRA VÆNTANLEGT**
+### Námsmat
+- Yfirferð á sér stað í tíma.
+- Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
+- Skilaðu á Innu kóðalausnir og ljósmyndir af verklegum tilraunum.
+
+
+
