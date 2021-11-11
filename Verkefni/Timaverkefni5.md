@@ -10,8 +10,9 @@ Með fyrirvara: _FRUM DRÖG_
 
 ### 5.1 Náttljós með RPi
 
-1. Tengdu ljósnema við RPi og kannaðu birtustigið, sjá td [RPi LDR tutorial](https://pimylifeup.com/raspberry-pi-light-sensor/).
-1. Útbúðu náttljós með ljósnema og LED og RPi.
+1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigið
+<!-- sjá td [RPi LDR tutorial](https://pimylifeup.com/raspberry-pi-light-sensor/) -->
+1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
 
 <!-- [Build a nightlight - Raspberry Pi](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md#build-a-nightlight---raspberry-pi)
  -->
