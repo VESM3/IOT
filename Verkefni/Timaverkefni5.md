@@ -10,7 +10,7 @@ Með fyrirvara: _FRUM DRÖG_
 
 ### 5.1 Náttljós með RPi
 
-1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigið
+1. Tengdu ljósnema [BH1750](https://www.instructables.com/BH1750-Digital-Light-Sensor/) við RPi og kannaðu birtustigið
 1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
 
 <!-- sjá td [RPi LDR tutorial](https://pimylifeup.com/raspberry-pi-light-sensor/) -->
