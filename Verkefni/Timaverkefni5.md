@@ -8,7 +8,7 @@ _DRÖG_
 
 ---
 
-### 5.1 Náttljós með RPi
+#### 5.1 Náttljós með RPi
 
 1. Tengdu ljósnema [BH1750](https://www.instructables.com/BH1750-Digital-Light-Sensor/) við RPi og kannaðu birtustigið
 1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
@@ -19,7 +19,7 @@ _DRÖG_
  
 ---
 
-### 5.2 MQTT með RPi
+#### 5.2 MQTT með RPi
 
 [MQTT](https://mqtt.org/) is a Client Server publish/subscribe messaging transport protocol. It is light weight, open, simple, and designed so as to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium. 
 
@@ -29,7 +29,7 @@ _DRÖG_
 
 ---
 
-### 5.3 Að tengja Arduino við netið með ESP8266 Wifi module
+#### 5.3 Að tengja Arduino við netið með ESP8266 Wifi module
 
 Tengdu Arduinio við wifi með ESP8266.
 
@@ -37,7 +37,7 @@ Skoðaðu t.d. [Add WiFi to Arduino UNO and use telnet on Android](https://www.i
 
 ---
 
-### 5.4 Náttljós með Arduino 
+#### 5.4 Náttljós með Arduino 
 Útbúðu náttljós; ljósnema og LED með Arduino, sjá td. [Arduino LDR tutorial](https://create.arduino.cc/projecthub/tarantula3/using-an-ldr-sensor-with-arduino-807b1c).
 
 ---
