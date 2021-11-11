@@ -31,9 +31,12 @@ _DRÖG_
 
 #### 5.3 Að tengja Arduino við netið með ESP8266 Wifi module
 
-Tengdu Arduinio við wifi með ESP8266.
+Tengdu Arduinio við wifi með [ESP8266 wifi module](https://www.electronicwings.com/sensors-modules/esp8266-wifi-module).
 
-Skoðaðu t.d. [Add WiFi to Arduino UNO and use telnet on Android](https://www.instructables.com/Add-WiFi-to-Arduino-UNO/) og [ESP8266WiFi library](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html#quick-start)
+<!--
+- [Add WiFi to Arduino UNO and use telnet on Android](https://www.instructables.com/Add-WiFi-to-Arduino-UNO/) 
+- [ESP8266WiFi library](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html#quick-start)
+-->
 
 ---
 
