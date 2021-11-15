@@ -27,7 +27,9 @@ _DRÖG_
 
 <!-- Fylgdu [leiðbeiningum](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md) -->
 
+
 <!--
+
 ---
 
 #### 5.3 Að tengja Arduino við netið með ESP8266 Wifi module
@@ -58,6 +60,9 @@ This imports the Seeed WiFi libraries. The @ <number> syntax refers to a specifi
 1. Fylgdu leiðbeiningum [Connect your device to the Internet](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#connect-your-device-to-the-internet) og fáðu náttljósið til að virka með Arduino.
 1. Prófaðu núna að nota RPi staðinn fyrir tölvuna.
 
+
+
+ 
 -->
 
 ---
