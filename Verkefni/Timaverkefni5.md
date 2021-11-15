@@ -8,7 +8,7 @@ _DRÖG_
 
 ---
 
-#### 5.1 Náttljós með RPi
+#### 5.1 Náttljós með RPi 
 
 1. Tengdu ljósnema [BH1750](https://www.instructables.com/BH1750-Digital-Light-Sensor/) við RPi og kannaðu birtustigið
 1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
@@ -19,7 +19,7 @@ _DRÖG_
  
 ---
 
-#### 5.2 MQTT með RPi
+#### 5.2 MQTT með RPi 
 
 [MQTT](https://mqtt.org/) is a Client Server publish/subscribe messaging transport protocol. It is light weight, open, simple, and designed so as to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium. 
 
@@ -27,11 +27,12 @@ _DRÖG_
 
 <!-- Fylgdu [leiðbeiningum](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md) -->
 
+<!--
 ---
 
 #### 5.3 Að tengja Arduino við netið með ESP8266 Wifi module
 
-Tengdu Arduinio við wifi með [ESP8266 wifi module](https://www.electronicwings.com/sensors-modules/esp8266-wifi-module).
+Væntanlegt!
 
 ---
 
@@ -56,7 +57,9 @@ This imports the Seeed WiFi libraries. The @ <number> syntax refers to a specifi
 1. Tengdu IoT hlut við MQTT broker [leiðbeiningar](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md#connect-to-mqtt)
 1. Fylgdu leiðbeiningum [Connect your device to the Internet](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#connect-your-device-to-the-internet) og fáðu náttljósið til að virka með Arduino.
 1. Prófaðu núna að nota RPi staðinn fyrir tölvuna.
- 
+
+-->
+
 ---
  
 ### Námsmat
