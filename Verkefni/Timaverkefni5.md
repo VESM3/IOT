@@ -10,7 +10,7 @@ _DRÖG_
 
 #### 5.1 Náttljós með RPi 
 
-1. Tengdu ljósnema [BH1750](https://www.instructables.com/BH1750-Digital-Light-Sensor/) við RPi og kannaðu birtustigið
+1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigið.
 1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
 
 <!-- sjá td [RPi LDR tutorial](https://pimylifeup.com/raspberry-pi-light-sensor/) -->
@@ -30,7 +30,7 @@ _DRÖG_
 
 ---
 
-#### 5.3 Arduino og ESP8266 Wifi module
+#### 5.3 Að tilraunast með Arduino og ESP8266 Wifi module
 1. Settu upp ESP8266 wifi module með Arduino og prófaðu ýmsar AT commands.
    - Uppsetning: [myndband](https://www.youtube.com/watch?v=bQ54De84Ww4)
    - ESP8266 driver: http://arduino.esp8266.com/stable/package_esp8266com_index.json
@@ -43,11 +43,16 @@ _DRÖG_
 
 ---
 
-#### 5.4 ESP32-WROOM-32D  
-Prófaðu að vinna með ESP32, prófaðu einnig að nota wifi.
-- [ESP32 lastminute](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
+#### 5.4 Að tilraunast með ESP32-DevKitC WROOM-32D  
+1. Láttu LED blikka með ESP32 [lastminute](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
+   - notaðu pinna 2 (ekki D2)
+   - notaðu þetta [Pinout] í staðinn fyrir sem kemur í greininni
+   - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
+3. Prófaðu að nota wifi með ESP32.
+ 
+<!--
 - [IOT Made Simple: Playing With the ESP32 on Arduino IDE](https://www.instructables.com/IOT-Made-Simple-Playing-With-the-ESP32-on-Arduino-/)
-
+-->
 
 <!--
 
