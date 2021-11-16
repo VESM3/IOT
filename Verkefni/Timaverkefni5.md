@@ -29,7 +29,7 @@
 ---
 
 #### 5.3 Að tilraunast með ESP32-DevKitC WROOM-32D (40%)
-1. Láttu LED blikka með ESP32 [lastminute](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
+1. Láttu LED blikka með ESP32 [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
    - notaðu pinna 2 (ekki D2), númerin á ESP32 stemma við GPIO pinna (fjólublátt) í greininni.
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
 1. Wifi með ESP32. Fylgdu eftir báðum tilraunum í [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
