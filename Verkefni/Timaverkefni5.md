@@ -37,7 +37,8 @@ _DRÖG_
    - ESP8266 driver: http://arduino.esp8266.com/stable/package_esp8266com_index.json
    - notaðu 115200 baud
 1. Fylgdu [Getting Started With the ESP8266 ESP-01](https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/)
-1. Fáðu LED til að blikka með ESP82666 wifi module. Sjá t.d. [How to set up and configure the ESP-01 Wi-Fi module so you can connect your project to the internet.](https://maker.pro/esp8266/tutorial/how-to-program-esp8266s-onboard-gpio-pins) 
+   - skoaðu einning ábendingar í comments 
+3. Fáðu LED til að blikka með ESP82666 wifi module. Sjá t.d. [How to set up and configure the ESP-01 Wi-Fi module so you can connect your project to the internet.](https://maker.pro/esp8266/tutorial/how-to-program-esp8266s-onboard-gpio-pins) 
    - Haltu þið samt við sömu uppsetningu og í fyrsta liðnum.
 
 <!--
