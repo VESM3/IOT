@@ -40,9 +40,6 @@ _DRÖG_
 1. Fáðu LED til að blikka með ESP82666 wifi module. Sjá t.d. [How to set up and configure the ESP-01 Wi-Fi module so you can connect your project to the internet.](https://maker.pro/esp8266/tutorial/how-to-program-esp8266s-onboard-gpio-pins) 
    - Haltu þið samt við sömu uppsetningu og í fyrsta liðnum.
 
----
-
-
 <!--
 
 #### 5.4 Náttljós með Arduino 
@@ -51,7 +48,8 @@ _DRÖG_
 ---
 
 #### 5.5 MQTT með Arduino (IoT hlutur) og tölvu.
-<!--  [Install the WiFi and MQTT Arduino libraries](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md#control-your-nightlight-over-the-internet---wio-terminal) --> 
+[Install the WiFi and MQTT Arduino libraries](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md#control-your-nightlight-over-the-internet---wio-terminal) 
+
 1. Sæktu og innstallaðu eftirfarandi söfn í Arduino IDE:
   ```C
   Seeed Arduino rpcWiFi @ 1.0.5
@@ -68,8 +66,6 @@ This imports the Seeed WiFi libraries. The @ <number> syntax refers to a specifi
 1. Prófaðu núna að nota RPi staðinn fyrir tölvuna.
 
 
-
- 
 -->
 
 ---
