@@ -6,7 +6,7 @@
 
 ---
 
-#### 5.1 Náttljós með RPi (20%)
+#### 5.1 Náttljós með RPi 
 
 1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigið.
 1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
@@ -17,7 +17,7 @@
  
 ---
 
-#### 5.2 MQTT með RPi (40%)
+#### 5.2 MQTT með RPi 
 
 [MQTT](https://mqtt.org/) is a Client Server publish/subscribe messaging transport protocol. It is light weight, open, simple, and designed so as to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium. 
 
@@ -28,7 +28,7 @@
 
 ---
 
-#### 5.3 Að tilraunast með ESP32-DevKitC WROOM-32D  (40%)
+#### 5.3 Að tilraunast með ESP32-DevKitC WROOM-32D  
 1. Láttu LED blikka með ESP32 [lastminute](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
    - notaðu pinna 2 (ekki D2), númerin á ESP32 stemma við GPIO pinna (fjólublátt) í grein
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
@@ -54,13 +54,11 @@
 
 <!--
 
-#### 5.4 Náttljós með Arduino 
-Útbúðu náttljós; ljósnema og LED með Arduino, sjá td. [Arduino LDR tutorial](https://create.arduino.cc/projecthub/tarantula3/using-an-ldr-sensor-with-arduino-807b1c).
-
 ---
 
 #### 5.5 MQTT með Arduino (IoT hlutur) og tölvu.
 [Install the WiFi and MQTT Arduino libraries](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md#control-your-nightlight-over-the-internet---wio-terminal) 
+1. Útbúðu náttljós; ljósnema og LED með Arduino, sjá td. [Arduino LDR tutorial](https://create.arduino.cc/projecthub/tarantula3/using-an-ldr-sensor-with-arduino-807b1c).
 
 1. Sæktu og innstallaðu eftirfarandi söfn í Arduino IDE:
   ```C
@@ -82,9 +80,11 @@ This imports the Seeed WiFi libraries. The @ <number> syntax refers to a specifi
 ---
  
 ### Námsmat
+- 5.1 (20%), 5.2 (40%). Það má velja milli 5.3 eða 5.4 (40%)
 - Yfirferð á sér stað í tíma.
 - Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
 - Skilaðu á Innu kóðalausnir og ljósmyndir af verklegum tilraunum.
+
 
 
 
