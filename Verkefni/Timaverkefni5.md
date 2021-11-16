@@ -28,15 +28,22 @@ _DRÖG_
 <!-- Fylgdu [leiðbeiningum](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md) -->
 
 
-<!--
-
 ---
 
 #### 5.3 Að tengja Arduino við netið með ESP8266 Wifi module
-
-Væntanlegt!
+1. Settu upp ESP8266 wifi module með Arduino og prófaðu ýmsar AT commands.
+   - AT commands; [ESP8266 AT Command Set](https://www.pridopia.co.uk/pi-doc/ESP8266ATCommandsSet.pdf) og [ESP8266 Module DataSheet with AT commands](https://cdn.sparkfun.com/datasheets/Wireless/WiFi/ESP8266ModuleV1.pdf).
+   - [myndband](https://www.youtube.com/watch?v=bQ54De84Ww4)
+   - ESP8266 driver: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+   - notaðu 115200 baud
+1. Fylgdu [Getting Started With the ESP8266 ESP-01](https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/)
+1. Fáðu LED til að blikka með ESP82666 wifi module. Sjá t.d. [How to set up and configure the ESP-01 Wi-Fi module so you can connect your project to the internet.](https://maker.pro/esp8266/tutorial/how-to-program-esp8266s-onboard-gpio-pins) 
+   - Haltu þið samt við sömu uppsetningu og í fyrsta liðnum.
 
 ---
+
+
+<!--
 
 #### 5.4 Náttljós með Arduino 
 Útbúðu náttljós; ljósnema og LED með Arduino, sjá td. [Arduino LDR tutorial](https://create.arduino.cc/projecthub/tarantula3/using-an-ldr-sensor-with-arduino-807b1c).
