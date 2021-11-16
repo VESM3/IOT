@@ -2,7 +2,7 @@
 
 - Einstaklingsverkefni
 - Message Queueing Telemetry Transport (MQTT) 
-- Wifi 
+- ESP32 
 
 ---
 
