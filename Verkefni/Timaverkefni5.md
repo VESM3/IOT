@@ -6,7 +6,7 @@
 
 ---
 
-#### 5.1 Náttljós með RPi 
+#### 5.1 Náttljós með RPi (20%)
 
 1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigið.
 1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
@@ -17,7 +17,7 @@
  
 ---
 
-#### 5.2 MQTT með RPi 
+#### 5.2 MQTT með RPi (40%)
 
 [MQTT](https://mqtt.org/) is a Client Server publish/subscribe messaging transport protocol. It is light weight, open, simple, and designed so as to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium. 
 
@@ -28,16 +28,17 @@
 
 ---
 
-#### 5.3 Að tilraunast með ESP32-DevKitC WROOM-32D  
+#### 5.3 Að tilraunast með ESP32-DevKitC WROOM-32D (40%)
 1. Láttu LED blikka með ESP32 [lastminute](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
-   - notaðu pinna 2 (ekki D2), númerin á ESP32 stemma við GPIO pinna (fjólublátt) í grein
+   - notaðu pinna 2 (ekki D2), númerin á ESP32 stemma við GPIO pinna (fjólublátt) í greininni.
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
-1. Wifi með ESP32. Fylgdu eftir [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
+1. Wifi með ESP32. Fylgdu eftir báðum tilraunum í [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
  
 <!--
 - [IOT Made Simple: Playing With the ESP32 on Arduino IDE](https://www.instructables.com/IOT-Made-Simple-Playing-With-the-ESP32-on-Arduino-/)
 -->
 
+<!--
 ---
 
 #### 5.4 Að tilraunast með Arduino og ESP8266 Wifi module 
@@ -52,7 +53,6 @@
    - Haltu þið samt við sömu uppsetningu og í fyrsta liðnum.
 
 
-<!--
 
 ---
 
@@ -80,7 +80,7 @@ This imports the Seeed WiFi libraries. The @ <number> syntax refers to a specifi
 ---
  
 ### Námsmat
-- 5.1 (20%), 5.2 (40%). Það má velja milli 5.3 eða 5.4 (40%)
+
 - Yfirferð á sér stað í tíma.
 - Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
 - Skilaðu á Innu kóðalausnir og ljósmyndir af verklegum tilraunum.
