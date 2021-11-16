@@ -43,7 +43,7 @@ _DRÖG_
 
 ---
 
-### 5.4 ESP32-WROOM-32D  
+#### 5.4 ESP32-WROOM-32D  
 Prófaðu að vinna með ESP32, prófaðu einnig að nota wifi.
 - [IOT Made Simple: Playing With the ESP32 on Arduino IDE](https://www.instructables.com/IOT-Made-Simple-Playing-With-the-ESP32-on-Arduino-/)
 - [ESP32 Projects](https://lastminuteengineers.com/electronics/esp32-projects/)
