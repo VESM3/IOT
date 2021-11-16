@@ -1,14 +1,12 @@
-_DRÖG_
-
-## Tímaverkefni 5 (9%)
+# Tímaverkefni 5 (9%)
 
 - Einstaklingsverkefni
 - Message Queueing Telemetry Transport (MQTT) 
-- Að tengja Arduino við Wifi
+- Wifi 
 
 ---
 
-#### 5.1 Náttljós með RPi 
+#### 5.1 Náttljós með RPi (20%)
 
 1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigið.
 1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
@@ -19,7 +17,7 @@ _DRÖG_
  
 ---
 
-#### 5.2 MQTT með RPi 
+#### 5.2 MQTT með RPi (40%)
 
 [MQTT](https://mqtt.org/) is a Client Server publish/subscribe messaging transport protocol. It is light weight, open, simple, and designed so as to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium. 
 
@@ -30,7 +28,19 @@ _DRÖG_
 
 ---
 
-#### 5.3 Að tilraunast með Arduino og ESP8266 Wifi module
+#### 5.3 Að tilraunast með ESP32-DevKitC WROOM-32D  (40%)
+1. Láttu LED blikka með ESP32 [lastminute](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
+   - notaðu pinna 2 (ekki D2), númerin á ESP32 stemma við GPIO pinna (fjólublátt) í grein
+   - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
+1. Wifi með ESP32. Fylgdu eftir [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
+ 
+<!--
+- [IOT Made Simple: Playing With the ESP32 on Arduino IDE](https://www.instructables.com/IOT-Made-Simple-Playing-With-the-ESP32-on-Arduino-/)
+-->
+
+---
+
+#### 5.4 Að tilraunast með Arduino og ESP8266 Wifi module 
 1. Settu upp ESP8266 wifi module með Arduino og prófaðu ýmsar AT commands.
    - Uppsetning: [myndband](https://www.youtube.com/watch?v=bQ54De84Ww4)
    - ESP8266 driver: http://arduino.esp8266.com/stable/package_esp8266com_index.json
@@ -38,22 +48,9 @@ _DRÖG_
    - AT commands; [ESP8266 AT Command Set](https://www.pridopia.co.uk/pi-doc/ESP8266ATCommandsSet.pdf) og [ESP8266 Module DataSheet with AT commands](https://cdn.sparkfun.com/datasheets/Wireless/WiFi/ESP8266ModuleV1.pdf).
 1. Fylgdu [Getting Started With the ESP8266 ESP-01](https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/)
    - skoðaðu einnig ábendingar í comments 
-3. Fáðu LED til að blikka með ESP82666 wifi module. Sjá t.d. [How to set up and configure the ESP-01 Wi-Fi module so you can connect your project to the internet.](https://maker.pro/esp8266/tutorial/how-to-program-esp8266s-onboard-gpio-pins) 
+1. Fáðu LED til að blikka með ESP82666 wifi module. Sjá t.d. [How to set up and configure the ESP-01 Wi-Fi module so you can connect your project to the internet.](https://maker.pro/esp8266/tutorial/how-to-program-esp8266s-onboard-gpio-pins) 
    - Haltu þið samt við sömu uppsetningu og í fyrsta liðnum.
 
----
-
-#### 5.4 Að tilraunast með ESP32-DevKitC WROOM-32D  
-1. Láttu LED blikka með ESP32 [lastminute](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
-   - notaðu pinna 2 (ekki D2)
-   - notaðu þetta [Pinout] í staðinn fyrir sem kemur í greininni
-   - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
-3. Wifi með ESP32. Fylgdu eftir [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
-   - notaðu númerin á ESP32 
- 
-<!--
-- [IOT Made Simple: Playing With the ESP32 on Arduino IDE](https://www.instructables.com/IOT-Made-Simple-Playing-With-the-ESP32-on-Arduino-/)
--->
 
 <!--
 
@@ -79,7 +76,6 @@ This imports the Seeed WiFi libraries. The @ <number> syntax refers to a specifi
 1. Tengdu IoT hlut við MQTT broker [leiðbeiningar](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md#connect-to-mqtt)
 1. Fylgdu leiðbeiningum [Connect your device to the Internet](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#connect-your-device-to-the-internet) og fáðu náttljósið til að virka með Arduino.
 1. Prófaðu núna að nota RPi staðinn fyrir tölvuna.
-
 
 -->
 
