@@ -48,7 +48,8 @@ _DRÖG_
    - notaðu pinna 2 (ekki D2)
    - notaðu þetta [Pinout] í staðinn fyrir sem kemur í greininni
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
-3. Prófaðu að nota wifi með ESP32.
+3. Wifi með ESP32. Fylgdu eftir [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
+   - notaðu númerin á ESP32 
  
 <!--
 - [IOT Made Simple: Playing With the ESP32 on Arduino IDE](https://www.instructables.com/IOT-Made-Simple-Playing-With-the-ESP32-on-Arduino-/)
