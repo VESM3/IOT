@@ -28,13 +28,19 @@
 
 ---
 
-#### 5.3 Að tilraunast með ESP32-DevKitC WROOM-32D (40%)
+#### 5.3 Að tilraunast með ESP32 WROOM DevKitC v4 með Arduino IDE (40%)  
+
 1. Láttu LED blikka með ESP32 [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
-   - notaðu pinna 2 (ekki D2), númerin á ESP32 stemma við GPIO pinna (fjólublátt) í greininni.
+   - [pinout (mynd)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png)
+   - pinni sem er númeraðu 2 sama og GPIO2 (ekki nota D2)
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
 1. Wifi með ESP32. Fylgdu eftir báðum tilraunum í [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
 
+Sjá einnig [ESP32-DevKitC V4 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html#esp32-devkitc-v4-getting-started-guide)
+
 <!--
+- [ESP32 WROOM DevKitC v4 on Arduino IDE](https://www.iottechtrends.com/getting-started-with-esp32-wroom-devkitc/)
+
 **Punktar**
 - The ESP32 requires a 3.3V power supply and 3.3V logic levels for communication. 
 - The GPIO pins are not 5V-tolerant! 
