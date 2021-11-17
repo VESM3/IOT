@@ -33,7 +33,14 @@
    - notaðu pinna 2 (ekki D2), númerin á ESP32 stemma við GPIO pinna (fjólublátt) í greininni.
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
 1. Wifi með ESP32. Fylgdu eftir báðum tilraunum í [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
- 
+
+<!--
+**Punktar**
+- The ESP32 requires a 3.3V power supply and 3.3V logic levels for communication. 
+- The GPIO pins are not 5V-tolerant! 
+- If you want to interface the board with 5V (or higher) components, you’ll need to do some level shifting.
+-->
+
 <!--
 - [IOT Made Simple: Playing With the ESP32 on Arduino IDE](https://www.instructables.com/IOT-Made-Simple-Playing-With-the-ESP32-on-Arduino-/)
 -->
