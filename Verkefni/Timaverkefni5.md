@@ -39,8 +39,7 @@
 
 **Ath**
 - The ESP32 requires a 3.3V power supply and 3.3V logic levels for communication. 
-- The GPIO pins are not 5V-tolerant! 
-- If you want to interface the board with 5V (or higher) components, you’ll need to do some level shifting.
+- The GPIO pins are not 5V-tolerant! If you want to interface the board with 5V (or higher) components, you’ll need to do some level shifting.
 
 <!--
 Ítarefni: 
