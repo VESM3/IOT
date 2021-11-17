@@ -31,8 +31,8 @@
 #### 5.3 Að tilraunast með ESP32 WROOM DevKitC v4 með Arduino IDE (40%)  
 
 1. Láttu LED blikka með ESP32 [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
-   - [pinout (mynd)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png)
-   - pinni sem er númeraðu 2 sama og GPIO2 (ekki nota D2)
+   - Notaðu þetta [pinout](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png).
+   - pinni sem er númeraðu 2 er sama og GPIO2 (ekki nota D2)
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
 1. Wifi með ESP32. Fylgdu eftir báðum tilraunum í [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
 
