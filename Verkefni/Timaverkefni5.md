@@ -42,7 +42,7 @@
 #### Athugaðu:
 - ESP32 notast við 3.3V logic levels fyrir samskipti 
 - GPIO pinnarnir þola ekki 5V, það er ekki hægt að vinna með íhluti sem krefjast 5V logic.
-- [usb driver fyrir Mac tölvu](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+<!-- - [usb driver fyrir Mac tölvu](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) -->
 
 <!--
 - [ESP32-DevKitC V4 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html#esp32-devkitc-v4-getting-started-guide)
