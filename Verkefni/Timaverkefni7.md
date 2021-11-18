@@ -1,6 +1,3 @@
-
-_drög_
-
 # Tímaverkefni 7 (14%)
 
 - Einstaklingsverkefni
