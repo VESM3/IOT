@@ -55,7 +55,7 @@ Sjá til viðmiðunar: [Digital Output (Python)](https://learn.adafruit.com/adaf
 ### 7.4 Schedule Triggers (15%) 
 
 Tengdu eina led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
-Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basics-scheduled-triggers) til að kveikja og slökkva á led með 5 sek. millibili.
+Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basics-scheduled-triggers) til að kveikja og slökkva á led með 30 minútu millibili.
 
 - Notaðu GPi.Zero safnið í staðinn fyrir `adafruit_blinka`. 
 
