@@ -60,7 +60,7 @@ Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basi
 ---
 
 ### 7.5 Analog Input (15%) 
-Tengdu LDR ljósviðnám í brauðbretti tengt við ESP32. Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
+Tengdu LDR ljósviðnám í brauðbretti tengt við **ESP32**. Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
 Birtu rauntímaniðurstöður með _Gauge block_ og línuriti í Dashboard.  <br>
 
 - Notaðu MQTT (eða REST API)
