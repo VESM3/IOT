@@ -17,9 +17,7 @@ _drög_
 1. Fylgdu tilraun í myndbandinu [Connecting the Raspberry Pi to Adafruit IO cloud](https://www.youtube.com/watch?v=IfzpoFGkmns)
 
 #### Adafruit söfn og APIs:
-   - [Adafruit IO Python safn](https://adafruit-io-python-client.readthedocs.io/en/latest/quickstart.html) 
-   - [Adafruit IO Arduino (ESP32) safn](https://github.com/adafruit/Adafruit_IO_Arduino)
-      - þarf að hafa einnig ArduinoHTTPClient og Adafruit MQTT söfn.  
+   - [Adafruit IO Python safn](https://adafruit-io-python-client.readthedocs.io/en/latest/quickstart.html)  
    - [Adafruit IO MQTT API](https://io.adafruit.com/api/docs/mqtt.html#adafruit-io-mqtt-api)
    - [Adafruit IO HTTP API](https://io.adafruit.com/api/docs/#adafruit-io-http-api)
  
@@ -62,20 +60,20 @@ Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basi
 ---
 
 ### 7.5 Analog Input (15%) 
-Tengdu LDR ljósviðnám í brauðbretti tengt við ESP32. <br>
-Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
+Tengdu LDR ljósviðnám í brauðbretti tengt við ESP32. Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
 Birtu rauntímaniðurstöður með _Gauge block_ og línuriti í Dashboard.  <br>
 
 - Notaðu MQTT (eða REST API)
 
+Til að geta notað ESP32 með AdafruitIO þá þarf að installa:
+- [Adafruit IO Arduino (ESP32) safn](https://github.com/adafruit/Adafruit_IO_Arduino)
+- [Arduino Http Client](https://github.com/arduino-libraries/ArduinoHttpClient)
+- [Arduino MQTT Client](https://github.com/adafruit/Adafruit_MQTT_Library)
 
 Sjá til viðmiðunar: 
+- [Adafruit IO example 8, analog in](https://github.com/adafruit/Adafruit_IO_Arduino/tree/master/examples)
 - [Analog Input (Arduino)](https://learn.adafruit.com/adafruit-io-basics-analog-input) 
 - [ESP32 ADC – Read Analog Values with Arduino IDE](https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/)
-
-<!--
-- [python kóði með notkun MCPP3008 ADC converter](https://github.com/adafruit/Adafruit_IO_Python/blob/master/examples/basics/analog_in.py) 
--->
 
 ---
 
@@ -85,6 +83,7 @@ Notaðu **Slider block** í **Dashbord** með Adafruit IO til að stýra birtust
 - Notaðu MQTT (eða REST API)
 
 Sjá til viðmiðunar: 
+- [Adafruit IO example 9, analog out](https://github.com/adafruit/Adafruit_IO_Arduino/tree/master/examples/adafruitio_09_analog_out)
 - [Analog Output (Arduino)](https://learn.adafruit.com/adafruit-io-basics-analog-output)
 - [ESP32 PWM with Arduino IDE (Analog Output)](https://randomnerdtutorials.com/esp32-pwm-arduino-ide/)
 
