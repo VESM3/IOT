@@ -50,7 +50,7 @@ Sjá til viðmiðunar: [Digital Output (Python)](https://learn.adafruit.com/adaf
 
 ---
 
-### 7.4 Schedule Triggers (15%) 
+### 7.4 Schedule Triggers (10%) 
 
 Tengdu eina led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
 Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basics-scheduled-triggers) til að kveikja og slökkva á led með 30 minútu millibili.
@@ -62,8 +62,6 @@ Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basi
 ### 7.5 Analog Input (15%) 
 Tengdu LDR ljósviðnám í brauðbretti tengt við **ESP32**. Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
 Birtu rauntímaniðurstöður með _Gauge block_ og línuriti í Dashboard.  <br>
-
-- Notaðu MQTT (eða REST API)
 
 Til að geta notað ESP32 með AdafruitIO þá þarf að installa:
 - [Adafruit IO Arduino (ESP32) safn](https://github.com/adafruit/Adafruit_IO_Arduino)
@@ -78,9 +76,7 @@ Sjá til viðmiðunar:
 ---
 
 ### 7.6 Analog Output (15%) 
-
 Notaðu **Slider block** í **Dashbord** með Adafruit IO til að stýra birtustig á LED sem er tengd við PWM pinna á ESP32.  <!-- `(min value 0, max vale 1024)` -->
-- Notaðu MQTT (eða REST API)
 
 Sjá til viðmiðunar: 
 - [Adafruit IO example 9, analog out](https://github.com/adafruit/Adafruit_IO_Arduino/tree/master/examples/adafruitio_09_analog_out)
@@ -97,7 +93,7 @@ Sjá til viðmiðunar:
 ---
 
 
-### 7.7 Reactive Triggers (20%) 
+### 7.7 Reactive Triggers (25%) 
 
 Tengdu LDR ljósviðnám í brauðbretti tengt við ESP32. <br>
 Tengdu led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
@@ -106,6 +102,7 @@ Búðu til `reactive trigger` í Adafruit IO sem lætur led peru kveikja á sér
 Sjá til viðmiðunar: [How to Use Triggers in Your Adafruit IO Project](https://www.digikey.com/en/maker/blogs/2019/how-to-use-triggers-in-your-adafruit-io-project)
 
 - Notaðu GPi.Zero safnið í staðinn fyrir `adafruit_blinka`. 
+- Notaðu REST API 
 
 ---
 
