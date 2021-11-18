@@ -6,7 +6,7 @@
 
 ---
 
-#### 5.1 Náttljós með RPi (20%)
+### 5.1 Náttljós með RPi (20%)
 
 1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigið.
 1. Útbúðu náttljós með ljósnema og LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtskilyrði.
@@ -17,7 +17,7 @@
  
 ---
 
-#### 5.2 MQTT með RPi (40%)
+### 5.2 MQTT með RPi (40%)
 
 [MQTT](https://mqtt.org/) is a Client Server publish/subscribe messaging transport protocol. It is light weight, open, simple, and designed so as to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium. 
 
@@ -28,26 +28,24 @@
 
 ---
 
-#### 5.3 Að tilraunast með ESP32 WROOM DevKitC v4 með Arduino IDE (40%)  
-<!-- 1. Svo þú getir notað ESP32 með Arduino IDE þá er einfaldasta leiðin að installa Arduino-ESP32 með [board manager](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html#installing-using-boards-manager). 
--->
-1. Láttu LED blikka með ESP32 [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
-   - Notaðu þetta [pinout](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png).
+### 5.3 Að tilraunast með ESP32 WROOM DevKitC v4 með Arduino IDE (40%)  
+
+1. Lestu þig til um ESP32, [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
+1. Svo þú getir notað ESP32 með Arduino IDE þá er einfaldasta leiðin að installa með [board manager](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html#installing-using-boards-manager). 
+1. Láttu [LED blikka með ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/tutorials/blink.html) 
+   - Þetta er rétt [pinout](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png).
    - pinni sem er númeraðu 2 er sama og GPIO2 (ekki nota D2)
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
-1. Wifi með ESP32. Fylgdu eftir báðum tilraunum í [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
+   - þú gætir þurft að breyta upload speed í 115200
+1. Fylgdu eftir báðum tilraununm í [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/) til að vinna með ESP32 og wifi.
 
-**Ath**
-- The ESP32 requires a 3.3V power supply and 3.3V logic levels for communication. 
-- The GPIO pins are not 5V-tolerant! If you want to interface the board with 5V (or higher) components, you’ll need to do some level shifting.
+#### Athugaðu:
+- ESP32 notast við 3.3V logic levels fyrir samskipti 
+- GPIO pinnarnir þola ekki 5V, það er ekki hægt að vinna með íhluti sem krefjast 5V logic.
 
 <!--
-Ítarefni: 
 - [ESP32-DevKitC V4 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html#esp32-devkitc-v4-getting-started-guide)
 - [ESP32 WROOM DevKitC v4 on Arduino IDE](https://www.iottechtrends.com/getting-started-with-esp32-wroom-devkitc/)
--->
-
-<!--
 - [IOT Made Simple: Playing With the ESP32 on Arduino IDE](https://www.instructables.com/IOT-Made-Simple-Playing-With-the-ESP32-on-Arduino-/)
 -->
 
