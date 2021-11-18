@@ -70,6 +70,7 @@ Til að geta notað ESP32 með AdafruitIO þá þarf að installa:
 
 Sjá til viðmiðunar: 
 - [Adafruit IO example 8, analog in](https://github.com/adafruit/Adafruit_IO_Arduino/tree/master/examples)
+   - stilltu wifi stillingar í config.h 
 - [Analog Input (Arduino)](https://learn.adafruit.com/adafruit-io-basics-analog-input) 
 - [ESP32 ADC – Read Analog Values with Arduino IDE](https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/)
 
