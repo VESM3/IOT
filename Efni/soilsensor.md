@@ -1,10 +1,9 @@
-# Soil sensors
+[Interface Capacitive Soil Moisture Sensor v1.2 with Arduino](https://how2electronics.com/interface-capacitive-soil-moisture-sensor-arduino/)
 
-1. [Why most soil sensors suck (10 mín myndband)](https://www.youtube.com/watch?v=udmJyncDvw0)
-1. [Testing Capacitive soil moisture sensors](https://flashgamer.com/blog/comments/testing-capacitive-soil-moisture-sensors)
-1. [Interface Capacitive Soil Moisture Sensor v1.2 with Arduino](https://how2electronics.com/interface-capacitive-soil-moisture-sensor-arduino/)
+### Mælingar og gildi
+- [Why most soil sensors suck (10 mín myndband)](https://www.youtube.com/watch?v=udmJyncDvw0)
+- [Testing Capacitive soil moisture sensors](https://flashgamer.com/blog/comments/testing-capacitive-soil-moisture-sensors)
 
----
 
 <!--
 
