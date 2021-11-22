@@ -4,7 +4,7 @@
 #### Mælingar og samanburður á jarðvegsmælum
 - [Why most soil sensors suck (10 mín myndband)](https://www.youtube.com/watch?v=udmJyncDvw0)
 - [Testing Capacitive soil moisture sensors](https://flashgamer.com/blog/comments/testing-capacitive-soil-moisture-sensors)
-
+- [Detect soil moisture and IoT](https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/2-detect-soil-moisture/README.md#detect-soil-moisture)
 
 <!--
 
