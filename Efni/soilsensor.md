@@ -1,6 +1,6 @@
 [Interface Capacitive Soil Moisture Sensor v1.2 with Arduino](https://how2electronics.com/interface-capacitive-soil-moisture-sensor-arduino/)
 
-### Mælingar og gildi
+#### Mælingar og samanburður á jarðvegsmælum
 - [Why most soil sensors suck (10 mín myndband)](https://www.youtube.com/watch?v=udmJyncDvw0)
 - [Testing Capacitive soil moisture sensors](https://flashgamer.com/blog/comments/testing-capacitive-soil-moisture-sensors)
 
