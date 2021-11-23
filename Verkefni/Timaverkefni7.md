@@ -59,7 +59,7 @@ Skoðaðu [Triggers](https://learn.adafruit.com/all-the-internet-of-things-episo
 ---
 
 ### 7.5 Analog Input (20%) 
-Tengdu LDR ljósviðnám í brauðbretti tengt við **ESP32**. Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
+Tengdu LDR ljósviðnám (tengdu í 3.3v) í brauðbretti tengt við **ESP32**. Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
 Birtu rauntímaniðurstöður með _Gauge block_ og línuriti í Dashboard, [sýnidæmi](https://cdn-learn.adafruit.com/assets/assets/000/039/356/large1024mp4/light_analog.mp4?1487262232) <br>
 
 Til að geta notað ESP32 með AdafruitIO þá þarf að installa:
