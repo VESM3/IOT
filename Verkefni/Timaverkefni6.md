@@ -24,7 +24,7 @@ Sjá [IFTTT AdafruitIO leiðbeiningar](https://learn.adafruit.com/using-ifttt-wi
 
 ### 6.3 IFTTT með Adafruit IO - Monitor a feed (20%)
 1. Tengdu [jarðvegsmælir](https://www.sigmaelectronica.net/wp-content/uploads/2018/04/sen0193-humedad-de-suelos.pdf) við ESP32 til að kanna rakastig "jarðvegs".
-1. Notaðu IFTTT sem vaktar þetta `feed` hjá Adafruit IO og lætu þig vita (td. gmail eða sms) þegar "jarðvegur" verður of þurr (notaðu gildi sem hentar tilraun).
+1. Notaðu IFTTT sem vaktar þetta `feed` hjá Adafruit IO og lætu þig vita (td. gmail) þegar "jarðvegur" verður of þurr (notaðu gildi sem hentar tilraun).
 
 <!--
 - [Adafruit IO Time Tracking Cube með ESP32 og Zapier](https://github.com/adafruit/Adafruit_IO_Arduino/blob/master/examples/adafruitio_24_zapier/adafruitio_24_zapier.ino) og 
