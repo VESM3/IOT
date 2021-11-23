@@ -51,7 +51,7 @@ Sjá til viðmiðunar: [Digital Output (Python)](https://learn.adafruit.com/adaf
 Skoðaðu [Triggers](https://learn.adafruit.com/all-the-internet-of-things-episode-four-adafruit-io/triggers) og gerðu eftirfarandi:
 
 1. Tengdu eina led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
-1. Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basics-scheduled-triggers) til að kveikja á LED með annaðhvort 30 minútu millibili eða daglega á einhverjum sérstökum tíma.
+1. Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basics-scheduled-triggers) til að kveikja á LED daglega á einhverjum sérstökum tíma.
 
 - Notaðu GPi.Zero safnið í staðinn fyrir `adafruit_blinka`. 
 - Notaðu REST API 
@@ -60,7 +60,7 @@ Skoðaðu [Triggers](https://learn.adafruit.com/all-the-internet-of-things-episo
 
 ### 7.5 Analog Input (20%) 
 Tengdu LDR ljósviðnám í brauðbretti tengt við **ESP32**. Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
-Birtu rauntímaniðurstöður með _Gauge block_ og línuriti í Dashboard, [Arduino sýnidæmi](https://learn.adafruit.com/adafruit-io-basics-analog-input) <br>
+Birtu rauntímaniðurstöður með _Gauge block_ og línuriti í Dashboard, [sýnidæmi](https://cdn-learn.adafruit.com/assets/assets/000/039/356/large1024mp4/light_analog.mp4?1487262232) <br>
 
 Til að geta notað ESP32 með AdafruitIO þá þarf að installa:
 - [Adafruit IO Arduino (ESP32) safn](https://github.com/adafruit/Adafruit_IO_Arduino)
@@ -90,11 +90,9 @@ Sjá til viðmiðunar:
 
 Tengdu LDR ljósviðnám í brauðbretti tengt við ESP32. <br>
 Tengdu led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
-Búðu til `reactive trigger` í Adafruit IO sem lætur led peru kveikja á sér þegar það dimmir en slekkur á sér þegar það er bjart. <br>
+Búðu til tvo `reactive trigger` í Adafruit IO, annar þeirra lætur lED á þegar það dimmir en hinn slekkur á LED þegar það er bjart. <br>
 
-<!--
-- Notaðu REST API eða MQTT
--->
+<!-- - Notaðu REST API eða MQTT -->
 
 Sjá til viðmiðunar: [How to Use Triggers in Your Adafruit IO Project](https://www.digikey.com/en/maker/blogs/2019/how-to-use-triggers-in-your-adafruit-io-project)
 
