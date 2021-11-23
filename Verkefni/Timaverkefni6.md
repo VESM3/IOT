@@ -18,8 +18,6 @@ Notaðu takka á brauðbretti sem er tengt við RaspberryPi sem sendir skilaboð
 Notaðu IFTTT sem vaktar þetta `feed` hjá Adafruit IO og lætu þig vita (td. gmail eða sms) þegar smellt er á takkann. <br>
 Sjá [IFTTT AdafruitIO leiðbeiningar](https://learn.adafruit.com/using-ifttt-with-adafruit-io/ifttt-to-adafruit-io-setup), notaðu _Any new data_ trigger <br>
 
-#### Athugaðu
-- All Gmail triggers were removed from IFTTT
 - [Zapier](https://zapier.com/) með AdafruitIO er annar valkostur í stað IFTTT
 
 ---
