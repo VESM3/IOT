@@ -48,9 +48,10 @@ Sjá til viðmiðunar: [Digital Output (Python)](https://learn.adafruit.com/adaf
 ---
 
 ### 7.4 Schedule Triggers (10%) 
+Skoðaðu [Triggers](https://learn.adafruit.com/all-the-internet-of-things-episode-four-adafruit-io/triggers) og gerðu eftirfarandi:
 
-Tengdu eina led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
-Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basics-scheduled-triggers) til að kveikja á LED með annaðhvort 30 minútu millibili eða daglega á einhverjum sérstökum tíma.
+1. Tengdu eina led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
+1. Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basics-scheduled-triggers) til að kveikja á LED með annaðhvort 30 minútu millibili eða daglega á einhverjum sérstökum tíma.
 
 - Notaðu GPi.Zero safnið í staðinn fyrir `adafruit_blinka`. 
 - Notaðu REST API 
