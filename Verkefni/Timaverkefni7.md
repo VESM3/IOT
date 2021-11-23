@@ -60,7 +60,7 @@ Skoðaðu [Triggers](https://learn.adafruit.com/all-the-internet-of-things-episo
 
 ### 7.5 Analog Input (20%) 
 Tengdu LDR ljósviðnám í brauðbretti tengt við **ESP32**. Sendu mælingar (analog gildi) frá ljósviðnámi til Adafruit IO <br>
-Birtu rauntímaniðurstöður með _Gauge block_ og línuriti í Dashboard.  <br>
+Birtu rauntímaniðurstöður með _Gauge block_ og línuriti í Dashboard, [Arduino sýnidæmi](https://learn.adafruit.com/adafruit-io-basics-analog-input) <br>
 
 Til að geta notað ESP32 með AdafruitIO þá þarf að installa:
 - [Adafruit IO Arduino (ESP32) safn](https://github.com/adafruit/Adafruit_IO_Arduino)
@@ -68,10 +68,9 @@ Til að geta notað ESP32 með AdafruitIO þá þarf að installa:
 - [Arduino MQTT Client](https://github.com/adafruit/Adafruit_MQTT_Library)
 
 Sjá til viðmiðunar: 
-- [Adafruit IO example 8, analog in](https://github.com/adafruit/Adafruit_IO_Arduino/tree/master/examples)
+- [ESP32: Adafruit IO example 8, analog in](https://github.com/adafruit/Adafruit_IO_Arduino/tree/master/examples)
    - stilltu wifi stillingar í config.h 
-- [Analog Input (Arduino)](https://learn.adafruit.com/adafruit-io-basics-analog-input) 
-- [ESP32 ADC – Read Analog Values with Arduino IDE](https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/)
+- [ESP32 ADC – Read Analog Values](https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/)
 
 ---
 
