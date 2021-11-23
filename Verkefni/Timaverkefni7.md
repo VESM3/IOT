@@ -93,7 +93,9 @@ Tengdu LDR ljósviðnám í brauðbretti tengt við ESP32. <br>
 Tengdu led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
 Búðu til `reactive trigger` í Adafruit IO sem lætur led peru kveikja á sér þegar það dimmir en slekkur á sér þegar það er bjart. <br>
 
-- Notaðu MQTT
+<!--
+- Notaðu REST API eða MQTT
+-->
 
 Sjá til viðmiðunar: [How to Use Triggers in Your Adafruit IO Project](https://www.digikey.com/en/maker/blogs/2019/how-to-use-triggers-in-your-adafruit-io-project)
 
