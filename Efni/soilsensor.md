@@ -1,5 +1,7 @@
-- [Interface Capacitive Soil Moisture Sensor v1.2 with Arduino](https://how2electronics.com/interface-capacitive-soil-moisture-sensor-arduino/)
+### Analog Capacitive Soil Moisture Sensor
+- [Datasheet](https://www.sigmaelectronica.net/wp-content/uploads/2018/04/sen0193-humedad-de-suelos.pdf)
 - [Capacitive Soil Moisture Sensor with ESP8266/ESP32 & OLED Display](https://how2electronics.com/capacitive-soil-moisture-sensor-esp8266-esp32-oled-display/)
+- [Interface Capacitive Soil Moisture Sensor v1.2 with Arduino](https://how2electronics.com/interface-capacitive-soil-moisture-sensor-arduino/)
 
 #### Mælingar og samanburður á jarðvegsmælum
 - [Why most soil sensors suck (10 mín myndband)](https://www.youtube.com/watch?v=udmJyncDvw0)
