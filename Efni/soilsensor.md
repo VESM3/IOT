@@ -3,7 +3,7 @@
 - [Capacitive Soil Moisture Sensor with ESP8266/ESP32 & OLED Display](https://how2electronics.com/capacitive-soil-moisture-sensor-esp8266-esp32-oled-display/)
 - [Interface Capacitive Soil Moisture Sensor v1.2 with Arduino](https://how2electronics.com/interface-capacitive-soil-moisture-sensor-arduino/)
 
-#### Mælingar og samanburður á jarðvegsmælum
+### Mælingar og samanburður á jarðvegsmælum
 - [Why most soil sensors suck (10 mín myndband)](https://www.youtube.com/watch?v=udmJyncDvw0)
 - [Testing Capacitive soil moisture sensors](https://flashgamer.com/blog/comments/testing-capacitive-soil-moisture-sensors)
 - [Detect soil moisture and IoT](https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/2-detect-soil-moisture/README.md#detect-soil-moisture)
