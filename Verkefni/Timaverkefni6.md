@@ -35,7 +35,7 @@ https://learn.adafruit.com/time-tracking-cube
 
 ### 6.4 IFTTT WebHooks (20%) 
 1. Notaðu takka tengt við RPi. Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET requests, sjá nánar [What is a Webhook? - IFTTT](https://ifttt.com/explore/what-is-a-webhook). <br>
-1. Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) þegar rakastigi er komið upp fyrir eitthvert ákv. gildi.<br>
+1. Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) þegar það hefur verið smellt á takkann<br>
 
 **Bjargir:**
 - [Push notification, motion detection](https://iot4beginners.com/ifttt-with-raspberry-pi/)
