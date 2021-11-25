@@ -34,7 +34,7 @@ https://learn.adafruit.com/time-tracking-cube
 ---
 
 ### 6.4 IFTTT WebHooks (20%) 
-1. Mældu hita og raka með [DHT11](https://components101.com/sensors/dht11-temperature-sensor) tengt við RPi. (það má líka nota annan skynjara) <br>
+1. Mældu birtustig með BH1750 stafræna skynjarann tengt við RPi. <br>
 1. Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET requests, sjá nánar [What is a Webhook? - IFTTT](https://ifttt.com/explore/what-is-a-webhook). <br>
 Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) þegar rakastigi er komið upp fyrir eitthvert ákv. gildi.<br>
 
