@@ -1,7 +1,6 @@
 
 ## Tímaverkefni 8 (35%) 
 - Einstaklingsverkefni 
-- Áætlaður tími 16 klst (4 x 4 klst)
 
 ---
 
