@@ -56,7 +56,7 @@ Við að ýta á takka þá kemur birta af LED.
 
 #### 8. GPIO: Bluedot (30%)
 1. Notaðu [BlueDot](https://gpiozero.readthedocs.io/en/stable/recipes_advanced.html#bluedot-led) (bluetooth) með android símanum þínum til að kveikja/slökkva á LED sem er uppsett á brauðbretti tengt við RPi.
-   - iPhone virkar ekki með BlueDot en það er hægt að nota annan RPi í stað síma.
+   - iPhone virkar ekki með BlueDot en það er hægt að nota annan RPi og [Blue Dot Python App](https://bluedot.readthedocs.io/en/latest/bluedotpythonapp.html) í stað síma.
 1. Notaðu BlueDot til að kveikja á RGB LED. Það á að vera hægt að velja um 4 mismunandi liti með BlueDot
 
 ---
