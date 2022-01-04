@@ -39,7 +39,7 @@ Notaðu [Thonny](https://thonny.org/) ritil á RPi OS. Búðu til python skrá o
 
 ---
 
-#### 5. GPIO: Blikkandi ljós. (10%)
+#### 5. GPIO: Blikkandi ljós. (15%)
 Láttu LED blikka á brauðbretti með python kóða. Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu og [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/) python safnið með kóðalausn. Nýttu þér kóðalausnir í [Basic Recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html). Hér er svo [GPIO Zero pinout](https://gpiozero.readthedocs.io/en/stable/cli_tools.html#pinout) þegar þú notar ekki T-Coppler.
 
 ---
@@ -54,7 +54,7 @@ Við að ýta á takka þá kemur birta af LED.
 
 ---
 
-#### 8. GPIO: Bluedot (30%)
+#### 8. GPIO: Bluedot (25%)
 1. Notaðu [BlueDot](https://gpiozero.readthedocs.io/en/stable/recipes_advanced.html#bluedot-led) (bluetooth) með android símanum þínum til að kveikja/slökkva á LED sem er uppsett á brauðbretti tengt við RPi.
 1. Notaðu BlueDot til að kveikja á RGB LED. Það á að vera hægt að velja um 4 mismunandi liti með BlueDot
 <br>
