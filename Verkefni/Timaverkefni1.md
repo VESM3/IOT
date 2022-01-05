@@ -5,7 +5,7 @@
 
 ---
 
-#### 1. Að tengjast Raspberry Pi (10%)
+#### 1. Að tengjast Raspberry Pi (15%)
 1. Settu SD minniskortið (frá kennara) í RaspberryPi og tengdu við rafmagn (usb power port).
 1. **SSH tenging**. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
 1. Notaðu  _hostname.tskoli.is_ í skólanum og _hostname.local_ heima     
@@ -18,7 +18,8 @@
    1. System Options og breyttu eftirfarandi:
       * hostname í t.d ykkar nafn
       * password, ekki breyta user (er pi)
-1. Að tengjast RPi með VNC (GUI),  [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br> Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þráðlaust á fartölvu (the VNC viewer)
+1. Að tengjast RPi með VNC (GUI),  [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br> Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þráðlaust á fartölvu (the VNC viewer).
+1. Gerðu aðrar viðeigandi stillingar á RPi OS t.d. að breyta upplausn á skjánum. 
 
 <!-- 
 **Ath**. Ef það er blár skjár sjá [How to Fix Raspberry Pi's 'Cannot Currently Show the Desktop' Error](https://www.tomshardware.com/how-to/fix-cannot-currently-show-desktop-error-raspberry-pi)
@@ -52,11 +53,12 @@ Láttu LED _fade_ inn og út.
 #### 7. GPIO: Takki og LED. (15%)
 Við að ýta á takka þá kemur birta af LED. 
 
+
 ---
 
-#### 8. Bluedot (25%)
+#### 8. Bluedot og GPIO. (20%)
 1. Notaðu [BlueDot](https://gpiozero.readthedocs.io/en/stable/recipes_advanced.html#bluedot-led) (bluetooth) með android símanum þínum til að kveikja/slökkva á LED sem er uppsett á brauðbretti tengt við RPi.
-1. Notaðu BlueDot til að kveikja á RGB LED. Það á að vera hægt að velja um 4 mismunandi liti með BlueDot
+1. Notaðu BlueDot til að kveikja á RGB LED. Það á að vera hægt að velja um 4 mismunandi liti með BlueDot.
 <br>
 
 **Ath.** iPhone virkar ekki með BlueDot en það er hægt að nota annan RPi og [Blue Dot Python App](https://bluedot.readthedocs.io/en/latest/bluedotpythonapp.html) í stað síma.
