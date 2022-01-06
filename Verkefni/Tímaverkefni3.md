@@ -54,8 +54,7 @@ OLED með ESP32 https://github.com/adafruit/Adafruit_SSD1306
 ---
 
 ### 3.4 Skráningar- eða öryggiskerfi  (30%)
-
-- tveir nemendur saman
+tveir nemendur saman
 
 Búið til öryggikerfi eða skráningarkerfi:
 
