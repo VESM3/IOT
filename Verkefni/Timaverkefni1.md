@@ -13,13 +13,35 @@
       ssh pi@hostname.tskoli.is     # heima: ssh pi@hostname.local   
       password: raspberry
       ```  
-1. Skrifaðu `sudo raspi-config` og veldu:
-   1. Interfacing Options, allt þar á að vera **enabled**
+1. Til að tengjast heima búið til skrá á SD kortinu boot/ sem heitir wpa_supplicant.conf
+      ```
+      ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+      update_config=1
+      country=IS
+
+      network={
+          ssid="Taekniskolinn"
+          key_mgmt=NONE
+          priority=-999
+      }
+
+      network={
+              ssid="ssid á beini (ráter)"
+              key_mgmt=WPA-PSK
+              proto=WPA2
+              pairwise=CCMP
+              group=CCMP
+              psk="lykilorð á beini"
+              priority=1
+      }
+      ```
+3. Skrifaðu `sudo raspi-config` og veldu:
+   1. Interfacing Options, allt þar á vera **enabled**
    1. System Options og breyttu eftirfarandi:
       * hostname í t.d ykkar nafn
       * password, ekki breyta user (er pi)
-1. Að tengjast RPi með VNC (GUI),  [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br> Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þráðlaust á fartölvu (the VNC viewer).
-1. Gerðu aðrar viðeigandi [stillingar á RPi OS](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0) t.d. að breyta upplausn á skjánum. 
+4. Að tengjast RPi með VNC (GUI),  [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br> Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þráðlaust á fartölvu (the VNC viewer).
+5. Gerðu aðrar viðeigandi [stillingar á RPi OS](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0) t.d. að breyta upplausn á skjánum. 
 
 <!-- 
 **Ath**. Ef það er blár skjár sjá [How to Fix Raspberry Pi's 'Cannot Currently Show the Desktop' Error](https://www.tomshardware.com/how-to/fix-cannot-currently-show-desktop-error-raspberry-pi)
