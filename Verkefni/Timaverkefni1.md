@@ -20,7 +20,7 @@
       * password, ekki breyta user (er pi)
 1. Að tengjast RPi með VNC (GUI),  [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br> Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þráðlaust á fartölvu (the VNC viewer).
 1. Gerðu aðrar viðeigandi [stillingar á RPi OS](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0) t.d. að breyta upplausn á skjánum. 
-1. Til að tengjast heima og í skólanum, þá skaltu búa til skrá á SD kortinu boot/ sem heitir `wpa_supplicant.conf`. Það er einnig hægt að gera breytingarnar í skólanum í nano beint á RPi ef þú veist [wifi stillingarnar](https://github.com/VESM3/V21/blob/master/wifi.md) heima. 
+1. Til að tengjast heima og í skólanum, þá skaltu búa til skrá á SD kortinu boot/ sem heitir `wpa_supplicant.conf`. Það er einnig hægt að gera breytingarnar í skólanum í nano beint á RPi ef þú veist [wifi stillingarnar](https://github.com/VESM3/IOT/blob/main/Efni/wifi.md) heima. 
 
       ```
       ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
