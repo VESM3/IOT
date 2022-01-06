@@ -53,13 +53,13 @@ OLED með ESP32 https://github.com/adafruit/Adafruit_SSD1306
 
 ---
 
-### 3.4 Skráningarkerfi (kladdi) (30%)
+### 3.4 Skráningar- eða öryggiskerfi  (30%)
 
 - tveir nemendur saman
 
-Búið til 1. öryggishurðakerfi eða 2. skráningarkerfi:
+Búið til öryggikerfi eða skráningarkerfi:
 
-1. [öryggishurðakerfi](https://create.arduino.cc/projecthub/wesee/toggle-led-with-nfc-tag-and-pin-57f894?ref=tag&ref_id=nfc&offset=0) með RFID, OLED/LED og Keypad.
+1. [öryggishurðakerfi](https://create.arduino.cc/projecthub/wesee/toggle-led-with-nfc-tag-and-pin-57f894?ref=tag&ref_id=nfc&offset=0) með RFID/NFC, OLED og Keypad.
 1. Skráningarkerfi sem heldur um nemendamætingar. sýnidæmi [Build your own Raspberry Pi RFID Attendance System](https://pimylifeup.com/raspberry-pi-rfid-attendance-system/) og [Attendance System Using Raspberry Pi and NFC Tag Reader](https://www.instructables.com/id/Attendance-system-using-Raspberry-Pi-and-NFC-Tag-r/). Notið RFID/NFC og OLED, notaðu gagnageymslu að eigin vali (dictioary, skrá, JSON, SQL).
 
 ---
