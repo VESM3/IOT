@@ -13,7 +13,8 @@
       ssh pi@hostname.tskoli.is     # heima: ssh pi@hostname.local   
       password: raspberry
       ```  
-1. Til að tengjast heima búið til skrá á SD kortinu boot/ sem heitir wpa_supplicant.conf
+1. Til að tengjast heima og í skólanum, búið til skrá á SD kortinu boot/ sem heitir `wpa_supplicant.conf`. Það er einnig hægt að gera breytingarnar í skólanum í nano beint á RPi ef þú veist [wifi stillingarnar](https://github.com/VESM3/V21/blob/master/wifi.md) heima. 
+
       ```
       ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
       update_config=1
