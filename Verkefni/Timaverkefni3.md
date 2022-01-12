@@ -12,7 +12,7 @@
 1. RaspberryPi Zero er með þrjá SPI controllers, sjá nánar [SPI Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#spi-overview) 
 1. Prófaðu skrif- og lesgagnaðgerðir með RFID sbr. [How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    - Ekki gleyma að stilla RaspberryPi þannig að hann virkar með SPI 
-   - notaðu GPIO Zero safnið ekki RPi.GPIO safnið 
+   - notað u RPi.Zero safnið ekki RPi.GPIO safnið 
 
 #### RC522 pinnar (með T-cobbler)
 RC522 | Pinni
@@ -37,8 +37,8 @@ RST | #25
 ### 3.3 I2C og OLED (30%)
 1. Kynntu þér I2C með að lesa þessa grein [I2C](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/). 
 1. Lestu [Interface OLED Graphic Display Module with Arduino](https://lastminuteengineers.com/oled-display-arduino-tutorial/).
-1. Birtu nafnið þitt á OLED með **Raspberry Pi Zero**. Sjá t.d. [tutorial](https://www.raspberrypi-spy.co.uk/2018/04/i2c-oled-display-module-with-raspberry-pi/)
-1. Birtu mynd eða icon.  
+1. Birtu nafnið þitt á OLED með Raspberry Pi Zero. Sjá t.d. [RPi OLED](https://www.electroniclinic.com/raspberry-pi-oled-display-i2c-ssd1306-display-module-interfacing-and-programming/)
+1. Birtu mynd.  
 
 OLED | Pinni
 --- | ---
