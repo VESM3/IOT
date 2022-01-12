@@ -37,8 +37,8 @@ RST | #25
 ### 3.3 I2C og OLED (30%)
 1. Kynntu þér I2C með að lesa þessa grein [I2C](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/). 
 1. Lestu [Interface OLED Graphic Display Module with Arduino](https://lastminuteengineers.com/oled-display-arduino-tutorial/).
-1. Birtu nafnið þitt á OLED með **Raspberry Pi Zero**.
-1. Birtu mynd.  
+1. Birtu nafnið þitt á OLED með **Raspberry Pi Zero**. Sjá t.d. [tutorial](https://www.raspberrypi-spy.co.uk/2018/04/i2c-oled-display-module-with-raspberry-pi/)
+1. Birtu mynd eða icon.  
 
 OLED | Pinni
 --- | ---
