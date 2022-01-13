@@ -17,9 +17,9 @@
 ---
 
 ### 2. Wifi stilling á SD kort 
-
-1. Búðu til skránna `wpa_supplicant.conf`
-2. Settu eftirfarandi Wifi stillingar fyrir skólann í skránna:
+1. Settu SD kortið í usb lykil í tölvuna.
+1. Búðu til skránna `wpa_supplicant.conf` td. með VSCode editor.
+1. Settu eftirfarandi Wifi stillingar fyrir skólann í skránna:
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
