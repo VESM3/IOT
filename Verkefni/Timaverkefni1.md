@@ -6,7 +6,7 @@
 ---
 
 #### 1. Að tengjast Raspberry Pi (15%)
-1. Settu SD minniskortið (frá kennara) í RaspberryPi og tengdu við rafmagn (usb power port).
+1. Settu SD minniskortið (frá kennara) sem inniheldur Bullsey stýrikerfi í RaspberryPi og tengdu við rafmagn (usb power port).
 1. **SSH tenging**. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
 1. Notaðu  _hostname.tskoli.is_ í skólanum og _hostname.local_ heima     
       ```Linux
@@ -47,6 +47,9 @@
 **Ath**. Ef það er blár skjár sjá [How to Fix Raspberry Pi's 'Cannot Currently Show the Desktop' Error](https://www.tomshardware.com/how-to/fix-cannot-currently-show-desktop-error-raspberry-pi)
 [PuTTY](https://www.putty.org/) og fylgdu [Connecting via SSH](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#connecting-via-ssh).
 -->
+
+
+**Ath.** [Leiðbeiningar](https://github.com/VESM3/IOT/blob/main/Efni/RPiuppsetning.md) til að setja upp RPi stýrikerfi og wifi stillingar frá grunni.
 
 ---
 
