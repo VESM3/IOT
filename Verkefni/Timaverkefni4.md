@@ -6,7 +6,7 @@ Machine to machine [(M2M)](https://en.wikipedia.org/wiki/Machine_to_machine) is 
 
 ---
 
-### 4.1 Remote GPIO með RPi. (10%)
+### 4.1 Remote GPIO með RPi. (20%)
 Að stýra RPi + GPIO yfir netið frá tölvu. 
 
 1. Lestu vel yfir og gerðu viðeigandi stillingar skv. [Configuring Remote GPIO](https://gpiozero.readthedocs.io/en/stable/remote_gpio.html#configuring-remote-gpio) þannig að þú getur stýrt RPi frá tölvunni þinni, notaðu VSCode.  
@@ -14,12 +14,14 @@ Að stýra RPi + GPIO yfir netið frá tölvu.
 
 ---
 
-### 4.2 Remote GPIO. (30%)
+### 4.2 Remote GPIO. (20%)
 
 - Tveir saman.
 1. Framkvæmdu [tilraun 5.1](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#led-button) með tveimur RPI.
 1. Framkvæmið [tilraun 5.2](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#led-2-buttons) með tvo RPi og tölvu.
+<!--
 1. Framkvæmið [tilraun 5.4](https://gpiozero.readthedocs.io/en/stable/recipes_remote_gpio.html#multi-room-doorbell) með tvo RPI og tölvu.
+-->
 
 ---
 
