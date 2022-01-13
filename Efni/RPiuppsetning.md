@@ -19,7 +19,7 @@
 ### 2. Wifi stilling á SD kort 
 
 1. Búðu til skránna `wpa_supplicant.conf`
-2. Settu eftirfarandi Wifi stillingar í skránna:
+2. Settu eftirfarandi Wifi stillingar fyrir skólann í skránna:
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -29,6 +29,6 @@ network={
     key_mgmt=NONE
 }
 ```
+**Ath** Til að fá wifi líka heima og í skólanum þá þarftu að breyta `wpa_supplicant.conf` skránni, sjá [leiðbeiningar](https://github.com/VESM3/IOT/blob/main/Efni/wifi.md)
 3. vistaðu skránna í  `/boot/ directory` á SD kortinu.
 
-**Ath** Til að fá wifi heima og í skólanum þá getur þú breytt wpa_supplicant.conf skránni eftirá, sjá [leiðbeiningar](https://github.com/VESM3/IOT/blob/main/Efni/wifi.md)
