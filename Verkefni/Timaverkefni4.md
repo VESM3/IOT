@@ -58,7 +58,7 @@ Að stýra RPi + GPIO yfir netið frá tölvu.
 ---
 
 ### 4.5 ESP32 og RPi. (20%)
-- tveir saman
+- einn eða tveir saman
 
 1. Tengdu buzzer við ESP32.
 1. Búið til einfalda vefsíðu sem tekur við [HTTP requests](https://www.w3schools.com/tags/ref_httpmethods.asp) sem er hýst á ESP32 vefþjóni (STA mode). 
