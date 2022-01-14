@@ -37,7 +37,7 @@ Að stýra RPi + GPIO yfir netið frá tölvu.
 
 
 #### Athugaðu:
-- Install leiðbeiningar fyrir Mac tölvur: [Guide](https://www.hackster.io/shahizat005/getting-started-with-esp32-on-a-mac-4b3997#toc-installing-esp32-add-on-in-arduino-ide-4
+- Install leiðbeiningar fyrir Mac tölvur: [Guide](https://www.hackster.io/shahizat005/getting-started-with-esp32-on-a-mac-4b3997#toc-installing-esp32-add-on-in-arduino-ide-4) og [driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
 https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) og [driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 - ESP32 notast við 3.3V logic levels fyrir samskipti 
