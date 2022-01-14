@@ -54,7 +54,9 @@ Að stýra RPi + GPIO yfir netið frá tölvu.
 ### 4.4 ESP32 sem vefþjónn. (20%)
 1. Fylgdu eftir báðum tilraununum í [Create A Simple ESP32 Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/).
 
-**ath** Það gæti verið nauðsynlegt að breyta ssid **ef** það eru fleiri en tveir að tengjast wifi, sjá t.d. [How to Set an ESP32 Access Point (AP) for Web Server](https://randomnerdtutorials.com/esp32-access-point-ap-web-server/)
+<!--
+**Kennari: Skoða** Það gæti verið nauðsynlegt að breyta ssid **ef** það eru fleiri en tveir að tengjast wifi, sjá t.d. [How to Set an ESP32 Access Point (AP) for Web Server](https://randomnerdtutorials.com/esp32-access-point-ap-web-server/)
+-->
 
 ---
 
