@@ -62,7 +62,7 @@ Að stýra RPi + GPIO yfir netið frá tölvu.
 - einn eða tveir saman
 
 1. Tengdu buzzer við ESP32.
-1. Búið til einfalda vefsíðu sem tekur við [HTTP requests](https://www.w3schools.com/tags/ref_httpmethods.asp) sem er hýst á ESP32 vefþjóni (STA mode). 
+1. Búðu til einfalda vefsíðu sem tekur við [HTTP requests](https://www.w3schools.com/tags/ref_httpmethods.asp) sem er hýst á ESP32 vefþjóni (STA mode). 
 1. Með takka (eða tveimur) tengdan við RPi á að vera hægt að kveikja og slökkva á buzzernum með notkun GET request yfir netið.
 
 
