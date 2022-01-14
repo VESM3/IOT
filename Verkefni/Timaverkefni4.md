@@ -30,7 +30,7 @@ Að stýra RPi + GPIO yfir netið frá tölvu.
 1. Lestu þig til um ESP32, [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
 1. Svo þú getir notað ESP32 með Arduino IDE þá er einfaldasta leiðin að installa með [board manager](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html#installing-using-boards-manager) að **Windows**. 
    - Install leiðbeiningar fyrir Mac tölvur: [Guide](https://www.hackster.io/shahizat005/getting-started-with-esp32-on-a-mac-4b3997#toc-installing-esp32-add-on-in-arduino-ide-4) og [driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
-1. Veldu ESP32 DEV í Tools -> Board í Arduino IDE Láttu [LED blikka með ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/tutorials/blink.html) 
+1. Veldu **ESP32 DEV Module** í Tools -> Board í Arduino IDE Láttu [LED blikka með ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/tutorials/blink.html) 
    - Þetta er rétt [pinout](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png).
    - pinni sem er númeraðu 2 er sama og GPIO2 (ekki nota D2)
    - svarta snúran er eingöngu power snúra. Notaðu blá USB mircro data kapalsnúru 
