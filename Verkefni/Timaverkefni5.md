@@ -13,28 +13,31 @@
 
 ### 5.2 MQTT með RPi (40%)
 
-1. Lestu eftirfarandi [Connect your device to the Internet](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#connect-your-device-to-the-internet). 
-1. Fylgdu leiðbeiningum sem snúa að **Raspberry Pi** (ekki Arduino/Virtual) þar sem þú:
+1. Lestu eftirfarandi um [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction). 
+1. Fylgdu svo leiðbeiningum sem snúa að **Raspberry Pi** (ekki Arduino/Virtual) í greininni þar sem þú:
    1.  tengir náttljósið (IoT hlut úr 5.1) sem MQTT client við [Eclipse Mosquitto](https://test.mosquitto.org/) sem er open-source test MQTT broker. 
-   1.  Sendir birtugildin í JSON sniði til MQTT broker.
-   1.  Python app á tölvunni þinni (server code) sendir skipun um að kveikja eða slökkva á náttljósinu (LED) útfrá ákveðnum birtugildum.
+   1.  RPi Sendir birtugildin í JSON sniði til MQTT broker.
+   1.  Python app á tölvunni þinni (server code) hlustar (subscribe) á MQTT broker.
+   1.  Tölva sendir skipun (publish) um að kveikja eða slökkva á náttljósinu (LED) útfrá ákveðnum birtugildum.
 
 ---
 
 ### 5.3 MQTT með ESP32 (20%)
 
-1. Gerðu það sama og í 5.2 en núna með ESP32 sem MQTT client. Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/
-1. Bjargir:
-   - [BH1750](https://www.arduino.cc/reference/en/libraries/bh1750/)
-      - SDA (SDI) = GPIO21 og SCL (SCK) = GPIO22 
-   - [Arduino JSON](https://arduinojson.org/)
-   - Wifi og MQTT Client fyrir ESP32 t.d. <br> [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) byggt ofaná [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient), [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) eða eitthvað annað af netinu.
-   
+Gerðu það sama og í 5.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
+   - Prófaðu [BH1750](https://www.arduino.cc/reference/en/libraries/bh1750/) með ESP32, [sýnidæmi](https://github.com/claws/BH1750#example)
+      - SDA (SDI) = GPIO21
+      - SCL (SCK) = GPIO22 
+   - Tengdu ESP32 við Wifi.
+   - Notaðu MQTT Client fyrir ESP32, t.d. [PubSubClient](https://github.com/knolleary/pubsubclient) eða [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/)
+   - Notaðu [Arduino JSON](https://arduinojson.org/)
+   - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
 
-<!--
-1. Skoða [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/)
-1. Tengdu [jarðvegsmælir](https://how2electronics.com/capacitive-soil-moisture-sensor-esp8266-esp32-oled-display/) við ESP32 og kannaðu rakastigið.
--->
+
+**Bjargir til viðmiðunar:**
+- [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) 
+- [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction)
+  - Skoða lauslega Arduino útfærslu.
 
 ---
 
