@@ -28,7 +28,7 @@
    - [BH1750](https://www.arduino.cc/reference/en/libraries/bh1750/)
       - SDA (SDI) = GPIO21 og SCL (SCK) = GPIO22 
    - [Arduino JSON](https://arduinojson.org/)
-   - Wifi og MQTT Client fyrir ESP32 t.d; [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) byggt ofaná [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient), [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) eða eitthvað annað af netinu.
+   - Wifi og MQTT Client fyrir ESP32 t.d. <br> [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) byggt ofaná [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient), [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) eða eitthvað annað af netinu.
    
 
 <!--
