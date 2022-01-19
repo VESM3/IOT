@@ -23,12 +23,13 @@
 
 ### 5.3 MQTT með ESP32 (30%)
 
-1. Gerðu það sama og í 5.2 en núna með ESP32 sem MQTT client.
-1. Skoðaðu td:
+1. Gerðu það sama og í 5.2 en núna með ESP32 sem MQTT client. Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/
+1. Bjargir:
    - [BH1750](https://www.arduino.cc/reference/en/libraries/bh1750/)
       - SDA (SDI) = GPIO21 og SCL (SCK) = GPIO22 
-   - [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) byggt ofaná [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient)
    - [Arduino JSON](https://arduinojson.org/)
+   - Wifi og MQTT Client fyrir ESP32 t.d; [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) byggt ofaná [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient), [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) eða eitthvað annað af netinu.
+   
 
 <!--
 1. Skoða [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/)
