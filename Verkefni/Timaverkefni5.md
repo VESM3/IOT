@@ -15,7 +15,7 @@
 
 1. Lestu eftirfarandi [Connect your device to the Internet](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#connect-your-device-to-the-internet). 
 1. Fylgdu leiðbeiningum sem snúa að **Raspberry Pi** (ekki Arduino/Virtual) þar sem þú:
-   1.  tengir náttljósið (IoT hlut) sem MQTT client við [Eclipse Mosquitto](https://test.mosquitto.org/) sem er open-source test MQTT broker. 
+   1.  tengir náttljósið (IoT hlut úr 5.1) sem MQTT client við [Eclipse Mosquitto](https://test.mosquitto.org/) sem er open-source test MQTT broker. 
    1.  Sendir birtugildin í JSON sniði til MQTT broker.
    1.  Python app á tölvunni þinni (server code) sendir skipun um að kveikja eða slökkva á náttljósinu (LED) útfrá ákveðnum birtugildum.
 
