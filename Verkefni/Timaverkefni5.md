@@ -11,7 +11,7 @@
  
 ---
 
-### 5.2 MQTT með RPi (30%)
+### 5.2 MQTT með RPi (40%)
 
 1. Lestu eftirfarandi [Connect your device to the Internet](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#connect-your-device-to-the-internet). 
 1. Fylgdu leiðbeiningum sem snúa að **Raspberry Pi** (ekki Arduino/Virtual) þar sem þú:
@@ -21,7 +21,7 @@
 
 ---
 
-### 5.3 MQTT með ESP32 (30%)
+### 5.3 MQTT með ESP32 (20%)
 
 1. Gerðu það sama og í 5.2 en núna með ESP32 sem MQTT client. Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/
 1. Bjargir:
