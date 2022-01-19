@@ -36,8 +36,7 @@ Gerðu það sama og í 5.2 en núna með ESP32 sem MQTT client (í staðinn fyr
 
 **Bjargir til viðmiðunar:**
 - [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) 
-- [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction)
-  - Skoða lauslega Arduino útfærslu.
+- [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction), skoða lauslega Arduino útfærslu.
 
 ---
 
