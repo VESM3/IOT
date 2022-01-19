@@ -6,7 +6,7 @@
 
 ### 5.1 Náttljós með RPi (20%)
 
-1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigsgildin.
+1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigsgildin. Sjá t.d. [hér](https://www.raspberrypi-spy.co.uk/2015/03/bh1750fvi-i2c-digital-light-intensity-sensor/)
 1. Útbúðu náttljós með BH1750 ljósnemanum, LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtuskilyrði.
  
 ---
