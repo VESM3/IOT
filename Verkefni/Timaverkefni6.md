@@ -7,9 +7,9 @@
 
 ### 6.1 Adafruit IO umhverfið (10%)
 1. AdafruitIO+ aðgangur
-   - Náðu í Adarfuit IO+ aðgang (1 ár frítt) hjá [Github Student Pack](https://education.github.com/pack) og tengdu saman Github og [Adafruit](https://www.adafruit.com/) reikning.
-   - Í Adafruit reikningnum skaltu velja `services`, `view discount` (þar er kóðaruna fyrir Adafruit IO).
-   - Skráðu þig inn hjá [Adafruit IO](https://io.adafruit.com/). Veldu `Upgrade to IO+` sem er neðst á síðunni og smelltu svo á hnappinn `Redeem a Coupon or Pass` og settu inn rununa til að fá 1 ár frítt. Ath. það þarf aldrei að gefa upp kredikortaupplýsingar.
+   - Náðu í Adarfuit IO+ aðgang (1 ár frítt) hjá [Github Student Pack](https://education.github.com/pack) og tengdu saman Github og Adafruit reikning.
+   - Skráðu þig inn hjá [Adafruit IO](https://io.adafruit.com/). Í Adafruit reikningnum skaltu velja `services`, `view discount` (þar er kóðaruna fyrir Adafruit IO).
+   - Veldu Profile og veldu `Upgrade to IO+` sem er neðst á síðunni og smelltu svo á hnappinn `Redeem a Coupon or Pass` linkinn neðarlega, hægra megin og settu inn rununa til að fá 1 ár frítt. (Ath. það þarf aldrei að gefa upp kredikortaupplýsingar).
 1. Skoðaðu [Welcome to Adafruit IO](https://learn.adafruit.com/welcome-to-adafruit-io) , skoðaðu sérstaklega [Feeds](https://learn.adafruit.com/adafruit-io-basics-feeds) og [Dashboards](https://learn.adafruit.com/adafruit-io-basics-dashboards). Hér eru líka [myndbönd](https://learn.adafruit.com/all-the-internet-of-things-episode-four-adafruit-io/how-adafruit-io-works).
 1. Fylgdu tilraun í myndbandinu [Connecting the Raspberry Pi to Adafruit IO cloud](https://www.youtube.com/watch?v=IfzpoFGkmns)
 
