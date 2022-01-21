@@ -51,8 +51,11 @@ Kynntu þér PIR og notaðu hreyfisyknjara til að kveikja á LED.
 einn eða tveir nemendur saman
 
 1. Taktu upp stutt myndband með PiCam. Sjá t.d. [Video to file](https://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-video-to-a-file).
-1. Settu upp myndbandsstreymi, hýstu á vefsíðu eða notaðu VLC. [sýnidæmi 1](https://github.com/miguelgrinberg/flask-video-streaming), [sýnidæmi 2](https://www.tomshardware.com/how-to/stream-live-video-raspberry-pi)
+1. Settu upp myndbandsstreymi, hýstu á vefsíðu á ESP32
 
+<!--
+1. Settu upp myndbandsstreymi, hýstu á vefsíðu eða notaðu VLC. [sýnidæmi 1](https://github.com/miguelgrinberg/flask-video-streaming), [sýnidæmi 2](https://www.tomshardware.com/how-to/stream-live-video-raspberry-pi)
+-->
 ---
 
 ### Námsmat og skil.
