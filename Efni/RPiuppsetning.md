@@ -43,6 +43,7 @@ network={
 
 ```
 4. Vistaðu skránna í  `/boot/ directory` á SD kortinu.
+5. Gerðu viðeigandi stillingar í RPi og uppfærðu stýrikerfið [leiðbeiningar](https://github.com/VESM3/IOT/blob/main/Verkefni/Timaverkefni1.md#1-a%C3%B0-tengjast-raspberry-pi-15).
 
 <!--
 **Ath** Til að fá wifi líka heima og í skólanum þá þarftu að breyta `wpa_supplicant.conf` skránni, sjá [leiðbeiningar](https://github.com/VESM3/IOT/blob/main/Efni/wifi.md#automatic-switching-between-wifi-network). vistaðu skránna í  `/boot/ directory` á SD kortinu.
