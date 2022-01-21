@@ -11,13 +11,14 @@
    - Skráðu þig inn hjá [Adafruit IO](https://io.adafruit.com/). Í Adafruit reikningnum skaltu velja `services`, `view discount` (þar er kóðaruna fyrir Adafruit IO).
    - Veldu Profile og veldu `Upgrade to IO+` sem er neðst á síðunni og smelltu svo á hnappinn `Redeem a Coupon or Pass` linkinn neðarlega, hægra megin og settu inn rununa til að fá 1 ár frítt. (Ath. það þarf aldrei að gefa upp kredikortaupplýsingar).
 1. Skoðaðu [Welcome to Adafruit IO](https://learn.adafruit.com/welcome-to-adafruit-io) , skoðaðu sérstaklega [Feeds](https://learn.adafruit.com/adafruit-io-basics-feeds) og [Dashboards](https://learn.adafruit.com/adafruit-io-basics-dashboards). Hér eru líka [myndbönd](https://learn.adafruit.com/all-the-internet-of-things-episode-four-adafruit-io/how-adafruit-io-works).
-1. Fylgdu tilraun í myndbandinu [Connecting the Raspberry Pi to Adafruit IO cloud](https://www.youtube.com/watch?v=IfzpoFGkmns)
-
+1. Notaðu [Adafruit IO Python safn](https://adafruit-io-python-client.readthedocs.io/en/latest/index.html) og fylgdu tilraun í myndbandinu [Connecting the Raspberry Pi to Adafruit IO cloud](https://www.youtube.com/watch?v=IfzpoFGkmns). 
+  
+<!--
 #### Adafruit söfn og APIs:
-   - [Adafruit IO Python safn](https://adafruit-io-python-client.readthedocs.io/en/latest/index.html)  
    - [Adafruit IO MQTT API](https://io.adafruit.com/api/docs/mqtt.html#adafruit-io-mqtt-api)
    - [Adafruit IO HTTP API](https://io.adafruit.com/api/docs/#adafruit-io-http-api)
- 
+-->
+
 <!-- 
 - [Python kóði með tutorials](https://github.com/adafruit/Adafruit_IO_Python/tree/master/examples/basics).
 - AdafruitIO [forum](https://forums.adafruit.com/viewforum.php?f=56) og [discord](https://discord.com/invite/adafruit) 
