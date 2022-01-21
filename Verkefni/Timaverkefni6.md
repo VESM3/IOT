@@ -80,7 +80,7 @@ Sjá til viðmiðunar:
 Skoðaðu [Triggers](https://learn.adafruit.com/all-the-internet-of-things-episode-four-adafruit-io/triggers) og gerðu eftirfarandi:
 
 1. Notaðu [Schedule Triggers (python)](https://learn.adafruit.com/adafruit-io-basics-scheduled-triggers) til að kveikja og svo slökkva á LED daglega á einhverjum sérstökum tíma.
-1. Búðu til tvo `reactive trigger` í Adafruit IO, annar þeirra lætur lED á þegar það dimmir en hinn slekkur á LED þegar það er bjart. <br>
+1. Búðu til tvo `reactive trigger` í Adafruit IO, annar þeirra lætur LED á þegar það dimmir en hinn slekkur á LED þegar það er bjart. <br>
   - Tengdu LDR ljósviðnám í brauðbretti tengt við ESP32. <br>
   - Tengdu led peru í brauðbretti með viðnámi tengt við RaspberryPi. <br>
 
