@@ -19,15 +19,31 @@
 ### 2. Wifi stilling á SD kort 
 1. Settu SD kortið í usb lykil í tölvuna.
 1. Búðu til skránna `wpa_supplicant.conf` td. með VSCode editor.
-1. Settu eftirfarandi Wifi stillingar fyrir skólann í skránna:
+1. Settu eftirfarandi Wifi stillingar fyrir skólann og heima í skránna:
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=IS
-network={
-    ssid="Taekniskolinn"
-    key_mgmt=NONE
-}
-```
-**Ath** Til að fá wifi líka heima og í skólanum þá þarftu að breyta `wpa_supplicant.conf` skránni, sjá [leiðbeiningar](https://github.com/VESM3/IOT/blob/main/Efni/wifi.md#automatic-switching-between-wifi-network). vistaðu skránna í  `/boot/ directory` á SD kortinu.
 
+network={
+	ssid="WiFiSSIDforNetworkHome"
+	priority=2
+	psk="passwordforHome"
+	id_str="home"
+	key_mgmt=WPA-PSK   # algengt og má sleppa, getur verið mismunandi e. protocol
+
+}
+network={
+	ssid="Taekniskolinn"  
+    	priority=1 
+    	id_str="school"
+    	key_mgmt=NONE
+}
+
+
+```
+1. Vistaðu skránna í  `/boot/ directory` á SD kortinu.
+
+<!--
+**Ath** Til að fá wifi líka heima og í skólanum þá þarftu að breyta `wpa_supplicant.conf` skránni, sjá [leiðbeiningar](https://github.com/VESM3/IOT/blob/main/Efni/wifi.md#automatic-switching-between-wifi-network). vistaðu skránna í  `/boot/ directory` á SD kortinu.
+-->
