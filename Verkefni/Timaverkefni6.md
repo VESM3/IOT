@@ -14,7 +14,7 @@
 1. Fylgdu tilraun í myndbandinu [Connecting the Raspberry Pi to Adafruit IO cloud](https://www.youtube.com/watch?v=IfzpoFGkmns)
 
 #### Adafruit söfn og APIs:
-   - [Adafruit IO Python safn](https://adafruit-io-python-client.readthedocs.io/en/latest/quickstart.html)  
+   - [Adafruit IO Python safn](https://adafruit-io-python-client.readthedocs.io/en/latest/index.html)  
    - [Adafruit IO MQTT API](https://io.adafruit.com/api/docs/mqtt.html#adafruit-io-mqtt-api)
    - [Adafruit IO HTTP API](https://io.adafruit.com/api/docs/#adafruit-io-http-api)
  
