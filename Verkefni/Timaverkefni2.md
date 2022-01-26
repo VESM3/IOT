@@ -48,13 +48,11 @@ Kynntu þér PIR og notaðu hreyfisyknjara til að kveikja á LED.
 ---
 
 #### 5. Myndbandsupptaka (20%)
-einn eða tveir nemendur saman
 
-1. Taktu upp stutt myndband með PiCam. Sjá t.d. [Video to file](https://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-video-to-a-file).
-1. Settu upp myndbandsstreymi, hýstu á vefsíðu á ESP32
+Með PiCam og RPi er hægt að taka upp og streyma myndbönd. Taktu upp stutt myndband með PiCam. Sjá t.d. [Video to file](https://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-video-to-a-file).
 
 <!--
-1. Settu upp myndbandsstreymi, hýstu á vefsíðu eða notaðu VLC. [sýnidæmi 1](https://github.com/miguelgrinberg/flask-video-streaming), [sýnidæmi 2](https://www.tomshardware.com/how-to/stream-live-video-raspberry-pi)
+1. Settu upp myndbandsstreymi, hýstu á vefsíðu með ESP32 eða notaðu VLC. [sýnidæmi 1](https://github.com/miguelgrinberg/flask-video-streaming), [sýnidæmi 2](https://www.tomshardware.com/how-to/stream-live-video-raspberry-pi)
 -->
 ---
 
@@ -67,11 +65,7 @@ einn eða tveir nemendur saman
 ---
 
 <!--
-#### 5. Öryggiskerfi?
-  1. Stýrðu 2 x servo (pan-tilt) með stýripinna og taktu mynd með að smella á takka.
-  1. Útbúðu sjálfvirkt hreyfikerfi, taktu mynd þegar það er einhver einhver hreyfing í umhverfinu (PIR).
-
 #### Remote Camera með Bluedot. 
-RasberryPI tekur mynd þegar smelt er á Blue Dot í snjallsíma. Fylgdu tutorial: [Bluetooth and BlueDot using remote camera !](https://bluedot.readthedocs.io/en/latest/recipes.html#remote-camera)
+RasberryPI tekur mynd þegar smellt er á Blue Dot í snjallsíma. Fylgdu tutorial: [Bluetooth and BlueDot using remote camera !](https://bluedot.readthedocs.io/en/latest/recipes.html#remote-camera)
 -->
 
