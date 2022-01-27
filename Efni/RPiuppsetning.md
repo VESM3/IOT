@@ -1,6 +1,6 @@
 
-### 1. Uppsetning á RPi OS stýrikerfi  á microSD kort og usb lykli í tölvunni þinni 
-   1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+### 1. Uppsetning á RPi OS stýrikerfi 
+   1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) með microSD kort og usb lykli í tölvunni 
    1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34), 
        - veldu **Raspberry Pi OS (Legacy)** sem er **Debian Buster** stýrikerfið (ath. það er ekki default) 
        - Á lyklaborði `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
@@ -42,7 +42,7 @@ network={
 
 
 ```
-4. Vistaðu skránna í  `/boot/ directory` á SD kortinu.
+4. Vistaðu skránna í rótina (`/boot`) á SD kortinu.
 5. Gerðu viðeigandi stillingar í RPi og uppfærðu stýrikerfið sjá nánar [Tímaverkefni 1](https://github.com/VESM3/IOT/blob/main/Verkefni/Timaverkefni1.md#1-a%C3%B0-tengjast-raspberry-pi-15).
 
 <!--
