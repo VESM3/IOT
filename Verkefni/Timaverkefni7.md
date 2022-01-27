@@ -34,7 +34,7 @@ https://learn.adafruit.com/time-tracking-cube
 ---
 
 ### 7.4 IFTTT WebHooks (20%) 
-1. Notaðu takka tengt við RPi. Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET requests, sjá nánar [What is a Webhook? - IFTTT](https://ifttt.com/explore/what-is-a-webhook). <br>
+1. Notaðu takka tengt við RPi. Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET requests, sjá nánar [What is a Webhook? - IFTTT](https://ifttt.com/explore/what-is-a-webhook). Leystu þetta án þess að nota Adafruit <br>
 1. Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) þegar það hefur verið smellt á takkann<br>
 
 **Bjargir:**
