@@ -45,18 +45,16 @@ https://learn.adafruit.com/time-tracking-cube
 ---
 
 ### 7.5 Að greina hlut með PiCam (30%) 
-Væntanlegt!
-
-<!--
-**Í vinnslu**<br>
 
 Notaðu RPi, PiCam og [myndgreiningavefþjónustu](https://nordicapis.com/7-best-image-recognition-apis/) til að greina hluti á mynd. 
 
-**Bjargir**
 - [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview)
 - [Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/#overview)
 
--->
+**Bjargir**
+- [Getting Started with Microsoft Azure Computer Vision API in Python](https://www.youtube.com/results?search_query=Getting+Started+with+Microsoft+Azure+Computer+Vision+API+in+Python) 
+- [rpi + azure, einfalt demo](https://brendg.co.uk/2021/07/06/having-fun-with-azure-cognitive-services/)
+- [Cognitive Computer Vision (Azure / Python)](https://geektechstuff.com/2019/03/14/cognitive-computer-vision-azure-python/)
 
 ---
 
