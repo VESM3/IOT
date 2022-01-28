@@ -46,16 +46,20 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 
 ### 7.5 Að greina hlut með PiCam (30%) 
 _Í vinnslu_
-
-Notaðu RPi, PiCam og [myndgreiningavefþjónustu](https://nordicapis.com/7-best-image-recognition-apis/) til að greina hluti á mynd. 
+[myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti eða andlit á mynd, hljóð og texta.
+Notaðu RPi, PiCam og Microsft Azure, cognitive-services (sjá Github Student Develpoper Pack) til að greina hlut eða andlit á ljósmynd. 
 
 - [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview)
 - [Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/#overview)
 
+<!--
 **Bjargir**
+
 - [Getting Started with Microsoft Azure Computer Vision API in Python](https://www.youtube.com/results?search_query=Getting+Started+with+Microsoft+Azure+Computer+Vision+API+in+Python) 
-- [rpi + azure, einfalt demo](https://brendg.co.uk/2021/07/06/having-fun-with-azure-cognitive-services/)
 - [Cognitive Computer Vision (Azure / Python)](https://geektechstuff.com/2019/03/14/cognitive-computer-vision-azure-python/)
+- [rpi + azure, einfalt demo](https://brendg.co.uk/2021/07/06/having-fun-with-azure-cognitive-services/)
+
+-->
 
 ---
 
