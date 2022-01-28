@@ -45,6 +45,7 @@ https://learn.adafruit.com/time-tracking-cube
 ---
 
 ### 7.5 Að greina hlut með PiCam (30%) 
+_Í vinnslu_
 
 Notaðu RPi, PiCam og [myndgreiningavefþjónustu](https://nordicapis.com/7-best-image-recognition-apis/) til að greina hluti á mynd. 
 
