@@ -57,7 +57,7 @@ Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-s
 
 
 **Bjargir**
-- [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python#analyze-an-image)
+- [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python-preview)
 
 <!--
 - [Getting Started with Microsoft Azure Computer Vision API in Python](https://www.youtube.com/results?search_query=Getting+Started+with+Microsoft+Azure+Computer+Vision+API+in+Python) 
