@@ -48,11 +48,11 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum.
 
-Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) eða [Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/#overview) frá Microsoft Azure (sjá Github Student Developer Pack), RPi og PiCam til að greina hlut eða andlit á ljósmynd. 
+Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure (notaðu Github Student Developer Pack), RPi og PiCam til að greina hluti á ljósmynd. 
 
-1. Taktu mynd með PiCam.
-1. Notaðu vefþjónustu til að greina myndina.
-1. Birtu gögnin (JSON) frá myndgreiningunni.
+1. Notaðu RPi og taktu mynd með PiCam (prófaðu fyrst að nota bara tölvuna og tilbúna ljósmynd)
+1. Notaðu vefþjónustu til að greina myndina (gerist þegar búið er að taka mynd með PiCam).
+1. Birtu gögnin (t.d. JSON) frá myndgreiningunni.
 
 <!--
 **Bjargir**
