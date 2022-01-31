@@ -45,7 +45,6 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 ---
 
 ### 7.5 Að greina hlut með PiCam (30%) 
-_Í vinnslu_
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti eða andlit, liti og texta á ljósmyndum.
 Notaðu RPi, PiCam og Microsft Azure, cognitive-services (sjá Github Student Develpoper Pack) til að greina hlut eða andlit á ljósmynd. 
