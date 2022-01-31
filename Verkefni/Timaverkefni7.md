@@ -46,21 +46,23 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 
 ### 7.5 Myndgreining (30%) 
 
-[Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum.
+_Í vinnslu_
 
+[Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum.
 Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure (notaðu Github Student Developer Pack), RPi og PiCam til að greina hluti á ljósmynd. 
 
 1. Notaðu RPi og taktu mynd með PiCam (prófaðu fyrst að nota bara tölvuna og tilbúna ljósmynd)
 1. Notaðu vefþjónustu til að greina myndina (á að gerast sjálfvirkt, þegar búið er að taka mynd með PiCam).
 1. Birtu gögnin frá myndgreiningunni.
 
-<!--
-**Bjargir**
 
+**Bjargir**
+- [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python#analyze-an-image)
+
+<!--
 - [Getting Started with Microsoft Azure Computer Vision API in Python](https://www.youtube.com/results?search_query=Getting+Started+with+Microsoft+Azure+Computer+Vision+API+in+Python) 
 - [Cognitive Computer Vision (Azure / Python)](https://geektechstuff.com/2019/03/14/cognitive-computer-vision-azure-python/)
 - [rpi + azure, einfalt demo](https://brendg.co.uk/2021/07/06/having-fun-with-azure-cognitive-services/)
-
 -->
 
 ---
