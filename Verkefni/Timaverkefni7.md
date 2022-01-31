@@ -52,7 +52,7 @@ Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-s
 
 1. Notaðu RPi og taktu mynd með PiCam (prófaðu fyrst að nota bara tölvuna og tilbúna ljósmynd)
 1. Notaðu vefþjónustu til að greina myndina (á að gerast sjálfvirkt, þegar búið er að taka mynd með PiCam).
-1. Birtu gögnin (t.d. JSON) frá myndgreiningunni.
+1. Birtu gögnin frá myndgreiningunni.
 
 <!--
 **Bjargir**
