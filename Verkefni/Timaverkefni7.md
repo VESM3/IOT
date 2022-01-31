@@ -44,7 +44,7 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 
 ---
 
-### 7.5 Að greina hlut með PiCam (30%) 
+### 7.5 Myndgreining (30%) 
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum.
 
