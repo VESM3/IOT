@@ -52,13 +52,13 @@ Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-s
 
 1. Myndgreining með Computer Vision
    1. notaðu VSCode og python á fartölvunni.
-   1. notaðu Computer Vision vefþjónustuna til að greina ljósmynd.
+   1. notaðu Computer Vision vefþjónustuna til að greina ljósmynd (minna en 4MB).
    1. birtu niðurstöðurnar frá myndgreiningunni.
 1. Notaðu RPi, PiCam og Computer Vision saman og birtu niðurstöður.
 
 **Bjargir**
-- [What is Computer Vision?](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview)
 - [Computer Vision with Microsoft Azure](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure)
+- [Computer Vision documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 - [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python-preview)
 - [myndbönd](https://www.youtube.com/hashtag/azureinpython)
 
