@@ -48,12 +48,12 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum.
-Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure (notaðu Github Student Developer Pack) til að greina hluti á ljósmynd. 
+Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina hluti á ljósmynd. 
 
 1. Myndgreining með Computer Vision
-   1. notaðu VSCode og python á fartölvunni.
-   1. notaðu Computer Vision vefþjónustuna ([kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py)) til að greina ljósmynd (minna en 4MB).
-   1. birtu niðurstöðurnar frá myndgreiningunni.
+   1. Búðu til aðgang hjá Azure via Github Student Developer Pack (gætir þurft að skrá þig út á Azure)
+   1. Gerðu viðeigandi stillingar hjá Azure til að geta notað Computer Vision. 
+   1. Notaðu VSCode og python á fartölvunni, ([kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py)) til að greina ljósmynd (minna en 4MB).
 1. Notaðu RPi, PiCam og Computer Vision saman og birtu niðurstöður.
 
 **Bjargir**
