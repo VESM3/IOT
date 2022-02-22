@@ -1,4 +1,4 @@
-## Raspberry Pi stilingar og uppsetning á stýrikerfi. 
+# Raspberry Pi 
 
 ### 1. Uppsetning á RPi OS stýrikerfi 
 1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) með microSD kort og usb lykli í tölvunni 
