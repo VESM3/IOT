@@ -15,6 +15,7 @@
 1. Veldu microSD kortið þitt og smelltu á write. **Ath** Ef hann býður upp í lokin að formata drif þá velja **Cancel**
 1. Fjarlægðu SD kortið úr tölvunni þegar þú ert búinn.
 
+---
 
 ### 2. Wifi stilling á SD kort 
 1. Settu SD kortið í usb lykil í tölvuna.
@@ -42,6 +43,8 @@ network={
 
 ```
 4. Vistaðu skránna í rótina (`/boot`) á SD kortinu.
+
+---
 
 ### 3. Stillingar á RPi stýrikerfi 
 
