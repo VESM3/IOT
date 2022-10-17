@@ -18,7 +18,7 @@
 ---
 
 #### 2. Nano ritill í terminal. (5%)
-1. Kynntu þér og notaðu [nano](https://www.nano-editor.org/) command-line ritil í terminal, búðu til skrá og prentaðu út nafnið þitt, sjá t.d. [Raspberry Pi – Run Python Script in the Terminal](https://roboticsbackend.com/raspberry-pi-run-python-script-in-the-terminal/). Prófaðu m.a. að nota músina, fá línunúmer og fleira.
+Kynntu þér og notaðu [nano](https://www.nano-editor.org/) command-line ritil í terminal, búðu til skrá og prentaðu út nafnið þitt, sjá t.d. [Raspberry Pi – Run Python Script in the Terminal](https://roboticsbackend.com/raspberry-pi-run-python-script-in-the-terminal/). Prófaðu m.a. að nota músina, fá línunúmer og fleira.
 
 
 ---
