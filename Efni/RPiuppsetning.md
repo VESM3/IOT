@@ -43,7 +43,7 @@ network={
 }
 
 ```
-4. Vistaðu skránna í rótina (`/boot`) á SD kortinu.
+4. Vistaðu skránna í rótina (`boot`) á SD kortinu.
 
 ---
 
