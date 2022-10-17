@@ -19,8 +19,8 @@
 
 #### 2. Nano ritill í terminal. (5%)
 1. Notaðu Linux skipanir til að skoða þig um í RPi stýrikerfinu. 
-1. Lærðu á og notaðu [nano](https://www.nano-editor.org/) command-line ritil í terminal.
-1. Búðu til skrá og prentaðu út nafnið þitt með python, sjá t.d. [Raspberry Pi – Run Python Script in the Terminal](https://roboticsbackend.com/raspberry-pi-run-python-script-in-the-terminal/).
+1. Lærðu að nota [nano](https://www.nano-editor.org/) command-line ritil í terminal. 
+1. Búðu til python skrá, notaðu nano ritil til að skrifa python kóða sem innheldur prentskipun með nafninu þínu. Keyrðu  svo python skránna í terminal. sjá [Raspberry Pi – Run Python Script in the Terminal](https://roboticsbackend.com/raspberry-pi-run-python-script-in-the-terminal/).
 
 
 ---
