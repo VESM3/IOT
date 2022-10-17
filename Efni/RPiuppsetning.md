@@ -3,7 +3,7 @@
 ### 1. Uppsetning á RPi OS stýrikerfi 
 1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) með microSD kort og usb lykli í tölvunni.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34), 
-	- veldu **Raspberry Pi OS (Legacy) with Desktop** sem er **Debian Buster 32-bit** stýrikerfið (ath. það er ekki default) 
+	- veldu **Raspberry Pi OS (Legacy)** sem er **Debian Buster 32-bit** stýrikerfið (ath. það er ekki default) 
 	- Á lyklaborði `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
         	- Veldu `to always use`
         	- hostname í `nafnið þitt` (ekk nota sérstafi/íslenska)
