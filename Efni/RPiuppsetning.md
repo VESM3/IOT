@@ -59,7 +59,7 @@ network={
       ```   
 1. Skrifaðu `sudo raspi-config` og veldu _Interfacing Options_, allt þar á vera **enabled**
 1. Uppfærðu RPi stýrikerfið með `sudo apt-get update` og svo `sudo apt-get upgrade`. Endurræstu svo RPi.
-
+1. Núnar er RPi alveg klárt!
 
 
 <!--
