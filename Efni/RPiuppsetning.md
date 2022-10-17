@@ -7,9 +7,9 @@
     2. Veldu Advanced options með lyklaborði `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
         - Veldu í Image customization options `to always use`
         - hostname í `nafnið þitt` (ekk nota sérstafi/íslenska) t.d. gunnarthorunnarson
-        - Enable SSH. Ekki breyta **pi** user en búðu til lykilorð t.d. _vesm3_
-        - Configure wifi: sleppa (gerum seinna)
-        - Wifi country: sleppa (gerum seinna)
+        - Enable SSH. Ekki breyta **pi** user og notaðu lykilorðið raspberry  (breytum seinna)
+        - Configure wifi: sleppa (gerum seinna í config skrá)
+        - Wifi country: sleppa (gerum seinna í config skrá)
         - Set local settings: Atlantic/Reykjavík
         - Keyboard layout: IS
 1. Veldu microSD kortið þitt og smelltu á write. **Ath** Ef hann býður upp í lokin að formata drif þá velja **Cancel**
