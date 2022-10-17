@@ -7,7 +7,7 @@
     2. Veldu Advanced options með lyklaborði `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
         - Veldu í Image customization options `to always use`
         - hostname í `nafnið þitt` (ekk nota sérstafi/íslenska) t.d. gunnarthorunnarson
-        - Enable SSH. Ekki breyta **pi** user og notaðu lykilorðið **raspberry**  (breytum seinna í stýrikerfinu)
+        - Enable SSH. Ekki breyta **pi** user og notaðu lykilorðið **raspberry**  (breytum seinna lykilorðinu)
         - Configure wifi: sleppa (gerum seinna í config skrá)
         - Wifi country: sleppa (gerum seinna í config skrá)
         - Set local settings: Atlantic/Reykjavík
