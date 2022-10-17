@@ -12,8 +12,8 @@
 1. Settu SD minniskortið (frá kennara) í RaspberryPi og tengdu við rafmagn (usb power port).
 1. Í fartölvunni þinni skrifaðu eftirfarandi í GitBash. (Ef **Mac/Linux** þá `terminal`, þú gætir þurft að nota `sudo`)
       ```Linux
-      ssh pi@hostname.tskoli.is   // hostname er mismunandi. 
-      password: raspberry
+      ssh pi@hostname.tskoli.is   // hostname er mismunandi milli nemanda. 
+      password: raspberry         // rétt lykilorð færðu frá kennara.
       ```  
 ---
 
