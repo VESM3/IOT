@@ -46,7 +46,7 @@ network={
 
 ---
 
-### 3. Stillingar á RPi stýrikerfi 
+### 3. Stillingar. Stýrikerfið á Raspberry Pi
 
 1. Settu SD minniskortið í RaspberryPi og tengdu við rafmagn (usb power port).
 1. **SSH tenging**. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
