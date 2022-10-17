@@ -52,7 +52,7 @@ network={
 1. Settu SD minniskortið í RaspberryPi og tengdu við rafmagn (usb power port).
 1. **SSH tenging**. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
 1. Notaðu  _pi@hostname.tskoli.is_ í skólanum og _pi@hostname.local_ ef þú ert heima. 
-    - hostname getur t.d. verið nafnið þitt (ekki sérstafi). Það er líka hægt að nota ip töluna `ssh pi@iptalan`      
+    - hostname getur t.d. verið nafnið þitt (ekki sérstafi). Það er líka hægt að nota ip töluna, pi@iptalan      
       ```Linux
       ssh pi@hostname.tskoli.is     # heima: ssh pi@hostname.local 
       password: raspberry
