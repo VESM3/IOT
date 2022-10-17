@@ -1,15 +1,15 @@
 # Raspberry Pi 
 
 ### 1. Uppsetning á RPi OS stýrikerfi 
-1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) með microSD kort og usb lykli í tölvunni.
+1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) forritið með microSD kort og usb lykli í tölvunni.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34), 
-	- veldu **Raspberry Pi OS (Legacy)** sem er **Debian Buster 32-bit** stýrikerfið (ath. það er ekki default) 
-	- Á lyklaborði `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
-        	- Veldu `to always use`
-        	- hostname í `nafnið þitt` (ekk nota sérstafi/íslenska)
-        	- Enable SSH og búðu til nýtt lykilorð 
-        	- Configure wifi: sleppa 
-        	- Wifi country: sleppa
+    1. Veldu **Raspberry Pi OS (Legacy)** sem er **Debian Buster 32-bit** stýrikerfið (ath. það er ekki default) 
+    2. Veldu Advanced options með lyklaborði `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
+        	- Veldu í Image customization options `to always use`
+        	- hostname í `nafnið þitt` (ekk nota sérstafi/íslenska) t.d. gunnarthorunnarson
+        	- Enable SSH. Ekki breyta **pi** user en búðu til lykilorð t.d. _vesm3_
+        	- Configure wifi: sleppa (gerum seinna)
+        	- Wifi country: sleppa (gerum seinna)
          	- Set local settings: Atlantic/Reykjavík
          	- Keyboard layout: IS
 1. Veldu microSD kortið þitt og smelltu á write. **Ath** Ef hann býður upp í lokin að formata drif þá velja **Cancel**
