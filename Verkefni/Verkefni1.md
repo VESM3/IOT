@@ -2,9 +2,7 @@
 
 - 15% af heildareinkunn.
 - Áætlaður tími: 8 klst
-- Raspberry Pi 
-- GPIO
-- RFID og OLED
+- Raspberry Pi, GPIO, RFID og OLED
 
 ---
 <!--
