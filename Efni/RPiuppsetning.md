@@ -36,7 +36,7 @@ network={
 
 }
 network={
-	ssid="Taekniskolinn"  
+	ssid="T Skoli Hotspot"  
     	priority=1 
     	id_str="school"
     	key_mgmt=NONE
