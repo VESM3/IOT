@@ -32,12 +32,12 @@ Notaðu [Thonny](https://thonny.org/) ritil á RPi OS. Búðu til python skrá o
 
 ---
 
-#### 3. GPIO: Blikkandi ljós. (10%)
+#### 3. GPIO: Blikkandi ljós. (5%)
 Láttu LED blikka á brauðbretti með python kóða. Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu og [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/) python safnið með kóðalausn. Nýttu þér kóðalausnir í [Basic Recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html). Hér er [GPIO Zero pinout](https://gpiozero.readthedocs.io/en/stable/cli_tools.html#pinout) þegar þú notar ekki T-Coppler.
 
 ---
 
-#### 4. GPIO: Blikkandi LED með fade. (10%)
+#### 4. GPIO: Blikkandi LED með fade. (5%)
 Láttu LED _fade_ inn og út.
 
 ---
@@ -63,7 +63,7 @@ Veldu þér tutorial til að fylgja úr [Basic Recipes](https://gpiozero.readthe
 1. RaspberryPi Zero er með þrjá SPI controllers, sjá nánar [SPI Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#spi-overview) 
 1. Prófaðu skrif- og lesgagnaðgerðir með RFID sbr. [How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    - Ekki gleyma að stilla RaspberryPi þannig að hann virkar með SPI 
-   - notað u RPi.Zero safnið ekki RPi.GPIO safnið 
+   - notaðu RPi.Zero safnið ekki RPi.GPIO safnið 
 
 #### RC522 pinnar (með T-cobbler)
 RC522 | Pinni
@@ -78,14 +78,14 @@ RST | #25
 
 ---
 
-#### 8. RFID og LEDs (10%)
+#### 8. RFID og LEDs (15%)
 Settu upp á brauðbretti RFID og tvö LEDs sbr eftirfarandi sýnidæmi [RFID reader (Arduino)](https://tutorial45.com/arduino-rfid-project-beginners/) en notaðu RaspberryPi í staðinn fyrir Arduino. 
 
 <!-- sjá [Enabling SPI on the Raspberry Pi](https://pimylifeup.com/raspberry-pi-spi/), ath ekki gera àpt update` -->
 
 ---
 
-#### 9. I2C og OLED (10%)
+#### 9. I2C og OLED (15%)
 1. Kynntu þér I2C með að lesa þessa grein [I2C](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/). 
 1. Lestu [Interface OLED Graphic Display Module with Arduino](https://lastminuteengineers.com/oled-display-arduino-tutorial/).
 1. Birtu nafnið þitt á OLED með Raspberry Pi Zero. Sjá t.d. [RPi OLED](https://www.electroniclinic.com/raspberry-pi-oled-display-i2c-ssd1306-display-module-interfacing-and-programming/) 
