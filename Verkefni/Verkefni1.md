@@ -114,9 +114,8 @@ Bjargir:
 ---
 
 <!--
-#### 11. Uppsetning á RPi stýrikerfi  (10%) 
-**heimaverkefni**
-
+#### 11. Uppsetning á RPi stýrikerfi  
+**heimaverkefni**<br>
 Settu upp RPi stýrikerfi skv. [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/RPiuppsetning.md) á tómt SD kort þannig að þú getur tengst
 RPi með wifi bæði heima og í skóla.
 
