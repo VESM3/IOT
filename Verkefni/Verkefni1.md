@@ -7,7 +7,7 @@
 - RFID og OLED
 
 ---
-
+<!--
 #### 1. Að tengjast Raspberry Pi með SSH
 1. Settu SD minniskortið (frá kennara) í RaspberryPi og tengdu við rafmagn (usb power port).
 1. Í fartölvunni þinni skrifaðu eftirfarandi í GitBash. (Ef **Mac/Linux** þá `terminal`, þú gætir þurft að nota `sudo`)
@@ -15,6 +15,13 @@
       ssh pi@hostname.tskoli.is   // hostname er mismunandi milli nemanda. 
       password: raspberry         // rétt lykilorð færðu frá kennara.
       ```  
+---
+-->
+
+#### 1. Thonny ritill. (5%)
+Notaðu [Thonny](https://thonny.org/) ritil á RPi OS. Búðu til python skrá og prentaðu út strenginn með nafninu þínu. 
+- [Get Started with Thonny IDE on Raspberry Pi OS](https://roboticsbackend.com/thonny-ide-raspberry-pi-os/) 
+
 ---
 
 #### 2. Nano ritill í terminal. (5%)
@@ -25,12 +32,12 @@
 
 ---
 
-#### 3. GPIO: Blikkandi ljós. (5%)
+#### 3. GPIO: Blikkandi ljós. (10%)
 Láttu LED blikka á brauðbretti með python kóða. Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu og [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/) python safnið með kóðalausn. Nýttu þér kóðalausnir í [Basic Recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html). Hér er [GPIO Zero pinout](https://gpiozero.readthedocs.io/en/stable/cli_tools.html#pinout) þegar þú notar ekki T-Coppler.
 
 ---
 
-#### 4. GPIO: Blikkandi LED með fade. (5%)
+#### 4. GPIO: Blikkandi LED með fade. (10%)
 Láttu LED _fade_ inn og út.
 
 ---
@@ -106,13 +113,15 @@ Bjargir:
 
 ---
 
-#### 11. Uppsetning á RPi stýrikerfi  (15%) 
+<!--
+#### 11. Uppsetning á RPi stýrikerfi  (10%) 
 **heimaverkefni**
 
 Settu upp RPi stýrikerfi skv. [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/RPiuppsetning.md) á tómt SD kort þannig að þú getur tengst
 RPi með wifi bæði heima og í skóla.
 
 ---
+-->
 
 ### Námsmat og skil
 
