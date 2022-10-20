@@ -98,9 +98,9 @@ OLED með ESP32 https://github.com/adafruit/Adafruit_SSD1306
 
 ---
 
-#### 10. Innskráningar- eða öryggiskerfi  (20%)
+#### 10. Auðkennis innskráningarkerfi  (20%)
 **Einn eða tveir nemendur saman**. <br>
-Setjið saman með OLED, RFID og gagnageymslu (dictionary eða skrá) öryggis- eða innskráningarkerfi.
+Setjið saman með OLED, RFID og gagnageymslu (dictionary eða skrá) auðkennis innskráningarkerfi.
 
 Bjargir:
 - [öryggishurðakerfi](https://create.arduino.cc/projecthub/wesee/toggle-led-with-nfc-tag-and-pin-57f894?ref=tag&ref_id=nfc&offset=0).
