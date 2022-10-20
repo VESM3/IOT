@@ -99,7 +99,7 @@ OLED með ESP32 https://github.com/adafruit/Adafruit_SSD1306
 ---
 
 #### 10. Innskráningar- eða öryggiskerfi  (20%)
-**Tveir nemendur saman**. <br>
+**Einn eða tveir nemendur saman**. <br>
 Setjið saman með OLED, RFID og gagnageymslu (dictionary eða skrá) öryggis- eða innskráningarkerfi.
 
 Bjargir:
