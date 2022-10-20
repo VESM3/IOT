@@ -20,7 +20,7 @@
 ### 2. Wifi stilling á SD kort 
 1. Settu SD kortið í usb lykil í tölvuna.
 2. Búðu til skránna `wpa_supplicant.conf` td. með VSCode editor.   
-3. Settu eftirfarandi Wifi stillingar fyrir skólann og heima í skránna:
+3. Settu eftirfarandi Wifi stillingar sem virkar fyrir skólann og heima í skránna:
 
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -32,12 +32,13 @@ network={
 	priority=2
 	psk="passwordforHome"  # lykilorð til að geta tengst router.
 	id_str="home"
-	key_mgmt=WPA-PSK   # algengt og má sleppa, getur verið mismunandi
+	key_mgmt=WPA-PSK       # algengt og má sleppa, getur verið mismunandi
 
 }
 network={
-	ssid="T Skoli Hotspot"  
+	ssid="TskoliVESM"  
     	priority=1 
+	psk="Fallegurhestur"  # lykilorð
     	id_str="school"
     	key_mgmt=NONE
 }
@@ -57,15 +58,16 @@ network={
       ssh pi@hostname.tskoli.is     # heima: ssh pi@hostname.local 
       password: raspberry
       ```   
+1. Breyttu sjálfgefna _raspberry_ lykilorðinu í eitthvað annað gáfulegra.
 1. Skrifaðu `sudo raspi-config` og veldu _Interfacing Options_, allt þar á vera **enabled**
 1. Uppfærðu RPi stýrikerfið með `sudo apt-get update` og svo `sudo apt-get upgrade`. Endurræstu svo RPi.
-1. Núnar er RPi alveg klárt!
+1. Núnar er RPi klárt til notkunar!
 
+---
 
-<!--
-### 3. Að tengjast RPi með VNC (GUI), 
+### 4. Að tengjast RPi með VNC (GUI) 
 1. [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br> Að keyra VNC server á Raspberry Pi leyfir þér að stjórna RPi desktop þráðlaust á fartölvu (the VNC viewer).
 1. [stillingar á RPi OS](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0) t.d. að breyta upplausn á skjánum. 
--->
+
 
 
