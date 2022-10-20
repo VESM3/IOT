@@ -113,7 +113,7 @@ Bjargir:
 
 heimaverkefni
 
-Settu upp RPi stýrikerfi skv. [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/RPiuppsetning.md) á SD kort þannig að þú getur tengst RPi með wifi bæði heima og í skóla.
+Settu upp RPi stýrikerfi og stilltu RPi skv. [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/RPiuppsetning.md) þannig að þú getur tengst RPi með wifi bæði heima og í skóla.
 
 ---
 
