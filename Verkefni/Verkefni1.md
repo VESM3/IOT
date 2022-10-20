@@ -108,7 +108,7 @@ Bjargir:
 - [Attendance System Using Raspberry Pi and NFC Tag Reader](https://www.instructables.com/id/Attendance-system-using-Raspberry-Pi-and-NFC-Tag-r/). 
 
 ---
-
+<!--
 #### 11. Uppsetning á RPi stýrikerfi 
 
 heimaverkefni
@@ -116,6 +116,7 @@ heimaverkefni
 Settu upp RPi stýrikerfi á SD minniskortið þitt og stilltu RPi Zero skv. [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/RPiuppsetning.md) þannig að þú getur tengst wifi bæði heima og í skóla.
 
 ---
+-->
 
 ### Námsmat og skil
 
