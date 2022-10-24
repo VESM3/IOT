@@ -55,7 +55,7 @@ network={
 1. Notaðu  _pi@hostname.tskoli.is_ í skólanum og _pi@hostname.local_ ef þú ert heima. 
     - hostname getur t.d. verið nafnið þitt (ekki sérstafi). Það er líka hægt að nota ip töluna, pi@iptalan      
       ```Linux
-      ssh pi@hostname.local  # skóli: pi@hostname.tskoli.is 
+      ssh pi@hostname.local  # skóli: pi@iptalan     
       password: raspberry    
       ```   
 1. Breyttu sjálfgefna _raspberry_ lykilorðinu í eitthvað annað gáfulegra.
