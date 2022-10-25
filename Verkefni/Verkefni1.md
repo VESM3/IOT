@@ -71,6 +71,8 @@ GND | GND
 RST | #25
 3.3v | 3.3v
 
+Nánar um [RFID og NFC](https://github.com/VESM3/IOT/wiki/RFID-og-NFC)
+
 ---
 
 #### 8. RFID og LEDs (15%)
