@@ -58,7 +58,7 @@ Veldu þér tutorial til að fylgja úr [Basic Recipes](https://gpiozero.readthe
 1. RaspberryPi er með þrjá SPI controllers, sjá nánar [SPI Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#spi-overview) 
 1. Prófaðu skrif- og lesgagnaðgerðir með RFID sbr. [How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    - Ekki gleyma að stilla RaspberryPi þannig að hann virkar með SPI 
-   - notaðu RPi.Zero safnið ekki RPi.GPIO safnið 
+   - notaðu [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) safnið 
 
 #### RC522 pinnar (með T-cobbler)
 RC522 | Pinni
