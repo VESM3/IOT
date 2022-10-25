@@ -54,7 +54,7 @@ Veldu þér tutorial til að fylgja úr [Basic Recipes](https://gpiozero.readthe
 #### 7. SPI og RFID (10%)
 
 1. Kynntu þér hvernig SPI virkar með að horfa á [myndband](https://www.youtube.com/watch?v=ldRkXTBw9_o) og lesa [BASICS OF THE SPI COMMUNICATION PROTOCOL](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol). 
-1. Kynntu þér RFID, [Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/). Ath. samt að við ætlum að nota RPi í þessu verkefni, ekki Arduino.
+1. Kynntu þér RFID, [Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/). _Ath. Við ætlum að nota RPi í þessu verkefni, ekki Arduino._
 1. RaspberryPi er með þrjá SPI controllers, sjá nánar [SPI Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#spi-overview) 
 1. Prófaðu skrif- og lesgagnaðgerðir með RFID sbr. [How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    - Ekki gleyma að stilla RaspberryPi þannig að hann virkar með SPI 
