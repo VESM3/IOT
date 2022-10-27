@@ -2,4 +2,4 @@ Vandamál sem komu upp:
 
 Verkefni 2
 1. Notið hotspot í síma ef skólanet virkar ekki (gekk fínt)
-2. DHT sensor vandræði nota adafruit lib og passa að hafa ekki fleirri en eitt includ með DHT
+2. DHT sensor vandræði nota rétt lib og passa að hafa ekki fleirri en eitt include með DHT
