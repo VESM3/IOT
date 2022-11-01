@@ -6,5 +6,6 @@ Vandamál sem komu upp:
    - Passa aðí seinna sýnidæminu er nota tómt bil í user og password.  
    - Ýta á reset takka á ESP32 og baud rate 115200 til að sjá ip-tölu.
    - nota punkt ekki kommu í vafranum fyrir ip töluna.
-1. DHT sensor vandræði nota rétt lib og passa að hafa ekki fleiri en eitt include með DHT.
-   - koma stundum brenglstafir. 
+1. liður 2.3
+   - DHT sensor vandræði nota rétt lib (dht er kommentað út) 
+   - passa að hafa ekki fleiri en eitt include með DHT.
