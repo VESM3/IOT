@@ -14,7 +14,7 @@
 
 ---
 
-### 2 MQTT með RPi (25%)
+### 2 MQTT með RPi (20%)
 
 1. Lestu eftirfarandi um [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction). 
 1. Fylgdu svo leiðbeiningum sem snúa að **Raspberry Pi** (ekki Arduino/Virtual) í greininni þar sem þú:
@@ -25,7 +25,7 @@
 
 ---
 
-### 3 MQTT með ESP32 (25%) 
+### 3 MQTT með ESP32 (20%) 
 
 1. Kynntu þér vel MQTT grunnskipanir.
 1. Gerðu sambærilegt og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
@@ -45,14 +45,25 @@
 
 ---
 
-### 4 MQTT með ESP32 og RPi og eigin MQTT Broker (30%) - _drög_
+### 4 MQTT með ESP32, RPi, tölvu og MQTT Eclipse Mosquitto Broker (20%)
 
-1. Settu upp eigin MQTT Broker til að vinna með.
-1. Tengdu DHT11 við ESP32 og sendu hita- og rakastigsmælingarnar til  MQTT Broker.
-1. Tengdu Raspberry Pi við LED og tengdu við MQTT Broker.
+1. Tengdu DHT11 við ESP32 og sendu hita- og rakastigsmælingarnar til [Eclipse Mosquitto](https://test.mosquitto.org/) MQTT Broker.
+1. Tengdu Raspberry Pi við LED og tengdu við [Eclipse Mosquitto](https://test.mosquitto.org/) MQTT Broker.
 1. Tölvan þín á að fá upplýsingarnar sem koma frá ESP32.
-1. Tölvan sendir skipun til RPi um að kveikja á LED þegar ákveðið hita- og rakastig er náð.
+1. Tölvan sendir skipun (publish) til RPi um að kveikja á LED þegar ákveðið hita- og rakastig er náð.
 
+---
+
+### 5 Eigin MQTT Broker (20%)
+
+Einn eða tveir nemendur saman.
+
+1. Settu RPi upp sem MQTT Broker 
+2. ESP32 er client og á að senda telemetry (skynjari að eigin vali) til MQTT Broker. 
+3. ESP32 (annar) sem actuator á að taka við skipunum (subscribe to commands).
+4. Tölvan þín hlustar (subscribe) á MQTT broker.
+5. Tölvan sendir skipun skipun (publish) á actuator útfrá ákveðnum skilyrðum (frjáls útfærsla) frá telemetry.
+ 
 **Sýnidæmi:** Home Automation: <br>
 ESP32 (client) og RPi (broker), [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) _(youtube)_ og [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki) _(youtube)_. <br>
 ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite.
