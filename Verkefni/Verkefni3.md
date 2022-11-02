@@ -62,10 +62,13 @@ Einn eða tveir nemendur saman.
 4. Tölvan þín hlustar (subscribe) á MQTT broker.
 5. Tölvan sendir skipun skipun (publish) á actuator útfrá ákveðnum skilyrðum (frjáls útfærsla) frá telemetry.
  
-**Sýnidæmi:** Home Automation: <br>
-ESP32 (client) og RPi (broker), [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) _(youtube)_ og [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki) _(youtube)_. <br>
-ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite.
+#### Sýnidæmi:
 
+- Veðurstöð
+   - [Send data from ESP32 to Raspberry Pi via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/)
+- Home Automation 
+   - [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) og [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki) _(youtube)_. ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite.
+   
 ---
 
 ### Námsmat
