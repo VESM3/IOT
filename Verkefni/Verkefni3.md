@@ -23,10 +23,10 @@
 
 ---
 
-### 3 MQTT með ESP32 (25%) - skoða betur auðveldustu leið.
-**TODO** Vinna með MQTT grunnskipanir án þess að elta ákveðinn tutorial.
+### 3 MQTT með ESP32 (25%) 
 
-Gerðu það sama og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
+1. Kynntu þér vel MQTT grunnskipanir.
+1. Gerðu sambærilegt og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
    - Prófaðu [BH1750](https://www.arduino.cc/reference/en/libraries/bh1750/) með ESP32, [sýnidæmi](https://github.com/claws/BH1750#example)
       - SDA (SDI) = GPIO21
       - SCL (SCK) = GPIO22 
@@ -42,7 +42,7 @@ Gerðu það sama og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyr
 
 ---
 
-### 4 MQTT með ESP32 og RPi (30%) - í vinnslu
+### 4 MQTT með ESP32 og RPi (30%) - _drög_
 
 Settu upp eigin MQTT Broker til að vinna með.
 
