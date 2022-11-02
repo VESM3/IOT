@@ -68,8 +68,3 @@ ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Nod
 - Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
 - Skilaðu á Innu kóðalausnum.
 
-<!--
-#### Lesefni
-- [MQTT vs. HTTP: which one is the best for IoT?](https://medium.com/mqtt-buddy/mqtt-vs-http-which-one-is-the-best-for-iot-c868169b3105)
-- [Internet of Things: Battle of The Protocols (HTTP vs. Websockets vs. MQTT)](https://www.linkedin.com/pulse/internet-things-http-vs-websockets-mqtt-ronak-singh-cspo)
--->
