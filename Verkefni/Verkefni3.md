@@ -58,7 +58,7 @@ Einn eða tveir nemendur saman.
 
 1. Settu RPi upp sem MQTT Broker 
 2. ESP32 er client og á að senda telemetry (skynjari að eigin vali) til MQTT Broker. 
-3. ESP32 (annar) sem actuator á að taka við skipunum (subscribe to commands).
+3. ESP32 (annar) sem actuator (t.d. LED) á að taka við skipunum (subscribe to commands).
 4. Tölvan þín hlustar (subscribe) á MQTT broker.
 5. Tölvan sendir skipun skipun (publish) á actuator útfrá ákveðnum skilyrðum (frjáls útfærsla) frá telemetry.
  
