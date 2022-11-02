@@ -56,7 +56,6 @@ Settu upp eigin MQTT Broker til að vinna með.
 
 #### Sýnidæmi:
 Home Automation: ESP32 (client) og RPi (broker), [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) _(youtube)_ og [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki) _(youtube)_.
-
 ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite
 
 ---
