@@ -1,5 +1,6 @@
-## Tímaverkefni 3 (20%)
+## Tímaverkefni 3
 
+- Námsmat 20% af heildareinkunn
 - MQTT
 
 ---
@@ -42,19 +43,19 @@ Gerðu það sama og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyr
 ---
 
 ### 4 MQTT með ESP32 og RPi (30%) - í vinnslu
-**TODO** Setja upp eigin MQTT Broker til að vinna með
-Hafa skynjara einfalda.
+
+Settu upp eigin MQTT Broker til að vinna með.
 
 1. Tengdu DHT11 við ESP32 og sendu hita- og rakastigsmælingarnar til eign Broker [Eclipse Mosquitto Broker](https://test.mosquitto.org/).
 1. Tengdu Raspberry Pi við LED og tengdu við Mosquitto Broker.
 1. Tölvan þín á að fá upplýsingarnar sem koma frá ESP32.
 1. Tölvan sendir skipun til RPi um að kveikja á LED þegar ákveðið hita- og rakastig er náð.
 
+**Sýnidæmi:** Home Automation: ESP32 (client) og RPi (broker) <br>
+ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite
 
-### Dæmi um lokaverkefni: Home Automation: ESP32 (client) og RPi (broker) 
-- [Sýnidæmi](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) og [part2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki)
-   - ESP32 er tengt við DHT11, IR transmitter og tæki 
-   - RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite
+- [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) 
+- [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki)
 
 ---
 
@@ -62,8 +63,5 @@ Hafa skynjara einfalda.
 
 - Yfirferð á sér stað í tíma.
 - Fyrir hvern lið: Fullt fyrir fullnægjandi útfærslu, hálft ef lausn er ábótavant og ekkert ef lausn er stórlega ábótavant eða vantar.
-- Skilaðu á Innu kóðalausnir og ljósmyndir af verklegum tilraunum.
-
-
-
+- Skilaðu á Innu kóðalausnum.
 
