@@ -30,8 +30,6 @@
 1. Kynntu þér vel MQTT grunnskipanir.
 1. Gerðu sambærilegt og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
    - Prófaðu [BH1750](https://www.arduino.cc/reference/en/libraries/bh1750/) með ESP32, [sýnidæmi](https://github.com/claws/BH1750#example)
-      - SDA (SDI) = GPIO21
-      - SCL (SCK) = GPIO22 
    - Tengdu ESP32 við Wifi.
    - Notaðu MQTT Client fyrir ESP32, [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) eða [PubSubClient](https://github.com/knolleary/pubsubclient) 
    - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
