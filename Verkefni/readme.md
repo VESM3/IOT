@@ -1,4 +1,4 @@
-Vandamál sem komu upp:
+## Vandamál sem komu upp:
 
 ### Verkefni 1
 
