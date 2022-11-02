@@ -1,4 +1,4 @@
-## Tímaverkefni 3 _drög (í vinnslu)_
+## Tímaverkefni 3 _drög)_
 
 - Námsmat 20% af heildareinkunn
 - MQTT
