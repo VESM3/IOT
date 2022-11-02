@@ -51,11 +51,11 @@ Settu upp eigin MQTT Broker til að vinna með.
 1. Tölvan þín á að fá upplýsingarnar sem koma frá ESP32.
 1. Tölvan sendir skipun til RPi um að kveikja á LED þegar ákveðið hita- og rakastig er náð.
 
-**Sýnidæmi:** Home Automation: ESP32 (client) og RPi (broker) <br>
+#### Sýnidæmi:
+Home Automation: ESP32 (client) og RPi (broker) <br>
 ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite
-
-- [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) 
-- [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki)
+- [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) _youtube_
+- [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki) _youtube_
 
 ---
 
