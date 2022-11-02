@@ -49,8 +49,8 @@
 
 Settu upp eigin MQTT Broker til að vinna með.
 
-1. Tengdu DHT11 við ESP32 og sendu hita- og rakastigsmælingarnar til eign Broker.
-1. Tengdu Raspberry Pi við LED og tengdu við Mosquitto Broker.
+1. Tengdu DHT11 við ESP32 og sendu hita- og rakastigsmælingarnar til eign MQTT Broker.
+1. Tengdu Raspberry Pi við LED og tengdu við MQTT Broker.
 1. Tölvan þín á að fá upplýsingarnar sem koma frá ESP32.
 1. Tölvan sendir skipun til RPi um að kveikja á LED þegar ákveðið hita- og rakastig er náð.
 
