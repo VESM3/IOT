@@ -4,7 +4,6 @@
 
 - RPi Zero portin eru frekar leiðinleg, þarf að jugga til aðeins til að fá ljós
 - RPi3 skemmdist við skammhlaup, (töng í tvo pinna)
-- 
 
 ---
 
