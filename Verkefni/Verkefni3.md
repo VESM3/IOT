@@ -37,11 +37,12 @@ Nánar um [How to Use The Paho MQTT Python Client for Beginners](http://www.stev
    - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
    - Notaðu [Arduino JSON](https://arduinojson.org/)
 
-
+<!--
 **Bjargir til viðmiðunar:**
 - [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) 
 - [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction), skoða lauslega Arduino útfærslu.
 - Ef þú vilt frekar nota python: [MicroPython – Getting Started with MQTT on ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
+-->
 
 ---
 
@@ -64,11 +65,12 @@ Einn eða tveir nemendur saman.
 4. Tölvan þín (server code) hlustar (subscribe) á MQTT broker.
 5. Tölvan þín (server code) sendir skipun skipun (publish) á actuator útfrá ákveðnum skilyrðum (frjáls útfærsla) frá telemetry.
  
-#### Sýnidæmi:
+**Sýnidæmi:** Veðurstöð: [Send data from ESP32 to Raspberry Pi via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/)
 
-- Veðurstöð: [Send data from ESP32 to Raspberry Pi via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/)
+<!--
 - Home Automation: [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) og [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki) _(youtube)_. ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite.
-   
+-->
+
 ---
 
 ### Námsmat
