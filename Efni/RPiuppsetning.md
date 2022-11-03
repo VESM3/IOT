@@ -67,6 +67,8 @@ Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM
 
 Svo er `ifconfig` gagnleg skipun. <!-- lista yfir ip `arp -a` -->
 
+- [scan-local-network-with-terminal](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/)
+
 ---
 
 ### 4. Að tengjast RPi með VNC (GUI) 
