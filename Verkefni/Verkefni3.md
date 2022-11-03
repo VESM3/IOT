@@ -17,7 +17,7 @@
 ### 2 MQTT með RPi (20%)
 
 1. Lestu eftirfarandi um [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction). 
-1. Fylgdu svo leiðbeiningum þar sem snúa að **Single-board computer - Raspberry Pi** (ekki Arduino - Wio Terminal) í greininni þar sem þú:
+1. Fylgdu svo leiðbeiningum þar sem snúa að **Single-board computer - Raspberry Pi** (ekki Arduino - Wio Terminal) þar sem þú:
    1.  tengir náttljósið (IoT hlut úr 3.1) sem MQTT client við [Eclipse Mosquitto](https://test.mosquitto.org/) sem er open-source test MQTT broker. 
    1.  RPi Sendir birtugildin í JSON sniði til MQTT broker.
    1.  Python app á tölvunni þinni (server code) hlustar (subscribe) á MQTT broker.
