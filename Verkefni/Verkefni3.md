@@ -21,7 +21,7 @@
    1.  tengir náttljósið (IoT hlut úr 3.1) sem MQTT client við [Eclipse Mosquitto](https://test.mosquitto.org/) sem er open-source test MQTT broker. 
    1.  RPi Sendir birtugildin í JSON sniði til MQTT broker.
    1.  Python app á tölvunni þinni (server code) hlustar (subscribe) á MQTT broker.
-   1.  Tölva sendir skipun (publish) um að kveikja eða slökkva á náttljósinu (LED) útfrá ákveðnum birtugildum.
+   1.  Tölva þín (server code) sendir skipun (publish) um að kveikja eða slökkva á náttljósinu (LED) útfrá ákveðnum birtugildum.
 
 ---
 
