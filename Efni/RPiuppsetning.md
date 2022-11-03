@@ -52,19 +52,18 @@ network={
 
 1. Settu SD minniskortið í RaspberryPi og tengdu við rafmagn (usb power port).
 1. **SSH tenging**. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
-1. Notaðu  _pi@hostname.tskoli.is_ í skólanum og _pi@hostname.local_ ef þú ert heima. 
-    - hostname getur t.d. verið nafnið þitt (ekki sérstafi). Það er líka hægt að nota ip töluna, pi@iptalan      
+1. Notaðu  _pi@hostname.tskoli.vesm_ í skólanum og _pi@hostname.local_ ef þú ert heima. 
+    - hostname getur t.d. verið nafnið þitt (ekki sérstafi). Það er líka hægt að nota ip töluna `ssh pi@iptalan`.     
       ```Linux
-      ssh pi@hostname.local  # skóli:  ssh pi@hostname.tskoli.vesm  eða nota ssh pi@iptalan     
+      ssh pi@hostname.local  # skóli: ssh pi@hostname.tskoli.vesm       
       password: raspberry    
       ```   
-1. Breyttu sjálfgefna _raspberry_ lykilorðinu í eitthvað annað gáfulegra.
+1. Breyttu sjálfgefna _raspberry_ lykilorðinu í eitthvað annað (lágmark 8 stafir).
 1. Skrifaðu `sudo raspi-config` og veldu _Interfacing Options_, allt þar á vera **enabled**
 1. Uppfærðu RPi stýrikerfið með `sudo apt-get update` og svo `sudo apt-get upgrade`. Endurræstu svo RPi.
 1. Núnar er RPi klárt til notkunar!
 
-Ef þú þarft að finna út IP eða MAC address á RPI  í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn
-leitarskilyrðin: **10.201.48.1-10.201.49.254**.  Ath tölvan þín þarf að vera á sama wifi netinu þegar þú scannar.
+Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar.
 
 ---
 
