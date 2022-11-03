@@ -20,6 +20,13 @@
 ---
 
 ### Verkefni 3
+- ip tölur á TskoliVESM 10.20.48.XXX, Advanced ip scanner 10.201.48.1-10.201.49.254
+- sumir komust ekki inná hostname pi@hostname.tskoli.vesm en ip gékk
+- gátum scannað eftir ip tölum
+- 3 nemendur fengu permission denied (publickey) á rpi, náðu inn fingerprint yes en svo villumelding
+- eigum eftir að prófa V3.2 með Eclipse Mosquitto via port 1883 - líklegast lokað skv. Aroni, komið í beiðni um að opna.
+- ein fartölvan var að grilla RPi zero via usb tengi. 
+- Allir að nota power adapter með RPi (5V)
 
 ---
 
