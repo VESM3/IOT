@@ -24,7 +24,7 @@
 - gátum scannað eftir ip tölum
 - ip tölur á TskoliVESM 10.20.48.XXX, Advanced ip scanner 10.201.48.1-10.201.49.254
 - sumir komust ekki inná hostname pi@hostname.tskoli.vesm en ip gékk
-- 3 nemendur fengu permission denied (publickey) á rpi. Það þarf líklegast að hreinsa út eldra key úr tölvunni (hafa fengið nýtt)?
+- 3 nemendur fengu permission denied (publickey) á rpi. Það að hreinsa út eldra key úr tölvunni `$ ssh-keygen -R [hostname-or-IP]`
 - port 22: Connection timed out. SSH lokað útaf firewall í tölvu [windows fix](https://www.windowscentral.com/how-open-port-windows-firewall) 2 nemendur lentu í þessu
 - eigum eftir að prófa V3.2 með Eclipse Mosquitto via port 1883 - líklegast lokað skv. Aroni, komið í beiðni um að opna.
 - ein fartölvan var að grilla RPi zero via usb tengi. 
