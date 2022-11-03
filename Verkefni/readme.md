@@ -1,6 +1,8 @@
 ## Vandamál sem komu upp:
 
 ### Verkefni 1
+- RPi skemmdist eða bios (ekkert ljóst) þegar nemandi tengdist tengdi bæði usb og power port í einu.
+- RPi3 skemmdist við skammhlaup, (töng í tvo pinna)
 
 ---
 
