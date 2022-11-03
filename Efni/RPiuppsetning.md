@@ -63,6 +63,9 @@ network={
 1. Uppfærðu RPi stýrikerfið með `sudo apt-get update` og svo `sudo apt-get upgrade`. Endurræstu svo RPi.
 1. Núnar er RPi klárt til notkunar!
 
+Ef þú þarft að finna út IP eða MAC address á RPI  í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn
+leitarskilyrðin: **10.201.48.1-10.201.49.254**
+
 ---
 
 ### 4. Að tengjast RPi með VNC (GUI) 
