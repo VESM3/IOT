@@ -33,7 +33,7 @@ Nánar um [How to Use The Paho MQTT Python Client for Beginners](http://www.stev
 1. Gerðu sambærilegt og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
    - Notaðu [BH1750](https://www.arduino.cc/reference/en/libraries/bh1750/) með ESP32, [sýnidæmi](https://github.com/claws/BH1750#example)
    - Tengdu ESP32 við Wifi.
-   - Notaðu MQTT Client fyrir ESP32, [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) _depends on the PubSubClient Library._ eða [PubSubClient](https://github.com/knolleary/pubsubclient) 
+   - Notaðu MQTT Client fyrir ESP32, [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) (eða [PubSubClient](https://github.com/knolleary/pubsubclient))
    - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
    - Notaðu [Arduino JSON](https://arduinojson.org/)
 
