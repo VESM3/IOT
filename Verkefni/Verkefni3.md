@@ -23,6 +23,8 @@
    1.  Python app á tölvunni þinni (server code) hlustar (subscribe) á MQTT broker.
    1.  Tölva þín (server code) sendir skipun (publish) um að kveikja eða slökkva á náttljósinu (LED) útfrá ákveðnum birtugildum.
 
+Nánar um [How to Use The Paho MQTT Python Client for Beginners](http://www.steves-internet-guide.com/into-mqtt-python-client/)
+
 ---
 
 ### 3 MQTT með ESP32 (20%) 
