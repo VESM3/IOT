@@ -2,7 +2,6 @@
 
 ### Verkefni 1
 - RPi Zero skemmdist eða bios (ekkert ljóst) þegar nemandi tengdist tengdi bæði usb og power port í einu.
-- Tveir RPi Zero skemmdist þegar nemandi notaði usb port til að powera (hefur gerst áður hjá nemenda)
 - RPi3 skemmdist við skammhlaup, (töng í tvo pinna)
 
 ---
