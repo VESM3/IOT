@@ -47,8 +47,8 @@
 
 1. Tengdu DHT11 við ESP32 og sendu hita- og rakastigsmælingarnar til [Eclipse Mosquitto](https://test.mosquitto.org/) MQTT Broker.
 1. Tengdu Raspberry Pi við LED og tengdu við [Eclipse Mosquitto](https://test.mosquitto.org/) MQTT Broker.
-1. Tölvan þín á að fá upplýsingarnar sem koma frá ESP32.
-1. Tölvan sendir skipun (publish) til RPi um að kveikja á LED þegar ákveðið hita- og rakastig er náð.
+1. Tölvan þín (server code) á að fá upplýsingarnar sem koma frá ESP32.
+1. Tölvan þín (server code) sendir skipun (publish) til RPi um að kveikja á LED þegar ákveðið hita- og rakastig er náð.
 
 ---
 
@@ -59,8 +59,8 @@ Einn eða tveir nemendur saman.
 1. Settu RPi upp sem MQTT Broker 
 2. ESP32 er client og á að senda telemetry (skynjari að eigin vali) til MQTT Broker. 
 3. ESP32 (annar) sem actuator (t.d. LED) á að taka við skipunum (subscribe to commands).
-4. Tölvan þín hlustar (subscribe) á MQTT broker.
-5. Tölvan sendir skipun skipun (publish) á actuator útfrá ákveðnum skilyrðum (frjáls útfærsla) frá telemetry.
+4. Tölvan þín (server code) hlustar (subscribe) á MQTT broker.
+5. Tölvan þín (server code) sendir skipun skipun (publish) á actuator útfrá ákveðnum skilyrðum (frjáls útfærsla) frá telemetry.
  
 #### Sýnidæmi:
 
