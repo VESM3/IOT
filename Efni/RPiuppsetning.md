@@ -63,11 +63,7 @@ network={
 1. Uppfærðu RPi stýrikerfið með `sudo apt-get update` og svo `sudo apt-get upgrade`. Endurræstu svo RPi.
 1. Núnar er RPi klárt til notkunar!
 
-Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. Það á líka að vera hægt að nota nmap `nmap 10.201.48.0/24`. **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar.
-
-Svo er `ifconfig` gagnleg skipun. <!-- lista yfir ip `arp -a` -->
-
-- [scan-local-network-with-terminal](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/)
+Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. Það á líka að vera hægt að nota [nmap](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/) `nmap 10.201.48.0/24`. **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar. Svo er `ifconfig` gagnleg skipun.
 
 ---
 
