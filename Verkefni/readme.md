@@ -1,7 +1,8 @@
 ## Vandamál sem komu upp:
 
 ### Verkefni 1
-- RPi Zero skemmdist eða bios (ekkert ljóst) þegar nemandi tengdist tengdi bæði usb og power port í einu.
+
+- RPi Zero portin eru frekar leiðinleg, þarf að jugga til aðeins til að fá ljós
 - RPi3 skemmdist við skammhlaup, (töng í tvo pinna)
 
 ---
