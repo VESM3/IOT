@@ -29,6 +29,12 @@ RPi Zero W uppsetning
 - port 22: Connection timed out. SSH lokað útaf firewall í tölvu [windows fix](https://www.windowscentral.com/how-open-port-windows-firewall) 2 nemendur lentu í þessu
 - Allir að nota power adapter með RPi (5V)
 
+V3.1
+- BH1750: bæta við 1ms sleep til að leyfa skynjaranum að stara, muna að enable i2C, 
+- DHT11: `sudo python3 install Adafruit_DHT` í staðinn fyrir:
+   - sleppa git clone  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+   - sleppa `sudo python3 setup.py install`
+
 
 ---
 
