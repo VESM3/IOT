@@ -34,7 +34,8 @@ V3.1
 - DHT11: `sudo python3 install Adafruit_DHT` í staðinn fyrir:
    - sleppa git clone  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
    - sleppa `sudo python3 setup.py install`
-
+V3.2
+- paho-mqtt library dettur út stundum.
 
 ---
 
