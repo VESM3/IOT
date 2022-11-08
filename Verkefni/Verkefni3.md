@@ -12,7 +12,7 @@
    - SCL (SCK) = GPIO22 
 1. Útbúðu náttljós með BH1750 ljósnemanum, LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtuskilyrði.
 
-_Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
+_Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi sjá [tutorial](https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-raspberry-pi/)_
 
 ---
 
