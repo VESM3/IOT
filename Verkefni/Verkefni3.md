@@ -8,11 +8,15 @@
 ### 1 Náttljós með RPi (20%)
 
 1. Tengdu ljósnema BH1750 við RPi og kannaðu birtustigsgildin. Sjá t.d. [hér](https://www.raspberrypi-spy.co.uk/2015/03/bh1750fvi-i2c-digital-light-intensity-sensor/)
+   - bættu við 0.5 - 1ms sleep til að leyfa skynjaranum að stara, muna að enable i2C í RPI
    - SDA (SDI) = GPIO21
    - SCL (SCK) = GPIO22 
 1. Útbúðu náttljós með BH1750 ljósnemanum, LED og RPi. Það duga að hafa on/off stöðu á LED við ákveðið birtuskilyrði.
 
 _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi sjá [tutorial](https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-raspberry-pi/)_
+   - `sudo python3 install Adafruit_DHT` í staðinn fyrir:
+   - sleppa git clone  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+   - sleppa `sudo python3 setup.py install`
 
 ---
 
