@@ -31,7 +31,7 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi sjá [tutori
 
 Nánar um [How to Use The Paho MQTT Python Client for Beginners](http://www.steves-internet-guide.com/into-mqtt-python-client/)
 
-Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi
+_Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 
 
 ---
@@ -46,7 +46,7 @@ Nánar um [How to Use The Paho MQTT Python Client for Beginners](http://www.stev
    - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
    - Notaðu [Arduino JSON](https://arduinojson.org/)
 
-Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi
+_Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 
 <!--
 **Bjargir til viðmiðunar:**
