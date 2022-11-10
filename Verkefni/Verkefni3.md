@@ -68,6 +68,8 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 ---
 -->
 
+---
+
 ### 4. Eigin MQTT Broker (30%)
 
 Einn eða tveir nemendur saman.
