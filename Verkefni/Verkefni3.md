@@ -20,7 +20,7 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi sjá [tutori
 
 ---
 
-### 2 MQTT með RPi (20%)
+### 2 MQTT með RPi (30%)
 
 1. Lestu eftirfarandi um [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction). 
 1. Fylgdu svo leiðbeiningum þar sem snúa að **Single-board computer - Raspberry Pi** (ekki Arduino - Wio Terminal) þar sem þú:
@@ -36,7 +36,7 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 
 ---
 
-### 3 MQTT með ESP32 (20%) 
+### 3. MQTT með ESP32 (20%) 
 
 1. Kynntu þér vel MQTT grunnskipanir.
 1. Gerðu sambærilegt og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
@@ -44,7 +44,7 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
    - Tengdu ESP32 við Wifi.
    - Notaðu MQTT Client fyrir ESP32, [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) (eða [PubSubClient](https://github.com/knolleary/pubsubclient))
    - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
-   - Notaðu [Arduino JSON](https://arduinojson.org/)
+   - Notaðu [Arduino JSON](https://arduinojson.org/) _það má líka senda beint streng_
 
 _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 
@@ -55,6 +55,7 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 - Ef þú vilt frekar nota python: [MicroPython – Getting Started with MQTT on ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
 -->
 
+<!--
 ---
 
 ### 4 MQTT með ESP32, RPi, tölvu og MQTT Eclipse Mosquitto Broker (20%)
@@ -65,8 +66,9 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 1. Tölvan þín (server code) sendir skipun (publish) til RPi um að kveikja á LED þegar ákveðið hita- og rakastig er náð.
 
 ---
+-->
 
-### 5 Eigin MQTT Broker (20%)
+### 4. Eigin MQTT Broker (30%)
 
 Einn eða tveir nemendur saman.
 
