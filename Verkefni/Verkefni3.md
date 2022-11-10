@@ -46,6 +46,8 @@ Nánar um [How to Use The Paho MQTT Python Client for Beginners](http://www.stev
    - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
    - Notaðu [Arduino JSON](https://arduinojson.org/)
 
+Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi
+
 <!--
 **Bjargir til viðmiðunar:**
 - [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) 
