@@ -64,7 +64,7 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 
 ---
 
-### 6. Myndgreining með vefþjónustu (30%) _drög_
+### 6. Myndgreining með vefþjónustu (30%) 
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum. 
 Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina hluti á ljósmynd. Notaðu fyrst fartölvuna og svo RPi með PiCam.
