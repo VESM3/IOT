@@ -15,7 +15,7 @@ _RPi Zero virkar **ekki** með nýja `libcamera`, sjá nánar [Camera software](
 1. Tengdu PiCamera við RPi. [How to connect a Picamera to a Pi ZERO (myndband)](https://www.youtube.com/watch?v=zFAX4pH1BPA)_.
 
 #### Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)
-1. Taktu mynd af þér með að nota terminal.
+<!-- 1. Taktu mynd af þér með að nota terminal. -->
 1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með Pi V2 myndavélinni tengda við RPi og vistaðu á skjáborðinu. `camera.capture('/home/pi/Desktop/image.jpg')`. 
 1. Taktu upp stutt myndband með PiCam. Sjá [Video to file](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#recording-video-to-a-file).
 
