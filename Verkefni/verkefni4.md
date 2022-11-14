@@ -61,7 +61,7 @@ Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) í síma
 **Bjargir:**
 - [Using IFTTT with the Raspberry Pi](https://pimylifeup.com/using-ifttt-with-the-raspberry-pi/) _push notification and motion detection_
 - [Hackster.io og IFTTT](https://www.hackster.io/ifttt)
-- [How to control RPi GPIO pins with IFTTT](https://www.circuitbasics.com/how-to-control-the-raspberry-pi-gpio-using-ifttt/) _notar bottle_
+- [How to control RPi GPIO pins with IFTTT](https://www.circuitbasics.com/how-to-control-the-raspberry-pi-gpio-using-ifttt/) _GET Request, RPi með bottle_
 
 <!-- 
 - [Push notification, motion detection](https://iot4beginners.com/ifttt-with-raspberry-pi/)
