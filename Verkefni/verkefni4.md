@@ -69,7 +69,7 @@ Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) í síma
 
 ---
 
-### 6. Myndgreining með vefþjónustu (30%) _drög/í vinnslu_
+### 6. Myndgreining með vefþjónustu (30%) 
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum. 
 Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina ljósmynd. 
@@ -87,9 +87,6 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 
 > _Aðrar áhugaverðar [vefþjónustur:]( https://azure.microsoft.com/en-us/products/cognitive-services/#api) Language og Speech_
 
-<!--
-Kannski nóg að nemendur noti skólaemail hjá [Azure Dev Tools](https://azureforeducation.microsoft.com/devtools)
--->
 
 ---
 
