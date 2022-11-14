@@ -66,26 +66,12 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 
 ### 6. Myndgreining með vefþjónustu (30%)
 
-**TODO**
-- Við byrjum á að prófa með ljósmynd í fartölvu áður en við færum okkur yfir á RPi.
-- Þurfum að prófa vefþjónustu  með myndgreiningu (senda mynd til að greina) sem virkar með RPi zero!
-- Machine learning: Tenserflow lite og OpenCV virkar ekki með RPi Zero og getur verið tæpt með RPi3 (vinnsluminni 1GB er tæpt)
-- RPi Zero virka ekki með opencv. 
-- Microsoft Azure
-   - Ef við notum Azure aftur þá hreinsa leiðbeiningar aðeins til.
-   - Microsoft Azure, Cognitive-services, Tskóli kennaraaðgangur: https://azureforeducation.microsoft.com/devtools
-   - Microsoft Azure, Nemendaaðgangur: frítt via github student package, tskoli aðgangur gæti mögulega líka virka (þarf að kanna)
-
----
-
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum. Veldu þér þjónustu til að nota með RPi og PiCam.
-
-#### Leiðbeiningar með Azure (frá Vor 2023)
 
 Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina hluti á ljósmynd. 
 
 1. Myndgreining með Computer Vision (fartölva)
-   1. Búðu til aðgang hjá Azure via _`Github Student Developer Pack`_ (gætir þurft að skrá þig út á Azure) Þurfum að kanna leið án þess
+   1. Búðu til aðgang hjá Azure via _`Github Student Developer Pack`_ (gætir þurft að skrá þig út á Azure) 
    1. Gerðu viðeigandi stillingar hjá Azure til að geta notað Computer Vision. 
    1. Notaðu VSCode og python á fartölvunni, ([kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py)) til að greina ljósmynd (minna en 4MB).
 1. Notaðu RPi, PiCam og Computer Vision saman og birtu niðurstöður. 
@@ -97,7 +83,7 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 - [myndbönd](https://www.youtube.com/hashtag/azureinpython)
 
 
-#### Aðrar [vefþjónustur]( https://azure.microsoft.com/en-us/products/cognitive-services/#api) (texti og hljóð)
+#### Aðrar áhugaverðar [vefþjónustur]( https://azure.microsoft.com/en-us/products/cognitive-services/#api) 
 - Language: Q&A bot, translator, túlka texta.
 - Speech: Siri, translation osfrv.
 
