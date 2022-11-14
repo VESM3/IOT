@@ -54,7 +54,7 @@ _RPi Zero virkar **ekki** með nýja `libcamera`, sjá nánar [Camera software](
 ---
 
 ### 5. IFTTT WebHooks (20%) 
-Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET requests, sjá nánar [What is a Webhook? - IFTTT](https://ifttt.com/explore/what-is-a-webhook). 
+Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET requests, sjá nánar [What is a Webhook? - IFTTT](https://ifttt.com/explore/what-is-a-webhook). <br>
 Notaðu takka með RPi. Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) þegar það hefur verið smellt á takkann.
 
 **Bjargir:**
