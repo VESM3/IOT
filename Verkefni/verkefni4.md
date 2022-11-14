@@ -76,13 +76,12 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 
 1. Myndgreining með Computer Vision (fartölva)
    1. Skráðu þig inn á [Azure](https://azureforeducation.microsoft.com/devtools) með skólanetfanginu. Ef það virkar ekki þá getur þú stofnaðu Microsoft Azure reikning via [Github Student Developer Pack](https://education.github.com/pack) (þú gætir þurft að skrá þig út á Azure) 
-   1. Gerðu viðeigandi stillingar hjá Azure til að geta notað Computer Vision. 
-   1. Notaðu VSCode og python á fartölvunni, ([kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py)) til að greina ljósmynd (minna en 4MB).
+   1. Gerðu viðeigandi stillingar hjá Azure til að geta notað Computer Vision. Hér eru leiðbeiningar [Computer Vision with Microsoft Azure](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure).
+   1. Notaðu VSCode og python á fartölvunni, [kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py) til að greina ljósmynd (minna en 4MB).
 1. Notaðu RPi, PiCam og Computer Vision saman og birtu niðurstöður. 
 
 **Bjargir**
 
-1. [Computer Vision with Microsoft Azure](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure) _leiðbeiningar, vefgrein_
 1. [Computer Vision documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 1. [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python-preview)
 1. [myndbönd](https://www.youtube.com/hashtag/azureinpython)
