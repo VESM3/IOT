@@ -82,10 +82,10 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 
 **Bjargir**
 
-1. Leiðbeiningar [Computer Vision with Microsoft Azure](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure) _vefgrein_
-- [Computer Vision documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
-- [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python-preview)
-- [myndbönd](https://www.youtube.com/hashtag/azureinpython)
+1. [Computer Vision with Microsoft Azure](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure) _leiðbeiningar, vefgrein_
+1. [Computer Vision documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
+1. [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python-preview)
+1. [myndbönd](https://www.youtube.com/hashtag/azureinpython)
 
 > _Aðrar áhugaverðar [vefþjónustur:]( https://azure.microsoft.com/en-us/products/cognitive-services/#api) Language og Speech_
 
