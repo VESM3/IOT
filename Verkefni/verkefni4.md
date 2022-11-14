@@ -72,7 +72,7 @@ Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) í síma
 ### 6. Myndgreining með vefþjónustu (30%) _drög/í vinnslu_
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum. 
-Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina hluti á ljósmynd. 
+Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina ljósmynd. 
 
 1. Myndgreining með Computer Vision (fartölva)
    1. Skráðu þig inn á [Azure](https://azureforeducation.microsoft.com/devtools) með skólanetfanginu. Ef það virkar ekki þá getur þú stofnaðu Microsoft Azure reikning via [Github Student Developer Pack](https://education.github.com/pack) (þú gætir þurft að skrá þig út á Azure) 
