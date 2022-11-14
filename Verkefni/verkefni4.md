@@ -64,7 +64,7 @@ Með Webhooks er hægt að senda og taka við `triggers` með HTML POST og GET r
 
 ---
 
-### 6. Myndgreining með vefþjónustu (30%)
+### 6. Myndgreining með vefþjónustu (30%) _drög_
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum. Veldu þér þjónustu til að nota með RPi og PiCam.
 
