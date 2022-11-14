@@ -17,3 +17,11 @@ image_analysis = client.analyze_image(url,visual_features=[VisualFeatureTypes.ta
 
 for tag in image_analysis.tags:
     print(tag)
+
+"""
+# textalýsing af ljósmynd
+image_analysis = client.describe_image(url)
+
+for caption in image_analysis.captions:
+    print(caption.text)
+"""
