@@ -88,6 +88,10 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 
 > _Aðrar áhugaverðar [vefþjónustur]( https://azure.microsoft.com/en-us/products/cognitive-services/#api) Language (Q&A bot, translator, túlka texta) og Speech (Siri, translation)_
 
+<!--
+Kannski nóg að nemendur noti skólaemail hjá [Azure Dev Tools](https://azureforeducation.microsoft.com/devtools)
+-->
+
 ---
 
 ## Námsmat
