@@ -77,13 +77,13 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
    1.   - _Ef það virkar ekki þá getur þú stofnaðu Microsoft Azure reikning via [Github Student Developer Pack](https://education.github.com/pack) (þú gætir þurft að skrá þig út á Azure) 
    1. Gerðu viðeigandi stillingar hjá Azure [myndband](https://www.youtube.com/watch?v=1VB_QrHm_nY&ab_channel=JieJenn) til að geta notað Computer Vision. Hér eru frekari [leiðbeiningar](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure). _vefgrein_
    1. Notaðu VSCode og python á fartölvunni, sjá [kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py) til að greina ljósmynd (minna en 4MB).
-1. Notaðu RPi, PiCam og Computer Vision saman og birtu niðurstöður. 
+1. Notaðu RPi, PiCam (local ljósmynd) og Computer Vision saman og birtu niðurstöður. 
+   1. [Call the Image Analysis API: Submit data to the service](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/how-to/call-analyze-image?source=recommendations&tabs=python#submit-data-to-the-service) og [kóði](https://github.com/Azure-Samples/cognitive-services-quickstart-code/blob/master/python/ComputerVision/ImageAnalysisQuickstart.py)
 
 **Bjargir**
 
 1. [Computer Vision documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 1. [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python-preview)
-1. [Call the Image Analysis API](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/how-to/call-analyze-image?source=recommendations&tabs=python)
 
 > _Aðrar áhugaverðar [vefþjónustur:]( https://azure.microsoft.com/en-us/products/cognitive-services/#api) Language og Speech_
 
