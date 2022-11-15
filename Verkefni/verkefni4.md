@@ -83,9 +83,9 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 
 1. [Computer Vision documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 1. [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python-preview)
+1. [Call the Image Analysis API](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/how-to/call-analyze-image?source=recommendations&tabs=python)
 
 > _Aðrar áhugaverðar [vefþjónustur:]( https://azure.microsoft.com/en-us/products/cognitive-services/#api) Language og Speech_
-
 
 ---
 
