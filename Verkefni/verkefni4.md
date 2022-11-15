@@ -73,8 +73,9 @@ Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) í síma
 Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina ljósmynd. 
 
 1. Myndgreining með Computer Vision (fartölva)
-   1. Skráðu þig inn á [Azure](https://azureforeducation.microsoft.com/devtools) með skólanetfanginu. Ef það virkar ekki þá getur þú stofnaðu Microsoft Azure reikning via [Github Student Developer Pack](https://education.github.com/pack) (þú gætir þurft að skrá þig út á Azure) 
-   1. Gerðu viðeigandi stillingar hjá Azure til að geta notað Computer Vision. Hér eru [leiðbeiningar](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure) og [myndband](https://www.youtube.com/watch?v=1VB_QrHm_nY&ab_channel=JieJenn)
+   1. Skráðu þig inn á [Azure](https://azureforeducation.microsoft.com/devtools) með skólanetfanginu. 
+   1.   - _Ef það virkar ekki þá getur þú stofnaðu Microsoft Azure reikning via [Github Student Developer Pack](https://education.github.com/pack) (þú gætir þurft að skrá þig út á Azure) 
+   1. Gerðu viðeigandi stillingar hjá Azure [myndband](https://www.youtube.com/watch?v=1VB_QrHm_nY&ab_channel=JieJenn) til að geta notað Computer Vision. Hér eru frekari [leiðbeiningar](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure). _vefgrein_
    1. Notaðu VSCode og python á fartölvunni, sjá [kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py) til að greina ljósmynd (minna en 4MB).
 1. Notaðu RPi, PiCam og Computer Vision saman og birtu niðurstöður. 
 
