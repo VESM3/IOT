@@ -2,8 +2,9 @@
 
 - IoT frumgerð 
 - 35% af heildareinkunn 
-- Nauðsynlegir undanfarar: V1.11, V2.1, V3.4
 - Hópverkefni (2 saman) eða [einstaklingsverkefni](https://github.com/VESM3/IOT/blob/main/Verkefni/V5_einstaklings.md) í samráði við kennara 
+
+<!-- Nauðsynlegir undanfarar: V1.11 og V3.4 -->
 
 ---
 
