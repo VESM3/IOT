@@ -40,7 +40,7 @@ Skilið hlekk á Github geymslu á Innu sem inniheldur eftirfarandi:
 - Allur kóði, skrár og gögn.
 - Skýrsla ( í readme.md ) sem inniheldur:
   - verkefnalýsing og efnislisti.
-  - kerfisskýringarmynd.
+  - kerfisskýringarmynd.[dæmi](https://github.com/VESM3/IOT/blob/main/Myndir/kerfismynd.drawio.png)
   - tenglar á kóðaskrár commentað.
   - ljósmyndir af samsettningu á IoT búnað. 
   - tengil á myndband (youtube) af notkun og virkni frumgerðar.
