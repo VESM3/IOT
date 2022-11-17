@@ -2,13 +2,12 @@
 
 - IoT frumgerð 
 - 35% af heildareinkunn 
-- Hópverkefni (2 saman) eða [einstaklingsverkefni](https://github.com/VESM3/IOT/blob/main/Verkefni/V5_einstaklings_Planta.md) í samráði við kennara 
-
-<!-- Nauðsynlegir undanfarar: V1.11 og V3.4 -->
+- Hópverkefni (2 saman) eða [einstaklingsverkefni](https://github.com/VESM3/Kennarar/blob/master/Verkefni/H22/Verkefni5_einstaklings.md) í samráði við kennara 
+- Nauðsynlegir undanfarar: V1.11, V2.1, V3.4
 
 ---
 
-### Verkefnalýsing _(hópverkefni)_
+### Verkefnalýsing
 
 Lokaverkefnið snýr að hönnun og IoT frumgerðasmíð þar sem ýmis tæki og tól eru notuð. Unnið er með samþætting tækja og hugbúnaðar tengda netinu, sem geta greint gögn og upplýsingar úr umhverfinu og miðlað þeim. Unnið með inntaksupplýsingar til að stýra tengdum úttaksbúnaði. 
 Val á viðfangefni og útfærslur er frjálst en er **háð samþykki kennara** og þarf að uppfylla ákveðna verkþætti. Gert er ráð fyrir sjálfstæðum vinnubrögðum. 
@@ -40,7 +39,7 @@ Skilið hlekk á Github geymslu á Innu sem inniheldur eftirfarandi:
 - Allur kóði, skrár og gögn.
 - Skýrsla ( í readme.md ) sem inniheldur:
   - verkefnalýsing og efnislisti.
-  - kerfisskýringarmynd.[dæmi](https://github.com/VESM3/IOT/blob/main/Myndir/kerfismynd.drawio.png)
+  - kerfisskýringarmynd. [dæmi](https://github.com/VESM3/IOT/blob/main/Myndir/kerfismynd.drawio.png)
   - tenglar á kóðaskrár commentað.
   - ljósmyndir af samsettningu á IoT búnað. 
   - tengil á myndband (youtube) af notkun og virkni frumgerðar.
