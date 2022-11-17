@@ -2,13 +2,13 @@
 
 - IoT frumgerð 
 - 35% af heildareinkunn 
-- Hópverkefni (2 saman) eða einstaklingsverkefni í samráði við kennara 
+- Hópverkefni (2 saman) eða [einstaklingsverkefni](https://github.com/VESM3/IOT/blob/main/Verkefni/V5_einstaklings_Planta.md) í samráði við kennara 
 
 <!-- Nauðsynlegir undanfarar: V1.11 og V3.4 -->
 
 ---
 
-### Verkefnalýsing
+### Verkefnalýsing _(hópverkefni)_
 
 Lokaverkefnið snýr að hönnun og IoT frumgerðasmíð þar sem ýmis tæki og tól eru notuð. Unnið er með samþætting tækja og hugbúnaðar tengda netinu, sem geta greint gögn og upplýsingar úr umhverfinu og miðlað þeim. Unnið með inntaksupplýsingar til að stýra tengdum úttaksbúnaði. 
 Val á viðfangefni og útfærslur er frjálst en er **háð samþykki kennara** og þarf að uppfylla ákveðna verkþætti. Gert er ráð fyrir sjálfstæðum vinnubrögðum. 
