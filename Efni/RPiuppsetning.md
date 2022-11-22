@@ -36,9 +36,9 @@ network={
 
 }
 network={
-	ssid="Hjalmaklettur_gestir"  
+	ssid="TskoliVESM"  
     	priority=1 
-	psk=""  # lykilorð
+	psk="Fallegurhestur"  # lykilorð
     	id_str="school"
     	key_mgmt=NONE
 }
