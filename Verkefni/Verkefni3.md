@@ -1,9 +1,7 @@
 ## Tímaverkefni 3
 
 - Námsmat 20% af heildareinkunn
-- [MQTT](https://github.com/VESM3/IOT/wiki/MQTT) 
-
-Kynning á IoT [Protocols](https://learn.adafruit.com/alltheiot-protocols).
+- [MQTT](https://github.com/VESM3/IOT/wiki/MQTT), kynning á [IoT Protocols](https://learn.adafruit.com/alltheiot-protocols).
 
 ---
 
