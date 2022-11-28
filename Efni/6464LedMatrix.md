@@ -15,10 +15,12 @@
 ### Nemaverkefni unnin með 64x64
 - [Pong með Leapmotion + 4 x 64LEDMatrix](https://github.com/Anton-Benediktsson/VESM3-V8) Anton og Þórhallur  _VOR 2022_
 - [Snake](http://tolvubraut.is/FORR3FV-Haust19-LEDMatrixSnake/) _Haust 2019_
+   - [Github](https://github.com/tolvubraut/FORR3FV-Haust19-LEDMatrixSnake)
    - [snake kóðinn í C++](https://github.com/VESM3/Kennarar/blob/master/Ihlutir/Code/snake.cc)
 - [Arcade](http://tolvubraut.is/FORR3FV-Vor19-ArcadePi/)
    - ffmpeg screen capture til að displaya á matrixið
    - búa til custom pixel mapper
 - [Sandtoy](http://tolvubraut.is/FORR3FV-Haust19-LEDMatrixToy/)
+  - [Github](https://github.com/tolvubraut/FORR3FV-Haust19-LEDMatrixToy) 
   - fylgt eftir [Raspberry Pi LED Matrix Sand Toy](https://learn.adafruit.com/matrix-led-sand) 
 
