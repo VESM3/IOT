@@ -17,6 +17,7 @@
 - [Snake](http://tolvubraut.is/FORR3FV-Haust19-LEDMatrixSnake/) _Haust 2019_
    - [Github](https://github.com/tolvubraut/FORR3FV-Haust19-LEDMatrixSnake)
    - [snake kóðinn í C++](https://github.com/VESM3/Kennarar/blob/master/Ihlutir/Code/snake.cc)
+- [64x64 LEDMatrix með veðurþjónustu (tími og hiti)](https://github.com/RafalRo/VESM3) Rafal og Valdimar, reyndu líka við gyro 
 - [Arcade](http://tolvubraut.is/FORR3FV-Vor19-ArcadePi/)
    - ffmpeg screen capture til að displaya á matrixið
    - búa til custom pixel mapper
