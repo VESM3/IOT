@@ -1,6 +1,6 @@
 ### Kóðasýnidæmi með notkun MQTT
 
-- [RPI með test.mosquitto](https://test.mosquitto.org/)
+- [RPI með test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI)
 - ESP32 
   - EspMQTTClient: https://www.arduino.cc/reference/en/libraries/espmqttclient/
   - PubSubClient: https://www.arduino.cc/reference/en/libraries/pubsubclient/
