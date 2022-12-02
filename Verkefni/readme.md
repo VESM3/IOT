@@ -4,6 +4,7 @@
 
 - RPi Zero portin eru frekar leiðinleg, þarf að jugga til aðeins til að fá ljós
 - RPi3 skemmdist við skammhlaup, (töng í tvo pinna)
+- spurning að hætta með password fyrir SSH og nota KEY útaf fingerprint veseni.
 
 ---
 
