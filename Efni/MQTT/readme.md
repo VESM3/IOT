@@ -1,4 +1,4 @@
-### Kóðasýnidæmi með notkun MQTT
+### MQTT Kóðasýnidæmi 
 
 - [RPI með test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI)
 - ESP32 
