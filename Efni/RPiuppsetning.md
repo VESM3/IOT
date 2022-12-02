@@ -4,7 +4,7 @@
 1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) forritið með microSD kort og usb lykli í tölvunni.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34), 
     1. Veldu **Raspberry Pi OS (Legacy)** sem er **Debian Buster 32-bit** stýrikerfið (ath. það er ekki default) 
-    2. Veldu Advanced options með lyklaborði `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
+    2. Veldu Settings (tannhjólið) eða `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
         - Veldu í Image customization options `to always use`
         - hostname í `nafnið þitt` (ekk nota sérstafi/íslenska) t.d. gunnarthorunnarson
         - Enable SSH. Ekki breyta **pi** user og notaðu lykilorðið **raspberry**  (breytum seinna lykilorðinu)
