@@ -1,4 +1,4 @@
-# Telemetry: Hlutur sendir gildi með JSON sniðmáti til MQTT broker (Publish telemetry).
+# Telemetry: Hlutur sendir gildi í strengjaformi (JSON) til MQTT broker (Publish telemetry).
 # Vefgrein: https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md
 # Kóði: https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/code-telemetry/pi/nightlight/app.py
 
