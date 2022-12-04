@@ -35,8 +35,12 @@ V3.1
 - DHT11: `sudo python3 install Adafruit_DHT` í staðinn fyrir:
    - sleppa git clone  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
    - sleppa `sudo python3 setup.py install`
+   - dht11 sensor er ekki í gpiozero safninu
+   - adafruit dht er depricated (en virðist virka), nýrra safn hér https://docs.circuitpython.org/projects/dht/en/latest/
+- finna annan digital skynjara fyrir verkefnið næst.
+
 V3.2
-- paho-mqtt library dettur út stundum.
+- paho-mqtt library dettur út stundum, hjá einhverjum.
 
 ---
 
