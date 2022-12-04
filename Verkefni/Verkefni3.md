@@ -28,16 +28,16 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi sjá [tutori
 ### 2 MQTT með RPi (30%)
 
 1. Lestu eftirfarandi um [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction) og kynntu þér vel MQTT grunnskipanir.
-1. Fylgdu svo leiðbeiningum þar sem snúa að **Single-board computer - Raspberry Pi** (ekki Arduino - Wio Terminal) þar sem þú:
+1. Fylgdu svo leiðbeiningum sem snúa að **Single-board computer - Raspberry Pi** (ekki Arduino - Wio Terminal) þar sem þú:
    1.  tengir náttljósið (IoT hlut úr 3.1) sem MQTT client við [Eclipse Mosquitto](https://test.mosquitto.org/) sem er open-source test MQTT broker. 
-   1.  RPi Sendir birtugildin í JSON sniði til MQTT broker.
+   1.  RPi Sendir birtugildin sem JSON streng til MQTT broker.
    1.  Python app á tölvunni þinni (server code) hlustar (subscribe) á MQTT broker.
-   1.  Tölva þín (server code) sendir skipun (publish) um að kveikja eða slökkva á náttljósinu (LED) útfrá ákveðnum birtugildum.
+   1.  Tölva þín (server code) sendir skipun (command) um að kveikja eða slökkva á náttljósinu (LED) á RPi útfrá birtugildum.
 
-Nánar um [How to Use The Paho MQTT Python Client for Beginners](http://www.steves-internet-guide.com/into-mqtt-python-client/)
+- [Kóðasýnidæmi](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI)
+- [How to Use The Paho MQTT Python Client for Beginners](http://www.steves-internet-guide.com/into-mqtt-python-client/)
 
 _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
-
 
 ---
 
