@@ -27,7 +27,7 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi sjá [tutori
 
 ### 2 MQTT með RPi (30%)
 
-1. Lestu eftirfarandi um [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction). 
+1. Lestu eftirfarandi um [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction) og kynntu þér vel MQTT grunnskipanir.
 1. Fylgdu svo leiðbeiningum þar sem snúa að **Single-board computer - Raspberry Pi** (ekki Arduino - Wio Terminal) þar sem þú:
    1.  tengir náttljósið (IoT hlut úr 3.1) sem MQTT client við [Eclipse Mosquitto](https://test.mosquitto.org/) sem er open-source test MQTT broker. 
    1.  RPi Sendir birtugildin í JSON sniði til MQTT broker.
@@ -43,11 +43,10 @@ _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 
 ### 3. MQTT með ESP32 (20%) 
 
-1. Kynntu þér vel MQTT grunnskipanir.
-1. Gerðu sambærilegt og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
+Gerðu sambærilegt og í 3.2 en núna með ESP32 sem MQTT client (í staðinn fyrir RPi). 
    - Notaðu [BH1750](https://www.arduino.cc/reference/en/libraries/bh1750/) með ESP32, [sýnidæmi](https://github.com/claws/BH1750#example)
    - Tengdu ESP32 við Wifi.
-   - Notaðu MQTT Client fyrir ESP32, [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) (eða [PubSubClient](https://github.com/knolleary/pubsubclient))
+   - Notaðu MQTT Client fyrir ESP32, [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) eða [PubSubClient](https://github.com/knolleary/pubsubclient)
    - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
    - Notaðu [Arduino JSON](https://arduinojson.org/) _það má líka senda beint streng_
 
