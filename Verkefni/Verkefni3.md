@@ -80,7 +80,7 @@ Einn eða tveir nemendur saman.
  
 **Sýnidæmi veðurstöð:**  
 - [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/)
-- [Lausn frá kennara](https://github.com/eirben/VESM2_V22/blob/main/verkefni5/verkefni5.4.md)
+   - [Lausn frá kennara](https://github.com/eirben/VESM2_V22/blob/main/verkefni5/verkefni5.4.md)
 
 <!--
 - Home Automation: [part 1](https://www.youtube.com/watch?v=kRvNlSJs0Hg&ab_channel=BorisDusnoki) og [part 2](https://www.youtube.com/watch?v=menuVmKz-mc&t=0s&ab_channel=BorisDusnoki) _(youtube)_. ESP32 er tengt við DHT11, IR transmitter og tæki og RPi: Mosquitto Broker, Node Red, DietPi OS, SQL Lite.
