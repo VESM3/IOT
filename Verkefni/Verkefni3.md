@@ -16,7 +16,6 @@
 _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi sjá [tutorial](https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-raspberry-pi/)_
    - sleppa: `git clone https://github.com/adafruit/Adafruit_Python_DHT.git` og `sudo python3 setup.py install`
    - Gera í staðinn: `sudo pip3 install Adafruit_DHT`
-   - dht11 sensor er ekki í gpiozero safninu, adafruit dht er depricated (en virkar enn)
 
 ---
 
