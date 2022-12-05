@@ -42,15 +42,15 @@ Gerðu sambærilegt og í 3.2 en núna með ESP32 sem MQTT client (í staðinn f
    - Tengdu ESP32 við Wifi.
    - Notaðu MQTT Client fyrir ESP32, [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) eða [PubSubClient](https://github.com/knolleary/pubsubclient)
    - Notaðu [Eclipse Mosquitto Broker](https://test.mosquitto.org/)
-   - Notaðu [Arduino JSON](https://arduinojson.org/) _það má líka senda beint streng_
-
+   - Notaðu streng eða [Arduino JSON](https://arduinojson.org/) 
+   
 _Það má nota DHT11 í staðinn, notið þá raka- eða hitagildi_
 
 <!--
 **Bjargir til viðmiðunar:**
 - [ESP32 MQTT client: Publish and Subscribe. HiveMQ and BME280 example](https://www.survivingwithandroid.com/esp32-mqtt-client-publish-and-subscribe/) 
 - [MQTT](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#introduction), skoða lauslega Arduino útfærslu.
-- Ef þú vilt frekar nota python: [MicroPython – Getting Started with MQTT on ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
+- Ef þú vilt frekar nota python með ESP32: [MicroPython – Getting Started with MQTT on ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
 -->
 
 <!--
