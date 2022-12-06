@@ -94,9 +94,9 @@ S | SCL
 G | GND 
 V | Vcc 
 
-<!--
-OLED með ESP32 https://github.com/adafruit/Adafruit_SSD1306
--->
+
+_Ítarefni: OLED með ESP32 https://github.com/adafruit/Adafruit_SSD1306_
+
 
 ---
 
