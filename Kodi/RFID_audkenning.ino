@@ -33,7 +33,8 @@ void loop(){
         }
         content.toUpperCase();
         content = content.substring(1);
-
+        
+        // change UID
         if(content == "B3 8B EE A3"){
             Serial.println("Já");
         }else{
