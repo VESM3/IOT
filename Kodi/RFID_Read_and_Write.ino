@@ -92,6 +92,7 @@ int writeBlock(int blockNumber, byte arrayAddress[])
            return 4;//return "4" as error message
   }
   Serial.println("block was written");
+  return 0;
 }
 
 
@@ -118,4 +119,5 @@ status = mfrc522.MIFARE_Read(blockNumber, arrayAddress, &buffersize);//&buffersi
           return 4; //return "4" as error message
   }
   Serial.println("block was read");
+  return 0;
 }
