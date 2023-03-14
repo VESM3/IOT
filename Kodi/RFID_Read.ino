@@ -82,4 +82,5 @@ status = mfrc522.MIFARE_Read(blockNumber, arrayAddress, &buffersize);//&buffersi
           return 4; //return "4" as error message
   }
   Serial.println("block was read");
+  return 0;  
 }
