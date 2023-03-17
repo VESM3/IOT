@@ -34,7 +34,7 @@ void setup() {
   Serial.print("Connected to WiFi network with IP Address: ");
   Serial.println(WiFi.localIP());
  
-  Serial.println("Timer set to 5 seconds (timerDelay variable), it will take 5 seconds before publishing the first reading.");
+  Serial.println("Timer set to 5 seconds");
 }
 
 void loop() {
@@ -43,7 +43,8 @@ void loop() {
     //Check WiFi connection status
     if(WiFi.status()== WL_CONNECTED){
       HTTPClient http;
-
+      
+      // query parameter if used is added here
       String serverPath = serverName + "?temperature=24.37";
       
       // Your Domain name with URL path or IP address with path
