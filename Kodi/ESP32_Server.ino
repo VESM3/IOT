@@ -61,6 +61,7 @@ void handle_led1on() {
   LED1status = HIGH;
   Serial.println("GPIO4 Status: ON");
   server.send(200, "text/html", SendHTML(true,LED2status)); 
+  // server.send(200, "text/plain", "this works as well");
 }
 
 void handle_led1off() {
