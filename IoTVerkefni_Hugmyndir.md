@@ -1,12 +1,4 @@
 
-## IOT PROJECTS:
-- [HAckster](https://www.hackster.io/projects/tags/internet+of+things)
-- [Instructables IOT](https://www.instructables.com/howto/iot/)
-- [Arduino Project Hub](https://create.arduino.cc/projecthub?category=internet-of-things-bt-wireless&sort=trending)
-
-
----
-
 ## Hugmyndir að lokaverkefni
 - IOT simon says spil með þrýsiskynjurum og ljósi og hátalara, hver kassi 1rúmmetri er með einu ljósi, fjórir alls demo. https://youtu.be/T5PB72bh27Q?t=115
 - home automation kerfi. 
