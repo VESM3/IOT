@@ -2,7 +2,7 @@ from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
 from msrest.authentication import CognitiveServicesCredentials
 
-# Þarf að sækja eftirfarandi safn:  pip install azure-cognitiveservices-vision-computervision
+# Þarf að sækja eftirfarandi safn:  pip3 install azure-cognitiveservices-vision-computervision
 
 import os
 
