@@ -1,12 +1,12 @@
 
 # MQTT sýnidæmi með eigin local broker
-Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber sækir gildi frá broker til að vinna með.
+Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subscriber fær svo gildin frá Broker.
 
-- ESP32 er publisher
-- raspberrypi zero er broker 
-- fartölva er subscriber. 
+- ESP32 er **Publisher**
+- RaspberryPi  er **Broker** 
+- Fartölva er **Subscriber**. 
 
-Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). 
+> [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). 
 
 ---
 
