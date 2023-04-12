@@ -1,27 +1,23 @@
 
 ## MQTT með eigin (local broker)
-esp32 WIFI er publisher raspberrypi zero er broker og raspberrypi er subscriber. Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber sækir gildi frá broker til
-að vinna með.
+ESP32 er publisher, raspberrypi zero er broker og raspberrypi er subscriber. Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber sækir gildi frá broker til að vinna með.
+
 ## Kóði publisher
 ``` c
 #include "DHT.h"
-
 #include "PubSubClient.h" // Connect and publish to the MQTT broker
 
 // Code for the ESP32
 #include "WiFi.h" // Enables the ESP32 to connect to the local network (via WiFi)
 #define DHTPIN 4  // Pin connected to the DHT sensor
 
-// Code for the ESP8266
-//#include "ESP8266WiFi.h"  // Enables the ESP8266 to connect to the local network (via WiFi)
-//#define DHTPIN D5         // Pin connected to the DHT sensor
 
-#define DHTTYPE DHT22  // DHT11 or DHT22
+#define DHTTYPE DHT11  // DHT11 or DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
 // WiFi
 const char* ssid = "";                 // Your personal network SSID
-const char* wifi_password = ""; // Your personal network password
+const char* wifi_password = "";        // Your personal network password
 
 // MQTT
 const char* mqtt_server = "192.168.1.100";  // IP of the MQTT broker
