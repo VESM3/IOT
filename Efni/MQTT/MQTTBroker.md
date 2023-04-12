@@ -2,7 +2,7 @@
 ## MQTT með eigin (local broker)
 ESP32 er publisher, raspberrypi zero er broker og raspberrypi er subscriber. Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber sækir gildi frá broker til að vinna með.
 
-## Kóði publisher
+### Kóði publisher
 ``` c
 #include "DHT.h"
 #include "PubSubClient.h" // Connect and publish to the MQTT broker
@@ -118,7 +118,7 @@ void loop() {
 ```
 ## Uppsetning á broker (raspberrypi)
 Broker getur verið hvaða vél sem er nettengd í þessu tilviki er broker raspberrpi zero
-# uppsetning:
+
 1. Finna ip tölu á broker (raspberrypi)
 1. Stofna user (username) og lykilorð (password)
 2. Búa til einstakt userid (unique)
@@ -135,7 +135,10 @@ Broker getur verið hvaða vél sem er nettengd í þessu tilviki er broker rasp
    * Til að stoppa Mosquitto **sudo systemctl stop mosquitto**
    * Til að endurræsa Mosquitto **sudo systemctl restart mosquitto**
    * Til að Mosquitto ræsi sjálkrafa við ræsingu vélar **sudo systemctl enable mosquitto**
-## Kóði subscriber:
+
+---
+
+## Kóði subscriber (tölva eða annar RPi):
 ``` python
 import paho.mqtt.client as mqtt
 
