@@ -1,0 +1,176 @@
+
+## MQTT með eigin (local broker)
+esp32 WIFI er publisher raspberrypi zero er broker og raspberrypi er subscriber. Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber sækir gildi frá broker til
+að vinna með.
+## Kóði publisher
+``` c
+#include "DHT.h"
+
+#include "PubSubClient.h" // Connect and publish to the MQTT broker
+
+// Code for the ESP32
+#include "WiFi.h" // Enables the ESP32 to connect to the local network (via WiFi)
+#define DHTPIN 4  // Pin connected to the DHT sensor
+
+// Code for the ESP8266
+//#include "ESP8266WiFi.h"  // Enables the ESP8266 to connect to the local network (via WiFi)
+//#define DHTPIN D5         // Pin connected to the DHT sensor
+
+#define DHTTYPE DHT22  // DHT11 or DHT22
+DHT dht(DHTPIN, DHTTYPE);
+
+// WiFi
+const char* ssid = "";                 // Your personal network SSID
+const char* wifi_password = ""; // Your personal network password
+
+// MQTT
+const char* mqtt_server = "192.168.1.100";  // IP of the MQTT broker
+const char* humidity_topic = "home/livingroom/humidity";
+const char* temperature_topic = "home/livingroom/temperature";
+const char* mqtt_username = "eirben"; // MQTT username
+const char* mqtt_password = "eirben"; // MQTT password
+const char* clientID = "client_livingroom"; // MQTT client ID
+
+// Initialise the WiFi and MQTT Client objects
+WiFiClient wifiClient;
+// 1883 is the listener port for the Broker
+PubSubClient client(mqtt_server, 1883, wifiClient); 
+
+
+// Custom function to connet to the MQTT broker via WiFi
+void connect_MQTT(){
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+
+  // Connect to the WiFi
+  WiFi.begin(ssid, wifi_password);
+
+  // Wait until the connection has been confirmed before continuing
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  // Debugging - Output the IP Address of the ESP8266
+  Serial.println("WiFi connected");
+  Serial.print("IP address: ");
+  Serial.println(WiFi.localIP());
+
+  // Connect to MQTT Broker
+  // client.connect returns a boolean value to let us know if the connection was successful.
+  // If the connection is failing, make sure you are using the correct MQTT Username and Password (Setup Earlier in the Instructable)
+  if (client.connect(clientID, mqtt_username, mqtt_password)) {
+    Serial.println("Connected to MQTT Broker!");
+  }
+  else {
+    Serial.println("Connection to MQTT Broker failed...");
+  }
+}
+
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+}
+
+void loop() {
+  connect_MQTT();
+  Serial.setTimeout(2000);
+  
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+  
+  Serial.print("Humidity: ");
+  Serial.print(h);
+  Serial.println(" %");
+  Serial.print("Temperature: ");
+  Serial.print(t);
+  Serial.println(" *C");
+
+  // MQTT can only transmit strings
+  String hs="Hum: "+String((float)h)+" % ";
+  String ts="Temp: "+String((float)t)+" C ";
+
+  // PUBLISH to the MQTT Broker (topic = Temperature, defined at the beginning)
+  if (client.publish(temperature_topic, String(t).c_str())) {
+    Serial.println("Temperature sent!");
+  }
+  // Again, client.publish will return a boolean value depending on whether it succeded or not.
+  // If the message failed to send, we will try again, as the connection may have broken.
+  else {
+    Serial.println("Temperature failed to send. Reconnecting to MQTT Broker and trying again");
+    client.connect(clientID, mqtt_username, mqtt_password);
+    delay(10); // This delay ensures that client.publish doesn't clash with the client.connect call
+    client.publish(temperature_topic, String(t).c_str());
+  }
+
+  // PUBLISH to the MQTT Broker (topic = Humidity, defined at the beginning)
+  if (client.publish(humidity_topic, String(h).c_str())) {
+    Serial.println("Humidity sent!");
+  }
+  // Again, client.publish will return a boolean value depending on whether it succeded or not.
+  // If the message failed to send, we will try again, as the connection may have broken.
+  else {
+    Serial.println("Humidity failed to send. Reconnecting to MQTT Broker and trying again");
+    client.connect(clientID, mqtt_username, mqtt_password);
+    delay(10); // This delay ensures that client.publish doesn't clash with the client.connect call
+    client.publish(humidity_topic, String(h).c_str());
+  }
+  client.disconnect();  // disconnect from the MQTT broker
+  delay(1000*60);       // print new values every 1 Minute
+}
+```
+## Uppsetning á broker (raspberrypi)
+Broker getur verið hvaða vél sem er nettengd í þessu tilviki er broker raspberrpi zero
+# uppsetning:
+1. Finna ip tölu á broker (raspberrypi)
+1. Stofna user (username) og lykilorð (password)
+2. Búa til einstakt userid (unique)
+3. Finna WiFi SSID og WiFi password
+4. Innstall á raspberrypi
+  * sudo apt-get update 
+  * sudo apt-get upgrade
+  * sudo apt-get install mosquitto
+1. gerið sudo nano /etc/mosquitto/mosquitto.conf og breytið, sjá !["mynd"](https://github.com/eirben/VESM2_H21/blob/main/verkefni5/mosquitto_conf.jpg)
+2. Búa til notanda og lykilorð (publisher) sudo mosquitto_passwd -c /etc/mosquitto/pwfile ***username***
+  * Til að eyða notanda *sudo mosquitto_passwd -d /etc/mosquitto/pwfile username*
+  * Til að sjá stöðu brokera **sudo systemctl status mosquitto**
+  * Til að ræsa Mosquitto **sudo systemctl start mosquitto**
+  * Til að stoppa Mosquitto **sudo systemctl stop mosquitto**
+  * Til að endurræsa Mosquitto **sudo systemctl restart mosquitto**
+  * Til að Mosquitto ræsi sjálkrafa við ræsingu vélar **sudo systemctl enable mosquitto**
+## Kóði subscriber:
+``` python
+import paho.mqtt.client as mqtt
+
+MQTT_ADDRESS = 'iptala broker'
+MQTT_USER = 'username'
+MQTT_PASSWORD = '*****'
+MQTT_TOPIC = 'home/+/+'
+
+
+def on_connect(client, userdata, flags, rc):
+    """ The callback for when the client receives a CONNACK response from the server."""
+    print('Connected with result code ' + str(rc))
+    client.subscribe(MQTT_TOPIC)
+
+
+def on_message(client, userdata, msg):
+    """The callback for when a PUBLISH message is received from the server."""
+    print(msg.topic + ' ' + str(msg.payload))
+
+
+def main():
+    mqtt_client = mqtt.Client()
+    mqtt_client.username_pw_set(MQTT_USER, MQTT_PASSWORD)
+    mqtt_client.on_connect = on_connect
+    mqtt_client.on_message = on_message
+
+    mqtt_client.connect(MQTT_ADDRESS, 1883)
+    mqtt_client.loop_forever()
+
+
+if __name__ == '__main__':
+    print('MQTT tenging við broker')
+    main()
+    ```
