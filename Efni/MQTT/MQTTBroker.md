@@ -79,7 +79,7 @@ void setup() {
 
 void loop() {
   connect_MQTT();
-  Serial.setTimeout(2000);
+  Serial.setTimeout(2000); //  maximum milliseconds to wait for serial data
   
   float h = dht.readHumidity();
   float t = dht.readTemperature();
