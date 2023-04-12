@@ -1,5 +1,5 @@
 
-# MQTT sýnidæmi með eigin local broker
+# MQTT sýnidæmi með eigin broker
 Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subscriber fær svo gildin frá Broker.
 
 - ESP32 er **Publisher**
