@@ -12,7 +12,7 @@ Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subsc
 
 ## Kóði publisher (ESP32)
 ``` c
-#include "DHT.h"
+#include "DHT.h"          // safn frá Adafruit
 #include "PubSubClient.h" // Connect and publish to the MQTT broker
 
 // Code for the ESP32
