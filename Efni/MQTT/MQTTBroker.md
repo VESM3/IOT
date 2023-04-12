@@ -1,6 +1,12 @@
 
-## MQTT með eigin (local broker)
-ESP32 er publisher, raspberrypi zero er broker og raspberrypi er subscriber. Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber sækir gildi frá broker til að vinna með.
+# MQTT sýnidæmi með eigin local broker
+
+Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber sækir gildi frá broker til að vinna með.
+
+- ESP32 er publisher
+- raspberrypi zero er broker 
+- fartölva er subscriber. 
+
 
 ### Kóði publisher
 ``` c
