@@ -5,6 +5,7 @@ Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber s
 - ESP32 er publisher
 - raspberrypi zero er broker 
 - fartölva er subscriber. 
+
 Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). 
 
 ---
