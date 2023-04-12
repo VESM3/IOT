@@ -6,7 +6,7 @@ Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subsc
 - RaspberryPi  er **Broker** 
 - Fartölva er **Subscriber**. 
 
-> [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). í greinnin þá er Subscriber einnig á á RPi og Broker (algengt). 
+> Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). Í greininni þá er Subscriber einnig á RPi og Broker (algengt). 
 
 ---
 
