@@ -7,8 +7,9 @@ Esp32 er með DHT22/11 raka og hitamæli sendir gildi til Broker og subscriber s
 - raspberrypi zero er broker 
 - fartölva er subscriber. 
 
+---
 
-### Kóði publisher
+## Kóði publisher (ESP32)
 ``` c
 #include "DHT.h"
 #include "PubSubClient.h" // Connect and publish to the MQTT broker
@@ -122,7 +123,8 @@ void loop() {
   delay(1000*60);       // print new values every 1 Minute
 }
 ```
-## Uppsetning á broker (raspberrypi)
+
+## Uppsetning á broker (Raspberry Pi)
 Broker getur verið hvaða vél sem er nettengd í þessu tilviki er broker raspberrpi zero
 
 1. Finna ip tölu á broker (raspberrypi)
@@ -144,7 +146,7 @@ Broker getur verið hvaða vél sem er nettengd í þessu tilviki er broker rasp
 
 ---
 
-## Kóði subscriber (tölva eða annar RPi):
+## Kóði subscriber (tölva)
 ``` python
 import paho.mqtt.client as mqtt
 
