@@ -91,10 +91,6 @@ void loop() {
   Serial.print(t);
   Serial.println(" *C");
 
-  // MQTT can only transmit strings
-  String hs="Hum: "+String((float)h)+" % ";
-  String ts="Temp: "+String((float)t)+" C ";
-
   // PUBLISH to the MQTT Broker (topic = Temperature, defined at the beginning)
   if (client.publish(temperature_topic, String(t).c_str())) {
     Serial.println("Temperature sent!");
