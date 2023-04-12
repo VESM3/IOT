@@ -92,7 +92,8 @@ void loop() {
   Serial.println(" *C");
 
   // PUBLISH to the MQTT Broker (topic = Temperature, defined at the beginning)
-  if (client.publish(temperature_topic, String(t).c_str())) {
+  // .c_str() converts a string to an array of characters and terminates this array with a null character at the end.
+  if (client.publish(temperature_topic, String(t).c_str())) { 
     Serial.println("Temperature sent!");
   }
   // Again, client.publish will return a boolean value depending on whether it succeded or not.
