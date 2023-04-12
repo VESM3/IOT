@@ -123,7 +123,7 @@ void loop() {
 ```
 
 ## Uppsetning á broker (Raspberry Pi)
-Broker getur verið hvaða vél sem er nettengd í þessu tilviki er broker raspberrpi zero
+Broker getur verið hvaða vél sem er nettengd, í þessu tilviki er Broker raspberryPi Zero.
 
 1. Finna ip tölu á broker (raspberrypi)
 1. Stofna user (username) og lykilorð (password)
