@@ -13,6 +13,7 @@
 ---
 
 #### MQTT client
+
 - [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/) (by knolleary)
    - [Using the Arduino PubSub MQTT Client](http://www.steves-internet-guide.com/using-arduino-pubsub-mqtt-client/).
    - It can only publish QoS 0 messages. It can subscribe at QoS 0 or QoS 1.
@@ -20,3 +21,6 @@
 - [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) (by bertmelis)
    - MQTT library that can publish with QoS 1 or 2.
    - depends on the PubSubClient Library.
+- [Paho MQTT python client](https://pypi.org/project/paho-mqtt/) 
+   - [How to Use The Paho MQTT Python Client for Beginners](http://www.steves-internet-guide.com/into-mqtt-python-client/)
+   - `pip3 install paho-mqtt`
