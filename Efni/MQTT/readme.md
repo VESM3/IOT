@@ -1,4 +1,4 @@
-### MQTT kóðasýnidæmi 
+#### MQTT kóðasýnidæmi 
 
 - [ESP32 + RPi Broker uppsetning](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/MQTTBroker.md) _(C++ og python)_
    - ESP32 notar DHT22/11 og PubSubClient, gögn sem strengur. 
@@ -12,7 +12,7 @@
 
 ---
 
-### MQTT client
+#### MQTT client
 
 - [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/) (by knolleary)
    - [Using the Arduino PubSub MQTT Client](http://www.steves-internet-guide.com/using-arduino-pubsub-mqtt-client/).
