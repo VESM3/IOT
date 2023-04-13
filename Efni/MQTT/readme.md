@@ -1,7 +1,7 @@
 ### MQTT sýnidæmi 
 
 - [ESP32 + RPi Broker uppsetning](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/MQTTBroker.md) 
-   - ESP32 notar DHT22/11 og PubSubClient. _C++_
+   - ESP32 notar DHT22/11 og PubSubClient, gögn sem strengur. _C++_
    - RPi er Broker og Subscriber.  _Python_
 - [RPI með test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI) _python_
    1. Client (RPi) tenging við MQTT Broker (test.mosquitto)
