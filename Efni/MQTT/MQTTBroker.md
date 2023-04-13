@@ -3,11 +3,9 @@
 Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subscriber fær svo gildin frá Broker.
 
 - ESP32 er **Publisher**
-- RaspberryPi  er **Broker** 
-- Fartölva er **Subscriber**. 
+- RaspberryPi er **Broker** og **Subscriber**. 
 
-> Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). Í greininni þá er Subscriber einnig á RPi og Broker (algengt). 
-
+> Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). 
 ---
 
 ## Kóði publisher (ESP32)
@@ -144,7 +142,7 @@ Broker getur verið hvaða vél sem er nettengd, í þessu tilviki er Broker ras
 
 ---
 
-## Kóði subscriber (tölva)
+## Kóði subscriber (Raspberry Pi)
 ``` python
 import paho.mqtt.client as mqtt
 
