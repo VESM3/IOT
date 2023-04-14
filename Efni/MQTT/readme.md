@@ -14,7 +14,7 @@
 
 #### MQTT client
 
-- [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/) (by knolleary)
+- [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/) (by Nick O'Leary)
    - [Using the Arduino PubSub MQTT Client](http://www.steves-internet-guide.com/using-arduino-pubsub-mqtt-client/).
    - It can only publish QoS 0 messages. It can subscribe at QoS 0 or QoS 1.
    - The maximum message size, including header, is 256 bytes by default. This is configurable.
