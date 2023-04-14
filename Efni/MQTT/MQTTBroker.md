@@ -125,7 +125,7 @@ Broker getur verið hvaða vél sem er nettengd, í þessu tilviki er Broker ras
 
 1. Finna ip tölu á broker (raspberrypi)
 1. Finna WiFi SSID og WiFi password
-1. Innstall á raspberrypi
+1. Install á raspberrypi
    * sudo apt-get update 
    * sudo apt-get upgrade
    * sudo apt-get install mosquitto
