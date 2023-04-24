@@ -12,7 +12,7 @@
 
 ---
 
-#### MQTT client
+#### MQTT clients
 
 - [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/) (by Nick O'Leary) _fyrir ESP32_
    - [Using the Arduino PubSub MQTT Client](http://www.steves-internet-guide.com/using-arduino-pubsub-mqtt-client/).
