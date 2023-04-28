@@ -33,3 +33,4 @@ Skynjarar:
 - [I2C RFID Breakout fyrir snjallsíma (NFC tag)](https://www.adafruit.com/product/4701) - 10 stk
 - [ADC Analog to digital]() - 20 stk
 - [microphone ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) Sýnidæmi, [recognize speech with an IoT device](https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md) _Voice recognicition t.d. Alexa_
+- [Stereo Enclosed Speaker - 3W 8Ω](https://thepihut.com/products/stereo-enclosed-speaker-set-3w-4-ohm) 
