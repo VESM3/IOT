@@ -12,7 +12,7 @@ Skynjarar:
 - [Púls skynjari arduino](https://www.instructables.com/Pulse-Sensor-With-Arduino-Tutorial/)
 - [Loftþrýstimælir](https://lastminuteengineers.com/bmp180-arduino-tutorial/)
 - [Dropateljari](https://lastminuteengineers.com/rain-sensor-arduino-tutorial/)
-- [Laser sender](https://create.arduino.cc/projecthub/infoelectorials/project-007-arduino-ky-008-laser-module-project-a62c94)
+- [HW-493 Laser](https://makerselectronics.com/product/laser-module-board-hw-493)
 - [Tiny RTC tími/dagsetn/ár](https://www.elecrow.com/wiki/index.php?title=Tiny_RTC)
 - [Ljósviðnám  KY-018(lightsensor)](https://arduinomodules.info/ky-018-photoresistor-module/#:~:text=The%20KY%2D018%20Photoresistor%20module,like%20Arduino%2C%20ESP32%20and%20others.)
 - [IR receiver (infrarautt móttakari)](https://wiki.keyestudio.com/Ks0026_keyestudio_Digital_IR_Receiver_Module)
