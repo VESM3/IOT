@@ -1,5 +1,5 @@
 ## íhlutir 
-Intaks og úttakstæki í eigu Tækniskólans hér fyrir neðan eru krækjur í tæknilegar upplýsingar.
+Intaks og úttakstæki í eigu Tækniskólans hér fyrir neðan eru krækjur í tæknilegar upplýsingar (listinn er ekki tæmandi).
  
 Skjáir:
 - [OLED Upplausn 64x128](https://www.diymore.cc/products/2-42-inch-12864-oled-display-module-iic-i2c-spi-serial-for-arduino-c51-stm32-green-white-blue-yellow)
