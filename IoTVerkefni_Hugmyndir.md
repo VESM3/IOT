@@ -2,7 +2,7 @@
 ## Hugmyndir að IoT lokaverkefni
 
 #### IoT Projects
-
+- [10 Simple MQTT Projects For Beginners](https://www.cloudmqtt.com/blog/10-simple-mqtt-projects-for-beginners.html)
 - IOT simon says spil með þrýsiskynjurum og ljósi og hátalara, hver kassi 1rúmmetri er með einu ljósi, fjórir alls demo. https://youtu.be/T5PB72bh27Q?t=115
 - home automation kerfi. 
 - plöntu sjálfvirkt kerfi
