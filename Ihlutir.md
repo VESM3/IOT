@@ -1,7 +1,6 @@
+## íhlutir 
 Intaks og úttakstæki í eigu Tækniskólans hér fyrir neðan eru krækjur í tæknilegar upplýsingar.
-
-Hér er listi yfir skynjara ESP32 (og Esp8266), Arduino, RPi:
-
+ 
 Skjáir:
 - [OLED Upplausn 64x128](https://www.diymore.cc/products/2-42-inch-12864-oled-display-module-iic-i2c-spi-serial-for-arduino-c51-stm32-green-white-blue-yellow)
 - [OLED Lítill 0,96" skjár með upplausn 64 x 128](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
