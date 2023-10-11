@@ -1,4 +1,4 @@
-### IoT
+
 - [IoT Nemendaverkefni](https://github.com/Verksmidja)
 - [IoT hugmyndir](https://github.com/VESM3/IOT/blob/main/IoTVerkefni_Hugmyndir.md)
 
