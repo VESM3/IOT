@@ -1,7 +1,6 @@
 
 ## Hugmyndir að IoT lokaverkefni
 - [10 Simple MQTT Projects For Beginners](https://www.cloudmqtt.com/blog/10-simple-mqtt-projects-for-beginners.html)
-- [Sensor Based Project Ideas for Final Year Engineering Students](https://www.elprocus.com/sensor-based-electronics-projects/)
 - [Sensor based projects](https://nevonprojects.com/sensor-based-projects/)
 
 #### IoT Projects
