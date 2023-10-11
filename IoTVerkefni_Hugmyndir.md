@@ -1,10 +1,11 @@
 
 ## Hugmyndir að IoT lokaverkefni
+- [10 Simple MQTT Projects For Beginners](https://www.cloudmqtt.com/blog/10-simple-mqtt-projects-for-beginners.html)
+- [Sensor Based Project Ideas for Final Year Engineering Students](https://www.elprocus.com/sensor-based-electronics-projects/)
+- [Sensor based projects](https://nevonprojects.com/sensor-based-projects/)
 
 #### IoT Projects
-- [10 Simple MQTT Projects For Beginners](https://www.cloudmqtt.com/blog/10-simple-mqtt-projects-for-beginners.html)
-- IOT simon says spil með þrýsiskynjurum og ljósi og hátalara, hver kassi 1rúmmetri er með einu ljósi, fjórir alls demo. https://youtu.be/T5PB72bh27Q?t=115
-- home automation kerfi. 
+ 
 - plöntu sjálfvirkt kerfi
    - https://www.instructables.com/Smart-IoT-Garden/ 
 - face recognition AI robot: https://www.electronicsforu.com/electronics-projects/design-iot-face-recognition-ai-robot
@@ -37,6 +38,7 @@
 - Led Light Lamp https://www.instructables.com/IOT-Ambient-Light-VIPER-Lamp/
 - [This Raspberry Pi Tether Gives Any DSLR Wireless Support](https://www.tomshardware.com/news/this-raspberry-pi-tether-gives-any-dslr-wireless-support)
 - [Adafruit IO Time Tracking Cube með ESP32 og Zapier](https://github.com/adafruit/Adafruit_IO_Arduino/blob/master/examples/adafruitio_24_zapier/adafruitio_24_zapier.ino) og https://learn.adafruit.com/time-tracking-cube
+- IOT simon says spil með þrýsiskynjurum og ljósi og hátalara, hver kassi 1 rúmmetri er með einu ljósi, fjórir alls [demo](https://youtu.be/T5PB72bh27Q?t=115)
 
 
 ---
