@@ -1,4 +1,4 @@
-## íhlutir 
+## Íhlutir 
 Intaks og úttakstæki í eigu Tækniskólans hér fyrir neðan eru krækjur í tæknilegar upplýsingar (listinn er ekki tæmandi).
  
 Skjáir:
