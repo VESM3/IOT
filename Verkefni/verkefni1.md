@@ -63,7 +63,7 @@ V | Vcc (3.3V)
      LYKILORD = "Fallegurhestur"
      ```
 1. Kynntu þér svo NTP og hvernig það er notað í Micropython með því að skoða þessa [grein](https://bhave.sh/micropython-ntp/).
-1. Skoðaðu einnig hvernig unnið er með tíma (leggja saman, draga frá o.fl) í micropython með því að skoða [þetta](https://docs.micropython.org/en/latest/library/time.html). Micropython inniheldur ekki `datatime` klasasafnið.
+1. Skoðaðu einnig hvernig unnið er með tíma (leggja saman, draga frá o.fl) í micropython með því að skoða [þetta](https://docs.micropython.org/en/latest/library/time.html). Micropython inniheldur ekki `datetime` klasasafnið.
 
 **Verkefnið**
 1. Tengdu ESP-inn við internetið, sæktu réttan tíma með NTP
@@ -72,6 +72,7 @@ V | Vcc (3.3V)
 Aðstoð:
  - Skoðaðu [Timers](https://docs.micropython.org/en/latest/esp32/quickref.html#timers) í Micropython til að uppfæra klukkuna á ákveðnum fresti.
  - Ef þú færð villuna `OSError: [Errno 116] ETIMEDOUT` eða `OSError: [Errno 118] EHOSTUNREACH` hinkraðu þá í smá stund og prófaðu svo aftur.
+ - [A Beginner’s Guide to the Python time Module](https://realpython.com/python-time-module/)
  
 <!-- 
 Birtu tíma og dagsetningu ( dagur, mánuður, ár ) í Serial Monitor miðað við Ísland, sjá [Getting Time From NTP Server With ESP32](https://lastminuteengineers.com/esp32-ntp-server-date-time-tutorial/).
