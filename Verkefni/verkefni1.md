@@ -12,7 +12,6 @@
 Fylgdu eftir [þessum](https://github.com/VESM2VT/ESP32/blob/main/verkefni/Timaverkefni0.md) leiðbeiningum. 
 
 - [Pinnamynd ESP32-S3](https://github.com/Freenove/Freenove_ESP32_S3_WROOM_Board/blob/main/ESP32S3_Pinout.png)
-- [Tutorial bók frá framleiðanda (pdf)](https://github.com/Freenove/Freenove_ESP32_S3_WROOM_Board/blob/main/Python/Python_Tutorial.pdf)
 
 :warning: ESP32 vinnur á 3.3V en ekki 5V. :warning:
 
