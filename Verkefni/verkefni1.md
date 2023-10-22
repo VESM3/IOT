@@ -126,7 +126,7 @@ Kynntu þér SPI samskipti með því að lesa þessa [grein](https://www.circui
 
 **Verkefnið**
 1. Lestu svo *id*-ið af tveimur kortum og bættu númerunum á þeim í kóðann hér að ofan (t.d. í lista).
-1. Breyttu nú forritun hér að ofan þannig að þegar þekkt kort (er í listanum í lið 3) er lesið kemur grænt ljós á NeoPixel díóðuna en ef kortið er ekki þekkt kemur rautt ljós. Ljósin eiga loga í eina sekúndu (má gera með sleep).
+1. Breyttu nú forritun hér að ofan þannig að þegar þekkt kort (er í listanum í fyrri liðnum) er lesið kemur grænt ljós á NeoPixel díóðuna en ef kortið er ekki þekkt kemur rautt ljós. Ljósin eiga loga í eina sekúndu (má gera með sleep).
 
 <!-- 
 
