@@ -61,6 +61,7 @@ V | Vcc (3.3V)
      SSID = "TskoliVESM"
      LYKILORD = "Fallegurhestur"
      ```
+     - ⚠️ Að tengjast við WIFI getur tekið örskamma stund. Hafðu smá `sleep` (t.d. 5 sek.) á eftir `connect` línunni í kóðanum hjá þér.
 1. Kynntu þér svo NTP og hvernig það er notað í Micropython með því að skoða þessa [grein](https://bhave.sh/micropython-ntp/).
 1. Skoðaðu einnig hvernig unnið er með tíma (leggja saman, draga frá o.fl) í micropython með því að skoða [þetta](https://docs.micropython.org/en/latest/library/time.html). Micropython inniheldur ekki `datetime` klasasafnið.
 
