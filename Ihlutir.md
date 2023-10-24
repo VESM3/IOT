@@ -36,5 +36,10 @@ Skynjarar:
 
 Íhlutir:
 - [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4)
+   - Smella á hvíta takkann til að kveikja á power output, tvismella til að slökkva á (OFF) straum.
    - micro usb og USB-C input er til að hlaða unit og batterí. Á botninum.
    - charge time:  500 mAH,  4 klst að fullhlaða ef tómt.
+   - ath. þarf að hlaða einu sinni áður en hægt er að nota.
+   - toggle switch er fyrir normal/hold position.
+      - Hold (SW1) er til að halda stöðugum straum á þar til over-discharge protection is triggerd (batterí drain 1/2 dagur).
+      - Normal er auto shutdown þegar straumur er of lítill
