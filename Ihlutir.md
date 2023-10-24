@@ -35,7 +35,7 @@ Skynjarar:
 - [Stereo Enclosed Speaker - 3W 8Ω](https://thepihut.com/products/stereo-enclosed-speaker-set-3w-4-ohm) 
 
 Íhlutir:
-- [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4)
+- [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
    - Smella á hvíta takkann til að kveikja á power output, tvismella til að slökkva á (OFF) straum.
    - micro usb og USB-C input er til að hlaða unit og batterí. Á botninum.
    - charge time:  500 mAH,  4 klst að fullhlaða ef tómt.
