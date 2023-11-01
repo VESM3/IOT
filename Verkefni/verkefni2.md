@@ -113,7 +113,7 @@ while True:
 
 ---
 
-### 3. ESP32 sem vefþjónn. (30%)  _vantar kóðalausn_
+### 3. ESP32 sem vefþjónn. (30%)  
 
 Athugaðu að í áfanganum notum við okkar eigið þráðlausa net með þessum upplýsingum:
 ```python
@@ -149,7 +149,7 @@ ESP32 getur notað AP mode og Station mode samtímis. Önnur WiFi tæki geta val
 
 ---
 
-### 4. Ljósstýring (30%) _vantar kóðalausn_
+### 4. Ljósstýring (30%) 
 
 1. Settu upp tvo birtumæla (LDR) með sitthvorn ESP32 sem sendir gögn frá sér á 5 sekúndna fresti með ESP-NOW til þriðja ESP32inn sem birtir gildin á tölvuskjá. 
 1. Settu upp þriðja ESP32inn sem vefþjón (tengdur tilbúnu Wifi) sem birtir gildin á vefsíðu.
