@@ -93,10 +93,14 @@ while True:
 
 1. Breyttu kóðanum hér fyrir ofan þannig að sendandinn sendir tvær handahófsvaldar (e. random) heiltölur á bilinu 1 til 100. Móttakarinn tekur svo við þeim, birtir báðar tölurnar, leggur þær saman og birtir niðurstöðuna.
 
-2. Kynntu þér hvernig DHT11 (hita og rakamælir) virkar með því að skoða [kafla 24](https://github.com/VESM3/IOT/blob/main/Efni/Python_Tutorial_framleidandi.pdf). Þú finnur **dht** klasann [hér](https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32_S3/blob/main/Python/Python_Libraries/dht.py). Tengdu svo DHT11 við sendi ESP-inn og sendu svo mælingarnar yfir á hinn. Birtu mælingarnar á tölvuskjá.
+2. Kynntu þér hvernig DHT11 (hita og rakamælir) virkar með því að skoða [kafla 24](https://github.com/VESM3/IOT/blob/main/Efni/Python_Tutorial_framleidandi.pdf). Tengdu svo DHT11 við sendi ESP-inn og sendu svo mælingarnar yfir á hinn. Birtu mælingarnar á tölvuskjá.
 
 > [Sensor Data Sharing with ESP-NOW in MicroPython (asyncio)](https://www.donskytech.com/sensor-data-sharing-with-esp-now-in-micropython/)  _ítarefni_ <br> 
 > [innbyggður hitamælir í ESP32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/temp_sensor.html) _ítarefni (ekki nota)_
+
+<!--
+Þú finnur **dht** klasann [hér](https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32_S3/blob/main/Python/Python_Libraries/dht.py).
+-->
 
 ---
 
