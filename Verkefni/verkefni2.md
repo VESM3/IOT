@@ -149,7 +149,7 @@ ESP32 getur notað AP mode og Station mode samtímis. Önnur WiFi tæki geta val
 #### Verkefnið:
 
 1. Búðu til einfaldan ESP32 vefþjón í `AP mode` sem hýsir vefsíðu þar sem hægt er að kveikja og slökkva á Led á ESP32 með snjallsíma. Notaðu [Microdot](https://microdot.readthedocs.io/en/latest/). Sjá nánar [How to create a MicroPython Web Server the easy way!](https://www.donskytech.com/how-to-create-a-micropython-web-server-the-easy-way/).
-1. Tengdlu DHT11 við ESP32 og láttu hann vera vefþjón í `Station mode` sem hýsir vefsíðu og sýnir raka- og hitagildi frá dht11 skynjaranum. Láttu vefsíðuna endurræsa sig á 5 sekúndna fresti (auto page refresh) með setInterval() í JavaScript. Sjá nánar [hér](https://lastminuteengineers.com/esp32-dht11-dht22-web-server-tutorial/)
+1. Tengdlu DHT11 við ESP32 og láttu hann vera vefþjón í `Station mode` sem hýsir vefsíðu og sýnir raka- og hitagildi frá dht11 skynjaranum. Láttu vefsíðuna endurræsa sig á 5 sekúndna fresti (auto page refresh) með setInterval() í JavaScript, sjá [sýnidæmi (C++)](https://lastminuteengineers.com/esp32-dht11-dht22-web-server-tutorial/).
 
 <!--
 - [Create A Simple ESP32 Web Server (C++)](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
