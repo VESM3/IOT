@@ -150,7 +150,7 @@ ESP32 getur notað AP mode og Station mode samtímis. Önnur WiFi tæki geta val
 #### Verkefnið:
 
 1. Búðu til einfaldan ESP32 vefþjón í `AP mode` sem hýsir vefsíðu þar sem hægt er að kveikja og slökkva á Led á ESP32 með snjallsíma. Notaðu [Microdot](https://microdot.readthedocs.io/en/latest/intro.html#running-with-micropython). Sjá nánar [How to create a MicroPython Web Server the easy way!](https://www.donskytech.com/how-to-create-a-micropython-web-server-the-easy-way/).
-1. Tengdlu DHT11 við ESP32 (micropython) og láttu hann vera vefþjón í `STA mode` sem hýsir vefsíðu og sýnir raka- og hitagildi frá dht11 skynjaranum. Láttu vefsíðuna endurræsa sig á 5 sekúndna fresti (auto page refresh) t.d. með meta tagi eða setInterval() í JavaScript, [sýnidæmi](https://lastminuteengineers.com/esp32-dht11-dht22-web-server-tutorial/) með C/C++.
+1. Tengdlu DHT11 við ESP32 (micropython) og láttu hann vera vefþjón í `STA mode` sem hýsir vefsíðu og sýnir raka- og hitagildi frá dht11 skynjaranum. Láttu vefsíðuna endurræsa sig á 5 sekúndna fresti (auto page refresh) t.d. með meta tagi eða setInterval() í JavaScript, [sýnidæmi](https://lastminuteengineers.com/esp32-dht11-dht22-web-server-tutorial/).
 
 > [utemplate](https://github.com/pfalcon/utemplate)
 
@@ -159,7 +159,7 @@ ESP32 getur notað AP mode og Station mode samtímis. Önnur WiFi tæki geta val
 ### 4. Ljósstýring (30%) 
 
 1. Settu upp tvo birtumæla (LDR) með sitthvorn ESP32 sem sendir gögn frá sér á 5 sekúndna fresti með ESP-NOW til þriðja ESP32inn sem birtir gildin á tölvuskjá. 
-1. Settu upp þriðja ESP32inn sem vefþjón (tengdur tilbúnu Wifi) sem birtir gildin á vefsíðu.
+1. Settu upp þriðja ESP32inn sem vefþjón (STA eða AP mode) sem birtir gildin á vefsíðu.
 1. Notandi á að geta kveikt og slökkt á LED hjá völdum ESP32 (birtumæli) með takka í vefappi. 
 
 > [ESPNow and Wifi Operation](https://docs.micropython.org/en/latest/library/espnow.html#espnow-and-wifi-operation) <br>
