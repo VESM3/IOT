@@ -114,6 +114,7 @@ while True:
 
 > [Kóðadæmi](https://github.com/VESM3/IOT/tree/main/Kodi/ESPNow) með samskipti í báðar áttir með tvo ESP32. <br>
 > [Callback Methods](https://docs.micropython.org/en/latest/library/espnow.html#callback-methods)
+> [Hliðræn gildi (analog)](https://github.com/VESM2VT/ESP32/blob/main/kennsluefni/analog.md)
 
 ---
 
