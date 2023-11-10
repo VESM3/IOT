@@ -154,12 +154,12 @@ ESP32 getur notað AP mode og Station mode samtímis. Önnur WiFi tæki geta val
     - Það virkar ekki að sækja utemplate með Manage packages í Thonny. Þú þarft manually að sækja 4 skrár, `microdot_utemplate.py` og [utemplate](https://github.com/pfalcon/utemplate/tree/master/utemplate)  _það þarf líka að laga til import vísanir_
 1. Tengdlu DHT11 við ESP32 (micropython) og láttu hann vera vefþjón í `STA mode` sem hýsir vefsíðu og sýnir raka- og hitagildi frá dht11 skynjaranum. Láttu vefsíðuna endurræsa sig á 5 sekúndna fresti (auto page refresh) t.d. með meta tagi eða setInterval() í JavaScript, [sýnidæmi](https://lastminuteengineers.com/esp32-dht11-dht22-web-server-tutorial/).
 
-
 > [Create A Simple ESP32 Web Server In Arduino IDE (C/C++)](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
 
 <!--
 - [Secrets of MicroPython: ESP32 Web Server using Microdot](https://bhave.sh/micropython-microdot/)
 -->
+
 ---
 
 ### 4. Ljósstýring (30%) 
