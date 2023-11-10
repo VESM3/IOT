@@ -155,6 +155,9 @@ ESP32 getur notað AP mode og Station mode samtímis. Önnur WiFi tæki geta val
 > [utemplate](https://github.com/pfalcon/utemplate) <br>
 > [Create A Simple ESP32 Web Server In Arduino IDE (C/C++)](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
 
+<!--
+- [Secrets of MicroPython: ESP32 Web Server using Microdot](https://bhave.sh/micropython-microdot/)
+-->
 ---
 
 ### 4. Ljósstýring (30%) 
