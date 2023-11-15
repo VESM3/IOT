@@ -41,8 +41,9 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
 1. Náðu í [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) í fartölvuna.
    1. Búðu til VNC tengingu (New Connection)
    ```
-   VNC Server: hostname.tskoli.vesm       // hostname; h23vesm1, h23vesm2 osfrv.  Notaðu IP tölu ef hostname virkar ekki.
-   lykilorð:                              // Lykilorð færðu frá kennara.
+   VNC Server:  ip talan      // eða hostname; hostname.tskoli.vesm, h23vesm1, h23vesm2 osfrv.  Notaðu IP tölu ef hostname virkar ekki.
+   user:  pi
+   lykilorð:                  // Lykilorð færðu frá kennara.
    ```
    1. Tvísmelltu á tenginguna, notendafnið er `pi` (ekki breyta) og lykilorð færðu frá kennara. 
 1. Skoðaðu stýrikerfið og [stillingar](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0).
