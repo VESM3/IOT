@@ -3,7 +3,7 @@
 ### 1. Uppsetning á RPi OS stýrikerfi (Búið að gera af kennara)
 1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) forritið með microSD kort og usb lykli í tölvunni.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34), 
-    1. Veldu **Raspberry Pi OS (Legacy)** sem er **Debian Bullsey** stýrikerfið (ath. það er ekki default) 
+    1. Veldu **Raspberry Pi OS (Legacy)** sem er **Debian Bullsey** stýrikerfið fyrir RPi4 (ath. það er ekki default) 
     2. Veldu Settings (tannhjólið) eða `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
         - Veldu í Image customization options `to always use`
         - hostname í `h23vesmX-` (ekk nota sérstafi/íslenska) 
