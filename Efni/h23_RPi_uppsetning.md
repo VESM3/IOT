@@ -20,7 +20,7 @@
 
 ### 2. Að tengjast Raspberry Pi með SSH (þarf að gera fyrst)
 
-1. Settu SD minniskortið í RaspberryPi og tengdu við rafmagn (ekki fartölvu). Ath RPi4 þarf **3V**.
+1. Settu SD minniskortið í RaspberryPi og tengdu við rafmagn (ekki fartölvu). Ath RPi4 þarf **3V**. Sum RPi USB port þarf að jugga til aðeins til að fá ljós.
 1. **SSH tenging**. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
 1. Notaðu  _pi@hostname.tskoli.vesm_ eða ip töluna `ssh pi@iptalan` til að tengjast í skólanum.    
       ```Linux
@@ -37,8 +37,25 @@ Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM
 ---
 
 ### 3. Að tengjast RPi með VNC (GUI) 
-1. [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br> Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þráðlaust á fartölvu með [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/). VNC server þarf að vera enable á RPi.
-1. [stillingar á RPi OS](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0) t.d. að breyta upplausn á skjánum (1024x768). 
+Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þráðlaust á fartölvu með [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/). VNC server þarf að vera enable á RPi (sjá lið 2).
+1. Náðu í [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) í fartölvuna.
+   1. Búðu til VNC tengingu (New Connection)
+   ```
+   VNC Server: hostname.tskoli.vesm       // hostname; h23vesm1, h23vesm2 osfrv.  Notaðu IP tölu ef hostname virkar ekki.
+   lykilorð:                              // Lykilorð færðu frá kennara.
+   ```
+   1. Tvísmelltu á tenginguna, notendafnið er `pi` (ekki breyta) og lykilorð færðu frá kennara. 
+1. Skoðaðu stýrikerfið og [stillingar](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0).
 
+
+> Ef þú nærð ekki VNC (_eða SSH_) samband við RPi (fartölva þarf að vera á sama wifi og RPi): 
+> - keyra skipunina `nslookup hostname.tskoli.vesm` til að fá `IP` töluna sem þú getur þá notað í staðinn fyrir `hostaname.tskoli.vesm`  
+> - skanna wifi með að nota _Advanced IP Scanner_ forrit og setja inn leitarskilyrðin: 10.201.48.1-10.201.49.254.
+> - nota nmap í terminal 10.201.48.0/24.
+
+<!--
+1. [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br>
+1. [stillingar á RPi OS](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0) t.d. að breyta upplausn á skjánum (1024x768). 
+-->
 
 
