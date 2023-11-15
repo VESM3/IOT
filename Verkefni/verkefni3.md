@@ -24,6 +24,8 @@ Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu
 1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með einhverjum effect með PiCam og vistaðu á skjáborðinu. 
 1. Bættu við 3 sek. timer með takka til þess að taka sjálfsmyndina.
 
+> [picamera2](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf) _pdf manual_
+
 <!--
 [Button controlled camera](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera)
 Hér eru [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).  
