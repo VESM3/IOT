@@ -22,12 +22,12 @@
 
 1. Settu SD minniskortið í RaspberryPi og tengdu við rafmagn (ekki fartölvu). Ath RPi4 þarf **3V**. Sum RPi USB port þarf að jugga til aðeins til að fá ljós.
 1. **SSH tenging**. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
-1. Notaðu  _pi@hostname.tskoli.vesm_ eða ip töluna `ssh pi@iptalan` til að tengjast í skólanum.    
+1. Notaðu ip töluna `ssh pi@iptalan `  (best) eða hostname t.d. h23vesm1, h23vesm2 ... til að tengjast í skólanum.    
       ```Linux
-      ssh pi@h23vesm1.vesm    # eða pi@h23vesm1   
+      ssh pi@h23vesm1.tskoli.vesm    # ef virkar ekki prófaðu þá pi@h23vesm1 eða pi@hostname.vesm
       password: Verksm1dj@    
       ```   
-1. Skrifaðu `sudo raspi-config` og veldu _Interfacing Options_, allt þar á vera **enabled**
+1. Skrifaðu `sudo raspi-config` og veldu _Interfacing Options_, allt þar á vera **enabled** sérstaklega VNC Server
 1. Geymdu að uppfærðu RPi stýrikerfið með `sudo apt-get update` og svo `sudo apt-get upgrade` þar til þú ferð í smá pásu.
 1. Endurræstu svo RPi. Núnar er RPi klárt til notkunar!
 
