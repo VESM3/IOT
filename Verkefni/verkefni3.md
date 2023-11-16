@@ -25,7 +25,9 @@ Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu
 
 > Í `sudo raspi-config` í Interface Options þarf að  `disable Legacy Camera`
 
-
+<!--
+Skoða libcamera-detect  með Tenserflow light
+-->
 
 <!--
 - [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).  
