@@ -21,16 +21,18 @@ Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu
 
 1. **Slökktu** á RPi og jarðtengdu þig áður en þú tengir [Picamera V2](https://www.raspberrypi.com/documentation/accessories/camera.html). 
 1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með einhverjum effect með PiCam og vistaðu á skjáborðinu. 
+  1. [libcamera](https://www.raspberrypi.com/documentation/computers/camera_software.html#getting-started) _Using the camera for the first time_
+  1. [picamera2](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf) _pdf manual_
 1. Bættu við 3 sek. timer með takka til þess að taka sjálfsmyndina.
 
-> [picamera2](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf) _pdf manual_
 
 <!--
-[Button controlled camera](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera)
-Hér eru [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).  
-RPi Zero virkar ekki vel með Picamera 2 eða libcamera söfnum. 
-> [Picamera](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#) safnið. <br>
-`camera.capture('/home/pi/Desktop/image.jpg')`, ath. `raspistill` skipunin er úreld sjá lauslega [tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2). Notaðu libcamera safnið
+- [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).  
+- RPi Zero virkar ekki með Picamera 2 eða libcamera söfnum. 
+- ath. `raspistill` skipunin er úreld.
+- `camera.capture('/home/pi/Desktop/image.jpg')`, 
+- [Button controlled camera](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera)
+- [Picamera](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#) safnið. 
 -->
 
 ---
