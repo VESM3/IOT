@@ -21,8 +21,8 @@ Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu
 
 1. **Slökktu** á RPi og jarðtengdu þig áður en þú tengir [Picamera V2](https://www.raspberrypi.com/documentation/accessories/camera.html). 
 1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með einhverjum effect með PiCam og vistaðu á skjáborðinu. 
-  1. [libcamera](https://www.raspberrypi.com/documentation/computers/camera_software.html#getting-started) _Using the camera for the first time_
-  1. [picamera2](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf) _pdf manual_
+   1. [libcamera](https://www.raspberrypi.com/documentation/computers/camera_software.html#getting-started) _Using the camera for the first time_
+   1. [picamera2](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf) _pdf manual_
 1. Bættu við 3 sek. timer með takka til þess að taka sjálfsmyndina.
 
 
