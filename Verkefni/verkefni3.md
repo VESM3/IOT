@@ -25,6 +25,8 @@ Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu
    1. [picamera2](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf) 
 1. Bættu við 3 sek. timer með takka til þess að taka sjálfsmyndina.
 
+> Í `sudo raspi-config` í Interface Options þarf að  `disable Legacy Camera` 
+
 
 <!--
 - [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).  
