@@ -53,16 +53,15 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
 
 > Ef þú færð svartan skjá  gerðu þá eftirfarandi í GitBash/PowerShell á RPi4: `sudo nano /boot/config.txt` og taktu commentið út (`#`) af `hdmi_force_hotplug=1`.
 
+---
+
 ### Troubleshoot
 
 - Ef þú nærð ekki VNC (_eða SSH_) samband við RPi (fartölva þarf að vera á sama wifi og RPi): 
     - keyra skipunina `nslookup hostname.tskoli.vesm` til að fá `IP` töluna sem þú getur þá notað í staðinn fyrir `hostaname.tskoli.vesm`  
     - skanna wifi með að nota _Advanced IP Scanner_ forrit og setja inn leitarskilyrðin: 10.201.48.1-10.201.49.254.
-    - nota nmap í terminal 10.201.48.0/24.
+    - nota nmap í terminal 10.201.48.0/23.
 
-<!--
-1. [leiðbeiningar](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html#enabling-and-connecting-over-vnc). <br>
-1. [stillingar á RPi OS](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0) t.d. að breyta upplausn á skjánum (1024x768). 
--->
+
 
 
