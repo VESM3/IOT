@@ -49,7 +49,7 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
 1. Skoðaðu stýrikerfið og [stillingar](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0).
 1. Notaðu [Thonny](https://thonny.org/) ritil. Búðu til python skrá og prentaðu út streng með **nafninu þínu**, sjá [Thonny IDE on Raspberry Pi OS](https://roboticsbackend.com/thonny-ide-raspberry-pi-os/).
 
-> Ef þú færð svartan skjá  gerðu þá eftirfarandi í GitBash/PowerShell á RPi4: `sudo nano /boot/config.txt` og taktu commentið út (`#`) af `hdmi_force_hotplug=1`.
+> Ef þú færð svartan skjá  gerðu þá eftirfarandi breytingu í skrá (með SSH tengingu á RPi4): `/boot/config.txt`. Taktu commentið út (`#`) af `hdmi_force_hotplug=1`.
 
 ---
 
