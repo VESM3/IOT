@@ -33,7 +33,6 @@
 1. Náðu í `Remote - SSH` extension í VSCode í fartölvunni þinni. Tengdu þig við RPi (pi@iptalan) og prófaðu að prenta út streng með **nafninu þínu**
 
 > Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. Það á líka að vera hægt að nota [nmap](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/) `nmap 10.201.48.0/24`. **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar. Svo er `ifconfig` gagnleg skipun.
-> [Cheatsheets: Command Line for the Raspberry Pi](https://www.codecademy.com/learn/learn-raspberry-pi/modules/raspberry-pi-command-line-module/cheatsheet)
 
 ---
 
