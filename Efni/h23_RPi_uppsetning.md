@@ -30,8 +30,10 @@
 1. Skrifaðu `sudo raspi-config` og veldu _Interfacing Options_, allt þar á vera **enabled** sérstaklega VNC Server
 1. Geymdu að uppfærðu RPi stýrikerfið með `sudo apt-get update` og svo `sudo apt-get upgrade` þar til þú ferð í smá pásu.
 1. Endurræstu svo RPi. Núnar er RPi klárt til notkunar!
+1. Náðu í `Remote - SSH` extension í VSCode í fartölvunni þinni. Tengdu þig við RPi (pi@iptalan) og prófaðu að prenta út streng með **nafninu þínu**
 
-Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. Það á líka að vera hægt að nota [nmap](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/) `nmap 10.201.48.0/24`. <br>
+> Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. Það á líka að vera hægt að nota [nmap](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/) `nmap 10.201.48.0/24`. <br>
+
 **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar. Svo er `ifconfig` gagnleg skipun.
 
 ---
@@ -47,6 +49,7 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
    ```
    1. Tvísmelltu á tenginguna, notendafnið er `pi` (ekki breyta) og lykilorð færðu frá kennara. 
 1. Skoðaðu stýrikerfið og [stillingar](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/0).
+1. Notaðu [Thonny](https://thonny.org/) ritil. Búðu til python skrá og prentaðu út streng með **nafninu þínu**, sjá [Thonny IDE on Raspberry Pi OS](https://roboticsbackend.com/thonny-ide-raspberry-pi-os/).
 
 > Ef þú færð svartan skjá  gerðu þá eftirfarandi í GitBash/PowerShell á RPi4: `sudo nano /boot/config.txt` og taktu commentið út (`#`) af `hdmi_force_hotplug=1`.
 
