@@ -6,7 +6,6 @@
 
 ### 1. Raspberry Pi OS og GPIO (15%)
 1. Fylgdu eftirfarandi [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/h23_RPi_uppsetning.md#2-a%C3%B0-tengjast-raspberry-pi-me%C3%B0-ssh-%C3%BEarf-a%C3%B0-gera-fyrst)
-1. Notaðu [Thonny](https://thonny.org/) ritil. Búðu til python skrá og prentaðu út streng með **nafninu þínu**, sjá [Thonny IDE on Raspberry Pi OS](https://roboticsbackend.com/thonny-ide-raspberry-pi-os/).
 1. Láttu LED blikka á brauðbretti með python kóða og `GPIO Zero` safninu. Nýttu þér kóðalausnir í [Basic Recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html). Hér er dæmi um  [pinout](https://gpiozero.readthedocs.io/en/stable/cli_tools.html#pinout).
 1. Bættu við takka og útbúðu fall sem sér um að starta LED blikkinu. 
 
