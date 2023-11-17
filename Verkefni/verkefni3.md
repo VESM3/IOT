@@ -1,4 +1,4 @@
-## Tímaverkefni 3 _drög_
+## Tímaverkefni 3 
 - 15% af heildareinkunn.
 - Viðfangsefni: Raspberry Pi, PiCam, PIR, vefþjónustur (IFTTT, myndgreining).
 
