@@ -58,7 +58,7 @@ PIR Stillingar:
 ### 4. IFTTT (If This Then That) (20%) 
 1. Búðu til [IFTTT](https://help.ifttt.com/hc/en-us/articles/115010158167-How-does-IFTTT-work-) aðgang og skoðaðu vefþjónustu sem er í boði. Búðu til eigið [IFTTT applet](https://help.ifttt.com/hc/en-us/articles/360021401373-Creating-your-own-Applet) (ókeypis útgáfu) og sameinaðu tvær þjónustur að eigin vali.
 1. Með [Webhooks](https://ifttt.com/explore/what-is-a-webhook) er hægt að senda og taka við `triggers` með HTTP Requests (GET og POST). Notaðu Webhooks með IFTTT til að fá tilkynningu (push notification) þegar smellt er á takka sem er tengdur við RPI. [Sýnidæmi](https://pimylifeup.com/using-ifttt-with-the-raspberry-pi/).
-1. Sendu tilkynningu og mynd með IFTT Webhooks þegar mynd er tekin.
+1. Sendu tilkynningu með IFTT Webhooks þegar mynd er tekin.
 
 > [DIY IFTTT projects on Hackster.io](https://www.hackster.io/ifttt) 
 
