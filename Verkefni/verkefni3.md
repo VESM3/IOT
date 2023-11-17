@@ -19,6 +19,7 @@ Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu
 
 ### 2. Myndavélin (20%)
 
+#### RPi4 með Bullsey OS
 1. **Slökktu** á RPi4 og jarðtengdu þig áður en þú tengir [Picamera V2](https://www.raspberrypi.com/documentation/accessories/camera.html). 
 1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með PiCam og vistaðu myndina. Sjá nánar [libcamera](https://www.raspberrypi.com/documentation/computers/camera_software.html) og [picamera2](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf).
 1. Bættu við 3 sek. timer með takka til þess að taka sjálfsmyndina.
@@ -26,11 +27,12 @@ Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu
 > Í `sudo raspi-config` í Interface Options þarf að  `disable Legacy Camera`
 > Það er ekki hægt að nota Picamera safnið (gamalt) með Bullsey stýrikerfinu (eða nýrra).
 
-#### RPi Zero með Buster (ef RPi4 virkar alls ekki)
+#### RPi Zero með Buster OS (ef RPi4 virkar alls ekki)
 1. hostname: V23vesmX, aðgangur: `pi`, lykilorð: `verksmidja3`
-1. [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).
-2. [tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)
-3. [Picamera](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#) safnið. `camera.capture('/home/pi/Desktop/image.jpg')`
+1. **Slökktu** á RPi og jarðtengdu þig áður en þú tengir [Picamera V2](https://www.raspberrypi.com/documentation/accessories/camera.html).
+1. [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).  
+1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með einhverjum effect með PiCam og vistaðu á skjáborðinu. `camera.capture('/home/pi/Desktop/image.jpg')`, sjá [tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
+1. Notaðu [Picamera](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#) safnið og bættu við 3 sek. timer með takka til þess að taka myndina, sjá nánar [Button controlled camera](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera)
 
 > RPi Zero virkar ekki með libcamera eða Picamera2. 
 
