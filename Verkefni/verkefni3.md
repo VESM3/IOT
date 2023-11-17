@@ -26,19 +26,13 @@ Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu
 > Í `sudo raspi-config` í Interface Options þarf að  `disable Legacy Camera`
 > Það er ekki hægt að nota Picamera safnið (gamalt) með Bullsey stýrikerfinu (eða nýrra).
 
-<!--
-[sýnidæmi](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera) 
-Skoða libcamera-detect  með Tenserflow light
--->
+#### RPi Zero með Buster (ef RPi4 virkar alls ekki)
+1. hostname: V23vesmX, aðgangur: `pi`, lykilorð: `verksmidja3`
+1. [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).
+2. [tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)
+3. [Picamera](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#) safnið. `camera.capture('/home/pi/Desktop/image.jpg')`
 
-<!--
-- [RPi Zero tengileiðbeiningar](https://www.youtube.com/watch?v=zFAX4pH1BPA).  
-- RPi Zero virkar ekki með Picamera 2 eða libcamera söfnum. 
-- ath. `raspistill` skipunin er úreld.
-- `camera.capture('/home/pi/Desktop/image.jpg')`, 
-- [Button controlled camera](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera)
-- [Picamera](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#) safnið. 
--->
+> RPi Zero virkar ekki með libcamera eða Picamera2. 
 
 ---
 
