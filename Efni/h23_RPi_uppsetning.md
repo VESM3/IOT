@@ -32,7 +32,7 @@
 1. Endurræstu svo RPi. Núnar er RPi klárt til notkunar!
 1. Náðu í `Remote - SSH` extension í VSCode í fartölvunni þinni. Tengdu þig við RPi (pi@iptalan) og prófaðu að prenta út streng með **nafninu þínu**
 
-> Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. Það á líka að vera hægt að nota [nmap](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/) `nmap 10.201.48.0/24`. **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar. Svo er `ifconfig` gagnleg skipun.
+> Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. Það á líka að vera hægt að nota [nmap](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/) í mac `nmap 10.201.48.0/24 -sn -Pn`. **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar. Svo er `ifconfig` gagnleg skipun.
 
 ---
 
@@ -56,9 +56,9 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
 ### Troubleshoot
 
 - Ef þú nærð ekki VNC (_eða SSH_) samband við RPi (fartölva þarf að vera á sama wifi og RPi): 
-    - keyra skipunina `nslookup hostname.tskoli.vesm` til að fá `IP` töluna sem þú getur þá notað í staðinn fyrir `hostaname.tskoli.vesm`  
-    - skanna wifi með að nota _Advanced IP Scanner_ forrit og setja inn leitarskilyrðin: 10.201.48.1-10.201.49.254.
-    - nota nmap í terminal 10.201.48.0/23.
+     - skanna wifi með að nota _Advanced IP Scanner_ forrit og setja inn leitarskilyrðin: 10.201.48.1-10.201.49.254.
+     - nota nmap í terminal: 10.201.48.0/24 -sn -Pn.
+     - keyra skipunina `nslookup hostname.tskoli.vesm` til að fá `IP` töluna sem þú getur þá notað í staðinn fyrir `hostaname.tskoli.vesm`  (virkar ekki alltaf)
 - SSH. Ef permission denied (publickey) á rpi. Þá hreinsa út eldra key úr tölvunni `$ ssh-keygen -R [hostname-or-IP]`
 - port 22: Connection timed out. SSH lokað útaf firewall í tölvu [windows fix](https://www.windowscentral.com/how-open-port-windows-firewall) 2 nemendur lentu í þessu
 
