@@ -24,7 +24,7 @@
    - [How to Use The Paho MQTT Python Client for Beginners](http://www.steves-internet-guide.com/into-mqtt-python-client/)
    - [Python MQTT Client Connections – Working with Connections](http://www.steves-internet-guide.com/client-connections-python-mqtt/)
 
-#### MQTT cleints (C++)
+#### MQTT clients (C++)
 
 - [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/) (by Nick O'Leary) _fyrir ESP32 (C++)_
    - [Using the Arduino PubSub MQTT Client](http://www.steves-internet-guide.com/using-arduino-pubsub-mqtt-client/).
