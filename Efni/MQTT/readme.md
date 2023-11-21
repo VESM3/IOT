@@ -1,15 +1,15 @@
 ## MQTT kóðasýnidæmi 
-- ESP32 (micropython) + fartölva/RPi Broker uppsetning
-   - Vantar!
-- [RPI með test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI) _(python)_
+[RPI + fartölva með test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI) _(python)_
    1. Client (RPi) tenging við MQTT Broker (test.mosquitto)
    2. Publisher (RPi) telemetry (birtugildi) með JSON sniðmáti.
    3. Subscriber (fartölva) server kóði og birtir gildin.
    4. Publisher (fartölva) server kóði með commands með JSON snimáti til Broker.
    5. Subscriber (RPi) er actuator, kveikir á LED við ákveðin skilyrði.
+<!--
 - [ESP32 (C++) + RPi Broker uppsetning](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/MQTTBroker.md) _(C++ og python)_
    - ESP32 notar DHT22/11 og PubSubClient, gögn sem strengur. 
    - RPi er Broker og Subscriber.  
+-->
 
 ---
 
@@ -24,6 +24,7 @@
    - [How to Use The Paho MQTT Python Client for Beginners](http://www.steves-internet-guide.com/into-mqtt-python-client/)
    - [Python MQTT Client Connections – Working with Connections](http://www.steves-internet-guide.com/client-connections-python-mqtt/)
 
+<!--
 #### MQTT clients (C++)
 
 - [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/) (by Nick O'Leary) _fyrir ESP32 (C++)_
@@ -33,5 +34,5 @@
 - [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) (by bertmelis) (C++)
    - MQTT library that can publish with QoS 1 or 2.
    - depends on the PubSubClient Library.
-
+-->
 ---
