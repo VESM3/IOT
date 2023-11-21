@@ -13,8 +13,6 @@
 
 ---
 
-#### MQTT clients
-
 #### MQTT clients (Micropython)
 - umqtt.simple
 
