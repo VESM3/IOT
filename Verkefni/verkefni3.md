@@ -68,7 +68,7 @@ Myndgreiningavefþjónustur eru sniðugar til að greina hluti, andlit, liti og 
    1. Skráðu þig inn á [Azure](https://azureforeducation.microsoft.com/devtools) með skólanetfanginu. 
    1. Gerðu viðeigandi stillingar hjá Azure [myndband](https://www.youtube.com/watch?v=1VB_QrHm_nY&ab_channel=JieJenn) til að geta notað Computer Vision. Hér eru frekari [leiðbeiningar](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure).
    1. Notaðu VSCode og python á fartölvunni, sjá [kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py) til að greina ljósmynd (minna en 4MB).
-1. Notaðu RPi, PiCam (local ljósmynd) og Computer Vision saman og birtu niðurstöður á skjá. Sjá [kóðadæmi](https://github.com/Azure-Samples/cognitive-services-quickstart-code/blob/master/python/ComputerVision/ImageAnalysisQuickstart.py)
+1. Notaðu RPi, PiCam (local ljósmynd) og Computer Vision saman og birtu niðurstöður á skjá. Sjá ýmis [dæmi](https://github.com/Azure-Samples/cognitive-services-quickstart-code/blob/master/python/ComputerVision/ImageAnalysisQuickstart.py) í kóðaskránni. (ekki nota `pillow`)
 1. Bættu hreyfiskynjaranum við sem tekur mynd og lætur greina myndina, birtu niðustöður á skjá.
 1. Notaðu myndgreininguna (JSON niðurstöður) til að kveikja á LED ef það líkist einhverju. 
 
