@@ -1,5 +1,5 @@
 ## MQTT kóðasýnidæmi 
-- [ESP32 (micropython) + fartölva/RPi Broker uppsetning]
+- ESP32 (micropython) + fartölva/RPi Broker uppsetning
    - Vantar!
 - [RPI með test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI) _(python)_
    1. Client (RPi) tenging við MQTT Broker (test.mosquitto)
