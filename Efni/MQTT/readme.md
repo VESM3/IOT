@@ -11,8 +11,6 @@
    - RPi er Broker og Subscriber.  
 -->
 
----
-
 #### MQTT clients (Micropython)
 - umqtt.simple
 
