@@ -1,4 +1,4 @@
-## MQTT kóðasýnidæmi 
+### MQTT kóðasýnidæmi 
 [RPI + fartölva með test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI) _(python)_
    1. Client (RPi) tenging við MQTT Broker (test.mosquitto)
    2. Publisher (RPi) telemetry (birtugildi) með JSON sniðmáti.
@@ -13,7 +13,7 @@
 
 ---
 
-## MQTT clients
+#### MQTT clients
 
 #### MQTT clients (Micropython)
 - umqtt.simple
