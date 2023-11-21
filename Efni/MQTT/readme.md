@@ -11,9 +11,6 @@
    - RPi er Broker og Subscriber.  
 -->
 
-#### MQTT clients (Micropython)
-- umqtt.simple
-
 #### MQTT clients (python)
 - [Paho MQTT python client](https://pypi.org/project/paho-mqtt/) _fyrir RPi og fartölvu_
    - `pip3 install paho-mqtt`
