@@ -57,6 +57,7 @@ PIR Stillingar:
 1. Sendu tilkynningu með IFTT Webhooks þegar mynd er tekin með hreyfiskynjara.
 
 > [DIY IFTTT projects on Hackster.io](https://www.hackster.io/ifttt) 
+> Pass að  taka út `{ }` fyrir key og event.
 
 ---
 
