@@ -7,9 +7,8 @@
 
 ### Bjargir (tutorials)
 - [MQTT kóðasýnidæmi (python)](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/readme.md#mqtt-s%C3%BDnid%C3%A6mi) 
-- [Donskytech: MQTT greinar](https://www.donskytech.com/blogs/mqtt/)
-   - [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/)
-   - [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
+- [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/)
+- [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
 - [MicroPython – Getting Started with MQTT on ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
 
 ---
