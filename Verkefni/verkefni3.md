@@ -65,7 +65,7 @@ PIR Stillingar:
 Myndgreiningavefþjónustur eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum. Notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina ljósmynd. 
 
 1. Myndgreining með Computer Vision (fartölva)
-   1. Skráðu þig inn á [Azure](https://azureforeducation.microsoft.com/devtools) með skólanetfanginu. Veldu svo `Access student benefits` og signup.
+   1. Skráðu þig inn á [Azure](https://azureforeducation.microsoft.com/devtools) með skólanetfanginu. Veldu svo _Access student benefits_ og _signup_.
    1. Gerðu viðeigandi stillingar hjá Azure [myndband](https://www.youtube.com/watch?v=1VB_QrHm_nY&ab_channel=JieJenn) til að geta notað Computer Vision. Hér eru frekari [leiðbeiningar](https://www.pluralsight.com/guides/computer-vision-with-microsoft-azure).
    1. Notaðu VSCode og python á fartölvunni, sjá [kóðadæmi](https://github.com/VESM3/IOT/blob/main/Efni/ComputerVisionDemo.py) til að greina ljósmynd (minna en 4MB).
 1. Notaðu RPi, PiCam (local ljósmynd) og Computer Vision saman og birtu niðurstöður á skjá. Sjá [kóðabúta](https://github.com/Azure-Samples/cognitive-services-quickstart-code/blob/master/python/ComputerVision/ImageAnalysisQuickstart.py) úr skránni. (ekki nota `pillow` safnið)
