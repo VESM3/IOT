@@ -10,7 +10,7 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 
 1. Notaðu ESP32 (Publisher) fyrir telemetry (random gildi/streng). 
    1. Tengdu ESP32 við Wifi.
-   1. Notaðu `umqtt.simple` safn fyrir MQTT client. _er þegar installed með MicroPython_
+   1. Notaðu `umqtt.simple` safn fyrir MQTT client. _(þarf ekki install, kemur með MicroPython)_
 1. Notaðu [Mosquitto test broker](https://test.mosquitto.org/).
 1. Birtu gildin/streng í fartölvu (subscriber). Notaðu [PahoMQTT client](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/PahoMQTTClient.md)
 
