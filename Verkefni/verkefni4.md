@@ -12,6 +12,10 @@
 - [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/)
 - [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
 
+<!-- 
+- [Run Your Cloud MQTT Mosquitto Broker (access from anywhere using Digital Ocean)](https://randomnerdtutorials.com/cloud-mqtt-mosquitto-broker-access-anywhere-digital-ocean/) 
+-->
+
 ---
 
 ### 1. Mosquitto test Broker (30%) 
