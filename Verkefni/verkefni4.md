@@ -40,7 +40,8 @@ Verkefnið er að sinna pottaplöntu. Við notum [jarðvegsmælir](https://githu
 1. Publisher (ESP32), telemetry með JSON sniðmáti.
 1. Notaðu fartölvu sem Broker.
 1. Subscriber (fartölva) prentar út gildin og vinnur úr telemetry og sendri skipanir á Actuator.
-1. Actuator (annar ESP32) vökvar plöntu þegar jarðvegur er of þurr og kveikir á LED þegar það er of dimmt.
+1. Actuator (annar ESP32) vökvar plöntu þegar jarðvegur er of þurr og kveikir á LED þegar það er of dimmt. 
+1. Actuator (publisher) sendir notification til fartölvu (subscriber) þegar hann hefur framkvæmt aðgerðir.
 
 > Hægt er að nota RaspberryPi sem broker í staðinn fyrir fartölvu.
 
