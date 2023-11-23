@@ -2,11 +2,71 @@
 # MQTT sýnidæmi með eigin Broker.
 Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subscriber fær svo gildin frá Broker.
 
-- ESP32 er **Publisher**
+- ESP32 (C/C++) er **Publisher**
 - RaspberryPi er **Broker** og **Subscriber**. 
 
 > Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). 
+
 ---
+
+## Uppsetning á broker (Raspberry Pi)
+Broker getur verið hvaða vél sem er nettengd, í þessu tilviki er Broker raspberryPi Zero.
+
+1. Finna ip tölu á broker (raspberrypi)
+1. Finna WiFi SSID og WiFi password
+1. Install á raspberrypi
+   * sudo apt-get update 
+   * sudo apt-get upgrade
+   * sudo apt-get install mosquitto
+1. Gerið sudo nano /etc/mosquitto/mosquitto.conf og breytið, sjá !["mynd"](https://github.com/eirben/VESM2_H21/blob/main/verkefni5/mosquitto_conf.jpg)
+1. Stofnaðu user (username: vesm3) og lykilorð (password: vesm3)
+1. Búa til notanda og lykilorð (publisher) sudo mosquitto_passwd -c /etc/mosquitto/pwfile ***username***
+   * Til að eyða notanda *sudo mosquitto_passwd -d /etc/mosquitto/pwfile username*
+   * Til að sjá stöðu brokera **sudo systemctl status mosquitto**
+   * Til að ræsa Mosquitto **sudo systemctl start mosquitto**
+   * Til að stoppa Mosquitto **sudo systemctl stop mosquitto**
+   * Til að endurræsa Mosquitto **sudo systemctl restart mosquitto**
+   * Til að Mosquitto ræsi sjálkrafa við ræsingu vélar **sudo systemctl enable mosquitto**
+
+---
+
+## Kóði subscriber (Raspberry Pi)
+``` python
+import paho.mqtt.client as mqtt
+
+MQTT_ADDRESS = 'iptala broker'
+MQTT_USER = 'username'
+MQTT_PASSWORD = '*****'
+MQTT_TOPIC = 'home/+/+'
+
+
+def on_connect(client, userdata, flags, rc):
+    """ The callback for when the client receives a CONNACK response from the server."""
+    print('Connected with result code ' + str(rc))
+    client.subscribe(MQTT_TOPIC)
+
+
+def on_message(client, userdata, msg):
+    """The callback for when a PUBLISH message is received from the server."""
+    print(msg.topic + ' ' + str(msg.payload))
+
+
+def main():
+    mqtt_client = mqtt.Client()
+    mqtt_client.username_pw_set(MQTT_USER, MQTT_PASSWORD)
+    mqtt_client.on_connect = on_connect
+    mqtt_client.on_message = on_message
+
+    mqtt_client.connect(MQTT_ADDRESS, 1883)
+    mqtt_client.loop_forever()
+
+
+if __name__ == '__main__':
+    print('MQTT tenging við broker')
+    main()
+    ```
+---
+
 
 ## Kóði publisher (ESP32)
 ``` c
@@ -119,60 +179,4 @@ void loop() {
   delay(1000*60);       // print new values every 1 Minute
 }
 ```
-
-## Uppsetning á broker (Raspberry Pi)
-Broker getur verið hvaða vél sem er nettengd, í þessu tilviki er Broker raspberryPi Zero.
-
-1. Finna ip tölu á broker (raspberrypi)
-1. Finna WiFi SSID og WiFi password
-1. Install á raspberrypi
-   * sudo apt-get update 
-   * sudo apt-get upgrade
-   * sudo apt-get install mosquitto
-1. Gerið sudo nano /etc/mosquitto/mosquitto.conf og breytið, sjá !["mynd"](https://github.com/eirben/VESM2_H21/blob/main/verkefni5/mosquitto_conf.jpg)
-1. Stofnaðu user (username: vesm3) og lykilorð (password: vesm3)
-1. Búa til notanda og lykilorð (publisher) sudo mosquitto_passwd -c /etc/mosquitto/pwfile ***username***
-   * Til að eyða notanda *sudo mosquitto_passwd -d /etc/mosquitto/pwfile username*
-   * Til að sjá stöðu brokera **sudo systemctl status mosquitto**
-   * Til að ræsa Mosquitto **sudo systemctl start mosquitto**
-   * Til að stoppa Mosquitto **sudo systemctl stop mosquitto**
-   * Til að endurræsa Mosquitto **sudo systemctl restart mosquitto**
-   * Til að Mosquitto ræsi sjálkrafa við ræsingu vélar **sudo systemctl enable mosquitto**
-
 ---
-
-## Kóði subscriber (Raspberry Pi)
-``` python
-import paho.mqtt.client as mqtt
-
-MQTT_ADDRESS = 'iptala broker'
-MQTT_USER = 'username'
-MQTT_PASSWORD = '*****'
-MQTT_TOPIC = 'home/+/+'
-
-
-def on_connect(client, userdata, flags, rc):
-    """ The callback for when the client receives a CONNACK response from the server."""
-    print('Connected with result code ' + str(rc))
-    client.subscribe(MQTT_TOPIC)
-
-
-def on_message(client, userdata, msg):
-    """The callback for when a PUBLISH message is received from the server."""
-    print(msg.topic + ' ' + str(msg.payload))
-
-
-def main():
-    mqtt_client = mqtt.Client()
-    mqtt_client.username_pw_set(MQTT_USER, MQTT_PASSWORD)
-    mqtt_client.on_connect = on_connect
-    mqtt_client.on_message = on_message
-
-    mqtt_client.connect(MQTT_ADDRESS, 1883)
-    mqtt_client.loop_forever()
-
-
-if __name__ == '__main__':
-    print('MQTT tenging við broker')
-    main()
-    ```
