@@ -5,19 +5,6 @@
 
 ---
 
-### Bjargir (tutorials)
-- [MQTT kóðasýnidæmi](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/readme.md#mqtt-s%C3%BDnid%C3%A6mi) 
-- [MicroPython – Getting Started with MQTT on ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
-- [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/)
-- [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/)
-- [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
-
-<!-- 
-- [Run Your Cloud MQTT Mosquitto Broker (access from anywhere using Digital Ocean)](https://randomnerdtutorials.com/cloud-mqtt-mosquitto-broker-access-anywhere-digital-ocean/) 
--->
-
----
-
 ### 1. Mosquitto test Broker (30%) 
 Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto test Broker (broker)
 
@@ -27,6 +14,8 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 1. Notaðu [Mosquitto test broker](https://test.mosquitto.org/).
 1. Birtu gildin/streng í fartölvu (subscriber).
 
+> [MicroPython – Getting Started with MQTT on ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
+
 ---
 
 ### 2. Local Broker (30%)
@@ -34,6 +23,8 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 1. Notaðu fartölvu sem Broker.
 1. Subscriber (sama fartölva) birtir gildin. 
 1. Actuator (annar ESP32) kveikir á LED við ákveðin birtuskilyrði (myrkur).
+
+> [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/)
 
 ---
 
@@ -51,6 +42,18 @@ Verkefnið er að sinna pottaplöntu. Við notum [jarðvegsmælir](https://githu
 
 <!--
 https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/3-automated-plant-watering/README.md
+-->
+
+---
+
+### Aðrar bjargir
+
+- [MQTT kóðasýnidæmi](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/readme.md#mqtt-s%C3%BDnid%C3%A6mi) 
+- [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/)
+- [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
+
+<!-- 
+- [Run Your Cloud MQTT Mosquitto Broker (access from anywhere using Digital Ocean)](https://randomnerdtutorials.com/cloud-mqtt-mosquitto-broker-access-anywhere-digital-ocean/) 
 -->
 
 ---
