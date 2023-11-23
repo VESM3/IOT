@@ -2,6 +2,7 @@
 # Vefgrein: https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/README.md#receive-telemetry-from-the-mqtt-broker
 # Kóði: https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/4-connect-internet/code-server/server/app.py
 
+# Gera pip install paho-mqtt á fartölvu
 import paho.mqtt.client as mqtt  
 import time
 import json
