@@ -12,9 +12,11 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
    1. Tengdu ESP32 við Wifi.
    1. Notaðu `umqtt.simple` safn fyrir MQTT client. _er þegar installed með MicroPython_
 1. Notaðu [Mosquitto test broker](https://test.mosquitto.org/).
-1. Birtu gildin/streng í fartölvu (subscriber).
+1. Birtu gildin/streng í fartölvu (subscriber). Notaðu [PahoMQTT client](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/PahoMQTTClient.md)
 
-> [MicroPython – Getting Started with MQTT on ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
+> [MicroPython: Getting Started with MQTT with 2 x ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/) <br>
+> [Python: RPi#1 (client) + fartölva (subscriber & publisher) + RPi#2 (actuator) + test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI)
+
 
 ---
 
@@ -24,7 +26,8 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 1. Subscriber (sama fartölva) birtir gildin. 
 1. Actuator (annar ESP32) kveikir á LED við ákveðin birtuskilyrði (myrkur).
 
-> [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/)
+> [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/) <br>
+> [MQTT sýnidæmi með eigin Broker](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/MQTTBroker.md) _ESP32(C/C++) (publisher) og RPi (broker og subscriber)_
 
 ---
 
@@ -48,7 +51,6 @@ https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/3-automa
 
 ### Aðrar bjargir
 
-- [MQTT kóðasýnidæmi](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/readme.md#mqtt-s%C3%BDnid%C3%A6mi) 
 - [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/)
 - [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
 
