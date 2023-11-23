@@ -5,6 +5,7 @@
    3. Subscriber (fartölva) server kóði og birtir gildin.
    4. Publisher (fartölva) server kóði með commands með JSON snimáti til Broker.
    5. Subscriber (RPi) er actuator, kveikir á LED við ákveðin skilyrði.
+
 [ESP32(C/C++) + RPi Broker uppsetning](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/MQTTBroker.md) _(C++ og python)_
    - ESP32 (C/C++) notar DHT22/11 og PubSubClient, gögn sem strengur. 
    - RPi er Broker og Subscriber.  
