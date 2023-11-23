@@ -22,8 +22,8 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 
 ### 2. Local Broker (30%)
 1. Tengdu ljósnema LDR við ESP32 (Publisher) og útbúðu náttljós. LED er í on/off stöðu við ákveðið birtuskilyrði.  
-1. Notaðu fartölvu sem Broker.
-1. Subscriber (sama fartölva) birtir gildin. 
+1. Notaðu fartölvu (eða RPi) sem Broker.
+1. Subscriber (sama fartölva eða RPi) birtir gildin. 
 1. Actuator (annar ESP32) kveikir á LED við ákveðin birtuskilyrði (myrkur).
 
 > [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/) <br>
@@ -36,8 +36,8 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 Verkefnið er að sinna pottaplöntu. Við notum [jarðvegsmælir](https://github.com/VESM3/IOT/blob/main/Efni/soilsensor.md) (e. soil sensor) til að kanna rakastig jarðvegs svo við getum áttað okkur hvenær við þurfum að vökva plöntuna. Við notum ljósnema (LDR) til að kanna birtuþörf plöntunar. Við kveikjum á gróðurlampa (led pera) við ákveðin skilyrði (myrkur) og vökvum með solenoid vökvadælu ef jarðvegsmælir gefur tilefni til þess (þurrkur). 
 
 1. Publisher (ESP32), telemetry með JSON sniðmáti.
-1. Notaðu fartölvu sem Broker.
-1. Subscriber (fartölva) prentar út gildin og vinnur úr telemetry og sendri skipanir á Actuator.
+1. Notaðu fartölvu (eða RPi) sem Broker.
+1. Subscriber (fartölva eða RPi) prentar út gildin og vinnur úr telemetry og sendri skipanir á Actuator.
 1. Actuator (annar ESP32) vökvar plöntu þegar jarðvegur er of þurr og kveikir á LED þegar það er of dimmt. 
 1. Actuator (publisher) sendir notification til fartölvu (subscriber) þegar hann hefur framkvæmt aðgerðir.
 
@@ -50,13 +50,10 @@ https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/3-automa
 ---
 
 ### Aðrar bjargir
-
 - [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/)
 - [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
-
-<!-- 
-- [Run Your Cloud MQTT Mosquitto Broker (access from anywhere using Digital Ocean)](https://randomnerdtutorials.com/cloud-mqtt-mosquitto-broker-access-anywhere-digital-ocean/) 
--->
+- [Install Mosquitto MQTT Windows](https://www.donskytech.com/install-mosquitto-mqtt-windows/)
+- [Run Your Cloud MQTT Mosquitto Broker (Digital Ocean)](https://randomnerdtutorials.com/cloud-mqtt-mosquitto-broker-access-anywhere-digital-ocean/) 
 
 ---
 
