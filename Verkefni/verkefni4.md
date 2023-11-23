@@ -60,7 +60,7 @@ https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/3-automa
 
 ---
 
-### Námsmat og skil
+## Námsmat og skil
 
 - Skilaðu á Innu kóðalausnum.
 - Yfirferð á sér stað í tíma. 
