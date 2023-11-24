@@ -30,7 +30,7 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 1. Subscriber (sama fartölva eða RPi) birtir gildin. 
 1. Actuator (annar ESP32) kveikir á LED við ákveðin birtuskilyrði (myrkur).
 
-> [Install Mosquitto MQTT Windows](https://www.donskytech.com/install-mosquitto-mqtt-windows/) _bætið við í config skrá: lína 234: `1883 0.0.0.0` og lína 532: `allow_anonymous true` <br>
+> [Install Mosquitto MQTT Windows](https://www.donskytech.com/install-mosquitto-mqtt-windows/) _bætið við í config skrá: lína 234: `listener 1883 0.0.0.0` og lína 532: `allow_anonymous true` <br>
 > [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/) <br>
 > [MQTT sýnidæmi með eigin Broker](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/MQTTBroker.md) _ESP32(C/C++) (publisher) og RPi (broker og subscriber)_ <br>
 > [PahoMQTT client](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/PahoMQTTClient.md) <br>
