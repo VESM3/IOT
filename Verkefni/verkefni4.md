@@ -3,6 +3,10 @@
 - Námsmat 20% af heildareinkunn
 - Viðfangsefni: [MQTT](https://github.com/VESM3/IOT/wiki/MQTT)
 
+<!-- 
+Sýnidæmi: [Python: RPi#1 (client) + fartölva (subscriber & publisher) + RPi#2 (actuator) + test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI)
+-->
+
 ---
 
 ### 1. Mosquitto test Broker (30%) 
@@ -15,8 +19,8 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 1. Birtu gildin/streng á öðrum ESP32 (subscriber).
    
 > [MicroPython: Getting Started with MQTT with 2 x ESP32](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/) <br>
-> [Python: RPi#1 (client) + fartölva (subscriber & publisher) + RPi#2 (actuator) + test.mosquitto](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI)
-
+> [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/) <br>
+> [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
 
 ---
 
@@ -49,12 +53,6 @@ Verkefnið er að sinna pottaplöntu. Við notum [jarðvegsmælir](https://githu
 https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/3-automated-plant-watering/README.md
 -->
 
----
-
-### Aðrir tutorials
-
-- [Tutorial: MicroPython – MQTT Publish/Subscribe using ESP32/ESP8266](https://www.donskytech.com/micropython-mqtt-esp32-esp8266/)
-- [Tutorial: umqtt.simple library in MicroPython](https://www.donskytech.com/umqtt-simple-micropython-tutorial/)
 <!--
 - [Access Node-RED Dashboard from Anywhere using Digital Ocean](https://randomnerdtutorials.com/access-node-red-dashboard-anywhere-digital-ocean/)  
 - [Getting Started with Node-RED Dashboard on Raspberry Pi](https://randomnerdtutorials.com/getting-started-node-red-dashboard/)  
