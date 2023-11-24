@@ -30,7 +30,7 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 - [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/) <br>
 
 Gerðu svo næst eftirfarandi viðbætur:
-1. Tengdu ljósnema LDR við ESP32 (Publisher) og útbúðu náttljós. LED er í on/off stöðu við ákveðið birtuskilyrði.  
+1. Tengdu ljósnema LDR við ESP32 (Publisher) og útbúðu náttljós. LED er í off stöðu við ákveðið birtuskilyrði (bjart). Til vara: Nota random tölur.  
 1. Notaðu RPi eða fartölvu sem Broker. 
 1. Subscriber (sama fartölva eða RPi) birtir gildin. 
 1. Actuator (annar ESP32) kveikir á LED við ákveðin birtuskilyrði (myrkur).
