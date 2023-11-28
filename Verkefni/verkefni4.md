@@ -34,7 +34,7 @@ Keyrðu lið 1. aftur en núna með eigin local Broker (þarft að vera á sama 
 - Linux 
    - [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/)
    - [How to Install The Mosquitto MQTT Broker on Linux](http://www.steves-internet-guide.com/install-mosquitto-linux/)
-
+   - [The Mosquitto MQTT Broker in Raspberry Pi OS (Bullseye)](https://www.sigmdel.ca/michel/ha/rpi/mosquitto_rpios_bullseye_en.html)
 Gerðu svo næst eftirfarandi viðbætur:
 1. Tengdu ljósnema LDR við ESP32 (Publisher) og útbúðu náttljós. LED er í off stöðu við ákveðið birtuskilyrði (bjart). Til vara: Nota random tölur.  
 1. Notaðu RPi eða fartölvu sem Broker. 
