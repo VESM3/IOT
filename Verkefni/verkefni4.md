@@ -1,4 +1,4 @@
-## Tímaverkefni 4 _drög_
+## Tímaverkefni 4 
 
 - Námsmat 20% af heildareinkunn
 - Viðfangsefni: [MQTT](https://github.com/VESM3/IOT/wiki/MQTT)
