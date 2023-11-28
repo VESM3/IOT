@@ -25,7 +25,8 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 ---
 
 ### 2. Local Broker (30%)
-Í staðinn fyrir að nota Mosquitto test broker frá MIT þá ætlum við að setja upp okkar eigin Broker á fartölvu (eða RPi). Keyrðu lið 1. aftur en núna með eigin local Broker (þarft að vera á sama wifi og ESP32).
+Í staðinn fyrir að nota Mosquitto test broker frá MIT þá ætlum við að setja upp okkar eigin Broker á fartölvu (eða RPi). <br>
+Keyrðu lið 1. aftur en núna með eigin local Broker (þarft að vera á sama wifi og ESP32).
 - Windows 
    - [Install Mosquitto MQTT Windows](https://www.donskytech.com/install-mosquitto-mqtt-windows/)
    - bætið við í config skrá: lína 234: `listener 1883 0.0.0.0` og lína 532: `allow_anonymous true`
