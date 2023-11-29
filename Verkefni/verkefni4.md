@@ -29,7 +29,7 @@ Grunnaðgerðir í MQTT með ESP32 (client), fartölvu (subscriber) og Moquitto 
 Keyrðu lið 1. aftur en núna með eigin local Broker (þarft að vera á sama wifi og ESP32).
 - Windows 
    - [Install Mosquitto MQTT Windows](https://www.donskytech.com/install-mosquitto-mqtt-windows/)
-   - bætið við í config skrá: lína 234: `listener 1883 0.0.0.0` og lína 532: `allow_anonymous true`
+   - bætið við í mosquitto.conf skrá: lína 234: `listener 1883 0.0.0.0` og lína 532: `allow_anonymous true`
    - síðan þarf að opna fyrir mosquitto í Windows Firewall.
 - Linux 
    - [Install Mosquitto MQTT Broker on Raspberry Pi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/)
