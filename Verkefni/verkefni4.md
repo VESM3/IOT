@@ -43,6 +43,7 @@ Gerðu svo næst eftirfarandi viðbætur:
 
 > [MQTT sýnidæmi með eigin Broker](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/MQTTBroker.md) _ESP32(C/C++) (publisher) og RPi (broker og subscriber)_ <br>
 > [PahoMQTT client](https://github.com/VESM3/IOT/blob/main/Efni/MQTT/PahoMQTTClient.md) <br>
+> [RPi sýnidæmi](https://github.com/VESM3/IOT/tree/main/Efni/MQTT/RPI)
 
 ---
 
@@ -57,6 +58,7 @@ Verkefnið er að sinna pottaplöntu. Við notum [jarðvegsmælir](https://githu
 1. Actuator (publisher) sendir notification til fartölvu (subscriber) þegar hann hefur framkvæmt aðgerðir.
 
 > [Run Your Cloud MQTT Mosquitto Broker (Digital Ocean)](https://randomnerdtutorials.com/cloud-mqtt-mosquitto-broker-access-anywhere-digital-ocean/) <br>
+
 
 <!--
 https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/3-automated-plant-watering/README.md
