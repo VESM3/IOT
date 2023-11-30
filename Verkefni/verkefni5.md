@@ -7,7 +7,7 @@
 
 ### Verkefnalýsing
 
-Lokaverkefnið snýr að hönnun og IoT frumgerðasmíð þar sem ýmis tæki og íhlutir eru notuð. Unnið er með samþætting tækja og hugbúnaðar tengda netinu, sem geta greint gögn og upplýsingar úr umhverfinu, miðlað þeim og stýrt tengdum úttaksbúnaði. 
+Lokaverkefnið snýr að IoT frumgerðasmíð þar sem ýmis tæki og íhlutir eru notuð. Unnið er með samþætting tækja og hugbúnaðar tengda netinu, sem geta greint gögn og upplýsingar úr umhverfinu, miðlað þeim og stýrt tengdum úttaksbúnaði. 
 <br>
 Viðfangefnið verkefnis og útfærsla er frjáls en er **háð samþykki kennara** og þarf að uppfylla ákveðna verkþætti (sjá neðar). <br>
 Verkefnið þarf að vera ykkar eigið og gert er ráð fyrir sjálfstæðum vinnubrögðum.
