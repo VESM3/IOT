@@ -13,7 +13,7 @@ Viðfangefnið verkefnis og útfærsla er frjáls en er **háð samþykki kennar
 Verkefnið þarf að vera ykkar eigið og gert er ráð fyrir sjálfstæðum vinnubrögðum.
 Skoðið [Adafruit](https://learn.adafruit.com/category/internet-of-things-iot?guide_page=2&total_count=224&total_verbiage=total+series-), [Makerpro](https://maker.pro/projects/category/iot?filter=popular), [Hackster](https://www.hackster.io/iot/projects) fyrir innblástur og hugmyndir
 
-> [listi af íhlutum](https://github.com/VESM3/IOT/blob/main/Ihlutir.md)  
+> [listi af íhlutum](https://github.com/VESM3/IOT/blob/main/Ihlutir.md) sem skólinn á (ekki tæmandi).
 
 #### Verkþættir sem þarf að uppfylla:
 
