@@ -73,7 +73,7 @@ Einkunn byggir á vinnuframlagi sem á sér stað í kennslustund ásamt útfær
 1. Inntak (telemetry) með MQTT eða ESP-NOW **(25%)**
 1. Stýringar (actuator) með MQTT eða ESP-NOW. **(25%)**
 1. Serverkóði og vefþjónustur. **(25%)**
-1. Viðmót fyrir mælaborð (vefsíða); birting gagna (og notendainntak). **(25%)**
+1. Viðmót/mælaborð (vefsíða); birting gagna (og notendainntak). **(25%)**
 <!--
 1. Skýrsla, hönnun, samsettning (og smíði) IoT frumgerðar. **(20%)**
 -->
