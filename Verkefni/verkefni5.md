@@ -22,7 +22,7 @@ Skoðið [Adafruit](https://learn.adafruit.com/category/internet-of-things-iot?g
 - Actuators: Unnið er með stýringar.
 - IoT Protocol: MQTT eða ESP-NOW. 
 - Unnið er úr gögnum (server forritun).
-- Viðmót með mælaborði (vefsíða) fyrir birtingu gagna.
+- Viðmót (vefsíða) fyrir birtingu gagna (mælaborð).
 - Vefþjónusta; IFTTT.
 - IoT hönnun; kerfisskýringarmynd, rafrásarteikning.
 - Samsettning á IoT búnaði (innfelld kerfi, vélbúnaður, íhlutir, brauðbretti, vírar osfrv.).
