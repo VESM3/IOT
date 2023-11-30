@@ -54,13 +54,15 @@ Skilið hlekk á Github geymslu á Innu sem inniheldur eftirfarandi:
   - verkefnalýsing, efnislisti, hvað var gert og heimildir.
   - kerfisskýringarmynd. [dæmi](https://github.com/VESM3/IOT/blob/main/Myndir/kerfismynd.drawio.png)
   - rafrásarteikning [Circuit Diagram](https://www.circuit-diagram.org/) eða [TinkerCad Circuit](https://www.tinkercad.com/circuits) af tengingum íhluta.
-  - tenglar á kóðaskrár commentað.
+  - tenglar á kóðaskrár með skýringum.
   - ljósmyndir af samsettningu á IoT búnað. 
-  - tengil á myndband (youtube) af notkun og virkni frumgerðar.
+  - myndband af notkun og virkni frumgerðar.
 <!--
   _valkvæmt: Hönnunarteikningar (til prentunar) 2d og eða 3d teikningar og model (.stl skráin)._
 -->
 Hugið vel að uppsetningu og framsetningu á skýrslu! 
+
+> [leiðbeiningar: Að búa til skýrslu í markdown](https://github.com/VESM1VS/AFANGI/blob/main/Kennsluefni/skyrslugerd.md)
 
 ---
 
