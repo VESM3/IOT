@@ -5,18 +5,10 @@
 
 #### IoT Projects
  
-- plöntu sjálfvirkt kerfi
-   - https://www.instructables.com/Smart-IoT-Garden/ 
-- face recognition AI robot: https://www.electronicsforu.com/electronics-projects/design-iot-face-recognition-ai-robot
-   - bluetooth, I2C, arduino, rpi, servo motors, oled,  
-- IOT kaffivél via app og voice control. https://www.instructables.com/IoT-Enabled-Coffee-Machine/
-   - esp8266
-- Automated Pet Feeder 
-   - https://www.hackster.io/Kevin_Lee/how-to-feed-your-pets-when-you-re-not-home-adfb99
-   - https://www.instructables.com/Smart-IoT-Garden/
-- Drinking Reminder Water Bottle  
-   - https://www.instructables.com/Arduino-Powered-Water-Bottle/
-   - https://hackaday.io/project/165042-drinking-reminder-water-bottle-with-allthingstalk
+- [plöntu sjálfvirkt kerfi](https://www.instructables.com/Smart-IoT-Garden/) 
+- [IOT kaffivél via app og voice control](https://www.instructables.com/IoT-Enabled-Coffee-Machine/)
+- [Automated Pet Feeder](https://www.hackster.io/Kevin_Lee/how-to-feed-your-pets-when-you-re-not-home-adfb99)
+- [Drinking Reminder Water Bottle](https://hackaday.io/project/165042-drinking-reminder-water-bottle-with-allthingstalk)
 - Lavatory Vacant/Occupied Sign https://www.hackster.io/obniz/lavatory-vacant-occupied-sign-human-detection-sensor-5fdc1e
    - pir, led    
 - Turning your fridge into a smart one: https://www.hackster.io/pamruta/smart-fridge-1baf56
