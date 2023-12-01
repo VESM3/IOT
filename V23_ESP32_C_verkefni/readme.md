@@ -1,3 +1,8 @@
+[ESP32-S3](https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32_S3/tree/main)
+
+
+---
+
 ## Verkefnin
 
 - V1: ESP32: OLED, RFID, NPT.
