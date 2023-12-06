@@ -58,7 +58,7 @@ Verkefnið er að sinna pottaplöntu. Við notum [jarðvegsmælir](https://githu
 1. Actuator (publisher) sendir notification til fartölvu (subscriber) þegar hann hefur framkvæmt aðgerðir.
 
 > [Run Your Cloud MQTT Mosquitto Broker (Digital Ocean)](https://randomnerdtutorials.com/cloud-mqtt-mosquitto-broker-access-anywhere-digital-ocean/) <br>
-
+> [Flask-MQTT’s](https://flask-mqtt.readthedocs.io/en/latest/)
 
 <!--
 https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/3-automated-plant-watering/README.md
