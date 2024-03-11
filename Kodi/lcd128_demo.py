@@ -4,8 +4,8 @@ import lcd128_32_fonts
 from lcd128_32 import lcd128_32
 
 #i2c config
-clock_pin = 21
-data_pin = 20
+clock_pin = 41
+data_pin = 42
 bus = 0
 i2c_addr = 0x3f
 use_i2c = True
