@@ -1,0 +1,1 @@
+- [reed switch](https://github.com/VESM1VS/AFANGI/blob/main/python/ReedSwitch.py)
