@@ -1,12 +1,13 @@
 ## Íhlutir 
 Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
  
-Skjáir:
+## Skjáir:
 - [OLED Upplausn 64x128](https://www.diymore.cc/products/2-42-inch-12864-oled-display-module-iic-i2c-spi-serial-for-arduino-c51-stm32-green-white-blue-yellow)
 - [OLED Lítill 0,96" skjár með upplausn 64 x 128](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
 - [OLED Lítill 0,91" skjár 128 x 32](https://www.diymore.cc/collections/led-display-module/products/diymore-0-91-inch-iic-i2c-oled-lcd-12832-128x32-display-diy-module-ssd1306-driver-ic-dc-3-3v-5v-stm32-for-arduino-pic)
-
-Skynjarar:
+- 64x64 LED Matrix
+  
+## Skynjarar:
 - [Púls skynjari raspberrypi](https://github.com/WorldFamousElectronics/Raspberry_Pi/blob/master/PulseSensor_Processing_Pi/PulseSensor_Processing_Pi.md)
 - [Púls skynjari arduino](https://www.instructables.com/Pulse-Sensor-With-Arduino-Tutorial/)
 - [Loftþrýstimælir](https://lastminuteengineers.com/bmp180-arduino-tutorial/)
@@ -34,7 +35,7 @@ Skynjarar:
 - [microphone ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) Sýnidæmi, [recognize speech with an IoT device](https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md) _Voice recognicition t.d. Alexa_
 - [Stereo Enclosed Speaker - 3W 8Ω](https://thepihut.com/products/stereo-enclosed-speaker-set-3w-4-ohm) 
 
-Íhlutir:
+## Íhlutir:
 - [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
    - Smella á hvíta takkann til að kveikja á power output, tvismella til að slökkva á (OFF) straum.
    - micro usb og USB-C input er til að hlaða unit og batterí. Á botninum.
@@ -43,3 +44,9 @@ Skynjarar:
    - toggle switch er fyrir normal/hold position.
       - Hold (SW1) er til að halda stöðugum straum á þar til over-discharge protection is triggerd (batterí drain 1/2 dagur).
       - Normal er auto shutdown þegar straumur er of lítill
+
+## Festingar:
+- Pan tilt fyrir MG995 (40.7×19.7×42.9mm), 2 axis gymbal haushreyfingu
+     - [2 Sets Servo Mount Bracket 2 DOF for MG995 MG996R S3003 Steering Gear Pan and Tilt Mount Robot Car Boat](https://www.amazon.com/Servo-Mount-Bracket-MG996R-Steering/dp/B07PQ12TXS/ref=sr_1_1?crid=2NJH4L2SEQX3W&keywords=2+Sets+Servo+Mount+Bracket+2+DOF+for+MG995+MG996R+S3003+Steering+Gear+Pan+and+Tilt+Mount+Robot+Car+Boat&qid=1645486375&sprefix=2+sets+servo+mount+bracket+2+dof+for+mg995+mg996r+s3003+steering+gear+pan+and+tilt+mount+robot+car+boat%2Caps%2C197&sr=8-1)
+     - [Pan and Tilt Kit / Aluminium](https://www.robotshop.com/uk/lynxmotion-pan-and-tilt-kit-aluminium.html) fyrir standard
+     - [Pan / Tilt Kit](https://www.robotshop.com/uk/lynxmotion-large-pan-tilt-no-servos-black.html?gclid=EAIaIQobChMI3YG_puyI9gIVAIxoCR05Mw-QEAQYBSABEgJPxfD_BwE) fyrir large Hitec 805BB (tilt) and standard 645MG (pan) 
