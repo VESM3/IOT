@@ -35,8 +35,7 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 - [microphone ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) Sýnidæmi, [recognize speech with an IoT device](https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md) _Voice recognicition t.d. Alexa_
 - [Stereo Enclosed Speaker - 3W 8Ω](https://thepihut.com/products/stereo-enclosed-speaker-set-3w-4-ohm) 
 - [Force Sensing Resistor (FSR)](https://lastminuteengineers.com/fsr-arduino-tutorial/?utm_content=cmp-true)
-  
-## Íhlutir:
+- [KA2284 voltage levele indicator](https://protosupplies.com/product/ka2284-voltage-level-indicator-module/) hljóðstýra servo (kjálkahreyfing) sjá [JawDuino](http://buttonbanger.com/?page_id=137) 
 - [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
    - Smella á hvíta takkann til að kveikja á power output, tvismella til að slökkva á (OFF) straum.
    - micro usb og USB-C input er til að hlaða unit og batterí. Á botninum.
