@@ -37,8 +37,10 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
    
 ---
 
-### 3. Að tengjast Raspberry Pi með SSH 
-
+<details>
+<summary>Að tengjast Raspberry Pi með SSH </summary>
+<br>
+  
 1. Settu SD minniskortið í RaspberryPi og tengdu við rafmagn (ekki fartölvu). Ath RPi4 þarf **3V**. Sum RPi USB port þarf að jugga til aðeins til að fá ljós.
 1. Í tölvunni tengdu þig við sama wifi og á RPI4. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
 1. Notaðu ip töluna `ssh pi@iptalan `  (best) eða hostname t.d. h24vesm1 ... til að tengjast í skólanum.    
@@ -53,10 +55,13 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
 
 > Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. [nmap](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/) `nmap 10.201.48.0/24 -sn -Pn`. **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar. Svo er `ifconfig` gagnleg skipun.
 
----
+</details>
 
-### Troubleshoot
-
+<details>
+<summary>Troubleshoot
+ </summary>
+<br>
+  
 - Ef þú nærð ekki VNC (_eða SSH_) samband við RPi (fartölva þarf að vera á sama wifi og RPi): 
      - nota nmap í terminal: 10.201.48.0/24 -sn -Pn.
      - keyra skipunina `nslookup hostname.tskoli.vesm` til að fá `IP` töluna sem þú getur þá notað í staðinn fyrir `hostaname.tskoli.vesm`  (virkar ekki alltaf)
@@ -64,6 +69,7 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
 - port 22: Connection timed out. SSH lokað útaf firewall í tölvu [windows fix](https://www.windowscentral.com/how-open-port-windows-firewall) 2 nemendur lentu í þessu
 - Ef þú færð svartan skjá  gerðu þá eftirfarandi breytingu í skrá (með SSH tengingu á RPi4): `/boot/config.txt`. Taktu commentið út (`#`) af `hdmi_force_hotplug=1`.
 
+</details>
 
 <!-- 
 Advanced IP Scanner og setja inn leitarskilyrðin: `10.201.48.1-10.201.49.254`. Það á líka að vera hægt að nota 
