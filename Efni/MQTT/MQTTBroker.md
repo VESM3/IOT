@@ -5,11 +5,6 @@ Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subsc
 - ESP32 (C/C++) er **Publisher**
 - RaspberryPi (python) er **Broker** og **Subscriber**. 
 
-> Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). 
-
----
-
-
 <details>
 <summary>Kóði publisher (ESP32 C/C++)</summary>
 <br>
@@ -168,6 +163,8 @@ if __name__ == '__main__':
 ```
 
 </details>
+
+> Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). 
 
 ---
 
