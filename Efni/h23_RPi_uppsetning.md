@@ -9,7 +9,7 @@ _uppfært 18.11.2024_
     2. Veldu Edit Settings til að gera efirfarandi [stillingar (mynd)](https://github.com/VESM3/IOT/blob/main/Myndir/RPi_uppsetning.png):
         - Veldu í Image customization options `to always use`
         - hostname í `h24vesmX` þar sem X er tala sem þú færð frá kennara (ekk nota sérstafi/íslenska) 
-        - Enable SSH. Ekki breyta **pi** user og notaðu lykilorðið **Verksm1dj@** 
+        - Ekki breyta **pi** user og notaðu lykilorðið **Verksm1dj@** 
         - Configure wifi: TskoliVESM
         - Password: Fallegurhestur
         - Set local settings: Atlantic/Reykjavík
