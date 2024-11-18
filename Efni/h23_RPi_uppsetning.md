@@ -14,7 +14,7 @@ _uppfært 18.11.2024_
         - Password: Fallegurhestur
         - Set local settings: Atlantic/Reykjavík
         - Keyboard layout: IS
-1. Veldu svo **YES** og aftur **YES** og hinkraðu þangað þetta er búið (5-10 mín). 
+1. Veldu svo **YES** og aftur **YES** og hinkraðu þangað þetta er búið (c.a. 15 mín). 
 1. Fjarlægðu SD kortið úr tölvunni þegar þú ert búinn og settu það í RaspberryPi 4.
 
 
