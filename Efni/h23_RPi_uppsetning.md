@@ -52,6 +52,7 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
 
 > Ef þú þarft að finna út IP eða MAC address á RPI í skólanum (TskoliVESM) þá er hægt að nota td. [nmap](https://www.maketecheasier.com/scan-local-network-with-terminal-macos/) `nmap 10.201.48.0/24 -sn -Pn`. **Ath** tölvan þín þarf að vera á sama wifi netinu þegar þú scannar. Svo er `ifconfig` gagnleg skipun.
 
+---
 
 ### Troubleshoot
 
