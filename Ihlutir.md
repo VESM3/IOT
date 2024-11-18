@@ -1,6 +1,21 @@
 ## Íhlutir 
 Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
- 
+
+## Mótorar 
+
+**Servos:**
+   - [SG90](https://lastminuteengineers.com/servo-motor-arduino-tutorial/)
+   - MG90 
+   - [MG995](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) _120 gráður_
+   - [Servo tester](https://www.youtube.com/watch?v=--bpb485i1Q) og [hér](https://www.allelectronics.com/item/str-110/servo-tester/1.html)
+   - [PCA9685 16-Channel Servo Driver](https://dronebotworkshop.com/servo-motors-with-arduino/#PCA9685_Servo_Driver_Board)
+
+**DC mótorar:**
+   - [6V Hobby DC mótor](https://www.robotshop.com/media/files/pdf/datasheet-711.pdf)
+   - [170 RPM Econ Gear Motor (litli)](https://www.servocity.com/170-rpm-econ-gear-motor/)
+   - [118 RPM HD Premium Planetary Gear Motor (stóri)](https://www.servocity.com/118-rpm-hd-premium-planetary-gear-motor/)
+   - [L298N DC Motor Driver](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/)
+
 ## Skjáir:
 - [OLED Upplausn 64x128](https://www.diymore.cc/products/2-42-inch-12864-oled-display-module-iic-i2c-spi-serial-for-arduino-c51-stm32-green-white-blue-yellow)
 - [OLED Lítill 0,96" skjár með upplausn 64 x 128](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
