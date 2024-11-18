@@ -1,20 +1,21 @@
-## Raspberry Pi uppsetning og stilling á stýrikerfi
+## Raspberry Pi 4 uppsetning 
+_uppfært 18.11.2024_
 
 ### 1. Uppsetning á RPi OS stýrikerfi 
 1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) forritið í tölvuna þína.
 1. Settu microSD kortið með usb lykli í tölvuna.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34).
-    1. Veldu **Raspberry Pi OS (Legacy)** sem er **Debian Bullsey** stýrikerfið 
-    2. Veldu Settings (tannhjólið) eða `CTRL+ SHIFT + X` til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
+    1. Veldu **Raspberry Pi 4** og **RASPBERRY PI OS (64 bit)** stýrikerfið og veldu usb portið með microSD kortinu.
+    2. Veldu Edit Settings til að gera efirfarandi stillingar [myndband](https://www.youtube.com/watch?v=s93ss44C_yM):
         - Veldu í Image customization options `to always use`
-        - hostname í `h23vesmX-` (ekk nota sérstafi/íslenska) 
+        - hostname í `h24vesmX` þar sem X er tala sem þú færð frá kennara (ekk nota sérstafi/íslenska) 
         - Enable SSH. Ekki breyta **pi** user og notaðu lykilorðið **Verksm1dj@** 
         - Configure wifi: TskoliVESM
         - Password: Fallegurhestur
         - Set local settings: Atlantic/Reykjavík
         - Keyboard layout: IS
-1. Veldu microSD kortið þitt og smelltu á write. **Ath** 
-1. Fjarlægðu SD kortið úr tölvunni þegar þú ert búinn.
+1. Veldu svo **YES** og aftur **YES** og hinkraðu þangað þetta er búið (5-10 mín). 
+1. Fjarlægðu SD kortið úr tölvunni þegar þú ert búinn og settu það í RaspberryPi 4.
 
 
 ---
