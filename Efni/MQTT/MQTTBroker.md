@@ -9,7 +9,11 @@ Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subsc
 
 ---
 
-### Kóði publisher (ESP32 C/C++)
+
+<details>
+<summary>Kóði publisher (ESP32 C/C++)</summary>
+<br>
+  
 ``` c
 #include "DHT.h"          // safn frá Adafruit
 #include "PubSubClient.h" // Connect and publish to the MQTT broker
@@ -120,6 +124,8 @@ void loop() {
   delay(1000*60);       // print new values every 1 Minute
 }
 ```
+</details>
+
 ---
 
 ### Uppsetning á broker (Raspberry Pi)
@@ -178,6 +184,5 @@ if __name__ == '__main__':
     print('MQTT tenging við broker')
     main()
     ```
----
 
 
