@@ -35,7 +35,9 @@ Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þrá
        ```
     1. Tvísmelltu á tenginguna, notendafnið er `pi` (ekki breyta) og lykilorð. 
 1. Núna getur þú tengst RPi4 með fartölvunni og hætt að nota skjáinn, músin og lyklaborðið með RPi4
-   
+
+> Líka hægt að nota [Raspberry Pi Connect:](https://www.omglinux.com/raspberry-pi-connect-remote-access-via-web/) 
+
 ---
 
 <details>
