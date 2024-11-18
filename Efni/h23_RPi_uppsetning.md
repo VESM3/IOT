@@ -24,6 +24,7 @@ _uppfært 18.11.2024_
 ### 2. Að tengjast RPi með VNC (GUI) 
 Að keyra VNC server á Raspberry Pi leyfir þér að tengjast RPi desktop þráðlaust á fartölvu með [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/).
 1. Tengdu RPi4 við skjá, mús og lyklaborð
+1. Tengdu RPi4 við wifi netið (hægra horni) og skráðu niður í leiðinni iptöluna og merktu RPi4 (með málningartape)
 1. VNC server þarf að vera enable á RPi. Farðu í _Preferences_ og þar í _Raspberry Pi Configuration_ og þar skaltu velja  _Interfaces_ og hakaðu við VNC (enable). 
 1. Náðu í [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) í fartölvuna.
     1. Búðu til VNC tengingu (New Connection) í File.
