@@ -24,7 +24,7 @@ _uppfært 18.11.2024_
 ### 2. Að tengjast Raspberry Pi með SSH (þarf að gera fyrst)
 
 1. Settu SD minniskortið í RaspberryPi og tengdu við rafmagn (ekki fartölvu). Ath RPi4 þarf **3V**. Sum RPi USB port þarf að jugga til aðeins til að fá ljós.
-1. Í tölvunni tengdur á sama wifi **SSH tenging**. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
+1. Í tölvunni tengdu þig við sama wifi og á RPI4. Ef þú ert með **Windows** notaðu þá `GitBash`. Ef **Mac/Linux** þá `terminal` (þú gætir þurft að nota `sudo`)
 1. Notaðu ip töluna `ssh pi@iptalan `  (best) eða hostname t.d. h24vesm1 ... til að tengjast í skólanum.    
       ```Linux
       ssh pi@h24vesm1.tskoli.vesm    # ef virkar ekki prófaðu þá pi@h24vesm1 eða pi@hostname.vesm
