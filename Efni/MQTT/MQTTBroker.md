@@ -1,9 +1,12 @@
 
-## MQTT sýnidæmi með eigin Broker.
+## MQTT sýnidæmi með eigin Broker 
 Publisher er með DHT22/11 raka- og hitamæli og sendir gildin til Broker. Subscriber fær svo gildin frá Broker.
 
 - ESP32 (C/C++) er **Publisher**
 - RaspberryPi (python) er **Broker** og **Subscriber**. 
+
+Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/) tutorial. 
+
 
 <details>
 <summary>Kóði publisher (ESP32 C/C++)</summary>
@@ -163,8 +166,6 @@ if __name__ == '__main__':
 ```
 
 </details>
-
-> Byggt á [Send data from ESP32 to Raspberry Pi (Broker) via MQTT](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/). 
 
 ---
 
