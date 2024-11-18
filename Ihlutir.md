@@ -60,8 +60,10 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
       - Hold (SW1) er til að halda stöðugum straum á þar til over-discharge protection is triggerd (batterí drain 1/2 dagur).
       - Normal er auto shutdown þegar straumur er of lítill
 
+<!--
 ## Festingar:
 - Pan tilt fyrir MG995 (40.7×19.7×42.9mm), 2 axis gymbal haushreyfingu
      - [2 Sets Servo Mount Bracket 2 DOF for MG995 MG996R S3003 Steering Gear Pan and Tilt Mount Robot Car Boat](https://www.amazon.com/Servo-Mount-Bracket-MG996R-Steering/dp/B07PQ12TXS/ref=sr_1_1?crid=2NJH4L2SEQX3W&keywords=2+Sets+Servo+Mount+Bracket+2+DOF+for+MG995+MG996R+S3003+Steering+Gear+Pan+and+Tilt+Mount+Robot+Car+Boat&qid=1645486375&sprefix=2+sets+servo+mount+bracket+2+dof+for+mg995+mg996r+s3003+steering+gear+pan+and+tilt+mount+robot+car+boat%2Caps%2C197&sr=8-1)
      - [Pan and Tilt Kit / Aluminium](https://www.robotshop.com/uk/lynxmotion-pan-and-tilt-kit-aluminium.html) fyrir standard
      - [Pan / Tilt Kit](https://www.robotshop.com/uk/lynxmotion-large-pan-tilt-no-servos-black.html?gclid=EAIaIQobChMI3YG_puyI9gIVAIxoCR05Mw-QEAQYBSABEgJPxfD_BwE) fyrir large Hitec 805BB (tilt) and standard 645MG (pan) 
+-->
