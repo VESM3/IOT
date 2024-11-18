@@ -1,6 +1,6 @@
 ## Raspberry Pi uppsetning og stilling á stýrikerfi
 
-### 1. Uppsetning á RPi OS stýrikerfi (Búið að gera af kennara)
+### 1. Uppsetning á RPi OS stýrikerfi 
 1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) forritið með microSD kort og usb lykli í tölvunni.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34), 
     1. Veldu **Raspberry Pi OS (Legacy)** sem er **Debian Bullsey** stýrikerfið 
