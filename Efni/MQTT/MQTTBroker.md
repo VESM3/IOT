@@ -178,7 +178,7 @@ Broker getur verið hvaða vél sem er nettengd, í þessu tilviki er Broker ras
    * `sudo apt update && sudo apt upgrade`
    * `sudo apt install mosquitto mosquitto-clients` 
 1. Gerið `sudo nano /etc/mosquitto/mosquitto.conf` og breytið, sjá !["mynd"](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/mosquitto_conf_h24.PNG)
-1. Keyrið svo `sudo systemctl restart mosquitto.service`
+1. Keyrið svo `sudo systemctl enable mosquitto.service` og síðan `sudo systemctl restart mosquitto.service`.
 <!--
 1. Stofnaðu user (username: vesm3) og lykilorð (password: vesm3)
 1. Búa til notanda og lykilorð (publisher) sudo mosquitto_passwd -c /etc/mosquitto/pwfile ***username***
