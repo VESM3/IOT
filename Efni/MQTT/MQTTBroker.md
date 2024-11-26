@@ -175,10 +175,11 @@ Broker getur verið hvaða vél sem er nettengd, í þessu tilviki er Broker ras
 1. Finna ip tölu á broker (raspberrypi)
 1. Finna WiFi SSID og WiFi password
 1. Install á raspberrypi
-   * sudo apt-get update 
-   * sudo apt-get upgrade
-   * sudo apt-get install mosquitto
-1. Gerið sudo nano /etc/mosquitto/mosquitto.conf og breytið, sjá !["mynd"](https://github.com/eirben/VESM2_H21/blob/main/verkefni5/mosquitto_conf.jpg)
+   * `sudo apt update && sudo apt upgrade`
+   * `sudo apt install mosquitto mosquitto-clients` 
+1. Gerið `sudo nano /etc/mosquitto/mosquitto.conf` og breytið, sjá !["mynd"](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/mosquitto_conf_h24.PNG)
+1. Keyrið svo `sudo systemctl restart mosquitto.service`
+<!--
 1. Stofnaðu user (username: vesm3) og lykilorð (password: vesm3)
 1. Búa til notanda og lykilorð (publisher) sudo mosquitto_passwd -c /etc/mosquitto/pwfile ***username***
    * Til að eyða notanda *sudo mosquitto_passwd -d /etc/mosquitto/pwfile username*
@@ -187,6 +188,6 @@ Broker getur verið hvaða vél sem er nettengd, í þessu tilviki er Broker ras
    * Til að stoppa Mosquitto **sudo systemctl stop mosquitto**
    * Til að endurræsa Mosquitto **sudo systemctl restart mosquitto**
    * Til að Mosquitto ræsi sjálkrafa við ræsingu vélar **sudo systemctl enable mosquitto**
-
+-->
 
 
