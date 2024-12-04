@@ -25,6 +25,7 @@ Rpi myndavélar (týpur):
 
 ---
 
+## Verkefni frá Haust 2023
 
 ### 1. Raspberry Pi OS og takki með GPIO (15%)
 1. Fylgdu eftirfarandi [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/h23_RPi_uppsetning.md#2-a%C3%B0-tengjast-raspberry-pi-me%C3%B0-ssh-%C3%BEarf-a%C3%B0-gera-fyrst)
