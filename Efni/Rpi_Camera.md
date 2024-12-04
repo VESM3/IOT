@@ -25,6 +25,11 @@ Rpi myndavélar (týpur):
 
 ---
 
+### RPi cam uppsetning haust 2024 
+- Raspberry Pi OS Bookworm renamed the camera capture applications from libcamera-* to rpicam-*. 
+
+---
+
 ## Verkefni frá Haust 2023
 
 ### 1. Raspberry Pi OS og takki með GPIO (15%)
