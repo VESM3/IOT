@@ -1,5 +1,6 @@
 ## RPi Camera
 - https://orionrobots.co.uk/2024/06/04/raspberry-pi-camera-compatibility.html
+- RPi Camera module 2 vs 3 Raspberry Pi Camera Module 3 Comparison
 
 
 ---
