@@ -1,9 +1,30 @@
-## RPi Camera
-- https://orionrobots.co.uk/2024/06/04/raspberry-pi-camera-compatibility.html
-- RPi Camera module 2 vs 3 Raspberry Pi Camera Module 3 Comparison
+## RPi Myndavélar
 
+Rpi myndavélar (týpur):
+[Software](https://www.raspberrypi.com/documentation/computers/camera_software.html)
+
+- [RPi Camera Module 2](https://www.raspberrypi.com/products/camera-module-v2/)
+   - 18 stykki (skólaeign) 
+   - 8 megapixel
+   - kom 2016
+- [RPi Camera Module 3](https://www.raspberrypi.com/products/camera-module-3/)
+   - tvær útgáfur:
+      - standard (4.300 kr) 10 cm fókus, 75 gráður
+      - wide (6.000 kr)  5 cm fókus, 120 gráður
+   - með auto-focus og fókusfjarlægð er kóðanleg
+   - with or without an infrared filter
+   - 12 megapixel
+   - kom 2023
+- [RPi AI camera](https://www.raspberrypi.com/products/ai-camera/)
+   - 11.500 kr á [PiHut](https://thepihut.com/products/raspberry-pi-ai-camera)
+   - virkar á rpi 4, 5 og zero 2
+   - byggt á [Sony IMX500 Intelligent Vision Sensor](https://developer.sony.com/imx500)
+
+> [V2 vs V3 samanburður](https://dphacks.com/2023/01/18/raspberry-pi-camera-module-3-comparison/) <br>
+> [Raspberry Pi Camera Compatibility RpiCam](https://orionrobots.co.uk/2024/06/04/raspberry-pi-camera-compatibility.html)
 
 ---
+
 
 ### 1. Raspberry Pi OS og takki með GPIO (15%)
 1. Fylgdu eftirfarandi [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/h23_RPi_uppsetning.md#2-a%C3%B0-tengjast-raspberry-pi-me%C3%B0-ssh-%C3%BEarf-a%C3%B0-gera-fyrst)
