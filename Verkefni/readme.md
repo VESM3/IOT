@@ -1,1 +1,1 @@
-Verkefni VOR 2024, spönn 2
+Verkefni VOR 2025
