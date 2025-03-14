@@ -18,7 +18,7 @@
    - [How to Use The Paho MQTT Python Client for Beginners](http://www.steves-internet-guide.com/into-mqtt-python-client/)
    - [Python MQTT Client Connections – Working with Connections](http://www.steves-internet-guide.com/client-connections-python-mqtt/)
 
-<!--
+
 #### MQTT clients (C++)
 
 - [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/) (by Nick O'Leary) _fyrir ESP32 (C++)_
@@ -28,5 +28,5 @@
 - [EspMQTTClient](https://www.arduino.cc/reference/en/libraries/espmqttclient/) (by bertmelis) (C++)
    - MQTT library that can publish with QoS 1 or 2.
    - depends on the PubSubClient Library.
--->
+
 
