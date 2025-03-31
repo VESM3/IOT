@@ -12,7 +12,7 @@
 ## Uppsetning
 
 ### Aðferð I
-Afrita [__init__.py](https://github.com/peterhinch/micropython-mqtt/blob/master/mqtt_as/__init__.py) í `/lib/mqtt_as/` möppuna á ESP (búa til möppurnar ef þarf).
+Afrita [\_\_init\_\_.py](https://github.com/peterhinch/micropython-mqtt/blob/master/mqtt_as/__init__.py) í `/lib/mqtt_as/` möppuna á ESP (búa til möppurnar ef þarf).
 
 ### Aðferð II
 Keyra þessa skrá á ESP (það þarf ekki að vista hana á ESP):
