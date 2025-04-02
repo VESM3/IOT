@@ -10,11 +10,11 @@
 - [Tvíátta samskipti](./mqtt_async.md#tvíátta-samskipti)
 
 ## Uppsetning
-
+<!--
 ### Aðferð I
 Afrita [\_\_init\_\_.py](https://github.com/peterhinch/micropython-mqtt/blob/master/mqtt_as/__init__.py) í `/lib/mqtt_as/` möppuna á ESP (búa til möppurnar ef þarf).
+-->
 
-### Aðferð II
 Keyra þessa skrá á ESP (það þarf ekki að vista hana á ESP):
 ```python
 def do_connect():
@@ -56,8 +56,8 @@ async def main(client):
     await client.connect()
     teljari = 0
     while True:
-        # Skilaboðin sem á að senda, þarf encode ef senda á íslenska stafi
-        skilabod = f"Halló {teljari}".encode() 
+        # Skilaboðin sem á að senda, nota string encode aðferð til að breyta í bytes objects.
+        skilabod = f"Halló {teljari}".encode() # þarf encode ef senda á íslenska stafi
         print(f"sendi: {skilabod}" )
         # Skilaboðin send
         await client.publish(TOPIC, skilabod)
