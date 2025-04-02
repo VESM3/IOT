@@ -1,8 +1,6 @@
 # mqtt_as 
 
 - [Uppsetning](./mqtt_async.md#uppsetning)
-    - [Aðferð I](./mqtt_async.md#aðferð-i)
-    - [Aðferð II](./mqtt_async.md#aðferð-ii)
 - [Sending](./mqtt_async.md#sending)
     - [Með aðal while lykkjunni](./mqtt_async.md#sending-í-aðal-while-true-lykkjunni)
     - [Með falli](./mqtt_async.md#með-sérstöku-sendi-falli)
