@@ -22,6 +22,8 @@
 
 ### Tengjast með SSH
 
+:exclamation: Tengdu fartölvuna þín við TskoliVESM þráðlausa netið.
+
 Eftir að RaspberryPi hefur verið tengdur rafmagni þarf að gefa honum tvær til þrjár mínútur til að ræsa í fyrsta skipti.
 
 Að því loknu skaltu opna *terminal* á fartölvunni þinni (PowerShell á Windows, Terminal á MacOS) og gefa þar eftirfarandi skipun:
@@ -30,7 +32,7 @@ ssh pi@v25vesmX.tskoli.vesm
 ```
 Því næst slærðu inn lykilorðið (Verksm1dja) og þá ætti að vera komin á tenging við RaspberryPi.
 
-:information_source: (MacOS) ef þú færð:
+:exclamation: (MacOS) ef þú færð:
 ```bash
 The authenticity of host '...'
 This key is not known by any other names.
@@ -63,10 +65,39 @@ Til að setja upp MQTT broker-inn á RaspberryPi þarf að gera eftirfarandi:
 - Setja mosquitto sem þjónustu sem ræsir alltaf:
     ```bash
     sudo systemctl enable mosquitto.service
+    ```
+    og síðan:
+    ```bash
     sudo systemctl restart mosquitto.service
     ```
 
 ## NodeRed
+
+Setja inn viðeigandi hugbúnað sem notaður verður í uppsetningunni:
+```bash
+sudo apt install build-essential git -y
+```
+
+Setja svo upp node-red (setur líka upp Node.js):
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+```
+
+Svaraðu með **y** við spurningunum tveimur sem koma upp.
+
+Þegar `Node-RED Settings File initialisation` fer í gang, velja alltaf sjálgefna valkostinn.
+
+Setja NodeRed sem þjónustu sem ræsir alltaf.
+```bash
+sudo systemctl enable nodered.service
+````
+og síðan:
+```bash
+sudo systemctl restart mosquitto.service
+```
+
+
+
 
 
 
