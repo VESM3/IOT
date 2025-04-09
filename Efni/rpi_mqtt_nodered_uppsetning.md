@@ -8,7 +8,6 @@
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34).
     1. Veldu **Raspberry Pi 4** og **RASPBERRY PI OS (64 bit)** stýrikerfið og veldu usb portið með microSD kortinu, smelltu svo á *Next*..
     2. Veldu Edit Settings til að gera efirfarandi [stillingar (mynd)](https://github.com/VESM3/IOT/blob/main/Myndir/RPi_uppsetning.png) í GENERAL flipanum:
-        - Veldu í Image customization options `to always use`
         - hostname í `v25vesmX` þar sem X er tala sem þú færð frá kennara (ekk nota sérstafi/íslenska) 
         - Ekki breyta **pi** user og notaðu lykilorðið **Verksm1dja** 
         - Configure wifi: TskoliVESM
