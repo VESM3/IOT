@@ -44,6 +44,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 sudo apt update && sudo apt full-upgrade -y
 ```
 
+Uppfærslan tekur 10 til 15 mínútur.
+
 ## Mosquitto MQTT broker
 
 Til að setja upp MQTT broker-inn á RaspberryPi þarf að gera eftirfarandi:
@@ -83,6 +85,8 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 ```
 
 Svaraðu með **y** við spurningunum tveimur sem koma upp.
+
+Uppsetningin tekur nokkrar mínútur.
 
 Þegar `Node-RED Settings File initialisation` fer í gang, velja eftirfarandi:
 ```
@@ -134,6 +138,12 @@ sudo systemctl enable nodered.service
 og síðan:
 ```bash
 sudo systemctl restart nodered.service
+```
+
+Að endingu er svo best að endurræsa RaspberryPi tölvuna:
+
+```bash
+sudo reboot
 ```
 
 
