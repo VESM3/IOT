@@ -42,7 +42,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 Þegar þú hefur náð að tengja þig við RaspberryPi skaltu keyra:
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt full-upgrade -y
 ```
 
 ## Mosquitto MQTT broker
