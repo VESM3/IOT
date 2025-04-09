@@ -84,7 +84,48 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 
 Svaraðu með **y** við spurningunum tveimur sem koma upp.
 
-Þegar `Node-RED Settings File initialisation` fer í gang, velja alltaf sjálgefna valkostinn.
+Þegar `Node-RED Settings File initialisation` fer í gang, velja eftirfarandi:
+```
+Node-RED Settings File initialisation
+=====================================
+This tool will help you create a Node-RED settings file.
+
+? Settings file ‣ /home/pi/.node-red/settings.js [ENTER]
+
+User Security
+=============
+? Do you want to setup user security? …  [N]
+  Yes
+▸ No
+
+Projects
+========
+The Projects feature allows you to version control your flow using a local git repository.
+
+? Do you want to enable the Projects feature? … [N]
+  Yes
+▸ No
+
+Flow File settings
+==================
+✔ Enter a name for your flows file · flows.json [ENTER]
+✔ Provide a passphrase to encrypt your credentials file · [ENTER]
+
+Editor settings
+===============
+? Select a theme for the editor. To use any theme other than "default", you will need to install @node-red-contrib-themes/theme-collection in your Node-RED user directory. … 
+▸ default [ENTER]
+
+? Select the text editor component to use in the Node-RED Editor … 
+▸ monaco (default) [ENTER]
+  ace
+
+Node settings
+=============
+? Allow Function nodes to load external modules? (functionExternalModules) … 
+▸ Yes [ENTER]
+  No
+```
 
 Setja NodeRed sem þjónustu sem ræsir alltaf.
 ```bash
