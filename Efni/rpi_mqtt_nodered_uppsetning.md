@@ -93,7 +93,7 @@ sudo systemctl enable nodered.service
 ````
 og síðan:
 ```bash
-sudo systemctl restart mosquitto.service
+sudo systemctl restart nodered.service
 ```
 
 
