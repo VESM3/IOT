@@ -60,12 +60,11 @@ Til að setja upp MQTT broker-inn á RaspberryPi þarf að gera eftirfarandi:
     Ef það kemur villa á þetta, gera eftirfarandi:
   
     ```bash
-    cd /etc/mosquitto/conf.d
-    nano mosquitto.conf
+    sudo nano /etc/mosquitto/conf.d/mosquitto.conf
     # skrifa svo inn
     allow_anonymous true
     listener 1883 0.0.0.0
-    # Ýta svo á Ctrl+x og ýta svo á Y og svo Enter
+    # Ýta svo á Ctrl+x síðan á Y og loks Enter
     ```
 - Setja mosquitto sem þjónustu sem ræsir alltaf:
     ```bash
