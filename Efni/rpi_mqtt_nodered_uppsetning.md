@@ -31,7 +31,7 @@ ssh pi@v25vesmX.tskoli.vesm
 ```
 Því næst slærðu inn lykilorðið (Verksm1dja) og þá ætti að vera komin á tenging við RaspberryPi.
 
-:exclamation: (MacOS) ef þú færð:
+:exclamation: ef þú færð:
 ```bash
 The authenticity of host '...'
 This key is not known by any other names.
