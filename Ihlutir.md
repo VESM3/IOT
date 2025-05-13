@@ -5,7 +5,7 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 
 **Servos:**
    - [SG90](https://lastminuteengineers.com/servo-motor-arduino-tutorial/)
-   - MG90 
+   - MG90S 
    - [MG995](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) _120 gráður_
    - [Servo tester](https://www.youtube.com/watch?v=--bpb485i1Q) og [hér](https://www.allelectronics.com/item/str-110/servo-tester/1.html)
    - [PCA9685 16-Channel Servo Driver](https://dronebotworkshop.com/servo-motors-with-arduino/#PCA9685_Servo_Driver_Board)
