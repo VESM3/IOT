@@ -1,1 +1,1 @@
-Verkefni VOR 2025
+# Verkefni Haust 2025
