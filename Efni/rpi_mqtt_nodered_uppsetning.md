@@ -46,6 +46,8 @@ sudo apt update && sudo apt full-upgrade -y
 
 Uppfærslan tekur 10 til 15 mínútur.
 
+---
+
 ## Mosquitto MQTT broker
 
 Til að setja upp MQTT broker-inn á RaspberryPi þarf að gera eftirfarandi:
