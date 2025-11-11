@@ -80,6 +80,8 @@ Til að setja upp MQTT broker-inn á RaspberryPi þarf að gera eftirfarandi:
     sudo systemctl restart mosquitto.service
     ```
 
+<!--
+
 ## NodeRed
 
 Setja inn viðeigandi hugbúnað sem notaður verður í uppsetningunni:
@@ -154,8 +156,7 @@ Að endingu er svo best að endurræsa RaspberryPi tölvuna:
 sudo reboot
 ```
 
-
-
+-->
 
 
 
