@@ -1,4 +1,4 @@
-# Uppsetning á RPi og MQTT Broker
+# Uppsetning á Raspberry Pi og MQTT Broker
 
 ## Raspberry Pi
 
