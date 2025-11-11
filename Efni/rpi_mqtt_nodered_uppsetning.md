@@ -2,7 +2,7 @@
 
 ## Raspberry Pi
 
-### Uppsetning á RPi OS stýrikerfi 
+#### Uppsetning á RPi OS stýrikerfi 
 1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) forritið í tölvuna þína.
 1. Settu microSD kortið með usb lykli í tölvuna.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34).
@@ -19,7 +19,7 @@
 1. Veldu svo **YES** og aftur **YES** og hinkraðu þangað þetta er búið (c.a. 15 mín). 
 1. Fjarlægðu SD kortið úr tölvunni þegar þú ert búinn og settu það í RaspberryPi og tengdu því næst RaspberryPi við rafmagn.
 
-### Tengjast með SSH
+#### Tengjast með SSH
 
 :exclamation: Tengdu fartölvuna þín við TskoliVESM þráðlausa netið.
 
