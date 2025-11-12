@@ -1,4 +1,4 @@
-# Tímaverkefni 4 
+# Tímaverkefni 4 _I vinnslu_
 
 - Námsmat 17% af heildareinkunn
 - Einstaklingsverkefni
