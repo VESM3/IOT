@@ -9,7 +9,7 @@
     1. Veldu **Raspberry Pi Zero 2 W** og **Raspberry Pi OS (64 bit)** stýrikerfið og veldu usb portið með microSD kortinu, smelltu svo á *Next*..
     2. Veldu Edit Settings til að gera efirfarandi [stillingar (mynd)](https://github.com/VESM3/IOT/blob/main/Myndir/RPi_uppsetning.png) í GENERAL flipanum:
         - hostname í `h25vesmX` þar sem X er tala sem þú færð frá kennara (ekk nota sérstafi/íslenska) 
-        - Ekki breyta **pi** user og notaðu lykilorðið **Verksm1dja** 
+        - Ekki breyta **pi** user og notaðu lykilorðið **Verksm1dja** (ath. 1 (einn) í stað i)
         - Configure wifi: TskoliVESM
         - Password: Fallegurhestur
         - Set local settings: Atlantic/Reykjavík
