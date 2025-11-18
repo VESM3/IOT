@@ -2,13 +2,17 @@
 Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 
 ## Skynjarar (telemetry):
-- dht11, dht22 hita og rakaskynjarar
+
+- Keypad
+- Ultrasonic
+- Accelerometer / gyro
 - [PIR hreyfiskynjari](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
 - [RFID](https://github.com/VESM3/IOT/wiki/RFID-og-NFC)
-- [Micro NFC/RFID](https://www.adafruit.com/product/2800) - 10 stk
-- [I2C RFID Breakout fyrir snjallsíma (NFC tag)](https://www.adafruit.com/product/4701) - 10 stk
+   - [Micro NFC/RFID](https://www.adafruit.com/product/2800) - 10 stk
+   - [I2C RFID Breakout fyrir snjallsíma (NFC tag)](https://www.adafruit.com/product/4701) - 10 stk
 - [Púls skynjari raspberrypi](https://github.com/WorldFamousElectronics/Raspberry_Pi/blob/master/PulseSensor_Processing_Pi/PulseSensor_Processing_Pi.md)
 - [Púls skynjari arduino](https://www.instructables.com/Pulse-Sensor-With-Arduino-Tutorial/)
+- [DHT11, DHT22](https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/) hita- og rakaskynjarar
 - [Loftþrýstimælir](https://lastminuteengineers.com/bmp180-arduino-tutorial/)
 - [Dropateljari](https://lastminuteengineers.com/rain-sensor-arduino-tutorial/)
 - [Ljósviðnám  KY-018(lightsensor)](https://arduinomodules.info/ky-018-photoresistor-module/#:~:text=The%20KY%2D018%20Photoresistor%20module,like%20Arduino%2C%20ESP32%20and%20others.)
@@ -16,23 +20,36 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 - [Þrýstiskynjari/vigt](https://randomnerdtutorials.com/arduino-load-cell-hx711/)
 - [Flex Sesnor](https://www.sparkfun.com/products/10264) - 1 stk
 - [Force Sensing Resistor (FSR)](https://lastminuteengineers.com/fsr-arduino-tutorial/?utm_content=cmp-true)
-- [Kompás](https://electropeak.com/learn/interfacing-gy-271-hmc5883l-compass-magnetometr-with-arduino/)
-- [MSGEQ7 (datasheet)](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf). [Handling Noise When Working with the MSGEQ7](https://www.eeweb.com/handling-noise-when-working-with-the-msgeq7-audio-spectrum-analyzer/)_
-- [KA2284](https://protosupplies.com/product/ka2284-voltage-level-indicator-module/)  [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
-- [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) - 1 stk
-- [microphone ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) Sýnidæmi, [recognize speech with an IoT device](https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md) _Voice recognicition t.d. Alexa_
+- Vibration switch _esp32 sett_
+- hljóð
+   - [MSGEQ7 (datasheet)](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf). [Handling Noise When Working with the MSGEQ7](https://www.eeweb.com/handling-noise-when-working-with-the-msgeq7-audio-spectrum-analyzer/)_
+   - [KA2284](https://protosupplies.com/product/ka2284-voltage-level-indicator-module/)  [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
+   - [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) - 1 stk
+   - [microphone ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) Sýnidæmi, [recognize speech with an IoT device](https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md) _Voice recognicition t.d. Alexa_
+
+<!--
+- takkar
+- breytiviðnám
+- [Kompás](https://electropeak.com/learn/interfacing-gy-271-hmc5883l-compass-magnetometr-with-arduino/) _erfiður_
+-->
 
 ---
 
 ## Stýringar (actuators):
 
-- Leds:
+- LEDs:
    - NeopPixels hringir
-   - LedStripes
-   - Addressable RGBs
+   - Ledstripes
+   - Addressable RGB LED (tvær stærðir)
+   - LED Matrix
+   - LED Bar graph
+   - 2, 4, 7 Segment Displays
+   - LEDs í mismunandi litum og stærðum
 - Hljóð:
-   - [Stereo Enclosed Speaker - 3W 8Ω](https://thepihut.com/products/stereo-enclosed-speaker-set-3w-4-ohm) 
-   - DFPlayer 
+   - DFPlayer
+   - [Stereo Enclosed Speaker - 3W 8Ω](https://thepihut.com/products/stereo-enclosed-speaker-set-3w-4-ohm)
+   - Speaker
+   - nýtt haust 2025 (væntanlegt)
 - Servos:
    - [SG90](https://lastminuteengineers.com/servo-motor-arduino-tutorial/)
    - MG90S 
@@ -44,12 +61,16 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
    - [170 RPM Econ Gear Motor (litli)](https://www.servocity.com/170-rpm-econ-gear-motor/)
    - [118 RPM HD Premium Planetary Gear Motor (stóri)](https://www.servocity.com/118-rpm-hd-premium-planetary-gear-motor/)
    - [L298N DC Motor Driver](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/)
+- [Stepper mótor](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
 - Skjáir:
+   - LCD Module
    - [OLED Upplausn 64x128](https://www.diymore.cc/products/2-42-inch-12864-oled-display-module-iic-i2c-spi-serial-for-arduino-c51-stm32-green-white-blue-yellow)
    - [OLED Lítill 0,96" skjár með upplausn 64 x 128](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
    - [OLED Lítill 0,91" skjár 128 x 32](https://www.diymore.cc/collections/led-display-module/products/diymore-0-91-inch-iic-i2c-oled-lcd-12832-128x32-display-diy-module-ssd1306-driver-ic-dc-3-3v-5v-stm32-for-arduino-pic)
 - [HW-493 Laser](https://makerselectronics.com/product/laser-module-board-hw-493)
 
+
+    
 ---
 
 ## Annað gagnlegt
