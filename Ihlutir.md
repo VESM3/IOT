@@ -1,4 +1,4 @@
-# Íhlutir _í vinnslu_
+# Íhlutir 
 Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 
 ## Skynjarar (telemetry):
