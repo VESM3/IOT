@@ -24,7 +24,7 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 
 ---
 
-## Stýringar (Actuators):
+## Stýringar (actuators):
 
 - Leds:
    - NeopPixels hringir
