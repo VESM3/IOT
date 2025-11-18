@@ -68,6 +68,8 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 - [KA2284 voltage levele indicator](https://protosupplies.com/product/ka2284-voltage-level-indicator-module/) hljóðstýra servo (kjálkahreyfing) sjá [JawDuino](http://buttonbanger.com/?page_id=137) 
 - [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
 
+---
+
   <!--
    - Smella á hvíta takkann til að kveikja á power output, tvismella til að slökkva á (OFF) straum.
    - micro usb og USB-C input er til að hlaða unit og batterí. Á botninum.
