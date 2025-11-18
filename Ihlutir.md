@@ -24,7 +24,7 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 - Vibration switch _esp32 sett_
 - hljóð
    - [MSGEQ7 (datasheet)](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf). [Handling Noise When Working with the MSGEQ7](https://www.eeweb.com/handling-noise-when-working-with-the-msgeq7-audio-spectrum-analyzer/)_
-   - [KA2284](https://protosupplies.com/product/ka2284-voltage-level-indicator-module/)  [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
+   - KA2284,  [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
    - [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) - 1 stk
    - [microphone ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) Sýnidæmi, [recognize speech with an IoT device](https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md) _Voice recognicition t.d. Alexa_
 
@@ -74,10 +74,9 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
     
 ---
 
-## Annað gagnlegt
+## Annað 
 
 - [Tiny RTC tími/dagsetn/ár](https://www.elecrow.com/wiki/index.php?title=Tiny_RTC)
-- [Analog to digital converter](https://electropeak.com/learn/interfacing-ads1015-12-bit-adc-with-arduino/)
 - [NRF24L01 wifi](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)
 - [ESP8266 wifi connection for Arduino](https://create.arduino.cc/projecthub/Niv_the_anonymous/esp8266-beginner-tutorial-project-6414c8)
 - [Mini RF wifi transmitter](https://www.buildcircuit.com/how-to-use-rf-module-with-arduino/)
@@ -85,9 +84,8 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 - [Bluetooth with Level Shifter: Level3.3V](https://mbedgeek.blogspot.com/2018/11/arduino-bluetooth-control-with-level.html) -  1stk
 - [RPi Ethernet 5V PoE](https://www.adafruit.com/product/3848) - 1 stk
 - [SIM800L - SMS & Call GSM/GPRS 2G Micro SIM](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/) - 1 stk ath. 2G lokar 2024
+- [Analog to digital converter](https://electropeak.com/learn/interfacing-ads1015-12-bit-adc-with-arduino/) - 20 stk
 - [Logic level converter](https://learn.sparkfun.com/tutorials/retired---using-the-logic-level-converter) - 1 stk 
-- [ADC Analog to digital]() - 20 stk
-- [KA2284 voltage levele indicator](https://protosupplies.com/product/ka2284-voltage-level-indicator-module/) hljóðstýra servo (kjálkahreyfing) sjá [JawDuino](http://buttonbanger.com/?page_id=137) 
 - [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
 
 ---
