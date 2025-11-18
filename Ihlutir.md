@@ -23,6 +23,7 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 - 64x64 LED Matrix
   
 ## Skynjarar:
+- [RFID](https://github.com/VESM3/IOT/wiki/RFID-og-NFC)
 - [Púls skynjari raspberrypi](https://github.com/WorldFamousElectronics/Raspberry_Pi/blob/master/PulseSensor_Processing_Pi/PulseSensor_Processing_Pi.md)
 - [Púls skynjari arduino](https://www.instructables.com/Pulse-Sensor-With-Arduino-Tutorial/)
 - [Loftþrýstimælir](https://lastminuteengineers.com/bmp180-arduino-tutorial/)
