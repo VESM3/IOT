@@ -4,8 +4,9 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 ## Skynjarar (telemetry):
 
 - Keypad
-- Ultrasonic
-- Accelerometer / gyro
+- infrared remote (fjarstýring)
+- [Ultrasonic Sensor HC-SR04](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/#google_vignette)
+- [MPU6050 Accelerometer and Gyroscope Sensor](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/)
 - [PIR hreyfiskynjari](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
 - [RFID](https://github.com/VESM3/IOT/wiki/RFID-og-NFC)
    - [Micro NFC/RFID](https://www.adafruit.com/product/2800) - 10 stk
