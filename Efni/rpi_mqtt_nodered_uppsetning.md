@@ -7,7 +7,7 @@
 1. Settu microSD kortið með usb lykli í tölvuna.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34).
     1. Veldu **Raspberry Pi 4 eða 5** og **Raspberry Pi OS (64 bit)** stýrikerfið og veldu usb portið með microSD kortinu, smelltu svo á *Next*..
-    2. Veldu Edit Settings til að gera efirfarandi [stillingar (mynd)](https://github.com/VESM3/IOT/blob/main/Myndir/RPi_uppsetning.png) í GENERAL flipanum:
+    2. Veldu Edit Settings til að gera efirfarandi stillingar í GENERAL flipanum:
         - hostname í `vesmhX` þar sem X er tala sem þú færð frá kennara (ekk nota sérstafi/íslenska) 
         - Ekki breyta **pi** user og notaðu lykilorðið **Verksm1dja** (ath. 1 (einn) í stað i)
         - Configure wifi: TskoliVESM
