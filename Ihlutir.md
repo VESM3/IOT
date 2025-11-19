@@ -6,7 +6,6 @@
 - Infrared remote (fjarstýring)
 - [IR receiver (infrarautt móttakari)](https://wiki.keyestudio.com/Ks0026_keyestudio_Digital_IR_Receiver_Module)
 - [PIR hreyfiskynjari](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
-- [MPU6050 Accelerometer and Gyroscope Sensor](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/)
 - RFID/NFC
    - [RFID](https://github.com/VESM3/IOT/wiki/RFID-og-NFC)
    - [Micro NFC/RFID](https://www.adafruit.com/product/2800) - 10 stk
@@ -31,7 +30,8 @@
 - takkar
 - breytiviðnám
 - [Ultrasonic Sensor HC-SR04](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/#google_vignette)  _VESM2_
-- [Kompás](https://electropeak.com/learn/interfacing-gy-271-hmc5883l-compass-magnetometr-with-arduino/) _erfiður_
+- [MPU6050 Accelerometer and Gyroscope Sensor](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/) _VESM2_
+- [Kompás](https://electropeak.com/learn/interfacing-gy-271-hmc5883l-compass-magnetometr-with-arduino/) _of erfiður_
 -->
 
 ---
