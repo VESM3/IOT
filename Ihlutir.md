@@ -69,11 +69,6 @@
    - [OLED Lítill 0,96" skjár með upplausn 64 x 128](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
    - [OLED Lítill 0,91" skjár 128 x 32](https://www.diymore.cc/collections/led-display-module/products/diymore-0-91-inch-iic-i2c-oled-lcd-12832-128x32-display-diy-module-ssd1306-driver-ic-dc-3-3v-5v-stm32-for-arduino-pic)
 - [HW-493 Laser](https://makerselectronics.com/product/laser-module-board-hw-493)
-
-<!--
-  
--->
-
     
 ---
 
@@ -88,12 +83,13 @@
 - [Mini RF wifi transmitter](https://www.buildcircuit.com/how-to-use-rf-module-with-arduino/)
 - [Playground-express](https://learn.adafruit.com/adafruit-circuit-playground-express)
 - [RPi Ethernet 5V PoE](https://www.adafruit.com/product/3848) - 1 stk
-- [SIM800L - SMS & Call GSM/GPRS 2G Micro SIM](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/) - 1 stk ath. 2G lokar 2024
 - [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
 
 ---
 
-  <!--
+<!--
+  - [SIM800L - SMS & Call GSM/GPRS 2G Micro SIM](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/) - 1 stk ath. 2G lokar 2024
+  - 18650 Battery Shield V3
    - Smella á hvíta takkann til að kveikja á power output, tvismella til að slökkva á (OFF) straum.
    - micro usb og USB-C input er til að hlaða unit og batterí. Á botninum.
    - charge time:  500 mAH,  4 klst að fullhlaða ef tómt.
@@ -101,12 +97,4 @@
    - toggle switch er fyrir normal/hold position.
       - Hold (SW1) er til að halda stöðugum straum á þar til over-discharge protection is triggerd (batterí drain 1/2 dagur).
       - Normal er auto shutdown þegar straumur er of lítill
-    -->
-
-<!--
-## Festingar:
-- Pan tilt fyrir MG995 (40.7×19.7×42.9mm), 2 axis gymbal haushreyfingu
-     - [2 Sets Servo Mount Bracket 2 DOF for MG995 MG996R S3003 Steering Gear Pan and Tilt Mount Robot Car Boat](https://www.amazon.com/Servo-Mount-Bracket-MG996R-Steering/dp/B07PQ12TXS/ref=sr_1_1?crid=2NJH4L2SEQX3W&keywords=2+Sets+Servo+Mount+Bracket+2+DOF+for+MG995+MG996R+S3003+Steering+Gear+Pan+and+Tilt+Mount+Robot+Car+Boat&qid=1645486375&sprefix=2+sets+servo+mount+bracket+2+dof+for+mg995+mg996r+s3003+steering+gear+pan+and+tilt+mount+robot+car+boat%2Caps%2C197&sr=8-1)
-     - [Pan and Tilt Kit / Aluminium](https://www.robotshop.com/uk/lynxmotion-pan-and-tilt-kit-aluminium.html) fyrir standard
-     - [Pan / Tilt Kit](https://www.robotshop.com/uk/lynxmotion-large-pan-tilt-no-servos-black.html?gclid=EAIaIQobChMI3YG_puyI9gIVAIxoCR05Mw-QEAQYBSABEgJPxfD_BwE) fyrir large Hitec 805BB (tilt) and standard 645MG (pan) 
 -->
