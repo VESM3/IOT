@@ -12,4 +12,4 @@ Með undirritun staðfesti ég að:
 ### Leiðbeiningar
 Vinsamlegast afritaðu ofangreindan texta og settu í athugsemdir í **Innu** þegar þú skilar verkefninu þ.e. ef þú samþykkir birtingu. <br>
 
-ath. Allir í hópnum þurfa að vera samþykkir.
+ath. Allir í hópnum þurfa að vera samþykkir þ.e. ef það á við (hópverkefni).
