@@ -20,6 +20,8 @@
 - [Flex Sensor](https://www.sparkfun.com/products/10264) - 1 stk
 - [Force Sensing Resistor (FSR)](https://lastminuteengineers.com/fsr-arduino-tutorial/?utm_content=cmp-true)
 - Vibration switch _esp32 sett_
+- [Ultrasonic Sensor HC-SR04](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/#google_vignette)
+- [MPU6050 Accelerometer and Gyroscope Sensor](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/)
 - Hljóð
    - [MSGEQ7 (datasheet)](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf). [Handling Noise When Working with the MSGEQ7](https://www.eeweb.com/handling-noise-when-working-with-the-msgeq7-audio-spectrum-analyzer/)_
    - KA2284, [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
@@ -29,8 +31,7 @@
 <!--
 - takkar
 - breytiviðnám
-- [Ultrasonic Sensor HC-SR04](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/#google_vignette)  _VESM2_
-- [MPU6050 Accelerometer and Gyroscope Sensor](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/) _VESM2_
+
 - [Kompás](https://electropeak.com/learn/interfacing-gy-271-hmc5883l-compass-magnetometr-with-arduino/) _of erfiður_
 -->
 
@@ -78,16 +79,15 @@
 - [Logic level converter](https://learn.sparkfun.com/tutorials/retired---using-the-logic-level-converter) - 1 stk 
 - [Bluetooth with Level Shifter: Level3.3V](https://mbedgeek.blogspot.com/2018/11/arduino-bluetooth-control-with-level.html) -  1stk
 - [Tiny RTC tími/dagsetn/ár](https://www.elecrow.com/wiki/index.php?title=Tiny_RTC)
-- [NRF24L01 wifi](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)
-- [ESP8266 wifi connection for Arduino](https://create.arduino.cc/projecthub/Niv_the_anonymous/esp8266-beginner-tutorial-project-6414c8)
-- [Mini RF wifi transmitter](https://www.buildcircuit.com/how-to-use-rf-module-with-arduino/)
 - [Playground-express](https://learn.adafruit.com/adafruit-circuit-playground-express)
 - [RPi Ethernet 5V PoE](https://www.adafruit.com/product/3848) - 1 stk
-
 
 ---
 
 <!--
+- [NRF24L01 wifi](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)
+- [ESP8266 wifi connection for Arduino](https://create.arduino.cc/projecthub/Niv_the_anonymous/esp8266-beginner-tutorial-project-6414c8)
+- [Mini RF wifi transmitter](https://www.buildcircuit.com/how-to-use-rf-module-with-arduino/)
 - [HW-493 Laser](https://makerselectronics.com/product/laser-module-board-hw-493)
 - [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
   - [SIM800L - SMS & Call GSM/GPRS 2G Micro SIM](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/) - 1 stk ath. 2G lokar 2024
