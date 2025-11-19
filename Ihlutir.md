@@ -50,7 +50,7 @@
    - DFPlayer
    - [Stereo Enclosed Speaker - 3W 8Ω](https://thepihut.com/products/stereo-enclosed-speaker-set-3w-4-ohm)
    - Speaker
-   - nýtt haust 2025 (væntanlegt)
+   - [PCM5102 I2S IIS](https://zemfiraaksenova.blogspot.com/2019/11/pcm5102-i2s-iis-interface-lossless.html)
 - Servos:
    - [SG90](https://lastminuteengineers.com/servo-motor-arduino-tutorial/)
    - MG90S 
@@ -68,7 +68,7 @@
    - [OLED Upplausn 64x128](https://www.diymore.cc/products/2-42-inch-12864-oled-display-module-iic-i2c-spi-serial-for-arduino-c51-stm32-green-white-blue-yellow)
    - [OLED Lítill 0,96" skjár með upplausn 64 x 128](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
    - [OLED Lítill 0,91" skjár 128 x 32](https://www.diymore.cc/collections/led-display-module/products/diymore-0-91-inch-iic-i2c-oled-lcd-12832-128x32-display-diy-module-ssd1306-driver-ic-dc-3-3v-5v-stm32-for-arduino-pic)
-- [HW-493 Laser](https://makerselectronics.com/product/laser-module-board-hw-493)
+
     
 ---
 
@@ -83,11 +83,13 @@
 - [Mini RF wifi transmitter](https://www.buildcircuit.com/how-to-use-rf-module-with-arduino/)
 - [Playground-express](https://learn.adafruit.com/adafruit-circuit-playground-express)
 - [RPi Ethernet 5V PoE](https://www.adafruit.com/product/3848) - 1 stk
-- [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
+
 
 ---
 
 <!--
+- [HW-493 Laser](https://makerselectronics.com/product/laser-module-board-hw-493)
+- [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
   - [SIM800L - SMS & Call GSM/GPRS 2G Micro SIM](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/) - 1 stk ath. 2G lokar 2024
   - 18650 Battery Shield V3
    - Smella á hvíta takkann til að kveikja á power output, tvismella til að slökkva á (OFF) straum.
