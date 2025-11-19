@@ -15,6 +15,7 @@ Intaks og úttakstæki sem eru í boði.
 - [DHT11, DHT22](https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/) hita- og rakaskynjarar
 - [Loftþrýstimælir](https://lastminuteengineers.com/bmp180-arduino-tutorial/)
 - [Dropateljari](https://lastminuteengineers.com/rain-sensor-arduino-tutorial/)
+- Vindmælir svartur 
 - [Ljósviðnám  KY-018(lightsensor)](https://arduinomodules.info/ky-018-photoresistor-module/#:~:text=The%20KY%2D018%20Photoresistor%20module,like%20Arduino%2C%20ESP32%20and%20others.)
 - [Púls skynjari raspberrypi](https://github.com/WorldFamousElectronics/Raspberry_Pi/blob/master/PulseSensor_Processing_Pi/PulseSensor_Processing_Pi.md)
 - [Þrýstiskynjari/vigt](https://randomnerdtutorials.com/arduino-load-cell-hx711/)
