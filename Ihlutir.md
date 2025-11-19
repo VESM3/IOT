@@ -1,36 +1,36 @@
 # Íhlutir 
-Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
+Intaks og úttakstæki sem eru í boði.
 
 ## Skynjarar (telemetry):
 
 - Keypad
-- infrared remote (fjarstýring)
-- [Ultrasonic Sensor HC-SR04](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/#google_vignette)
-- [MPU6050 Accelerometer and Gyroscope Sensor](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/)
+- Infrared remote (fjarstýring)
+- [IR receiver (infrarautt móttakari)](https://wiki.keyestudio.com/Ks0026_keyestudio_Digital_IR_Receiver_Module)
 - [PIR hreyfiskynjari](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
-- [RFID](https://github.com/VESM3/IOT/wiki/RFID-og-NFC)
+- [MPU6050 Accelerometer and Gyroscope Sensor](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/)
+- RFID/NFC
+   - [RFID](https://github.com/VESM3/IOT/wiki/RFID-og-NFC)
    - [Micro NFC/RFID](https://www.adafruit.com/product/2800) - 10 stk
-   - [I2C RFID Breakout fyrir snjallsíma (NFC tag)](https://www.adafruit.com/product/4701) - 10 stk
-- [Púls skynjari raspberrypi](https://github.com/WorldFamousElectronics/Raspberry_Pi/blob/master/PulseSensor_Processing_Pi/PulseSensor_Processing_Pi.md)
-- [Púls skynjari arduino](https://www.instructables.com/Pulse-Sensor-With-Arduino-Tutorial/)
+   - [I2C NFC/RFID Tag fyrir snjallsíma](https://www.adafruit.com/product/4701) - 10 stk
 - [DHT11, DHT22](https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/) hita- og rakaskynjarar
 - [Loftþrýstimælir](https://lastminuteengineers.com/bmp180-arduino-tutorial/)
 - [Dropateljari](https://lastminuteengineers.com/rain-sensor-arduino-tutorial/)
 - [Ljósviðnám  KY-018(lightsensor)](https://arduinomodules.info/ky-018-photoresistor-module/#:~:text=The%20KY%2D018%20Photoresistor%20module,like%20Arduino%2C%20ESP32%20and%20others.)
-- [IR receiver (infrarautt móttakari)](https://wiki.keyestudio.com/Ks0026_keyestudio_Digital_IR_Receiver_Module)
+- [Púls skynjari raspberrypi](https://github.com/WorldFamousElectronics/Raspberry_Pi/blob/master/PulseSensor_Processing_Pi/PulseSensor_Processing_Pi.md)
 - [Þrýstiskynjari/vigt](https://randomnerdtutorials.com/arduino-load-cell-hx711/)
-- [Flex Sesnor](https://www.sparkfun.com/products/10264) - 1 stk
+- [Flex Sensor](https://www.sparkfun.com/products/10264) - 1 stk
 - [Force Sensing Resistor (FSR)](https://lastminuteengineers.com/fsr-arduino-tutorial/?utm_content=cmp-true)
 - Vibration switch _esp32 sett_
-- hljóð
+- Hljóð
    - [MSGEQ7 (datasheet)](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf). [Handling Noise When Working with the MSGEQ7](https://www.eeweb.com/handling-noise-when-working-with-the-msgeq7-audio-spectrum-analyzer/)_
-   - KA2284,  [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
+   - KA2284, [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
    - [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) - 1 stk
    - [microphone ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) Sýnidæmi, [recognize speech with an IoT device](https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md) _Voice recognicition t.d. Alexa_
 
 <!--
 - takkar
 - breytiviðnám
+- [Ultrasonic Sensor HC-SR04](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/#google_vignette)  _VESM2_
 - [Kompás](https://electropeak.com/learn/interfacing-gy-271-hmc5883l-compass-magnetometr-with-arduino/) _erfiður_
 -->
 
@@ -39,11 +39,11 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
 ## Stýringar (actuators):
 
 - LEDs:
-   - NeopPixels hringir
+   - NeopPixels hringir 
    - Ledstripes
    - Addressable RGB LED (tvær stærðir)
-   - LED Matrix
-   - LED Bar graph
+   - LED Matrix (fylgir starter kit)
+   - LED Bar graph (fylgir starter kit)
    - 2, 4, 7 Segment Displays
    - LEDs í mismunandi litum og stærðum
 - Hljóð:
@@ -70,6 +70,9 @@ Intaks og úttakstæki í eigu Tækniskólans (listinn er ekki tæmandi).
    - [OLED Lítill 0,91" skjár 128 x 32](https://www.diymore.cc/collections/led-display-module/products/diymore-0-91-inch-iic-i2c-oled-lcd-12832-128x32-display-diy-module-ssd1306-driver-ic-dc-3-3v-5v-stm32-for-arduino-pic)
 - [HW-493 Laser](https://makerselectronics.com/product/laser-module-board-hw-493)
 
+<!--
+  
+-->
 
     
 ---
