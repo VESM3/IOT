@@ -15,7 +15,7 @@ LEIÐBEININGAR - Hvernig á að keyra:
    $ source venv/bin/activate
    $ python mqtt_publisher.py
 
-4. Opnaðu vafra og farðu á:
+4. Notaðu LiveServer í VSCode, Opnaðu vafra og farðu á:
    http://localhost:8080
 
 5. Þú munt sjá hitamælingar birtast á línuritinu í rauntíma!
