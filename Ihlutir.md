@@ -23,6 +23,7 @@
 - [Ultrasonic Sensor HC-SR04](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/#google_vignette)
 - [MPU6050 Accelerometer and Gyroscope Sensor](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/)
 - Hljóð
+   - Hljóðskynjari - [KY-037](https://arduinomodules.info/ky-037-high-sensitivity-sound-detection-module/)
    - [MSGEQ7 (datasheet)](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf). [Handling Noise When Working with the MSGEQ7](https://www.eeweb.com/handling-noise-when-working-with-the-msgeq7-audio-spectrum-analyzer/)_
    - KA2284, [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
    - [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) - 1 stk
