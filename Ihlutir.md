@@ -71,7 +71,7 @@
    - LCD Module
    - [I2C LCD](https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/#google_vignette) og [kóðadæmi](https://github.com/VESM1VS/AFANGI/blob/main/Verkefni/V6.md#k%C3%B3%C3%B0un)
    - [OLED Upplausn 64x128](https://www.diymore.cc/products/2-42-inch-12864-oled-display-module-iic-i2c-spi-serial-for-arduino-c51-stm32-green-white-blue-yellow)
-   - [OLED Lítill 0,96" skjár með upplausn 64 x 128](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
+   - [OLED Lítill 0,96" skjár með upplausn 64 x 128](https://www.aliexpress.com/item/1005003763926030.html#nav-specification) 
    - [OLED Lítill 0,91" skjár 128 x 32](https://www.diymore.cc/collections/led-display-module/products/diymore-0-91-inch-iic-i2c-oled-lcd-12832-128x32-display-diy-module-ssd1306-driver-ic-dc-3-3v-5v-stm32-for-arduino-pic)
 
     
