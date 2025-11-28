@@ -59,8 +59,8 @@
    - [MG995](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) _120 gráður_
    - [Servo tester](https://www.youtube.com/watch?v=--bpb485i1Q) og [hér](https://www.allelectronics.com/item/str-110/servo-tester/1.html)
    - [PCA9685 16-Channel Servo Driver](https://dronebotworkshop.com/servo-motors-with-arduino/#PCA9685_Servo_Driver_Board)
-   - [Pan tilt two axis mg90 servo (litli)](https://www.aliexpress.com/item/1005006539122837.html#nav-description)
-   - [Pan til two axis MG996 servi (stóri)](https://www.amazon.com/Servo-Mount-Bracket-MG996R-Steering/dp/B07PQ12TXS/ref=sr_1_1?crid=2NJH4L2SEQX3W&keywords=2+Sets+Servo+Mount+Bracket+2+DOF+for+MG995+MG996R+S3003+Steering+Gear+Pan+and+Tilt+Mount+Robot+Car+Boat&qid=1645486375&sprefix=2+sets+servo+mount+bracket+2+dof+for+mg995+mg996r+s3003+steering+gear+pan+and+tilt+mount+robot+car+boat%2Caps%2C197&sr=8-1)
+   - [Pan tilt two axis MG90 servo (litli)](https://www.aliexpress.com/item/1005006539122837.html#nav-description)
+   - [Pan tilt two axis MG996 servo (stóri)](https://www.amazon.com/Servo-Mount-Bracket-MG996R-Steering/dp/B07PQ12TXS/ref=sr_1_1?crid=2NJH4L2SEQX3W&keywords=2+Sets+Servo+Mount+Bracket+2+DOF+for+MG995+MG996R+S3003+Steering+Gear+Pan+and+Tilt+Mount+Robot+Car+Boat&qid=1645486375&sprefix=2+sets+servo+mount+bracket+2+dof+for+mg995+mg996r+s3003+steering+gear+pan+and+tilt+mount+robot+car+boat%2Caps%2C197&sr=8-1)
 - DC mótorar:
    - [6V Hobby DC mótor](https://www.robotshop.com/media/files/pdf/datasheet-711.pdf)
    - [170 RPM Econ Gear Motor (litli)](https://www.servocity.com/170-rpm-econ-gear-motor/)
