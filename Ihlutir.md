@@ -1,7 +1,12 @@
 # Íhlutir 
 
+- Raspberry Pi versions 5, 4, zero2, zero
+- ESP32-S3
+- Arduino
+
 ## Inntakstæki og skynjarar (telemetry):
 
+- Picameras V3 and v2
 - Keypad
 - Infrared remote (fjarstýring)
 - [IR receiver (infrarautt móttakari)](https://wiki.keyestudio.com/Ks0026_keyestudio_Digital_IR_Receiver_Module)
