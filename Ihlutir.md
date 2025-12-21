@@ -1,14 +1,14 @@
 # Íhlutir 
 
-- Raspberry Pi versions 5, 4, zero2, zero
+- Raspberry Pi versions; 5, 4, zero2, zero
 - ESP32-S3
 - Arduino
 
 ## Inntakstæki og skynjarar (telemetry):
 
-- Picameras V3 and v2
+- Picameras V3, Ai, v2
 - Keypad
-- Infrared remote (fjarstýring)
+- Infrared remote 
 - [IR receiver (infrarautt móttakari)](https://wiki.keyestudio.com/Ks0026_keyestudio_Digital_IR_Receiver_Module)
 - [PIR hreyfiskynjari](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
 - RFID/NFC
@@ -46,10 +46,10 @@
 ## Úttakstæki og stýringar (actuators):
 
 - LEDs:
-   - NeopPixels hringir 
+   - NeopPixels hringir (mismunandi stærðir)
    - Ledstripes
    - Addressable RGB LED (tvær stærðir)
-   - LED Matrix (fylgir starter kit)
+   - LED Matrix (mismunandi stærðir)
    - LED Bar graph (fylgir starter kit)
    - 2, 4, 7 Segment Displays
    - LEDs í mismunandi litum og stærðum
