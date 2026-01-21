@@ -1,11 +1,11 @@
-# Íhlutir 
+# Íhlutir og tæki
 
-## innfelldra kerfi
+### innfelldra kerfi
 - Raspberry Pi versions; 5, 4, zero2, zero
 - ESP32-S3 (og eldri týpur)
 - Arduino 
 
-## Inntakstæki og skynjarar (telemetry):
+### Inntakstæki og skynjarar (telemetry):
 
 - Picameras V3, Ai, v2
 - Keypad
@@ -41,7 +41,7 @@
 
 ---
 
-## Úttakstæki og stýringar (actuators):
+### Úttakstæki og stýringar (actuators):
 
 - LEDs:
    - NeopPixels hringir (mismunandi stærðir)
@@ -80,7 +80,7 @@
     
 ---
 
-## Annað (óliklegt að þurfi)
+#### Annað (óliklegt að þurfi)
 
 - [Analog to digital converter](https://electropeak.com/learn/interfacing-ads1015-12-bit-adc-with-arduino/) - 20 stk
 - [Logic level converter](https://learn.sparkfun.com/tutorials/retired---using-the-logic-level-converter) - 1 stk 
@@ -91,7 +91,7 @@
 
 ---
 
-### Enn fleira (ekki nota)
+#### Annað (ekki nota)
 - [NRF24L01 wifi](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)
 - [ESP8266 wifi connection for Arduino](https://create.arduino.cc/projecthub/Niv_the_anonymous/esp8266-beginner-tutorial-project-6414c8)
 - [Mini RF wifi transmitter](https://www.buildcircuit.com/how-to-use-rf-module-with-arduino/)
