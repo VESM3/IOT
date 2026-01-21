@@ -1,8 +1,9 @@
 # Íhlutir 
 
+## innfelldra kerfi
 - Raspberry Pi versions; 5, 4, zero2, zero
-- ESP32-S3
-- Arduino
+- ESP32-S3 (og eldri týpur)
+- Arduino 
 
 ## Inntakstæki og skynjarar (telemetry):
 
@@ -33,13 +34,10 @@
    - KA2284, [tengimynd](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/ka2284_dfplayer.png). 
    - [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) - 1 stk
    - [microphone ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) Sýnidæmi, [recognize speech with an IoT device](https://github.com/microsoft/IoT-For-Beginners/blob/main/6-consumer/lessons/1-speech-recognition/README.md) _Voice recognicition t.d. Alexa_
-
-<!--
 - takkar
 - breytiviðnám
-
 - [Kompás](https://electropeak.com/learn/interfacing-gy-271-hmc5883l-compass-magnetometr-with-arduino/) _of erfiður_
--->
+
 
 ---
 
@@ -82,7 +80,7 @@
     
 ---
 
-## Annað 
+## Annað (óliklegt að þurfi)
 
 - [Analog to digital converter](https://electropeak.com/learn/interfacing-ads1015-12-bit-adc-with-arduino/) - 20 stk
 - [Logic level converter](https://learn.sparkfun.com/tutorials/retired---using-the-logic-level-converter) - 1 stk 
@@ -93,13 +91,15 @@
 
 ---
 
-<!--
+### Enn fleira (ekki nota)
 - [NRF24L01 wifi](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)
 - [ESP8266 wifi connection for Arduino](https://create.arduino.cc/projecthub/Niv_the_anonymous/esp8266-beginner-tutorial-project-6414c8)
 - [Mini RF wifi transmitter](https://www.buildcircuit.com/how-to-use-rf-module-with-arduino/)
 - [HW-493 Laser](https://makerselectronics.com/product/laser-module-board-hw-493)
 - [18650 Battery Shield V3](https://www.youtube.com/watch?v=m7LqbMuVaj4) og [nánar](https://www.electroschematics.com/battery-shield/)
-  - [SIM800L - SMS & Call GSM/GPRS 2G Micro SIM](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/) - 1 stk ath. 2G lokar 2024
+- [SIM800L - SMS & Call GSM/GPRS 2G Micro SIM](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/) - 1 stk ath. 2G lokar 2024
+
+<!--
   - 18650 Battery Shield V3
    - Smella á hvíta takkann til að kveikja á power output, tvismella til að slökkva á (OFF) straum.
    - micro usb og USB-C input er til að hlaða unit og batterí. Á botninum.
