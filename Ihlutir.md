@@ -1,7 +1,7 @@
 # Íhlutir og tæki
 
-### Innfelldra kerfi
-- Raspberry Pi versions; 5, 4, zero2, zero
+### Innfelld kerfi _(Single Board Computers and Microcontrollers)_
+- Raspberry Pi versions; 5, 4, zero2, zero  
 - ESP32-S3 (og eldri týpur)
 - Arduino 
 
