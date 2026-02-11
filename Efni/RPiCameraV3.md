@@ -71,3 +71,5 @@ picam2.capture_file("terminal_mynd.jpg")
 ```
 
 Sjá fleiri dæmi um mismunandi stillingar á myndavélinni í köflum 4, 5 og 6 í [Picamera2 Library bókinni](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf).
+
+> [MediaPipe-Installation-on-RaspberryPi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi)
