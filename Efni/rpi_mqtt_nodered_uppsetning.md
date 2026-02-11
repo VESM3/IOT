@@ -6,7 +6,7 @@
 1. Settu upp [Raspberry Pi Imager](https://www.raspberrypi.com/software/) forritið í tölvuna þína.
 1. Settu microSD kortið með usb lykli í tölvuna.
 1. Settu upp RPi OS með RPi Imager, sjá [myndband](https://www.youtube.com/watch?v=ntaXWS8Lk34).
-    1. Veldu **Raspberry Pi 4 eða 5** og **Raspberry Pi OS (64 bit)** stýrikerfið og veldu usb portið með microSD kortinu, smelltu svo á *Next*..
+    1. Veldu viðeigandi **Raspberry Pi** ásamt stýrikerfi og veldu usb portið með microSD kortinu, smelltu svo á *Next*..
     2. Veldu Edit Settings til að gera efirfarandi stillingar í GENERAL flipanum:
         - hostname í `vesmhX` þar sem X er tala sem þú færð frá kennara (ekk nota sérstafi/íslenska) 
         - Ekki breyta **pi** user og notaðu lykilorðið **Verksm1dja** (ath. 1 (einn) í stað i)
@@ -19,18 +19,33 @@
 1. Veldu svo **YES** og aftur **YES** og hinkraðu þangað þetta er búið (c.a. 15 mín). 
 1. Fjarlægðu SD kortið úr tölvunni þegar þú ert búinn og settu það í RaspberryPi og tengdu því næst RaspberryPi við rafmagn.
 
-#### Tengjast með SSH
+#### Tengjast RPi með SSH 
 
-:exclamation: Tengdu fartölvuna þín við TskoliVESM þráðlausa netið.
+:warning: Til að geta tengst RPi með SSH þá þarf fartölvan þín að vera tengd ```TskoliVESM``` þráðlausa netinu (lykilorð ```Fallegurhestur```) :warning:
 
 Eftir að RaspberryPi hefur verið tengdur rafmagni þarf að gefa honum tvær til þrjár mínútur til að ræsa í fyrsta skipti.
 
-Að því loknu skaltu opna *terminal* á fartölvunni þinni (PowerShell á Windows, Terminal á MacOS) og gefa þar eftirfarandi skipun:
+Tengstu RPi með SSH með því að slá eftirfarandi inn í Terminal (PowerShell á Windows, Terminal á Apple):
+
 ```bash
-ssh pi@vesmhX
+ssh pi@vesmhYXX
 ```
-<!-- pi@h25vesmX.tskoli.vesm -->
-Því næst slærðu inn lykilorðið (Verksm1dja) og þá ætti að vera komin á tenging við RaspberryPi.
+
+Lykilorðið er ```Verksm1dja``` (ath. 1 (einn) í stað i).
+
+Þar sem Y er hópurinn sem þú ert í og XX númerið á SSD kortinu sem þú fékkst.
+
+Uppfærðu svo stýrikerfið á Pi með því að gefa þessa skipun:
+
+```bash
+sudo apt update && sudo apt full-upgrade -y
+```
+
+Sæktu svo fulla útgáfu af python.
+
+```bash
+sudo apt install python3-full
+```
 
 :exclamation: ef þú færð:
 ```bash
@@ -40,12 +55,96 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 þá þarft þú að skrifa `yes`.
 
-Þegar þú hefur náð að tengja þig við RaspberryPi skaltu keyra:
+Uppfærslan tekur 10 til 15 mínútur.
+
+---
+
+#### Að tengjast RPi desktop (viðmót) frá fartölvu 
+
+<details>
+<summary>leið 1: Að tengjast með RPi Connect</summary>
+<br>
+    
+Næst þarf að virkja tvær þjónustur en það eru ```RPi Connect``` og ```VNC```.
+
 ```bash
-sudo apt update && sudo apt full-upgrade -y
+sudo raspi-config
 ```
 
-Uppfærslan tekur 10 til 15 mínútur.
+Veldu svo ```Interface Options```. Notaður örvatakkana til að færa þig upp/niður og síðan Tab takkann til að velja ```<Select>``` þar sem þú smellir að Enter.
+
+![raspi-config-main](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/raspi_config_main.png)
+
+Farðu svo í RPi Connect og veldu ```<Yes>``` og gerðu svo það sama fyrir ```VNC```
+
+![raspi-config-interface](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/raspi_config_interface.png)
+
+Að lokum velur þú svo ```<Finish>``` til að komast út úr ```raspi-config```
+
+Virkjaðu næst RPi Connect með því að gefa eftirfarandi skipun:
+
+```bash
+rpi-connect on
+```
+
+Næst þarftu að skrá þig inn með því að gefa eftirfarandi skipu:
+
+```bash
+rpi-connect signin
+```
+
+Þá færðu slóð sem þú þarft að fara inn á með vafranum þínum.
+
+```
+Complete sign in by visiting https://connect.raspberrypi.com/verify/XXXX-XXXX
+```
+
+```bash
+https://connect.raspberrypi.com/verify/XXXX-XXXX
+```
+Þar þarftu svo að búa þér til reikning (Raspberry Pi ID). Að lokum þarftu svo að gefa Pi-inum nafn og þá ættir þú að geta tengst honum með gluggaumhverfi með því að velja **Screen Sharing** úr **Connect via**.
+
+Núna getur þú tengst bæði Terminal og gluggaumhverfi án þess að fartölvan þín sé tengd við TskoliVESM þráðlausa netið.
+
+Til að tengjast þessu seinna getur þú farið inn á [þessa](https://connect.raspberrypi.com/) slóð.
+
+</details>
+
+<details>
+<summary>leið 2: Að tengjast RPi með VNC</summary>
+<br>
+
+Að keyra VNC server á Raspberry Pi leyfir þér að tengjast **RPi desktop** viðmóti þráðlaust frá fartölvu. Ath. fartölvan þarf að vera á sama wifi og RPi.
+
+1. VNC server þarf að vera **enable** á RPi.
+    ```bash
+    sudo raspi-config
+    ```
+    Veldu svo ```Interface Options```. Notaður örvatakkana til að færa þig upp/niður og síðan Tab takkann til að velja ```<Select>``` þar sem þú smellir að Enter.
+    ![raspi-config-main](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/raspi_config_main.png)
+    Farðu svo í VNC og veldu ```<Yes>```. Að lokum velur þú svo ```<Finish>``` til að komast út úr ```raspi-config```.
+1. Náðu í [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) í fartölvuna, búðu til reikning.
+    1. Búðu til VNC tengingu (New Connection) í File.
+       ```
+       VNC Server:  hostname    # eða iptala 
+       user:  pi
+       lykilorð: Verksm1dja        
+       ```
+    1. Tvísmelltu á tenginguna, notendafnið er `pi` (ekki breyta) og lykilorð. 
+1. Núna getur þú tengst RPi með fartölvunni 
+
+</details>
+
+<!--
+#### Hugsanleg vandamál  
+- Ef þú nærð ekki VNC (_eða SSH_) samband við RPi (fartölva þarf að vera á sama wifi og RPi): 
+     - nota nmap í terminal: 10.201.48.0/24 -sn -Pn.
+     - keyra skipunina `nslookup hostname.tskoli.vesm` til að fá `IP` töluna sem þú getur þá notað í staðinn fyrir `hostaname.tskoli.vesm`  (virkar ekki alltaf)
+- SSH. Ef permission denied (publickey) á rpi. Þá hreinsa út eldra key úr tölvunni `$ ssh-keygen -R [hostname-or-IP]`
+- port 22: Connection timed out. SSH lokað útaf firewall í tölvu [windows fix](https://www.windowscentral.com/how-open-port-windows-firewall) 
+- Ef þú færð svartan skjá  gerðu þá eftirfarandi breytingu í skrá (með SSH tengingu á RPi): `/boot/config.txt`. Taktu commentið út (`#`) af `hdmi_force_hotplug=1`.
+-->
+
 
 ---
 
