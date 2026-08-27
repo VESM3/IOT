@@ -365,9 +365,3 @@ Gerðu eftirfarandi:
 ## Námsmat og skil
 
 - Skilaðu öllum kóða í Canvas. Passaðu að þú getir útskýrt kóðann sem þú skilar fyrir kennara.
-- Yfirferð á sér stað í tíma. Einkunn fyrir hvern lið: 
-    - 10 lausn er vel útfærð.
-    - 7.5 lausn er smávægilega ábótavant (vantar smá upp á).
-    - 5 lausn er ábótavant, helmingur er vel útfærður.
-    - 2.5 lausn er stórlega ábótavant, en tíma- og kóðavinna lögð í lausn.
-    - 0 lausn vantar eða óunnin.
