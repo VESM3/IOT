@@ -68,7 +68,7 @@ Lykilorðið er ```Verksm1dja``` (ath. 1 (einn) í stað i).
 
 ---
 
-#### 3. Að tengjast RPi desktop (viðmót) frá fartölvu
+### 3. Að tengjast RPi Desktop (viðmót) frá fartölvu
 
 Hægt er að tengjast **RPi desktop** viðmóti þráðlaust frá fartölvunni þinni.
 
