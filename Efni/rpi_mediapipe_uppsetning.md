@@ -2,6 +2,8 @@
 
 ### 1. Uppsetning á RPi
 
+Til að seja upp Raspberry Pi stýrikerfið þá þarf SD kort með usb lykil og fartölvu. 
+
 Sækja, setja upp og ræsa [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
 Velja viðeigandi Raspberry Pi 
