@@ -1,4 +1,4 @@
-## Uppsetning á RPi, SSH, RPi Desktop og Mediapipe 
+# Uppsetning á RPi, SSH, RPi Desktop og Mediapipe 
 
 ### 1. Uppsetning á RPi
 
