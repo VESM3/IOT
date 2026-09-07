@@ -94,13 +94,13 @@ Að lokum velur þú svo ```<Finish>``` til að komast út úr ```raspi-config``
 
 Á RPi keyrðu eftirfarandi til að sækja uppsetningarskriftu:
 ```bash
-wget https://github.com/VESM3/IOT/blob/main/Kodi/setup_pi.sh
+wget https://raw.githubusercontent.com/VESM3/IOT/main/Kodi/setup_pi.sh
 ```
 
 Næst þarf að gera skriftuna keyranlega.
 
 ```bash
-chmod +x setup_pi
+chmod +x setup_pi.sh
 ```
 
 Og loks að keyra hana.
