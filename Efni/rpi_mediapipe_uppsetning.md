@@ -1,6 +1,6 @@
-## Uppsetning á RPi og Mediapipe
+## Uppsetning á RPi, SSH, RPi Desktop og Mediapipe 
 
-### Uppesetning á RPi
+### 1. Uppsetning á RPi
 
 Sækja, setja upp og ræsa [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
@@ -46,7 +46,9 @@ Smelltu að lokum á "WRITE" og veldu "I UNDERSTAND ...."
 
 Uppsetningin tekur um það bil 15 mínútur.
 
-#### Tengjast RPi með SSH 
+---
+
+### 2. Tengjast RPi með SSH 
 
 :warning: Til að geta tengst RPi með SSH þá þarf fartölvan þín að vera tengd ```TskoliVESM``` þráðlausa netinu (lykilorð ```Fallegurhestur```) :warning:
 
@@ -62,9 +64,13 @@ Lykilorðið er ```Verksm1dja``` (ath. 1 (einn) í stað i).
 
 Þar sem Y er hópurinn sem þú ert í og XX númerið á SSD kortinu sem þú fékkst.
 
-#### Tengjast RPi með VNC
+---
 
-Næst þarf að virkja ```VNC``` þjónustuna.
+#### 3. Að tengjast RPi desktop (viðmót) frá fartölvu
+
+Hægt er að tengjast **RPi desktop** viðmóti þráðlaust frá fartölvunni þinni.
+
+Byrjaðu á því að virkja þjónustuna ```RPi Connect``` með að skrifa eftirfarandi í terminal.
 
 ```bash
 sudo raspi-config
@@ -74,23 +80,42 @@ Veldu svo ```Interface Options```. Notaður örvatakkana til að færa þig upp/
 
 ![raspi-config-main](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/raspi_config_main.png)
 
-Veldu svo í VNC og veldu ```<Yes>```.
+Farðu svo í RPi Connect og veldu ```<Yes>``` og gerðu svo það sama fyrir ```VNC```
 
-![raspi-config-interface](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/raspi_config_vnc.png)
+![raspi-config-interface](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/raspi_config_interface.png)
 
 Að lokum velur þú svo ```<Finish>``` til að komast út úr ```raspi-config```
 
-1. Náðu í [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) í fartölvuna, búðu til reikning.
-    1. Búðu til VNC tengingu (New Connection) í File.
-       ```
-       VNC Server:  hostname    # eða iptala 
-       user:  pi
-       lykilorð: Verksm1dja        
-       ```
-    1. Tvísmelltu á tenginguna, notendafnið er `pi` (ekki breyta) og lykilorð. 
-1. Núna getur þú tengst RPi með fartölvunni 
+Virkjaðu næst RPi Connect með því að gefa eftirfarandi skipun:
 
-#### Mediapipe uppsetning
+```bash
+rpi-connect on
+```
+
+Næst þarftu að skrá þig inn með því að gefa eftirfarandi skipu:
+
+```bash
+rpi-connect signin
+```
+
+Þá færðu slóð sem þú þarft að fara inn á með vafranum þínum.
+
+```
+Complete sign in by visiting https://connect.raspberrypi.com/verify/XXXX-XXXX
+```
+
+```bash
+https://connect.raspberrypi.com/verify/XXXX-XXXX
+```
+Þar þarftu svo að búa þér til reikning (Raspberry Pi ID). Að lokum þarftu svo að gefa Pi-inum nafn (host name) og þá ættir þú að geta tengst honum með gluggaumhverfi með því að velja **Screen Sharing** úr **Connect via**.
+
+Núna getur þú tengst bæði Terminal og gluggaumhverfi án þess að fartölvan þín sé tengd við TskoliVESM þráðlausa netið.
+
+Til að tengjast þessu seinna getur þú farið inn á [þessa](https://connect.raspberrypi.com/) slóð.
+
+---
+
+### 4. Mediapipe uppsetning
 
 Á RPi keyrðu eftirfarandi til að sækja uppsetningarskriftu:
 ```bash
