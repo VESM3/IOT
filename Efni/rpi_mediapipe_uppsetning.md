@@ -138,7 +138,7 @@ Og loks að keyra hana.
 
 #### Prófun
 
-Tengstu RPi með VNC, opnaðu þar terminal og keyrðu eftirfarandi:
+Tengstu RPi með RPi Desktop, opnaðu þar terminal og keyrðu eftirfarandi:
 ```bash
 cd ~/mediapipe_test
 source venv/bin/activate
