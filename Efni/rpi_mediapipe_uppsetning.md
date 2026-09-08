@@ -59,12 +59,12 @@ Settu SSD kortið í RPi og tengdu svo RPi við rafmagn. Eftir að RaspberryPi h
 Tengstu RPi með SSH með því að slá eftirfarandi inn í Terminal (PowerShell á Windows, Terminal á Apple):
 
 ```bash
-ssh pi@vesmhYXX
+ssh pi@hYXX
 ```
 
 Lykilorðið er ```Verksm1dja``` (ath. 1 (einn) í stað i).
 
-Þar sem Y er hópurinn sem þú ert í og XX númerið á SSD kortinu sem þú fékkst.
+Þar sem Y er hópurinn sem þú ert í og XX númerið á SD kortinu sem þú fékkst.
 
 ---
 
@@ -82,7 +82,7 @@ Veldu svo ```Interface Options```. Notaður örvatakkana til að færa þig upp/
 
 ![raspi-config-main](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/raspi_config_main.png)
 
-Farðu svo í RPi Connect og veldu ```<Yes>``` og gerðu svo það sama fyrir ```VNC```
+Farðu svo í RPi Connect og veldu ```<Yes>``` 
 
 ![raspi-config-interface](https://raw.githubusercontent.com/VESM3/IOT/refs/heads/main/Myndir/raspi_config_interface.png)
 
