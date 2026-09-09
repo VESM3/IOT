@@ -22,7 +22,7 @@ Veldu svo SD kortið.
 
 ![alt text](../Myndir/rpi/RPi_H26_4.png)
 
-Skráðu svo "hostname", það á að vera hYXX þar sem YXX er númer sem kennarinn úthlutar þér.
+Skráðu svo "hostname", það á að vera h26hYXX þar sem YXX er númer sem kennarinn úthlutar þér.
 
 ![alt text](../Myndir/rpi/RPi_H26_5.png)
 
@@ -59,7 +59,7 @@ Settu SSD kortið í RPi og tengdu svo RPi við rafmagn. Eftir að RaspberryPi h
 Tengstu RPi með SSH með því að slá eftirfarandi inn í Terminal (PowerShell á Windows, Terminal á Apple):
 
 ```bash
-ssh pi@hYXX
+ssh pi@h26hYXX
 ```
 
 Lykilorðið er ```Verksm1dja``` (ath. 1 (einn) í stað i).
