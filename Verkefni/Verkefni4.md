@@ -106,13 +106,9 @@ Sjá fleiri dæmi um mismunandi stillingar á myndavélinni í köflum 4, 5 og 6
 
 Vélarnám (e. Machine Learning) er sniðugt að nota til að greina hluti, andlit, liti og texta á ljósmyndum og myndbandsupptökum jafnvel í rauntíma. Við munum notast við [MediaPipe](https://developers.google.com/mediapipe) frá Google.
 
-
-Þú ætlar í þessu verkefni að nota RPi ásamt RPi myndavélina til að greina hluti (object detection) með notkun MediaPipe, [youtube](https://www.youtube.com/watch?v=-RUVM_cXn18&list=PLOU2XLYxmsILxbiyDRGC94XuT2dBXNY3n). 
-
-
 <details>
-<summary>Kóðasýndæmi</summary>
-        
+<summary>Kóðadæmi (object detection)</summary>
+       
 ```python
 import mediapipe as mp
 from mediapipe.tasks import python
@@ -139,15 +135,19 @@ for detection in detection_result.detections:
 ```
 </details>
 
+
+#### Verkefnið:
+Þú ætlar í þessu verkefni að nota RPi ásamt RPi myndavélina til að greina hluti (object detection) með notkun MediaPipe, [youtube](https://www.youtube.com/watch?v=-RUVM_cXn18&list=PLOU2XLYxmsILxbiyDRGC94XuT2dBXNY3n). 
+
+1. Vertu með tvo ólíka hluti (A og B) til að greina á milli, prófaðu [veflausnina](https://google-ai-edge.github.io/mediapipe-samples-web/#/vision/object_detector) til að velja hentuga hluti til að vinna með.
+1. Taktu ljósmynd með RPi myndavél af hlutunum og notaðu [object detection python kóða](https://developers.google.com/edge/mediapipe/solutions/vision/object_detector/python) til að greina hlut á ljósmynd. Birtu niðurstöður; nafn á hlut og score í terminal.
+1. Notaðu lifandi streymi og birtu skilaboðin "Réttur hlutur" ef hlutur A birtist á skjá, annars "Rangur hlutur" ef hlutur B birtist á skjá.
+
+
 Þú þarft að sækja eftirfarandi model skrá (notaðu virtual umhverfi):
   ```bash
         wget -O model.tflite https://storage.googleapis.com/mediapipe-models/object_detector/efficientdet_lite0/int8/1/efficientdet_lite0.tflite
   ```
-
-#### Verkefnið:
-1. Vertu með tvo ólíka hluti (A og B) til að greina á milli, prófaðu [veflausnina](https://google-ai-edge.github.io/mediapipe-samples-web/#/vision/object_detector) til að velja hentuga hluti til að vinna með.
-1. Taktu ljósmynd með RPi myndavél af hlutunum og notaðu [object detection python kóða](https://developers.google.com/edge/mediapipe/solutions/vision/object_detector/python) til að greina hlut á ljósmynd. Birtu niðurstöður; nafn á hlut og score í terminal.
-1. Notaðu lifandi streymi og birtu skilaboðin "Réttur hlutur" ef hlutur A birtist á skjá, annars "Rangur hlutur" ef hlutur B birtist á skjá.
 
 ---
 
