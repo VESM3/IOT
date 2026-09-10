@@ -68,9 +68,7 @@ picam2.stop_preview()
 picam2.close()
 ```
 
-Þessi kóði sýnir forskoðunarglugga og tekur síðan mynd. Forskoðunarglugginn krefst þess að kóðinn sé keyrður í gluggaumhverfi. Vandamálið við þetta er að sjálfgefnu myndirnar eru í mikilli upplausn (allt að 4608*2592) og RPi ræður ekki vel við þá stærð.
-
-Til að létta á örgjörvanum er hægt að taka mynd án þess að vera með gluggaumhverfi með að keyra eftirfarandi kóða **í Terminal**:
+Þessi kóði sýnir forskoðunarglugga og tekur síðan mynd. Forskoðunarglugginn krefst þess að kóðinn sé keyrður í gluggaumhverfi. Vandamálið við þetta er að sjálfgefnu myndirnar eru í mikilli upplausn (allt að 4608*2592) og RPi ræður ekki vel við þá stærð nema upplausn sé minkuð. Til að létta á örgjörvanum er hægt að taka mynd án þess að vera með gluggaumhverfi með að keyra eftirfarandi kóða **í Terminal**:
 
 
 ```python
