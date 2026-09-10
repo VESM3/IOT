@@ -116,7 +116,7 @@ from mediapipe.tasks.python import vision
 
 # 1. Vísað á staðbundið líkan sem þú hefur hlaðið niður á tölvuna
 MODEL_PATH = "efficientdet_lite0.tflite"
-base_options = python.BaseOptions(model_asset_path==MODEL_PATH)
+base_options = python.BaseOptions(model_asset_path=MODEL_PATH)
 options = vision.ObjectDetectorOptions(base_options=base_options, score_threshold=0.5)
 detector = vision.ObjectDetector.create_from_options(options)
 
