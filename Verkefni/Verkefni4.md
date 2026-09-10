@@ -109,6 +109,36 @@ Vélarnám (e. Machine Learning) er sniðugt að nota til að greina hluti, andl
 #### Verkefnið:
 Þú ætlar í þessu verkefni að nota RPi ásamt RPi myndavélina til að greina hluti (object detection) með notkun MediaPipe, [youtube](https://www.youtube.com/watch?v=-RUVM_cXn18&list=PLOU2XLYxmsILxbiyDRGC94XuT2dBXNY3n). 
 
+
+<details>
+<summary>Kóðasýndæmi</summary>
+        
+```python
+import mediapipe as mp
+from mediapipe.tasks import python
+from mediapipe.tasks.python import vision
+
+# 1. Vísað á staðbundið líkan sem þú hefur hlaðið niður á tölvuna
+MODEL_PATH = "efficientdet_lite0.tflite"
+base_options = python.BaseOptions(model_asset_path==MODEL_PATH)
+options = vision.ObjectDetectorOptions(base_options=base_options, score_threshold=0.5)
+detector = vision.ObjectDetector.create_from_options(options)
+
+# 2. Myndin sem á að greina lesin inn
+image = mp.Image.create_from_file('myndin_thin.jpg')
+
+# 3. Greining keyrð á tölvunni þinni (engin netsending)
+detection_result = detector.detect(image)
+
+# 4. Niðurstöður prentaðar út
+for detection in detection_result.detections:
+    category = detection.categories[0]
+    heiti = category.category_name
+    likur = category.score
+    print(f"Fann: {heiti} (Líkur: {likur:.2f})")
+```
+</details>
+
 1. Vertu með tvo ólíka hluti (A og B) til að greina á milli, prófaðu [veflausnina](https://google-ai-edge.github.io/mediapipe-samples-web/#/vision/object_detector) til að velja hentuga hluti til að vinna með.
 1. Taktu ljósmynd með RPi myndavél af hlutunum og notaðu [object detection python kóða](https://developers.google.com/edge/mediapipe/solutions/vision/object_detector/python) til að greina hlut á ljósmynd. Birtu niðurstöður; nafn á hlut og score í terminal.
 1. Notaðu lifandi streymi og birtu skilaboðin "Réttur hlutur" ef hlutur A birtist á skjá, annars "Rangur hlutur" ef hlutur B birtist á skjá.
