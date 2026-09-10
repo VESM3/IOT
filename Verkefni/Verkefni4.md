@@ -127,11 +127,24 @@ image = mp.Image.create_from_file('myndin_thin.jpg')
 detection_result = detector.detect(image)
 
 # 4. Niðurstöður prentaðar út
+# detection_result er gagnahlutur (object) sem inniheldur niðurstöður þar á meðal detections (listi)
 for detection in detection_result.detections:
     category = detection.categories[0]
     heiti = category.category_name
     likur = category.score
     print(f"Fann: {heiti} (Líkur: {likur:.2f})")
+
+"""
+# Uppbygging á stökum hlut innan detection_result.detections (listi)
+Detection(
+  bounding_box=BoundingBox(origin_x=120, origin_y=50, width=200, height=350),
+  categories=[
+    Category(index=0, score=0.88, category_name='person', display_name='')
+  ],
+  keypoints=[]
+)
+
+"""
 ```
 </details>
 
